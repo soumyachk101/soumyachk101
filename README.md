@@ -12,7 +12,6 @@
 
 [![Portfolio](https://img.shields.io/badge/🌐_PORTFOLIO-soumyaportfolio101.netlify.app-00FFD1?style=for-the-badge&labelColor=1a1b27)](https://soumyaportfolio101.netlify.app/)
 &nbsp;
-[![Visits](https://visitcount.itsvg.in/api?id=soumyachk101&label=Profile%20Views&color=12&icon=5&pretty=true)](https://visitcount.itsvg.in)
 
 </div>
 
@@ -102,7 +101,6 @@ Fun_fact   : I write code AND edit photos 📸
 
 <br/>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=soumyachk101&theme=tokyonight&hide_border=true&layout=compact&langs_count=8)
 
 </div>
 
@@ -112,7 +110,6 @@ Fun_fact   : I write code AND edit photos 📸
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=soumyachk101&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=6)](https://github.com/soumyachk101)
 
 </div>
 
