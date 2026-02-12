@@ -1,9 +1,9 @@
 <div align="center">
 
 ```
-╔═══════════════════════════════════════════════════╗
-║   S O U M Y A  •  C H K   |   FULL STACK DEV     ║
-╚═══════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════╗
+║   S O U M Y A  C H A K R A B O R T Y  |  DEV         ║
+╚══════════════════════════════════════════════════════╝
 ```
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=00FFD1&center=true&vCenter=true&width=600&lines=Web+Developer+%F0%9F%9A%80;B.Tech+2nd+Year+%F0%9F%8E%93;Open+to+Collaborate+%F0%9F%A4%9D;Always+Learning+%F0%9F%94%A5" alt="Typing SVG" />
@@ -20,14 +20,14 @@
 ## ⚡ WHO AM I
 
 ```yaml
-Name       : Soumya CHK
-Role       : Web Developer
-Status     : B.Tech — 2nd Year (in progress)
-Portfolio  : https://soumyaportfolio101.netlify.app/
-Mission    : Building cool things with code
-Looking_for: Collaboration on tech projects & coding teams
-Superpower : Full-Stack development
-Fun_fact   : I write code AND edit photos 📸
+name       : Soumya CHK
+role       : Web Developer
+status     : B.Tech — 2nd Year (in progress)
+portfolio  : https://soumyaportfolio101.netlify.app/
+mission    : Building cool things with code
+looking_for: Collaboration on tech projects & coding teams
+superpower : Full-Stack development
+fun_fact   : I write code AND edit photos 📸
 ```
 
 ---
