@@ -20,7 +20,7 @@
 ## ⚡ WHO AM I
 
 ```yaml
-name       : Soumya CHK
+name       : Soumya Chakraborty
 role       : Web Developer
 status     : B.Tech — 2nd Year (in progress)
 portfolio  : https://soumyaportfolio101.netlify.app/
