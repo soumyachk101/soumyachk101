@@ -10,6 +10,8 @@
 
 <br/>
 
+[![Portfolio](https://img.shields.io/badge/🌐_PORTFOLIO-soumyaportfolio101.netlify.app-00FFD1?style=for-the-badge&labelColor=1a1b27)](https://soumyaportfolio101.netlify.app/)
+&nbsp;
 [![Visits](https://visitcount.itsvg.in/api?id=soumyachk101&label=Profile%20Views&color=12&icon=5&pretty=true)](https://visitcount.itsvg.in)
 
 </div>
@@ -19,9 +21,10 @@
 ## ⚡ WHO AM I
 
 ```yaml
-Name       : Soumya Chakraborty
+Name       : Soumya CHK
 Role       : Web Developer
 Status     : B.Tech — 2nd Year (in progress)
+Portfolio  : https://soumyaportfolio101.netlify.app/
 Mission    : Building cool things with code
 Looking_for: Collaboration on tech projects & coding teams
 Superpower : Full-Stack development
@@ -34,6 +37,7 @@ Fun_fact   : I write code AND edit photos 📸
 
 <div align="center">
 
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://soumyaportfolio101.netlify.app/)
 [![Facebook](https://img.shields.io/badge/FACEBOOK-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/soumya_chk)
 [![Instagram](https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/soumya_chk)
 [![Reddit](https://img.shields.io/badge/REDDIT-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://reddit.com/user/soumya_chk)
@@ -90,12 +94,15 @@ Fun_fact   : I write code AND edit photos 📸
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=soumyachk101&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&show_icons=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=soumyachk101&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&layout=compact" />
+![soumyachk101's Stats](https://github-stats-alpha.vercel.app/api?username=soumyachk101&cc=22272e&tc=FFFFFF&ic=00FFD1&bc=22272e)
 
 <br/>
 
-![Streak](https://nirzak-streak-stats.vercel.app/?user=soumyachk101&theme=tokyonight&hide_border=true)
+<img src="https://nirzak-streak-stats.vercel.app/?user=soumyachk101&theme=tokyonight&hide_border=true" />
+
+<br/>
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=soumyachk101&theme=tokyonight&hide_border=true&layout=compact&langs_count=8)
 
 </div>
 
@@ -105,7 +112,7 @@ Fun_fact   : I write code AND edit photos 📸
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=soumyachk101&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7)
+[![trophy](https://github-profile-trophy.vercel.app/?username=soumyachk101&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=6)](https://github.com/soumyachk101)
 
 </div>
 
@@ -119,7 +126,7 @@ Fun_fact   : I write code AND edit photos 📸
 
 <br/>
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=soumyachk101&theme=tokyo-night&hide_border=true&area=true&area_color=00FFD1)](https://github.com/soumyachk101)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=soumyachk101&bg_color=1a1b27&color=00FFD1&line=628fdb&point=FFFFFF&area=true&hide_border=true)](https://github.com/soumyachk101)
 
 <br/>
 
@@ -131,7 +138,7 @@ Fun_fact   : I write code AND edit photos 📸
 
 <div align="center">
 
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
 
 </div>
 
