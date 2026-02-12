@@ -20,14 +20,14 @@
 ## ⚡ WHO AM I
 
 ```yaml
-name       : Soumya Chakraborty
-role       : Web Developer
-status     : B.Tech — 2nd Year (in progress)
-portfolio  : https://soumyaportfolio101.netlify.app/
-mission    : Building cool things with code
-looking_for: Collaboration on tech projects & coding teams
-superpower : Full-Stack development
-fun_fact   : I write code AND edit photos 📸
+Name       : Soumya Chakraborty
+Role       : Web Developer
+Status     : B.Tech — 2nd Year (in progress)
+Portfolio  : https://soumyaportfolio101.netlify.app/
+Mission    : Building cool things with code
+Looking_for: Collaboration on tech projects & coding teams
+Superpower : Full-Stack development
+Fun_fact   : I write code AND edit photos 📸
 ```
 
 ---
