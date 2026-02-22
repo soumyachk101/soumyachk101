@@ -23,7 +23,7 @@
 Name       : Soumya Chakraborty
 Role       : Web Developer
 Status     : B.Tech — 2nd Year (in progress)
-Portfolio  : https://soumyaportfolio101.netlify.app/
+Portfolio  : https://chksoumya.in/
 Mission    : Building cool things with code
 Looking_for: Collaboration on tech projects & coding teams
 Superpower : Full-Stack development
