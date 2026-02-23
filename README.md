@@ -22,7 +22,7 @@
 ```yaml
 Name       : Soumya Chakraborty
 Role       : Web Developer
-Status     : B.Tech — 2nd Year (in progress)
+Status     : B.Tech — 2nd Year (In progress)
 Portfolio  : https://chksoumya.in/
 Mission    : Building cool things with code
 Looking_for: Collaboration on tech projects & coding teams
