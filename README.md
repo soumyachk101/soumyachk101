@@ -20,7 +20,7 @@
 
 ## WHO AM I
 
-<img align="right" alt="Coding" width="380" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+<img align="right" alt="Coding" width="270" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
 ```yaml
 ╭─────────────────────────────────────╮
@@ -112,8 +112,8 @@
 
 <div align="center">
 
-<img width="49%" src="https://github-stats-alpha.vercel.app/api?username=soumyachk101&cc=1a1b27&tc=00FFD1&ic=00FFD1&bc=1a1b27" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=soumyachk101&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=00FFD1&text_color=FFFFFF&cache_seconds=1800" />
+<img height="180px" src="https://github-stats-alpha.vercel.app/api?username=soumyachk101&cc=1a1b27&tc=00FFD1&ic=00FFD1&bc=1a1b27" />
+<img height="180px" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=soumyachk101&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=00FFD1&text_color=FFFFFF" />
 
 <br/><br/>
 
