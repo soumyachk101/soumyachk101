@@ -131,7 +131,7 @@
 
 <br/>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=soumyachk101&theme=darkhub&no-frame=true&no-bg=true&row=1&column=6&margin-w=15)](https://github.com/soumyachk101)
+<img src="https://github-trophies.vercel.app/?username=soumyachk101&theme=darkhub&no-frame=true&no-bg=true&row=1&column=6&margin-w=15" alt="trophies" />
 
 </div>
 
@@ -141,15 +141,9 @@
 
 ## CONTRIBUTION SNAKE
 
-> ⚙️ *Auto-generated daily via GitHub Actions — see `.github/workflows/snake.yml`*
-
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soumyachk101/soumyachk101/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/soumyachk101/soumyachk101/output/github-snake.svg" />
-  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/soumyachk101/soumyachk101/output/github-snake-dark.svg" />
-</picture>
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="github contribution snake animation" />
 
 </div>
 
