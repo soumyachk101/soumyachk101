@@ -27,7 +27,7 @@
 │                                     │
 │  Name       : Soumya Chakraborty    │
 │  Role       : Web Developer         │
-│  Status     : B.Tech 2nd Year 🎓    │
+│  Status     : B.Tech 3rd Year 🎓    │
 │  Portfolio  : chksoumya.in          │
 │  Mission    : Build cool things ⚡  │
 │  Looking for: Tech collabs 🤝       │
