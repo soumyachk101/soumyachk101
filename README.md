@@ -21,7 +21,6 @@
 ## WHO AM I
 
 <img align="right" alt="Coding" width="270" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
-
 ```yaml
 ╭─────────────────────────────────────╮
 │                                     │
@@ -112,12 +111,20 @@
 
 <div align="center">
 
-<img height="180px" src="https://github-stats-alpha.vercel.app/api?username=soumyachk101&cc=1a1b27&tc=00FFD1&ic=00FFD1&bc=1a1b27" />
-<img height="180px" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=soumyachk101&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=00FFD1&text_color=FFFFFF" />
-
-<br/><br/>
-
-<img width="70%" src="https://nirzak-streak-stats.vercel.app/?user=soumyachk101&theme=tokyonight&hide_border=true&background=1a1b27&ring=00FFD1&fire=00FFD1&currStreakLabel=00FFD1" />
+<table>
+  <tr>
+    <td valign="middle" align="center" width="200">
+      <img src="https://github.com/soumyachk101.png" width="160" style="border-radius:50%; border: 3px solid #00FFD1;" />
+      <br/><br/>
+      <b style="color:#00FFD1;">Soumya Chakraborty</b>
+    </td>
+    <td valign="middle" align="center">
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=soumyachk101&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=00FFD1&text_color=FFFFFF" />
+      <br/>
+      <img width="100%" src="https://nirzak-streak-stats.vercel.app/?user=soumyachk101&theme=tokyonight&hide_border=true&background=1a1b27&ring=00FFD1&fire=00FFD1&currStreakLabel=00FFD1" />
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -178,7 +185,6 @@
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling"/>
-
 ```
 ✦ ✦ ✦  Thanks for stopping by! Let's build something amazing.  ✦ ✦ ✦
 ```
