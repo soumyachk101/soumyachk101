@@ -165,20 +165,39 @@
 
 <div align="center">
 
+<!-- Alpha Stats Card -->
 <img src="https://github-stats-alpha.vercel.app/api?username=soumyachk101&cc=0d1117&tc=00FFD1&ic=00FFD1&bc=00FFD1" />
 
 <br/><br/>
 
+<!-- Stats + Languages -->
 <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=soumyachk101&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FFD1&icon_color=00FFD1&text_color=FFFFFF" height="180px"/>
 &nbsp;
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=soumyachk101&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FFD1&text_color=FFFFFF" height="180px"/>
 
 <br/><br/>
 
+<!-- 🔥 Streak Stats -->
 <img width="70%" src="https://streak-stats.demolab.com?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&ring=00FFD1&fire=00FFD1&currStreakLabel=00FFD1" />
 
-</div>
+<br/><br/>
 
+<!-- 🗓️ Contribution Timeline Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=soumyachk101&bg_color=0d1117&color=00FFD1&line=00FFD1&point=ffffff&area=true&area_color=00FFD1&hide_border=true&custom_title=📅+CONTRIBUTION+TIMELINE" width="95%"/>
+
+<br/><br/>
+
+<!-- 📊 Detailed Profile Summary -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=soumyachk101&theme=tokyonight" width="95%"/>
+
+<br/><br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=soumyachk101&theme=tokyonight" height="160px"/>
+&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=soumyachk101&theme=tokyonight" height="160px"/>
+&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=soumyachk101&theme=tokyonight" height="160px"/>
+</div>
 ## 🏆 TROPHIES
 
 <br/>
