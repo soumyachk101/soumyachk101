@@ -27,53 +27,65 @@
 <br/>
 
 <div align="center">
-<table border="0" cellspacing="0" cellpadding="24">
-  <tr>
-    <td valign="top" align="center" width="220">
-      <img src="https://github.com/soumyachk101.png" width="160" style="border-radius:12px; border: 2px solid #00FFD1;"/>
-      <br/><br/>
-      <samp>
-        <b>soumyachk101@github</b>
-      </samp>
-      <br/>
-      <img src="https://img.shields.io/badge/──────────────────-0d1117?style=flat&color=00FFD1&labelColor=00FFD1"/>
-      <br/><br/>
-      <a href="https://chksoumya.in/">
-        <img src="https://img.shields.io/badge/🌐_chksoumya.in-00FFD1?style=for-the-badge&labelColor=0d1117"/>
-      </a>
-    </td>
-    <td valign="top" style="padding:24px 32px;">
-      <br/>
-      <samp>
-        <img src="https://img.shields.io/badge/~-00FFD1?style=flat-square&labelColor=00FFD1&color=00FFD1&label="/> &nbsp;<b>soumyachk101@github</b> ~ terminal
-        <br/><br/>
-        <img src="https://img.shields.io/badge/-00FFD1?style=flat-square&color=00FFD1&labelColor=00FFD1&label="/>
-        <img src="https://img.shields.io/badge/-00FFD1?style=flat-square&color=00FFD1&labelColor=00FFD1&label="/>
-        <img src="https://img.shields.io/badge/──────────────────────────-00FFD1?style=flat&color=00FFD1&labelColor=00FFD1"/>
-        <br/><br/>
-        👤 &nbsp;<b>Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b> &nbsp;Soumya Chakraborty
-        <br/><br/>
-        💼 &nbsp;<b>Role &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b> &nbsp;Web Developer
-        <br/><br/>
-        🎓 &nbsp;<b>Status &nbsp;&nbsp;&nbsp;:</b> &nbsp;B.Tech 3rd Year
-        <br/><br/>
-        🌐 &nbsp;<b>Portfolio :</b> &nbsp;chksoumya.in
-        <br/><br/>
-        ⚡ &nbsp;<b>Mission &nbsp;&nbsp;:</b> &nbsp;Build Cool Things
-        <br/><br/>
-        🤝 &nbsp;<b>Seeking &nbsp;&nbsp;:</b> &nbsp;Tech Collabs
-        <br/><br/>
-        💪 &nbsp;<b>Stack &nbsp;&nbsp;&nbsp;&nbsp;:</b> &nbsp;Full-Stack Dev
-        <br/><br/>
-        💻 &nbsp;<b>Editor &nbsp;&nbsp;&nbsp;:</b> &nbsp;VS Code
-        <br/><br/>
-        📸 &nbsp;<b>Fun Fact &nbsp;:</b> &nbsp;I Code & Shoot
-        <br/><br/>
-        🟢 &nbsp;<b>Status &nbsp;&nbsp;&nbsp;:</b> &nbsp;ONLINE ●
-      </samp>
-    </td>
-  </tr>
-</table>
+
+<img src="https://github.com/soumyachk101.png" width="130" style="border-radius:50%; border: 3px solid #00FFD1;"/>
+
+<br/><br/>
+
+<samp><b>⚡ Soumya Chakraborty ⚡</b></samp>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/soumyachk101-000000?style=for-the-badge&logo=github&logoColor=00FFD1"/>
+&nbsp;
+<img src="https://img.shields.io/badge/🟢_ONLINE-0d1117?style=for-the-badge&color=0d1117&labelColor=0d1117&logoColor=00FFD1"/>
+&nbsp;
+<a href="https://chksoumya.in"><img src="https://img.shields.io/badge/🌐_Portfolio-00FFD1?style=for-the-badge&labelColor=0d1117&color=0d1117"/></a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/──────────────────────────────────────────-00FFD1?style=flat&color=00FFD1&labelColor=00FFD1"/>
+
+<br/><br/>
+
+<!-- Row 1: Identity -->
+<img src="https://img.shields.io/badge/👤_Name-Soumya_Chakraborty-00FFD1?style=flat-square&labelColor=0d1117"/>
+&nbsp;
+<img src="https://img.shields.io/badge/🎓_Status-B.Tech_3rd_Year-9B59B6?style=flat-square&labelColor=0d1117"/>
+&nbsp;
+<img src="https://img.shields.io/badge/📍_Location-West_Bengal,_India-E74C3C?style=flat-square&labelColor=0d1117"/>
+
+<br/><br/>
+
+<!-- Row 2: Work -->
+<img src="https://img.shields.io/badge/💼_Role-Web_Developer-3498DB?style=flat-square&labelColor=0d1117"/>
+&nbsp;
+<img src="https://img.shields.io/badge/💪_Stack-Full--Stack_Dev-E67E22?style=flat-square&labelColor=0d1117"/>
+&nbsp;
+<img src="https://img.shields.io/badge/💻_Editor-VS_Code-007ACC?style=flat-square&labelColor=0d1117&logo=visualstudiocode&logoColor=007ACC"/>
+
+<br/><br/>
+
+<!-- Row 3: Goals -->
+<img src="https://img.shields.io/badge/⚡_Mission-Build_Cool_Things-F1C40F?style=flat-square&labelColor=0d1117"/>
+&nbsp;
+<img src="https://img.shields.io/badge/🤝_Seeking-Tech_Collabs-2ECC71?style=flat-square&labelColor=0d1117"/>
+&nbsp;
+<img src="https://img.shields.io/badge/📸_Fun_Fact-I_Code_%26_Shoot-E91E63?style=flat-square&labelColor=0d1117"/>
+
+<br/><br/>
+
+<!-- Row 4: Personality -->
+<img src="https://img.shields.io/badge/☕_Fuel-Coffee_%2B_Code-795548?style=flat-square&labelColor=0d1117"/>
+&nbsp;
+<img src="https://img.shields.io/badge/🎯_Focus-Problem_Solving-00BCD4?style=flat-square&labelColor=0d1117"/>
+&nbsp;
+<img src="https://img.shields.io/badge/🚀_Mode-Always_Learning-8BC34A?style=flat-square&labelColor=0d1117"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/──────────────────────────────────────────-00FFD1?style=flat&color=00FFD1&labelColor=00FFD1"/>
+
 </div>
 
 <br/>
@@ -165,29 +177,24 @@
 
 <div align="center">
 
-<!-- Alpha Stats Card -->
 <img src="https://github-stats-alpha.vercel.app/api?username=soumyachk101&cc=0d1117&tc=00FFD1&ic=00FFD1&bc=00FFD1" />
 
 <br/><br/>
 
-<!-- Stats + Languages -->
 <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=soumyachk101&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FFD1&icon_color=00FFD1&text_color=FFFFFF" height="180px"/>
 &nbsp;
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=soumyachk101&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FFD1&text_color=FFFFFF" height="180px"/>
 
 <br/><br/>
 
-<!-- 🔥 Streak Stats -->
 <img width="70%" src="https://streak-stats.demolab.com?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&ring=00FFD1&fire=00FFD1&currStreakLabel=00FFD1" />
 
 <br/><br/>
 
-<!-- 🗓️ Contribution Timeline Graph -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=soumyachk101&bg_color=0d1117&color=00FFD1&line=00FFD1&point=ffffff&area=true&area_color=00FFD1&hide_border=true&custom_title=📅+CONTRIBUTION+TIMELINE" width="95%"/>
 
 <br/><br/>
 
-<!-- 📊 Detailed Profile Summary -->
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=soumyachk101&theme=tokyonight" width="95%"/>
 
 <br/><br/>
@@ -197,7 +204,15 @@
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=soumyachk101&theme=tokyonight" height="160px"/>
 &nbsp;
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=soumyachk101&theme=tokyonight" height="160px"/>
+
 </div>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br/>
+
 ## 🏆 TROPHIES
 
 <br/>
@@ -221,22 +236,6 @@
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="github contribution snake animation" />
-
-</div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-## 📈 CONTRIBUTION GRAPH
-
-<br/>
-
-<div align="center">
-
-[![Soumya's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=soumyachk101&bg_color=0d1117&color=00FFD1&line=628fdb&point=FFFFFF&area=true&area_color=00FFD1&hide_border=true)](https://github.com/soumyachk101)
 
 </div>
 
