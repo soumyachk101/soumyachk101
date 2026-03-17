@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00FFD1,100:0d1117&height=200&section=header&text=Soumya%20Chakraborty&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=⚡%20Full-Stack%20Developer%20%7C%20B.Tech%203rd%20Year%20%7C%20Open%20to%20Collabs&descAlignY=58&descSize=15&descColor=00FFD1" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=20"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00FFD1,100:0d1117&height=160&section=header&text=%3E%20SOUMYA_CHAKRABORTY.exe&fontSize=36&fontColor=00FFD1&animation=twinkling&fontAlignY=45&desc=%3E%20Full-Stack%20Developer%20%7C%20B.Tech%203rd%20Year%20%7C%20SIGNAL%3A%20ONLINE%20●&descAlignY=72&descSize=14&descColor=ffffff" />
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=00FFD1&center=true&vCenter=true&width=700&lines=🚀+Building+Cool+Things+With+Code;💻+Full-Stack+Engineer+%7C+Web+Developer;🎓+B.Tech+3rd+Year+%7C+Always+Learning;🤝+Open+to+Collaborate+%26+Build+Together;📸+I+Code+%26+I+Shoot" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&pause=1000&color=00FFD1&center=true&vCenter=true&width=700&lines=█+INITIALIZING+DEVELOPER+MODE...+DONE;█+LOADING+FULL-STACK+MODULES...+DONE;█+COMPILING+COOL+PROJECTS...+DONE;█+SEARCHING+FOR+TECH+COLLABS...+ACTIVE;█+READY+TO+BUILD+SOMETHING+AMAZING+⚡" alt="Typing SVG" />
 
 <br/>
 
@@ -25,60 +27,50 @@
 <br/>
 
 <div align="center">
-<table border="0" cellspacing="0" cellpadding="20">
+<table border="0" cellspacing="0" cellpadding="24">
   <tr>
-    <td valign="middle" align="center" width="240">
-      <img src="https://github.com/soumyachk101.png" width="170" style="border-radius:16px; border: 3px solid #00FFD1;" />
+    <td valign="top" align="center" width="220">
+      <img src="https://github.com/soumyachk101.png" width="160" style="border-radius:12px; border: 2px solid #00FFD1;"/>
       <br/><br/>
-      <img src="https://img.shields.io/badge/soumyachk101-github-00FFD1?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
+      <samp>
+        <b>soumyachk101@github</b>
+      </samp>
+      <br/>
+      <img src="https://img.shields.io/badge/──────────────────-0d1117?style=flat&color=00FFD1&labelColor=00FFD1"/>
       <br/><br/>
       <a href="https://chksoumya.in/">
-        <img src="https://img.shields.io/badge/🌐_chksoumya.in-Visit_Now-00FFD1?style=for-the-badge&labelColor=0d1117" />
+        <img src="https://img.shields.io/badge/🌐_chksoumya.in-00FFD1?style=for-the-badge&labelColor=0d1117"/>
       </a>
     </td>
-    <td width="20"></td>
-    <td valign="middle">
-      <table border="0" cellspacing="6" cellpadding="0">
-        <tr>
-          <td><img src="https://img.shields.io/badge/👤%20NAME-ffffff?style=for-the-badge&labelColor=00FFD1&color=00FFD1"/></td>
-          <td><img src="https://img.shields.io/badge/Soumya_Chakraborty-ffffff?style=for-the-badge&labelColor=161b22&color=161b22"/></td>
-        </tr>
-        <tr><td colspan="2"><br/></td></tr>
-        <tr>
-          <td><img src="https://img.shields.io/badge/💼%20ROLE-ffffff?style=for-the-badge&labelColor=00FFD1&color=00FFD1"/></td>
-          <td><img src="https://img.shields.io/badge/Web_Developer-ffffff?style=for-the-badge&labelColor=161b22&color=161b22"/></td>
-        </tr>
-        <tr><td colspan="2"><br/></td></tr>
-        <tr>
-          <td><img src="https://img.shields.io/badge/🎓%20STATUS-ffffff?style=for-the-badge&labelColor=00FFD1&color=00FFD1"/></td>
-          <td><img src="https://img.shields.io/badge/B.Tech_3rd_Year-ffffff?style=for-the-badge&labelColor=161b22&color=161b22"/></td>
-        </tr>
-        <tr><td colspan="2"><br/></td></tr>
-        <tr>
-          <td><img src="https://img.shields.io/badge/⚡%20MISSION-ffffff?style=for-the-badge&labelColor=00FFD1&color=00FFD1"/></td>
-          <td><img src="https://img.shields.io/badge/Build_Cool_Things-ffffff?style=for-the-badge&labelColor=161b22&color=161b22"/></td>
-        </tr>
-        <tr><td colspan="2"><br/></td></tr>
-        <tr>
-          <td><img src="https://img.shields.io/badge/🤝%20SEEKING-ffffff?style=for-the-badge&labelColor=00FFD1&color=00FFD1"/></td>
-          <td><img src="https://img.shields.io/badge/Tech_Collabs-ffffff?style=for-the-badge&labelColor=161b22&color=161b22"/></td>
-        </tr>
-        <tr><td colspan="2"><br/></td></tr>
-        <tr>
-          <td><img src="https://img.shields.io/badge/💪%20STACK-ffffff?style=for-the-badge&labelColor=00FFD1&color=00FFD1"/></td>
-          <td><img src="https://img.shields.io/badge/Full--Stack_Dev-ffffff?style=for-the-badge&labelColor=161b22&color=161b22"/></td>
-        </tr>
-        <tr><td colspan="2"><br/></td></tr>
-        <tr>
-          <td><img src="https://img.shields.io/badge/📸%20FUN-ffffff?style=for-the-badge&labelColor=00FFD1&color=00FFD1"/></td>
-          <td><img src="https://img.shields.io/badge/I_Code_%26_Shoot-ffffff?style=for-the-badge&labelColor=161b22&color=161b22"/></td>
-        </tr>
-        <tr><td colspan="2"><br/></td></tr>
-        <tr>
-          <td><img src="https://img.shields.io/badge/💻%20EDITOR-ffffff?style=for-the-badge&labelColor=00FFD1&color=00FFD1"/></td>
-          <td><img src="https://img.shields.io/badge/VS_Code-ffffff?style=for-the-badge&labelColor=161b22&color=161b22&logo=visualstudiocode&logoColor=007ACC"/></td>
-        </tr>
-      </table>
+    <td valign="top" style="padding:24px 32px;">
+      <br/>
+      <samp>
+        <img src="https://img.shields.io/badge/~-00FFD1?style=flat-square&labelColor=00FFD1&color=00FFD1&label="/> &nbsp;<b>soumyachk101@github</b> ~ terminal
+        <br/><br/>
+        <img src="https://img.shields.io/badge/-00FFD1?style=flat-square&color=00FFD1&labelColor=00FFD1&label="/>
+        <img src="https://img.shields.io/badge/-00FFD1?style=flat-square&color=00FFD1&labelColor=00FFD1&label="/>
+        <img src="https://img.shields.io/badge/──────────────────────────-00FFD1?style=flat&color=00FFD1&labelColor=00FFD1"/>
+        <br/><br/>
+        👤 &nbsp;<b>Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b> &nbsp;Soumya Chakraborty
+        <br/><br/>
+        💼 &nbsp;<b>Role &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b> &nbsp;Web Developer
+        <br/><br/>
+        🎓 &nbsp;<b>Status &nbsp;&nbsp;&nbsp;:</b> &nbsp;B.Tech 3rd Year
+        <br/><br/>
+        🌐 &nbsp;<b>Portfolio :</b> &nbsp;chksoumya.in
+        <br/><br/>
+        ⚡ &nbsp;<b>Mission &nbsp;&nbsp;:</b> &nbsp;Build Cool Things
+        <br/><br/>
+        🤝 &nbsp;<b>Seeking &nbsp;&nbsp;:</b> &nbsp;Tech Collabs
+        <br/><br/>
+        💪 &nbsp;<b>Stack &nbsp;&nbsp;&nbsp;&nbsp;:</b> &nbsp;Full-Stack Dev
+        <br/><br/>
+        💻 &nbsp;<b>Editor &nbsp;&nbsp;&nbsp;:</b> &nbsp;VS Code
+        <br/><br/>
+        📸 &nbsp;<b>Fun Fact &nbsp;:</b> &nbsp;I Code & Shoot
+        <br/><br/>
+        🟢 &nbsp;<b>Status &nbsp;&nbsp;&nbsp;:</b> &nbsp;ONLINE ●
+      </samp>
     </td>
   </tr>
 </table>
@@ -183,15 +175,9 @@
 
 <br/><br/>
 
-<img width="70%" src="https://nirzak-streak-stats.vercel.app/?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&ring=00FFD1&fire=00FFD1&currStreakLabel=00FFD1" />
+<img width="70%" src="https://streak-stats.demolab.com?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&ring=00FFD1&fire=00FFD1&currStreakLabel=00FFD1" />
 
 </div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
 
 ## 🏆 TROPHIES
 
@@ -257,8 +243,8 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00FFD1,100:0d1117&height=130&section=footer&animation=twinkling"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00FFD1,100:0d1117&height=130&section=footer&text=%3E%20SESSION_END.exe&fontSize=24&fontColor=00FFD1&animation=twinkling&fontAlignY=65&desc=Thanks%20for%20visiting%20—%20Let%27s%20build%20together%20🚀&descSize=13&descColor=ffffff&descAlignY=85"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=14&pause=1000&color=00FFD1&center=true&vCenter=true&width=500&lines=✦+Thanks+for+stopping+by!+Let's+build+something+amazing.+✦;✦+Open+to+opportunities+%26+collabs!+🚀+✦" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=13&pause=1000&color=00FFD1&center=true&vCenter=true&width=500&lines=Open+to+opportunities+%26+collabs!+🚀;Let's+build+something+amazing+together+✨" />
 
 </div>
