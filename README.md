@@ -25,25 +25,60 @@
 <br/>
 
 <div align="center">
-<table border="0" cellspacing="0" cellpadding="24">
+<table border="0" cellspacing="0" cellpadding="20">
   <tr>
-    <td valign="middle" align="center" width="230">
-      <img src="https://github.com/soumyachk101.png" width="175" style="border-radius:50%; border: 4px solid #00FFD1;" />
+    <td valign="middle" align="center" width="240">
+      <img src="https://github.com/soumyachk101.png" width="170" style="border-radius:16px; border: 3px solid #00FFD1;" />
+      <br/><br/>
+      <img src="https://img.shields.io/badge/soumyachk101-github-00FFD1?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" />
       <br/><br/>
       <a href="https://chksoumya.in/">
-        <img src="https://img.shields.io/badge/🌐_Portfolio-chksoumya.in-00FFD1?style=for-the-badge&labelColor=0d1117" />
+        <img src="https://img.shields.io/badge/🌐_chksoumya.in-Visit_Now-00FFD1?style=for-the-badge&labelColor=0d1117" />
       </a>
     </td>
-    <td valign="middle" width="30"></td>
+    <td width="20"></td>
     <td valign="middle">
-      <img src="https://img.shields.io/badge/👤_NAME-Soumya_Chakraborty-00FFD1?style=flat-square&labelColor=0d1117&color=00FFD1" /><br/><br/>
-      <img src="https://img.shields.io/badge/💼_ROLE-Web_Developer-00FFD1?style=flat-square&labelColor=0d1117&color=00FFD1" /><br/><br/>
-      <img src="https://img.shields.io/badge/🎓_STATUS-B.Tech_3rd_Year-00FFD1?style=flat-square&labelColor=0d1117&color=00FFD1" /><br/><br/>
-      <img src="https://img.shields.io/badge/🌐_PORTFOLIO-chksoumya.in-00FFD1?style=flat-square&labelColor=0d1117&color=00FFD1" /><br/><br/>
-      <img src="https://img.shields.io/badge/⚡_MISSION-Build_Cool_Things-00FFD1?style=flat-square&labelColor=0d1117&color=00FFD1" /><br/><br/>
-      <img src="https://img.shields.io/badge/🤝_LOOKING_FOR-Tech_Collabs-00FFD1?style=flat-square&labelColor=0d1117&color=00FFD1" /><br/><br/>
-      <img src="https://img.shields.io/badge/💪_SUPERPOWER-Full--Stack_Dev-00FFD1?style=flat-square&labelColor=0d1117&color=00FFD1" /><br/><br/>
-      <img src="https://img.shields.io/badge/📸_FUN_FACT-I_Code_%26_Shoot-00FFD1?style=flat-square&labelColor=0d1117&color=00FFD1" />
+      <table border="0" cellspacing="6" cellpadding="0">
+        <tr>
+          <td><img src="https://img.shields.io/badge/👤%20NAME-ffffff?style=for-the-badge&labelColor=00FFD1&color=00FFD1"/></td>
+          <td><img src="https://img.shields.io/badge/Soumya_Chakraborty-ffffff?style=for-the-badge&labelColor=161b22&color=161b22"/></td>
+        </tr>
+        <tr><td colspan="2"><br/></td></tr>
+        <tr>
+          <td><img src="https://img.shields.io/badge/💼%20ROLE-ffffff?style=for-the-badge&labelColor=00FFD1&color=00FFD1"/></td>
+          <td><img src="https://img.shields.io/badge/Web_Developer-ffffff?style=for-the-badge&labelColor=161b22&color=161b22"/></td>
+        </tr>
+        <tr><td colspan="2"><br/></td></tr>
+        <tr>
+          <td><img src="https://img.shields.io/badge/🎓%20STATUS-ffffff?style=for-the-badge&labelColor=00FFD1&color=00FFD1"/></td>
+          <td><img src="https://img.shields.io/badge/B.Tech_3rd_Year-ffffff?style=for-the-badge&labelColor=161b22&color=161b22"/></td>
+        </tr>
+        <tr><td colspan="2"><br/></td></tr>
+        <tr>
+          <td><img src="https://img.shields.io/badge/⚡%20MISSION-ffffff?style=for-the-badge&labelColor=00FFD1&color=00FFD1"/></td>
+          <td><img src="https://img.shields.io/badge/Build_Cool_Things-ffffff?style=for-the-badge&labelColor=161b22&color=161b22"/></td>
+        </tr>
+        <tr><td colspan="2"><br/></td></tr>
+        <tr>
+          <td><img src="https://img.shields.io/badge/🤝%20SEEKING-ffffff?style=for-the-badge&labelColor=00FFD1&color=00FFD1"/></td>
+          <td><img src="https://img.shields.io/badge/Tech_Collabs-ffffff?style=for-the-badge&labelColor=161b22&color=161b22"/></td>
+        </tr>
+        <tr><td colspan="2"><br/></td></tr>
+        <tr>
+          <td><img src="https://img.shields.io/badge/💪%20STACK-ffffff?style=for-the-badge&labelColor=00FFD1&color=00FFD1"/></td>
+          <td><img src="https://img.shields.io/badge/Full--Stack_Dev-ffffff?style=for-the-badge&labelColor=161b22&color=161b22"/></td>
+        </tr>
+        <tr><td colspan="2"><br/></td></tr>
+        <tr>
+          <td><img src="https://img.shields.io/badge/📸%20FUN-ffffff?style=for-the-badge&labelColor=00FFD1&color=00FFD1"/></td>
+          <td><img src="https://img.shields.io/badge/I_Code_%26_Shoot-ffffff?style=for-the-badge&labelColor=161b22&color=161b22"/></td>
+        </tr>
+        <tr><td colspan="2"><br/></td></tr>
+        <tr>
+          <td><img src="https://img.shields.io/badge/💻%20EDITOR-ffffff?style=for-the-badge&labelColor=00FFD1&color=00FFD1"/></td>
+          <td><img src="https://img.shields.io/badge/VS_Code-ffffff?style=for-the-badge&labelColor=161b22&color=161b22&logo=visualstudiocode&logoColor=007ACC"/></td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
