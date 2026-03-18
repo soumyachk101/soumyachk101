@@ -8,7 +8,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=750&lines=⚡+Full-Stack+Developer+%7C+B.Tech+3rd+Year;🚀+Building+cool+things+with+MERN+%2B+Next.js;🎯+Open+to+collabs+%26+opportunities;☕+Powered+by+coffee+%2B+curiosity" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=750&lines=⚡+Full-Stack+Developer+%7C+B.Tech+3rd+Year;🚀+Building+cool+things+with+MERN+%2B+Next.js;🎯+Open+to+collabs+%26+opportunities;☕+Powered+by+coffee+%2B+curiosity" />
 
 <br/><br/>
 
@@ -32,32 +32,83 @@
 
 <div align="center">
 
-## 🧑‍💻 About Me
+## Who Am I
 
 <br/>
 
-<img align="right" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="300"/>
+<img src="https://github.com/soumyachk101.png" width="150" style="border-radius:50%;"/>
+
+<br/><br/>
+
+# Soumya Chakraborty
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1500&color=a78bfa&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%7C+B.Tech+3rd+Year;MERN+%7C+Next.js+%7C+Django+%7C+TypeScript;Building+real+products+from+scratch;West+Bengal%2C+India" />
+
+<br/>
+
+---
+
+<br/>
+
+<table border="0" cellspacing="0" cellpadding="12">
+<tr>
+<td align="left" valign="top" width="340">
 
 ```yaml
-name:       Soumya Chakraborty
-location:   West Bengal, India 🇮🇳
-education:  B.Tech — 3rd Year
-role:       Full-Stack Developer
-stack:      MERN · Next.js · Django
-interests:
-  - Building real-world web apps
-  - Open-source collaboration
-  - Photography & visual design
-hobbies:    [ Coding, Photography 📸 ]
-fuel:       Coffee + Code ☕
-status:     Always Learning 🚀
-contact:    soumya.chk101@gmail.com
-portfolio:  chksoumya.in
+  PROFILE
+  ─────────────────────────────────────
+  Name       :  Soumya Chakraborty
+  Location   :  West Bengal, India
+  Degree     :  B.Tech — 3rd Year
+  Role       :  Full-Stack Developer
+  Portfolio  :  chksoumya.in
+  Contact    :  soumya.chk101@gmail.com
 ```
 
-<br clear="right"/>
+</td>
+<td align="left" valign="top" width="340">
 
-### 🔗 Connect with me
+```yaml
+  RIGHT NOW
+  ─────────────────────────────────────
+  Building   :  Full-Stack Web Apps
+  Learning   :  TypeScript · System Design
+  Seeking    :  Open-source Collaborations
+  Stack      :  MERN · Next.js · Django
+  Side Quest :  Photography
+  Fuel       :  Coffee × Curiosity
+```
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
+**I build** things that live on the internet — clean, fast, and purposeful.
+**I think** deeply about UX before writing a single line of code.
+**I shoot** photographs when the compiler needs a break.
+**I believe** the best code reads like plain English.
+
+<br/>
+
+![](https://img.shields.io/badge/Problem%20Solver-a78bfa?style=for-the-badge&labelColor=0d0221)
+&nbsp;
+![](https://img.shields.io/badge/UI%2FUX%20Thinker-f472b6?style=for-the-badge&labelColor=0d0221)
+&nbsp;
+![](https://img.shields.io/badge/Open%20Source%20Fan-38bdf8?style=for-the-badge&labelColor=0d0221)
+&nbsp;
+![](https://img.shields.io/badge/Photographer-34d399?style=for-the-badge&labelColor=0d0221)
+&nbsp;
+![](https://img.shields.io/badge/Always%20Learning-fb923c?style=for-the-badge&labelColor=0d0221)
+
+<br/>
+
+### Connect
 
 <a href="https://chksoumya.in">
   <img src="https://img.shields.io/badge/Portfolio-0d0221?style=for-the-badge&logo=firefox&logoColor=a78bfa"/>
@@ -89,7 +140,7 @@ portfolio:  chksoumya.in
 
 <div align="center">
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <br/>
 
@@ -139,7 +190,7 @@ portfolio:  chksoumya.in
 
 <div align="center">
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <br/>
 
@@ -154,10 +205,6 @@ portfolio:  chksoumya.in
 <br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=soumyachk101&bg_color=0d0221&color=a78bfa&line=a78bfa&point=f472b6&area=true&area_color=a78bfa22&hide_border=true&custom_title=Contribution+Timeline" width="96%"/>
-
-<br/><br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=soumyachk101&theme=tokyonight" width="96%"/>
 
 <br/><br/>
 
@@ -181,16 +228,27 @@ portfolio:  chksoumya.in
 
 <div align="center">
 
-## 🏆 Achievements
+## GitHub Trophies
 
 <br/>
 
-![MultiLanguage](https://img.shields.io/badge/Multi--Language-Developer-a78bfa?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0221)
-![FullStack](https://img.shields.io/badge/Full--Stack-Engineer-f472b6?style=for-the-badge&logo=stackshare&logoColor=white&labelColor=0d0221)
-![OpenSource](https://img.shields.io/badge/Open--Source-Contributor-38bdf8?style=for-the-badge&logo=git&logoColor=white&labelColor=0d0221)
-![CloudNative](https://img.shields.io/badge/Cloud--Native-Builder-34d399?style=for-the-badge&logo=amazonaws&logoColor=white&labelColor=0d0221)
-![Designer](https://img.shields.io/badge/UI%2FUX-Designer-fb923c?style=for-the-badge&logo=figma&logoColor=white&labelColor=0d0221)
-![Photographer](https://img.shields.io/badge/Photography-Enthusiast-facc15?style=for-the-badge&logo=adobe-lightroom&logoColor=white&labelColor=0d0221)
+![](https://img.shields.io/badge/A+%20Grade-GitHub%20Stats-a78bfa?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0221)
+&nbsp;
+![](https://img.shields.io/badge/Multi--Language-Developer-f472b6?style=for-the-badge&logo=code&logoColor=white&labelColor=0d0221)
+&nbsp;
+![](https://img.shields.io/badge/Full--Stack-Engineer-38bdf8?style=for-the-badge&logo=layers&logoColor=white&labelColor=0d0221)
+&nbsp;
+![](https://img.shields.io/badge/Open--Source-Contributor-34d399?style=for-the-badge&logo=git&logoColor=white&labelColor=0d0221)
+
+<br/>
+
+![](https://img.shields.io/badge/Cloud--Native-Builder-fb923c?style=for-the-badge&logo=amazonaws&logoColor=white&labelColor=0d0221)
+&nbsp;
+![](https://img.shields.io/badge/UI%2FUX-Thinker-facc15?style=for-the-badge&logo=figma&logoColor=white&labelColor=0d0221)
+&nbsp;
+![](https://img.shields.io/badge/Always-Learning-e879f9?style=for-the-badge&logo=bookopen&logoColor=white&labelColor=0d0221)
+&nbsp;
+![](https://img.shields.io/badge/Photographer-Enthusiast-60a5fa?style=for-the-badge&logo=adobe-lightroom&logoColor=white&labelColor=0d0221)
 
 </div>
 
@@ -206,7 +264,7 @@ portfolio:  chksoumya.in
 
 <div align="center">
 
-## 🐍 Contribution Snake
+## Contribution Snake
 
 <br/>
 
@@ -218,7 +276,7 @@ portfolio:  chksoumya.in
 
 <br/>
 
-> ⚡ **To activate the snake:** Go to your repo → **Actions** tab → click **"Generate Snake"** → **"Run workflow"** → Done!
+> **To activate the snake:** Go to your repo → **Actions** tab → click **"Generate Snake"** → **"Run workflow"** → Done!
 
 </div>
 
@@ -234,7 +292,7 @@ portfolio:  chksoumya.in
 
 <div align="center">
 
-## 💬 Dev Quote
+## Dev Quote
 
 <br/>
 
@@ -260,6 +318,6 @@ portfolio:  chksoumya.in
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=2000&color=a78bfa&center=true&vCenter=true&width=500&lines=Open+to+opportunities+%26+collaborations+✦;Let%27s+build+something+extraordinary+together+✨"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=13&pause=2000&color=a78bfa&center=true&vCenter=true&width=500&lines=Open+to+opportunities+%26+collaborations+✦;Let%27s+build+something+extraordinary+together+✨"/>
 
 </div>
