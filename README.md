@@ -1,268 +1,265 @@
-<div align="center">
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                      HEADER                              -->
+<!-- ══════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=20"/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00FFD1,100:0d1117&height=160&section=header&text=%3E%20SOUMYA_CHAKRABORTY.exe&fontSize=36&fontColor=00FFD1&animation=twinkling&fontAlignY=45&desc=%3E%20Full-Stack%20Developer%20%7C%20B.Tech%203rd%20Year%20%7C%20SIGNAL%3A%20ONLINE%20●&descAlignY=72&descSize=14&descColor=ffffff" />
-
-<br/>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=18&pause=1000&color=00FFD1&center=true&vCenter=true&width=700&lines=█+INITIALIZING+DEVELOPER+MODE...+DONE;█+LOADING+FULL-STACK+MODULES...+DONE;█+COMPILING+COOL+PROJECTS...+DONE;█+SEARCHING+FOR+TECH+COLLABS...+ACTIVE;█+READY+TO+BUILD+SOMETHING+AMAZING+⚡" alt="Typing SVG" />
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=soumyachk101&color=00FFD1&style=for-the-badge&label=PROFILE+VIEWS" />
-&nbsp;
-<a href="https://github.com/soumyachk101"><img src="https://img.shields.io/github/followers/soumyachk101?style=for-the-badge&color=00FFD1&labelColor=0d1117&label=FOLLOWERS" /></a>
-&nbsp;
-<a href="https://github.com/soumyachk101"><img src="https://img.shields.io/github/stars/soumyachk101?style=for-the-badge&color=00FFD1&labelColor=0d1117&label=TOTAL+STARS" /></a>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-## 🧑‍💻 WHO AM I
-
-<br/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=0:0d0221,40:1a0533,70:0d1b4b,100:001233&height=200&section=header&text=SOUMYA%20CHAKRABORTY&fontSize=55&fontColor=fff&animation=fadeIn&fontAlignY=55&desc=Full-Stack%20Developer%20✦%20Builder%20✦%20Photographer&descSize=17&descColor=a78bfa&descAlignY=78"/>
 
 <div align="center">
 
-<img src="https://github.com/soumyachk101.png" width="130" style="border-radius:50%; border: 3px solid #00FFD1;"/>
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=750&lines=⚡+Full-Stack+Developer+%7C+B.Tech+3rd+Year;🚀+Building+cool+things+with+MERN+%2B+Next.js;🎯+Open+to+collabs+%26+opportunities;☕+Powered+by+coffee+%2B+curiosity" />
 
 <br/><br/>
 
-<samp><b>⚡ Soumya Chakraborty ⚡</b></samp>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/soumyachk101-000000?style=for-the-badge&logo=github&logoColor=00FFD1"/>
+<img src="https://komarev.com/ghpvc/?username=soumyachk101&color=a78bfa&style=for-the-badge&label=PROFILE+VIEWS"/>
 &nbsp;
-<img src="https://img.shields.io/badge/🟢_ONLINE-0d1117?style=for-the-badge&color=0d1117&labelColor=0d1117&logoColor=00FFD1"/>
+<a href="https://github.com/soumyachk101"><img src="https://img.shields.io/github/followers/soumyachk101?style=for-the-badge&color=a78bfa&labelColor=0d0221&label=FOLLOWERS"/></a>
 &nbsp;
-<a href="https://chksoumya.in"><img src="https://img.shields.io/badge/🌐_Portfolio-00FFD1?style=for-the-badge&labelColor=0d1117&color=0d1117"/></a>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/──────────────────────────────────────────-00FFD1?style=flat&color=00FFD1&labelColor=00FFD1"/>
-
-<br/><br/>
-
-<!-- Row 1: Identity -->
-<img src="https://img.shields.io/badge/👤_Name-Soumya_Chakraborty-00FFD1?style=flat-square&labelColor=0d1117"/>
-&nbsp;
-<img src="https://img.shields.io/badge/🎓_Status-B.Tech_3rd_Year-9B59B6?style=flat-square&labelColor=0d1117"/>
-&nbsp;
-<img src="https://img.shields.io/badge/📍_Location-West_Bengal,_India-E74C3C?style=flat-square&labelColor=0d1117"/>
-
-<br/><br/>
-
-<!-- Row 2: Work -->
-<img src="https://img.shields.io/badge/💼_Role-Web_Developer-3498DB?style=flat-square&labelColor=0d1117"/>
-&nbsp;
-<img src="https://img.shields.io/badge/💪_Stack-Full--Stack_Dev-E67E22?style=flat-square&labelColor=0d1117"/>
-&nbsp;
-<img src="https://img.shields.io/badge/💻_Editor-VS_Code-007ACC?style=flat-square&labelColor=0d1117&logo=visualstudiocode&logoColor=007ACC"/>
-
-<br/><br/>
-
-<!-- Row 3: Goals -->
-<img src="https://img.shields.io/badge/⚡_Mission-Build_Cool_Things-F1C40F?style=flat-square&labelColor=0d1117"/>
-&nbsp;
-<img src="https://img.shields.io/badge/🤝_Seeking-Tech_Collabs-2ECC71?style=flat-square&labelColor=0d1117"/>
-&nbsp;
-<img src="https://img.shields.io/badge/📸_Fun_Fact-I_Code_%26_Shoot-E91E63?style=flat-square&labelColor=0d1117"/>
-
-<br/><br/>
-
-<!-- Row 4: Personality -->
-<img src="https://img.shields.io/badge/☕_Fuel-Coffee_%2B_Code-795548?style=flat-square&labelColor=0d1117"/>
-&nbsp;
-<img src="https://img.shields.io/badge/🎯_Focus-Problem_Solving-00BCD4?style=flat-square&labelColor=0d1117"/>
-&nbsp;
-<img src="https://img.shields.io/badge/🚀_Mode-Always_Learning-8BC34A?style=flat-square&labelColor=0d1117"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/──────────────────────────────────────────-00FFD1?style=flat&color=00FFD1&labelColor=00FFD1"/>
+<a href="https://github.com/soumyachk101"><img src="https://img.shields.io/github/stars/soumyachk101?style=for-the-badge&color=a78bfa&labelColor=0d0221&label=STARS"/></a>
 
 </div>
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                      ABOUT ME                            -->
+<!-- ══════════════════════════════════════════════════════════ -->
 
-<br/>
-
-## 🌐 FIND ME ONLINE
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0221,100:1a0533&height=3"/>
 
 <br/>
 
 <div align="center">
 
-<a href="https://chksoumya.in/"><img src="https://img.shields.io/badge/🌐_PORTFOLIO-chksoumya.in-00C7B7?style=for-the-badge&labelColor=0d1117" /></a>
-&nbsp;
-<a href="https://facebook.com/soumya_chk"><img src="https://img.shields.io/badge/FACEBOOK-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
-&nbsp;
-<a href="https://instagram.com/soumya_chk"><img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-&nbsp;
-<a href="https://reddit.com/user/soumya_chk"><img src="https://img.shields.io/badge/REDDIT-FF4500?style=for-the-badge&logo=reddit&logoColor=white" /></a>
-&nbsp;
-<a href="mailto:soumya.chk101@gmail.com"><img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+## 🧑‍💻 About Me
+
+<br/>
+
+<img align="right" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="300"/>
+
+```yaml
+name:       Soumya Chakraborty
+location:   West Bengal, India 🇮🇳
+education:  B.Tech — 3rd Year
+role:       Full-Stack Developer
+stack:      MERN · Next.js · Django
+interests:
+  - Building real-world web apps
+  - Open-source collaboration
+  - Photography & visual design
+hobbies:    [ Coding, Photography 📸 ]
+fuel:       Coffee + Code ☕
+status:     Always Learning 🚀
+contact:    soumya.chk101@gmail.com
+portfolio:  chksoumya.in
+```
+
+<br clear="right"/>
+
+### 🔗 Connect with me
+
+<a href="https://chksoumya.in">
+  <img src="https://img.shields.io/badge/Portfolio-0d0221?style=for-the-badge&logo=firefox&logoColor=a78bfa"/>
+</a>
+<a href="mailto:soumya.chk101@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-0d0221?style=for-the-badge&logo=gmail&logoColor=EA4335"/>
+</a>
+<a href="https://instagram.com/soumya_chk">
+  <img src="https://img.shields.io/badge/Instagram-0d0221?style=for-the-badge&logo=instagram&logoColor=E4405F"/>
+</a>
+<a href="https://facebook.com/soumya_chk">
+  <img src="https://img.shields.io/badge/Facebook-0d0221?style=for-the-badge&logo=facebook&logoColor=1877F2"/>
+</a>
+<a href="https://reddit.com/user/soumya_chk">
+  <img src="https://img.shields.io/badge/Reddit-0d0221?style=for-the-badge&logo=reddit&logoColor=FF4500"/>
+</a>
 
 </div>
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                     TECH STACK                           -->
+<!-- ══════════════════════════════════════════════════════════ -->
 
-<br/>
-
-## 🛠️ TECH STACK
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0533,100:0d0221&height=3"/>
 
 <br/>
 
 <div align="center">
 
-### 🔤 Languages
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+## 🛠️ Tech Stack
 
-### 🚀 Frameworks & Runtime
-![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404d59?style=for-the-badge&logo=express&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-8511FA?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+<br/>
 
-### 🗄️ Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405e?style=for-the-badge&logo=sqlite&logoColor=white)
+**Languages**
 
-### ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-000000?style=for-the-badge&logo=netlify&logoColor=00C7B7)
-![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)
+<img src="https://skillicons.dev/icons?i=c,python,js,ts,html,css&theme=dark&perline=6"/>
 
-### 🔬 Data & Testing
+<br/><br/>
+
+**Frameworks & Runtime**
+
+<img src="https://skillicons.dev/icons?i=nextjs,nodejs,express,django,bootstrap&theme=dark&perline=5"/>
+
+<br/><br/>
+
+**Databases**
+
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite&theme=dark&perline=3"/>
+
+<br/><br/>
+
+**Cloud, DevOps & Tools**
+
+<img src="https://skillicons.dev/icons?i=aws,gcp,docker,git,github,netlify,vscode,figma&theme=dark&perline=8"/>
+
+<br/><br/>
+
+**Data & Testing**
+
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-
-### 🎨 Design Tools
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Adobe Lightroom](https://img.shields.io/badge/Lightroom-31A8FF?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white)
+![Lightroom](https://img.shields.io/badge/Lightroom-31A8FF?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white)
 
 </div>
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                    GITHUB STATS                          -->
+<!-- ══════════════════════════════════════════════════════════ -->
 
-<br/>
-
-## 📊 GITHUB STATS
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0221,100:1a0533&height=3"/>
 
 <br/>
 
 <div align="center">
 
-<img src="https://github-stats-alpha.vercel.app/api?username=soumyachk101&cc=0d1117&tc=00FFD1&ic=00FFD1&bc=00FFD1" />
+## 📊 GitHub Stats
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=soumyachk101&show_icons=true&hide_border=true&bg_color=0d0221&title_color=a78bfa&icon_color=a78bfa&text_color=ffffff&ring_color=a78bfa&include_all_commits=true&count_private=true&rank_icon=github" height="170px"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soumyachk101&layout=compact&langs_count=6&hide_border=true&bg_color=0d0221&title_color=a78bfa&text_color=ffffff" height="170px"/>
 
 <br/><br/>
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=soumyachk101&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FFD1&icon_color=00FFD1&text_color=FFFFFF" height="180px"/>
+<img src="https://streak-stats.demolab.com?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d0221&ring=a78bfa&fire=f472b6&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=ffffff&sideNums=ffffff&currStreakNum=f472b6" width="70%"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=soumyachk101&bg_color=0d0221&color=a78bfa&line=a78bfa&point=f472b6&area=true&area_color=a78bfa22&hide_border=true&custom_title=Contribution+Timeline" width="96%"/>
+
+<br/><br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=soumyachk101&theme=tokyonight" width="96%"/>
+
+<br/><br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=soumyachk101&theme=tokyonight" height="165px"/>
 &nbsp;
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=soumyachk101&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FFD1&text_color=FFFFFF" height="180px"/>
-
-<br/><br/>
-
-<img width="70%" src="https://streak-stats.demolab.com?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&ring=00FFD1&fire=00FFD1&currStreakLabel=00FFD1" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=soumyachk101&bg_color=0d1117&color=00FFD1&line=00FFD1&point=ffffff&area=true&area_color=00FFD1&hide_border=true&custom_title=📅+CONTRIBUTION+TIMELINE" width="95%"/>
-
-<br/><br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=soumyachk101&theme=tokyonight" width="95%"/>
-
-<br/><br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=soumyachk101&theme=tokyonight" height="160px"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=soumyachk101&theme=tokyonight" height="165px"/>
 &nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=soumyachk101&theme=tokyonight" height="160px"/>
-&nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=soumyachk101&theme=tokyonight" height="160px"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=soumyachk101&theme=tokyonight" height="165px"/>
 
 </div>
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                      TROPHIES                            -->
+<!-- ══════════════════════════════════════════════════════════ -->
 
-<br/>
-
-## 🏆 TROPHIES
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0533,100:0d0221&height=3"/>
 
 <br/>
 
 <div align="center">
 
-<img src="https://github-trophies.vercel.app/?username=soumyachk101&theme=darkhub&no-frame=true&no-bg=true&row=1&column=6&margin-w=15" alt="trophies" />
+## 🏆 Achievements
+
+<br/>
+
+![MultiLanguage](https://img.shields.io/badge/Multi--Language-Developer-a78bfa?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0221)
+![FullStack](https://img.shields.io/badge/Full--Stack-Engineer-f472b6?style=for-the-badge&logo=stackshare&logoColor=white&labelColor=0d0221)
+![OpenSource](https://img.shields.io/badge/Open--Source-Contributor-38bdf8?style=for-the-badge&logo=git&logoColor=white&labelColor=0d0221)
+![CloudNative](https://img.shields.io/badge/Cloud--Native-Builder-34d399?style=for-the-badge&logo=amazonaws&logoColor=white&labelColor=0d0221)
+![Designer](https://img.shields.io/badge/UI%2FUX-Designer-fb923c?style=for-the-badge&logo=figma&logoColor=white&labelColor=0d0221)
+![Photographer](https://img.shields.io/badge/Photography-Enthusiast-facc15?style=for-the-badge&logo=adobe-lightroom&logoColor=white&labelColor=0d0221)
 
 </div>
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                  CONTRIBUTION SNAKE                      -->
+<!-- ══════════════════════════════════════════════════════════ -->
 
-<br/>
-
-## 🐍 CONTRIBUTION SNAKE
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0221,100:1a0533&height=3"/>
 
 <br/>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="github contribution snake animation" />
+## 🐍 Contribution Snake
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soumyachk101/soumyachk101/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/soumyachk101/soumyachk101/output/github-contribution-grid-snake.svg"/>
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/soumyachk101/soumyachk101/output/github-contribution-grid-snake-dark.svg"/>
+</picture>
+
+<br/>
+
+> ⚡ **To activate the snake:** Go to your repo → **Actions** tab → click **"Generate Snake"** → **"Run workflow"** → Done!
 
 </div>
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                   DEV QUOTE                              -->
+<!-- ══════════════════════════════════════════════════════════ -->
 
-<br/>
-
-## 💬 DEV QUOTE OF THE DAY
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0533,100:0d0221&height=3"/>
 
 <br/>
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+## 💬 Dev Quote
+
+<br/>
+
+> *"First, solve the problem. Then, write the code."*
+> — **John Johnson**
+
+<br/>
+
+> *"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."*
+> — **Martin Fowler**
 
 </div>
 
 <br/>
 
----
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                      FOOTER                              -->
+<!-- ══════════════════════════════════════════════════════════ -->
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=0:001233,40:0d1b4b,70:1a0533,100:0d0221&height=150&section=footer&text=Let%27s%20build%20together%20🚀&fontSize=32&fontColor=a78bfa&animation=fadeIn&fontAlignY=55&desc=soumya.chk101%40gmail.com%20·%20chksoumya.in&descSize=14&descColor=ffffff&descAlignY=78"/>
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00FFD1,100:0d1117&height=130&section=footer&text=%3E%20SESSION_END.exe&fontSize=24&fontColor=00FFD1&animation=twinkling&fontAlignY=65&desc=Thanks%20for%20visiting%20—%20Let%27s%20build%20together%20🚀&descSize=13&descColor=ffffff&descAlignY=85"/>
+<br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=13&pause=1000&color=00FFD1&center=true&vCenter=true&width=500&lines=Open+to+opportunities+%26+collabs!+🚀;Let's+build+something+amazing+together+✨" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=2000&color=a78bfa&center=true&vCenter=true&width=500&lines=Open+to+opportunities+%26+collaborations+✦;Let%27s+build+something+extraordinary+together+✨"/>
 
 </div>
