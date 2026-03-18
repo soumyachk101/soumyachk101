@@ -2,13 +2,13 @@
 <!--                      HEADER                              -->
 <!-- ══════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=0:0d0221,40:1a0533,70:0d1b4b,100:001233&height=200&section=header&text=SOUMYA%20CHAKRABORTY&fontSize=55&fontColor=fff&animation=fadeIn&fontAlignY=55&desc=Full-Stack%20Developer%20✦%20Builder%20✦%20Photographer&descSize=17&descColor=a78bfa&descAlignY=78"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=0:0d0221,40:1a0533,70:0d1b4b,100:001233&height=200&section=header&text=SOUMYA%20CHAKRABORTY&fontSize=55&fontColor=fff&animation=fadeIn&fontAlignY=55&desc=Full-Stack%20Developer%20✦%20Builder&descSize=17&descColor=a78bfa&descAlignY=78"/>
 
 <div align="center">
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=750&lines=⚡+Full-Stack+Developer+%7C+B.Tech+3rd+Year;🚀+Building+cool+things+with+MERN+%2B+Next.js;🎯+Open+to+collabs+%26+opportunities;☕+Powered+by+coffee+%2B+curiosity" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=750&lines=⚡+Full-Stack+Developer+%7C+B.Tech+2nd+Year;+Building+cool+things+with+MERN+%2B+Next.js;+Open+to+collabs+%26+opportunities;☕A+Powered+by+coffee+%2B+curiosity" />
 
 <br/><br/>
 
@@ -75,7 +75,6 @@
   Learning   :  TypeScript · System Design
   Seeking    :  Open-source Collaborations
   Stack      :  MERN · Next.js · Django
-  Side Quest :  Photography
   Fuel       :  Coffee × Curiosity
 ```
 
@@ -91,7 +90,6 @@
 
 **I build** things that live on the internet — clean, fast, and purposeful.
 **I think** deeply about UX before writing a single line of code.
-**I shoot** photographs when the compiler needs a break.
 **I believe** the best code reads like plain English.
 
 <br/>
@@ -101,8 +99,6 @@
 ![](https://img.shields.io/badge/UI%2FUX%20Thinker-f472b6?style=for-the-badge&labelColor=0d0221)
 &nbsp;
 ![](https://img.shields.io/badge/Open%20Source%20Fan-38bdf8?style=for-the-badge&labelColor=0d0221)
-&nbsp;
-![](https://img.shields.io/badge/Photographer-34d399?style=for-the-badge&labelColor=0d0221)
 &nbsp;
 ![](https://img.shields.io/badge/Always%20Learning-fb923c?style=for-the-badge&labelColor=0d0221)
 
@@ -174,7 +170,6 @@
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Lightroom](https://img.shields.io/badge/Lightroom-31A8FF?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white)
 
 </div>
 
@@ -247,8 +242,6 @@
 ![](https://img.shields.io/badge/UI%2FUX-Thinker-facc15?style=for-the-badge&logo=figma&logoColor=white&labelColor=0d0221)
 &nbsp;
 ![](https://img.shields.io/badge/Always-Learning-e879f9?style=for-the-badge&logo=bookopen&logoColor=white&labelColor=0d0221)
-&nbsp;
-![](https://img.shields.io/badge/Photographer-Enthusiast-60a5fa?style=for-the-badge&logo=adobe-lightroom&logoColor=white&labelColor=0d0221)
 
 </div>
 
