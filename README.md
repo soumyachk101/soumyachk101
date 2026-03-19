@@ -8,7 +8,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=C084FC&center=true&vCenter=true&width=750&lines=🌌+Full-Stack+Developer+%7C+B.Tech+3rd+Year;🚀+Launching+apps+with+MERN+%2B+Next.js;🛰️+Open+to+collabs+%26+opportunities;🌙+Best+code+written+after+midnight" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&pause=1000&color=C084FC&center=true&vCenter=true&width=750&lines=🌌+Full-Stack+Developer+%7C+B.Tech+2nd+Year;🚀+Launching+apps+with+MERN+%2B+Next.js;🛰️+Open+to+collabs+%26+opportunities;🌙+Best+code+written+after+midnight" />
 
 <br/><br/>
 
@@ -42,7 +42,7 @@
 
 # Soumya Chakraborty
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1500&color=c084fc&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%7C+B.Tech+3rd+Year;MERN+%7C+Next.js+%7C+Django+%7C+TypeScript;Building+real+products+from+scratch;West+Bengal%2C+India+🌏" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&pause=1500&color=c084fc&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%7C+B.Tech+2nd+Year;MERN+%7C+Next.js+%7C+Django+%7C+TypeScript;Building+real+products+from+scratch;West+Bengal%2C+India+🌏" />
 
 <br/>
 
@@ -59,7 +59,7 @@
   ─────────────────────────────────────
   Name       :  Soumya Chakraborty
   Location   :  West Bengal, India 🌏
-  Degree     :  B.Tech — 3rd Year
+  Degree     :  B.Tech — 2nd Year
   Role       :  Full-Stack Developer
   Portfolio  :  chksoumya.in
   Contact    :  soumya.chk101@gmail.com
@@ -130,99 +130,6 @@
 
 <br/>
 
-<!-- ══════════════════════════════════════════════════════════ -->
-<!--                  FEATURED PROJECTS                       -->
-<!-- ══════════════════════════════════════════════════════════ -->
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0b3b,100:0a0015&height=3"/>
-
-<br/>
-
-<div align="center">
-
-## 🚀 Featured Projects
-
-<br/>
-
-<table border="0" cellspacing="0" cellpadding="0">
-<tr>
-
-<td width="50%" valign="top">
-
-### 🌌 Project One
-**[Your Project Name](https://github.com/soumyachk101)**
-
-> A short one-liner about what this project does and why it exists.
-
-![Next.js](https://img.shields.io/badge/Next.js-0a0015?style=flat-square&logo=nextdotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-0a0015?style=flat-square&logo=mongodb&logoColor=4EA94B)
-![TypeScript](https://img.shields.io/badge/TypeScript-0a0015?style=flat-square&logo=typescript&logoColor=3178C6)
-
-⭐ Stars · 🍴 Forks · 🟣 Live
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🛰️ Project Two
-**[Your Project Name](https://github.com/soumyachk101)**
-
-> A short one-liner about what this project does and why it exists.
-
-![React](https://img.shields.io/badge/React-0a0015?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-0a0015?style=flat-square&logo=nodedotjs&logoColor=339933)
-![Express](https://img.shields.io/badge/Express-0a0015?style=flat-square&logo=express&logoColor=white)
-
-⭐ Stars · 🍴 Forks · 🟣 Live
-
-</td>
-
-</tr>
-<tr><td colspan="2"><br/></td></tr>
-<tr>
-
-<td width="50%" valign="top">
-
-### 🌠 Project Three
-**[Your Project Name](https://github.com/soumyachk101)**
-
-> A short one-liner about what this project does and why it exists.
-
-![Django](https://img.shields.io/badge/Django-0a0015?style=flat-square&logo=django&logoColor=092E20)
-![Python](https://img.shields.io/badge/Python-0a0015?style=flat-square&logo=python&logoColor=3776AB)
-![MySQL](https://img.shields.io/badge/MySQL-0a0015?style=flat-square&logo=mysql&logoColor=4479A1)
-
-⭐ Stars · 🍴 Forks · 🟣 Live
-
-</td>
-
-<td width="50%" valign="top">
-
-### ☄️ Project Four
-**[Your Project Name](https://github.com/soumyachk101)**
-
-> A short one-liner about what this project does and why it exists.
-
-![Next.js](https://img.shields.io/badge/Next.js-0a0015?style=flat-square&logo=nextdotjs&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-0a0015?style=flat-square&logo=amazonaws&logoColor=FF9900)
-![Docker](https://img.shields.io/badge/Docker-0a0015?style=flat-square&logo=docker&logoColor=2496ED)
-
-⭐ Stars · 🍴 Forks · 🟣 Live
-
-</td>
-
-</tr>
-</table>
-
-<br/>
-
-<a href="https://github.com/soumyachk101?tab=repositories">
-  <img src="https://img.shields.io/badge/View%20All%20Projects-c084fc?style=for-the-badge&logo=github&logoColor=0a0015&labelColor=0a0015"/>
-</a>
-
-</div>
-
-<br/>
 
 <!-- ══════════════════════════════════════════════════════════ -->
 <!--                     TECH STACK                           -->
@@ -287,9 +194,15 @@
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=soumyachk101&show_icons=true&hide_border=true&bg_color=0a0015&title_color=c084fc&icon_color=c084fc&text_color=e2d9f3&ring_color=c084fc&include_all_commits=true&count_private=true&rank_icon=percentile&show_rank=true" height="170px"/>
+<img src="https://github-readme-stats.vercel.app/api?username=soumyachk101&show_icons=true&hide_border=true&bg_color=0a0015&title_color=c084fc&icon_color=c084fc&text_color=e2d9f3&ring_color=c084fc&hide_rank=true&custom_title=Soumya's%20GitHub%20Stats" height="170px"/>
 &nbsp;&nbsp;
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soumyachk101&layout=compact&langs_count=6&hide_border=true&bg_color=0a0015&title_color=c084fc&text_color=e2d9f3" height="170px"/>
+
+<br/><br/>
+
+![](https://img.shields.io/badge/GitHub%20Grade-A%2B-c084fc?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0015)
+&nbsp;
+![](https://img.shields.io/badge/Total%20Commits-1.6k%2B-e879f9?style=for-the-badge&logo=git&logoColor=white&labelColor=0a0015)
 
 <br/><br/>
 
