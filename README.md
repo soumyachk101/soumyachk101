@@ -189,107 +189,17 @@
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=soumyachk101&show_icons=true&hide_border=true&bg_color=0d0221&title_color=a78bfa&icon_color=a78bfa&text_color=ffffff&ring_color=a78bfa&include_all_commits=true&count_private=true&rank_icon=github" height="170px"/>
+<img src="https://github-readme-stats.vercel.app/api?username=soumyachk101&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d0221&title_color=a78bfa&icon_color=a78bfa&text_color=ffffff&ring_color=a78bfa" height="180"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soumyachk101&layout=compact&langs_count=6&hide_border=true&bg_color=0d0221&title_color=a78bfa&text_color=ffffff" height="170px"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soumyachk101&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d0221&title_color=a78bfa&text_color=ffffff" height="180"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d0221&ring=a78bfa&fire=f472b6&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=ffffff&sideNums=ffffff&currStreakNum=f472b6" width="70%"/>
+<img src="https://streak-stats.demolab.com?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d0221&ring=a78bfa&fire=f472b6&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=ffffff" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=soumyachk101&bg_color=0d0221&color=a78bfa&line=a78bfa&point=f472b6&area=true&area_color=a78bfa22&hide_border=true&custom_title=Contribution+Timeline" width="96%"/>
-
-</div>
-
-<br/>
-
-<!-- ══════════════════════════════════════════════════════════ -->
-<!--                      TROPHIES                            -->
-<!-- ══════════════════════════════════════════════════════════ -->
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0533,100:0d0221&height=3"/>
-
-<br/>
-
-<div align="center">
-
-## GitHub Trophies
-
-<br/>
-
-![](https://img.shields.io/badge/A+%20Grade-GitHub%20Stats-a78bfa?style=for-the-badge&logo=github&logoColor=white&labelColor=0d0221)
-&nbsp;
-![](https://img.shields.io/badge/1.6K%2B-Commits-f472b6?style=for-the-badge&logo=git&logoColor=white&labelColor=0d0221)
-&nbsp;
-![](https://img.shields.io/badge/Multi--Language-Developer-f472b6?style=for-the-badge&logo=code&logoColor=white&labelColor=0d0221)
-&nbsp;
-![](https://img.shields.io/badge/Full--Stack-Engineer-38bdf8?style=for-the-badge&logo=layers&logoColor=white&labelColor=0d0221)
-&nbsp;
-![](https://img.shields.io/badge/Open--Source-Contributor-34d399?style=for-the-badge&logo=git&logoColor=white&labelColor=0d0221)
-
-<br/>
-
-![](https://img.shields.io/badge/Cloud--Native-Builder-fb923c?style=for-the-badge&logo=amazonaws&logoColor=white&labelColor=0d0221)
-&nbsp;
-![](https://img.shields.io/badge/UI%2FUX-Thinker-facc15?style=for-the-badge&logo=figma&logoColor=white&labelColor=0d0221)
-&nbsp;
-![](https://img.shields.io/badge/Always-Learning-e879f9?style=for-the-badge&logo=bookopen&logoColor=white&labelColor=0d0221)
-
-</div>
-
-<br/>
-
-<!-- ══════════════════════════════════════════════════════════ -->
-<!--                  CONTRIBUTION SNAKE                      -->
-<!-- ══════════════════════════════════════════════════════════ -->
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0221,100:1a0533&height=3"/>
-
-<br/>
-
-<div align="center">
-
-## Contribution Snake
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soumyachk101/soumyachk101/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/soumyachk101/soumyachk101/output/github-contribution-grid-snake.svg"/>
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/soumyachk101/soumyachk101/output/github-contribution-grid-snake-dark.svg"/>
-</picture>
-
-<br/>
-
-> **To activate the snake:** Go to your repo → **Actions** tab → click **"Generate Snake"** → **"Run workflow"** → Done!
-
-</div>
-
-<br/>
-
-<!-- ══════════════════════════════════════════════════════════ -->
-<!--                   DEV QUOTE                              -->
-<!-- ══════════════════════════════════════════════════════════ -->
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1a0533,100:0d0221&height=3"/>
-
-<br/>
-
-<div align="center">
-
-## Dev Quote
-
-<br/>
-
-> *"First, solve the problem. Then, write the code."*
-> — **John Johnson**
-
-<br/>
-
-> *"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."*
-> — **Martin Fowler**
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=soumyachk101&bg_color=0d0221&color=a78bfa&line=a78bfa&point=f472b6&area=true&hide_border=true" width="100%"/>
 
 </div>
 
@@ -299,12 +209,4 @@
 <!--                      FOOTER                              -->
 <!-- ══════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=0:001233,40:0d1b4b,70:1a0533,100:0d0221&height=150&section=footer&text=Let%27s%20build%20together%20🚀&fontSize=32&fontColor=a78bfa&animation=fadeIn&fontAlignY=55&desc=soumya.chk101%40gmail.com%20·%20chksoumya.in&descSize=14&descColor=ffffff&descAlignY=78"/>
-
-<div align="center">
-
-<br/>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=13&pause=2000&color=a78bfa&center=true&vCenter=true&width=500&lines=Open+to+opportunities+%26+collaborations+✦;Let%27s+build+something+extraordinary+together+✨"/>
-
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=0:001233,40:0d1b4b,70:1a0533,100:0d0221&height=120&section=footer&animation=fadeIn"/>
