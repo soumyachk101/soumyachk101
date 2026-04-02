@@ -189,13 +189,7 @@
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=soumyachk101&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d0221&title_color=a78bfa&icon_color=a78bfa&text_color=ffffff&ring_color=a78bfa" height="180"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soumyachk101&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d0221&title_color=a78bfa&text_color=ffffff" height="180"/>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d0221&ring=a78bfa&fire=f472b6&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=ffffff" />
+<img src="https://streak-stats.demolab.com?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d0221&ring=a78bfa&fire=f472b6&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=ffffff" width="100%"/>
 
 <br/><br/>
 
