@@ -203,4 +203,28 @@
 <!--                      FOOTER                              -->
 <!-- ══════════════════════════════════════════════════════════ -->
 
+<!-- ══════════════════════════════════════════════════════════ -->
+<!--                    SNAKE GAME                            -->
+<!-- ══════════════════════════════════════════════════════════ -->
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0221,100:1a0533&height=3"/>
+
+<br/>
+
+<div align="center">
+
+## Contribution Snake
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/soumyachk101/soumyachk101/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/soumyachk101/soumyachk101/output/github-contribution-grid-snake.svg"/>
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/soumyachk101/soumyachk101/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</picture>
+
+</div>
+
+<br/>
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=0:001233,40:0d1b4b,70:1a0533,100:0d0221&height=120&section=footer&animation=fadeIn"/>
