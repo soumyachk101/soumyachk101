@@ -1,6 +1,6 @@
-<!-- ══════════════════════════════════════════════════════════ -->
+<!-- ═════════════════════════════════════════════════════════ -->
 <!--                      HEADER                              -->
-<!-- ══════════════════════════════════════════════════════════ -->
+<!-- ═════════════════════════════════════════════════════════ -->
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=shark&color=0:0d0221,40:1a0533,70:0d1b4b,100:001233&height=200&section=header&text=SOUMYA%20CHAKRABORTY&fontSize=55&fontColor=fff&animation=fadeIn&fontAlignY=55&desc=Full-Stack%20Developer%20✦%20Builder&descSize=17&descColor=a78bfa&descAlignY=78"/>
 
