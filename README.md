@@ -211,13 +211,9 @@ Status     Open to collabs & opportunities
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=soumyachk101&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&count_private=true&border_radius=8" width="48%"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soumyachk101&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&langs_count=8&border_radius=8" width="37%"/>
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=soumyachk101&theme=github-dark-blue&hide_border=true&background=0d1117&ring=38bdf8&fire=7c3aed&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=4b5563&border_radius=8" width="56%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=soumyachk101&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8&count_private=true&border_radius=8" width="47%"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=soumyachk101&theme=github-dark-blue&hide_border=true&background=0d1117&ring=38bdf8&fire=7c3aed&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=4b5563&border_radius=8" width="47%"/>
 
 </div>
 
