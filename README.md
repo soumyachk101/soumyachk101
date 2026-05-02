@@ -12,44 +12,55 @@
 
 <br/>
 
-<!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
+<!-- ══════════════════════════════ ABOUT ══════════════════════════════ -->
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td width="60%" valign="top">
+<td width="52%" valign="top">
 
 ```typescript
-const soumya = {
+/*
+ * ┌─────────────────────────────────────┐
+ * │         soumya.chakraborty.ts       │
+ * └─────────────────────────────────────┘
+ */
+
+const engineer = {
+  name:      "Soumya Chakraborty",
   role:      "Full-Stack Developer",
   location:  "West Bengal, India 🇮🇳",
-  education: "B.Tech CSE · 2nd Year",
-  focus:     ["Next.js 14", "Django", "System Design"],
-  building:  "products end-to-end",
-  learning:  "everything between db ↔ pixel",
-  mantra:    "ship fast, refactor smart",
-};
+  education: "B.Tech CSE — 2nd Year",
 
-soumya.openTo(["collabs", "open-source", "coffee chats"]);
+  focus: [
+    "Next.js 14 + App Router",
+    "Django REST Framework",
+    "System Design",
+  ],
+
+  philosophy: {
+    design:   "sketch before you open the IDE",
+    code:     "make it work → make it right → make it fast",
+    ship:     "v1 in prod > v∞ in your head",
+  },
+
+  currentlyBuilding: "products end-to-end",
+  openTo: ["collabs", "open-source", "coffee chats ☕"],
+} satisfies Engineer;
 ```
 
-> **TL;DR** — I build full-stack apps where the database schema and the UI animation get equal love. Currently 2nd-year CSE student treating side projects like real products.
-
-<a href="https://chksoumya.in"><img src="https://img.shields.io/badge/-Portfolio-0a0a0f?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0a0f"/></a>
-<a href="mailto:soumya.chk101@gmail.com"><img src="https://img.shields.io/badge/-Email-0a0a0f?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0a0a0f"/></a>
-<a href="https://instagram.com/soumya_chk"><img src="https://img.shields.io/badge/-Instagram-0a0a0f?style=for-the-badge&logo=instagram&logoColor=E4405F&labelColor=0a0a0f"/></a>
-<a href="https://reddit.com/user/soumya_chk"><img src="https://img.shields.io/badge/-Reddit-0a0a0f?style=for-the-badge&logo=reddit&logoColor=FF4500&labelColor=0a0a0f"/></a>
-<a href="https://github.com/soumyachk101"><img src="https://img.shields.io/badge/-GitHub-0a0a0f?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a0f"/></a>
-
-<img src="https://komarev.com/ghpvc/?username=soumyachk101&style=for-the-badge&color=38bdf8&label=PROFILE+VIEWS&labelColor=0a0a0f"/>
-<a href="https://github.com/soumyachk101?tab=followers"><img src="https://img.shields.io/github/followers/soumyachk101?style=for-the-badge&color=7c3aed&labelColor=0a0a0f&label=FOLLOWERS"/></a>
-<img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20WORK-22c55e?style=for-the-badge&labelColor=0a0a0f"/>
-
 </td>
-<td width="40%" align="center" valign="middle">
+<td width="4%"></td>
+<td width="44%" align="center" valign="middle">
 
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="320"/>
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="340"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=13&duration=2500&pause=500&color=7C3AED&center=true&vCenter=true&width=300&lines=%E2%9C%A6+available+for+collabs;%E2%9C%A6+building+in+public;%E2%9C%A6+open-source+contributor"/>
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=12&duration=2200&pause=600&color=7C3AED&center=true&vCenter=true&width=320&lines=%E2%97%8F+available+for+collabs;%E2%97%8F+building+in+public;%E2%97%8F+open-source+contributor;%E2%97%8F+DMs+always+open"/>
+
+<br/>
+
+<a href="https://chksoumya.in"><img src="https://img.shields.io/badge/PORTFOLIO-chksoumya.in-38bdf8?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117"/></a>
 
 </td>
 </tr>
@@ -57,68 +68,86 @@ soumya.openTo(["collabs", "open-source", "coffee chats"]);
 
 <br/>
 
+<!-- ══════════════════════════ SOCIAL LINKS ══════════════════════════ -->
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+<a href="https://chksoumya.in"><img src="https://img.shields.io/badge/◈ Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=38bdf8"/></a>&nbsp;
+<a href="mailto:soumya.chk101@gmail.com"><img src="https://img.shields.io/badge/◈ Email-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335"/></a>&nbsp;
+<a href="https://github.com/soumyachk101"><img src="https://img.shields.io/badge/◈ GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;
+<a href="https://instagram.com/soumya_chk"><img src="https://img.shields.io/badge/◈ Instagram-0d1117?style=for-the-badge&logo=instagram&logoColor=E4405F"/></a>&nbsp;
+<a href="https://reddit.com/user/soumya_chk"><img src="https://img.shields.io/badge/◈ Reddit-0d1117?style=for-the-badge&logo=reddit&logoColor=FF4500"/></a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=soumyachk101&style=flat-square&color=38bdf8&label=profile+views"/>
+&nbsp;·&nbsp;
+<a href="https://github.com/soumyachk101?tab=followers"><img src="https://img.shields.io/github/followers/soumyachk101?style=flat-square&color=7c3aed&label=followers"/></a>
+&nbsp;·&nbsp;
+<img src="https://img.shields.io/badge/status-open%20to%20work-22c55e?style=flat-square"/>
+
 </div>
 
-<!-- ═══════════════════════════════ TECH ═══════════════════════════════ -->
+<br/>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+</div>
+
+<!-- ════════════════════════════ ARSENAL ════════════════════════════ -->
 
 <br/>
 
-<h2 align="center">⚙️&nbsp;&nbsp;Arsenal&nbsp;&nbsp;⚙️</h2>
-<p align="center"><i>tools that compile dreams into deployment</i></p>
+<div align="center">
+<h2>⚡ &nbsp;ARSENAL&nbsp; ⚡</h2>
+<p><code>tools that compile dreams into deployment</code></p>
+</div>
 
 <br/>
 
 <div align="center">
 
-<table border="0" cellspacing="0" cellpadding="14">
+<table border="0" cellspacing="0" cellpadding="20">
 <tr>
-<td valign="top" align="center" width="33%">
+<td align="center" valign="top">
 
-#### 🧠&nbsp;&nbsp;Languages
-<img src="https://skillicons.dev/icons?i=ts,js,python,c,html,css&theme=dark&perline=3"/>
-<br/><sub>typed when it counts, dynamic when it ships</sub>
+**`[ LANGUAGES ]`**
+<br/><br/>
+<img src="https://skillicons.dev/icons?i=ts,js,python,c,html,css&theme=dark&perline=6"/>
+<br/><sub>typed when it counts · dynamic when it ships</sub>
 
 </td>
-<td valign="top" align="center" width="33%">
+</tr>
+<tr>
+<td align="center" valign="top">
 
-#### 🚀&nbsp;&nbsp;Frameworks
-<img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,express,django,bootstrap&theme=dark&perline=3"/>
+**`[ FRAMEWORKS ]`**
+<br/><br/>
+<img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,express,django,bootstrap&theme=dark&perline=6"/>
 <br/><sub>full-stack across two ecosystems</sub>
 
 </td>
-<td valign="top" align="center" width="33%">
+</tr>
+<tr>
+<td align="center" valign="top">
 
-#### 🗄️&nbsp;&nbsp;Databases
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,redis&theme=dark&perline=4"/>
-<br/><sub>relational, document, in-memory</sub>
+**`[ DATABASES · CLOUD · TOOLS ]`**
+<br/><br/>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite,redis,aws,gcp,docker,git,github,netlify,vscode,figma&theme=dark&perline=6"/>
+<br/><sub>store · scale · ship · design</sub>
 
 </td>
 </tr>
 <tr>
-<td valign="top" align="center">
+<td align="center" valign="top">
 
-#### ☁️&nbsp;&nbsp;Cloud · DevOps
-<img src="https://skillicons.dev/icons?i=aws,gcp,docker,git,github,netlify&theme=dark&perline=3"/>
-<br/><sub>deploy, scale, monitor</sub>
-
-</td>
-<td valign="top" align="center">
-
-#### 🛠️&nbsp;&nbsp;Tools
-<img src="https://skillicons.dev/icons?i=vscode,figma,postman,linux&theme=dark&perline=4"/>
-<br/><sub>design → develop → debug</sub>
-
-</td>
-<td valign="top" align="center">
-
-#### 📊&nbsp;&nbsp;Data
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white"/>
-<br/><sub>analyze, visualize, validate</sub>
+**`[ DATA · TESTING ]`**
+<br/><br/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white"/>
+<br/><sub>analyze · visualize · validate</sub>
 
 </td>
 </tr>
@@ -129,77 +158,54 @@ soumya.openTo(["collabs", "open-source", "coffee chats"]);
 <br/>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 </div>
 
-<!-- ═══════════════════════════ CURRENT WORK ═══════════════════════════ -->
-
-<br/>
-
-<h2 align="center">🎯&nbsp;&nbsp;Current Mission&nbsp;&nbsp;🎯</h2>
-
-<br/>
-
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td width="42%" align="center" valign="middle">
-<img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="300"/>
-</td>
-<td width="58%" valign="middle">
-
-| | |
-|---|---|
-| 🔨 | **Building** — Full-stack apps · MERN · Next.js 14 · DRF |
-| 📈 | **Levelling Up** — TypeScript · System Design · DSA patterns |
-| 🤝 | **Seeking** — Meaningful OSS issues · real product work |
-| 💡 | **Exploring** — Edge runtimes · server components · vector DBs |
-| ⚡ | **Mantra** — `"design first, then code — ship, then refactor"` |
-
-<img src="https://img.shields.io/badge/-Design%20%E2%86%92%20Code-38bdf8?style=for-the-badge&labelColor=0a0a0f"/>
-<img src="https://img.shields.io/badge/-Real%20Products-7c3aed?style=for-the-badge&labelColor=0a0a0f"/>
-<img src="https://img.shields.io/badge/-Scales-f59e0b?style=for-the-badge&labelColor=0a0a0f"/>
-
-</td>
-</tr>
-</table>
+<!-- ══════════════════════════ CURRENT MISSION ══════════════════════════ -->
 
 <br/>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+<h2>🎯 &nbsp;CURRENT MISSION&nbsp; 🎯</h2>
 </div>
-
-<!-- ═══════════════════════════ HACKATHONS ═══════════════════════════ -->
-
-<br/>
-
-<h2 align="center">🏆&nbsp;&nbsp;Battlegrounds&nbsp;&nbsp;🏆</h2>
-<p align="center"><i>where caffeine met commits</i></p>
 
 <br/>
 
 <div align="center">
 
-<table border="0" cellspacing="0" cellpadding="10">
+<table border="0" cellspacing="0" cellpadding="0" width="88%">
 <tr>
-<td align="center" width="280">
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100"/>
-<br/><br/>
-<b>HackTropica 2K26</b><br/>
-<sub>48-hour build sprint</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/Participated-38bdf8?style=for-the-badge&labelColor=0a0a0f"/>
+<td width="50%" align="center" valign="middle">
+
+<img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="290"/>
+
 </td>
-<td width="60" align="center">
-<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="40"/>
-</td>
-<td align="center" width="280">
-<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100"/>
-<br/><br/>
-<b>Code for Change 2.0</b><br/>
-<sub>social-impact hackathon</sub>
-<br/><br/>
-<img src="https://img.shields.io/badge/Participated-7c3aed?style=for-the-badge&labelColor=0a0a0f"/>
+<td width="50%" valign="middle" align="left">
+
+```
+  🔨  BUILDING
+      Full-stack · MERN · Next.js 14 · DRF
+
+  📈  LEVELLING UP
+      TypeScript · System Design · DSA
+
+  🤝  SEEKING
+      Meaningful OSS · real product work
+
+  💡  EXPLORING
+      Edge runtimes · server components
+      vector DBs · AI integrations
+
+  ⚡  MANTRA
+      "design first → code → ship → iterate"
+```
+
+<br/>
+
+<img src="https://img.shields.io/badge/Design%20→%20Code-38bdf8?style=flat-square&labelColor=0d1117"/>&nbsp;
+<img src="https://img.shields.io/badge/Real%20Products-7c3aed?style=flat-square&labelColor=0d1117"/>&nbsp;
+<img src="https://img.shields.io/badge/Scales-f59e0b?style=flat-square&labelColor=0d1117"/>
+
 </td>
 </tr>
 </table>
@@ -209,115 +215,219 @@ soumya.openTo(["collabs", "open-source", "coffee chats"]);
 <br/>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 </div>
 
-<!-- ═══════════════════════════ GITHUB STATS ═══════════════════════════ -->
+<!-- ══════════════════════════ BATTLEGROUNDS ══════════════════════════ -->
 
 <br/>
 
-<h2 align="center">📊&nbsp;&nbsp;The Numbers&nbsp;&nbsp;📊</h2>
+<div align="center">
+<h2>🏆 &nbsp;BATTLEGROUNDS&nbsp; 🏆</h2>
+<p><code>where caffeine met commits</code></p>
+</div>
 
 <br/>
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=7c3aed&currStreakLabel=38bdf8&sideLabels=cbd5e1&dates=64748b&border_radius=12" width="98%"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Total%20Commits-2%2C213-38bdf8?style=for-the-badge&logo=github&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/Longest%20Streak-207%20days-7c3aed?style=for-the-badge&logo=github&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/Repositories-Public%20%26%20Private-f59e0b?style=for-the-badge&logo=github&labelColor=0d1117"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=soumyachk101&bg_color=0d1117&color=38bdf8&line=7c3aed&point=f8fafc&area=true&hide_border=true&radius=12" width="98%"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-</div>
-
-<!-- ═══════════════════════════ PHILOSOPHY ═══════════════════════════ -->
-
-<br/>
-
-<h2 align="center">🧭&nbsp;&nbsp;Engineering Compass&nbsp;&nbsp;🧭</h2>
-
-<br/>
-
-<table width="100%" border="0" cellspacing="0" cellpadding="16">
+<table border="0" cellspacing="12" cellpadding="0" width="80%">
 <tr>
-<td width="33%" valign="top" align="center">
+<td align="center" width="46%">
 
-### 🎨
-**Design First**
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="80"/>
 
-<sub>I sketch the UI before opening the IDE. Empathy for the user beats clever code every time.</sub>
+<br/><br/>
 
-</td>
-<td width="33%" valign="top" align="center">
-
-### ⚙️
-**Architect Always**
-
-<sub>Schema, boundaries, ownership. Bad architecture compounds — good architecture quietly disappears.</sub>
+**`HackTropica 2K26`**
+<br/>
+<sub>⏱ 36-hour build sprint</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/▸%20PARTICIPATED-38bdf8?style=for-the-badge&labelColor=0d1117"/>
 
 </td>
-<td width="33%" valign="top" align="center">
+<td align="center" width="8%">
+<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="36"/>
+</td>
+<td align="center" width="46%">
 
-### 🚀
-**Ship & Iterate**
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="80"/>
 
-<sub>Done in production teaches more than perfect in private. Ship the v1, log the metrics, iterate.</sub>
+<br/><br/>
+
+**`Code for Change 2.0`**
+<br/>
+<sub>🌍 social-impact hackathon</sub>
+<br/><br/>
+<img src="https://img.shields.io/badge/▸%20PARTICIPATED-7c3aed?style=for-the-badge&labelColor=0d1117"/>
 
 </td>
 </tr>
 </table>
 
-<br/>
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 </div>
 
-<!-- ═══════════════════════════ CONNECT ═══════════════════════════ -->
+<br/>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+</div>
+
+<!-- ════════════════════════════ THE NUMBERS ════════════════════════════ -->
+
+<br/>
+
+<div align="center">
+<h2>📊 &nbsp;THE NUMBERS&nbsp; 📊</h2>
+</div>
 
 <br/>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=9999&color=F8FAFC&center=true&vCenter=true&width=720&lines=Let%27s+build+something+remarkable."/>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="340"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=7c3aed&currStreakLabel=38bdf8&sideLabels=cbd5e1&dates=64748b&border_radius=12" width="96%"/>
 
 <br/><br/>
 
-<table border="0" cellspacing="0" cellpadding="14" width="92%">
+<img src="https://img.shields.io/badge/⬡%20Total%20Contributions-2%2C213-38bdf8?style=for-the-badge&labelColor=0d1117"/>
+&nbsp;
+<img src="https://img.shields.io/badge/⬡%20Longest%20Streak-207%20days-7c3aed?style=for-the-badge&labelColor=0d1117"/>
+&nbsp;
+<img src="https://img.shields.io/badge/⬡%20Since-Aug%202025-f59e0b?style=for-the-badge&labelColor=0d1117"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+</div>
+
+<!-- ══════════════════════════ ENGINEERING COMPASS ══════════════════════════ -->
+
+<br/>
+
+<div align="center">
+<h2>🧭 &nbsp;ENGINEERING COMPASS&nbsp; 🧭</h2>
+</div>
+
+<br/>
+
+<div align="center">
+
+<table border="0" cellspacing="0" cellpadding="0" width="92%">
+<tr>
+
+<td width="33%" align="center" valign="top">
+
+<br/>
+
+```
+  ┌─────────────────┐
+  │   🎨  DESIGN    │
+  │      FIRST      │
+  └─────────────────┘
+```
+
+<sub>Sketch the UI before<br/>opening the IDE.<br/>Empathy > clever code.</sub>
+
+<br/>
+
+</td>
+
+<td width="33%" align="center" valign="top">
+
+<br/>
+
+```
+  ┌─────────────────┐
+  │  ⚙️  ARCHITECT  │
+  │     ALWAYS      │
+  └─────────────────┘
+```
+
+<sub>Schema · boundaries · ownership.<br/>Bad arch compounds.<br/>Good arch disappears.</sub>
+
+<br/>
+
+</td>
+
+<td width="33%" align="center" valign="top">
+
+<br/>
+
+```
+  ┌─────────────────┐
+  │  🚀  SHIP  &    │
+  │     ITERATE     │
+  └─────────────────┘
+```
+
+<sub>Done in prod teaches more<br/>than perfect in private.<br/>Ship v1. Log. Iterate.</sub>
+
+<br/>
+
+</td>
+
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+</div>
+
+<!-- ════════════════════════════ CONNECT ════════════════════════════ -->
+
+<br/>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=30&pause=9999&color=F8FAFC&center=true&vCenter=true&width=760&lines=%E2%86%92+Let%27s+build+something+remarkable."/>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="300"/>
+
+<br/><br/>
+
+<table border="0" cellspacing="0" cellpadding="18" width="88%">
 <tr>
 <td align="center" width="33%">
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="80"/>
+
+<img src="https://img.shields.io/badge/🌿-Open%20Source-38bdf8?style=for-the-badge&labelColor=0d1117&logoColor=white" height="36"/>
+
 <br/><br/>
-<b>Open Source</b><br/>
-<sub>I look for meaningful OSS to contribute to.<br/>Got a good first issue? Send it.</sub>
+
+**`[ OPEN SOURCE ]`**
+<br/><br/>
+<sub>Looking for meaningful OSS.<br/>Got a good first issue? Send it.</sub>
+
 </td>
 <td align="center" width="33%">
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="80"/>
+
+<img src="https://img.shields.io/badge/💼-Freelance-7c3aed?style=for-the-badge&labelColor=0d1117&logoColor=white" height="36"/>
+
 <br/><br/>
-<b>Freelance</b><br/>
-<sub>From wireframe to deployed app —<br/>solo, end-to-end. Let's talk.</sub>
+
+**`[ FREELANCE ]`**
+<br/><br/>
+<sub>Wireframe → deployed app.<br/>Solo, end-to-end. Let's talk.</sub>
+
 </td>
 <td align="center" width="33%">
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="80"/>
+
+<img src="https://img.shields.io/badge/☕-Coffee%20Chat-f59e0b?style=for-the-badge&labelColor=0d1117&logoColor=white" height="36"/>
+
 <br/><br/>
-<b>Coffee Chat</b><br/>
-<sub>Architecture, design, startups, life.<br/>DMs always open.</sub>
+
+**`[ COFFEE CHAT ]`**
+<br/><br/>
+<sub>Architecture · design · startups.<br/>DMs always open.</sub>
+
 </td>
 </tr>
 </table>
@@ -325,27 +435,25 @@ soumya.openTo(["collabs", "open-source", "coffee chats"]);
 <br/>
 
 ```
-  ✉   soumya.chk101@gmail.com
-  🌐  chksoumya.in
-  📍  West Bengal, India  ·  GMT+5:30
+╔══════════════════════════════════════════════════╗
+║  ✉  soumya.chk101@gmail.com                     ║
+║  🌐  chksoumya.in                               ║
+║  📍  West Bengal, India  ·  UTC+5:30            ║
+╚══════════════════════════════════════════════════╝
 ```
 
 <br/>
 
 <a href="https://chksoumya.in">
-  <img src="https://img.shields.io/badge/Visit%20Portfolio%20%E2%86%92-0a0a0f?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0a0f&color=38bdf8"/>
+  <img src="https://img.shields.io/badge/◈%20Visit%20Portfolio-chksoumya.in-38bdf8?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117"/>
 </a>
-&nbsp;
+&nbsp;&nbsp;
 <a href="mailto:soumya.chk101@gmail.com">
-  <img src="https://img.shields.io/badge/Send%20a%20Mail%20%E2%86%92-0a0a0f?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a0f&color=EA4335"/>
+  <img src="https://img.shields.io/badge/◈%20Drop%20a%20Mail-soumya.chk101-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/>
 </a>
 
 <br/><br/>
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="80%"/>
-
-<br/><br/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,40:0d1117,80:1e293b,100:0a0a0f&height=130&section=footer&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1e1b4b,100:0d1117&height=140&section=footer&animation=fadeIn&reversal=true"/>
 
 </div>
