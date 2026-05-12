@@ -369,8 +369,7 @@ const engineer = {
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/⬡%20Total%20Contributions-2%2C213-38bdf8?style=for-the-badge&labelColor=0d1117"/>
-&nbsp;
+
 <img src="https://img.shields.io/badge/⬡%20Longest%20Streak-207%20days-7c3aed?style=for-the-badge&labelColor=0d1117"/>
 &nbsp;
 <img src="https://img.shields.io/badge/⬡%20Since-Aug%202025-f59e0b?style=for-the-badge&labelColor=0d1117"/>
