@@ -7,7 +7,7 @@
 <div align="center">
 
 <a href="https://chksoumya.in">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=45&lines=full-stack+engineer+%E2%80%94+I+build+things+that+actually+ship;systems+thinker+%E2%80%94+architecture+before+code%2C+always;West+Bengal+%E2%86%92+building+products+the+world+hasn%27t+seen+yet;B.Tech+CSE+%C2%B7+2nd+Year+%C2%B7+NSHM+Durgapur"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=2800&pause=800&color=38BDF8&center=true&vCenter=true&multiline=false&width=720&height=40&lines=building+Phygital-Trace+%E2%80%94+camera+to+blockchain+media+provenance;full-stack+engineer+%7C+West+Bengal%2C+India+%F0%9F%87%AE%F0%9F%87%B3;B.Tech+CSE+%C2%B7+2nd+Year+%C2%B7+NSHM+Knowledge+Campus%2C+Durgapur;architecture+first.+code+second.+ship+always."/>
 </a>
 
 </div>
@@ -16,10 +16,10 @@
 
 <div align="center">
 
-<a href="https://chksoumya.in"><img src="https://img.shields.io/badge/chksoumya.in-0d1117?style=for-the-badge&logo=vercel&logoColor=38bdf8&label=portfolio"/></a>&nbsp;
-<a href="mailto:soumya.chk101@gmail.com"><img src="https://img.shields.io/badge/Gmail-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335"/></a>&nbsp;
-<a href="https://github.com/soumyachk101"><img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white"/></a>&nbsp;
-<img src="https://komarev.com/ghpvc/?username=soumyachk101&style=for-the-badge&color=38bdf8&label=VIEWS"/>
+[![Portfolio](https://img.shields.io/badge/-chksoumya.in-0d1117?style=flat-square&logo=vercel&logoColor=38bdf8)](https://chksoumya.in)&nbsp;
+[![Email](https://img.shields.io/badge/-soumya.chk101@gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:soumya.chk101@gmail.com)&nbsp;
+[![GitHub](https://img.shields.io/badge/-soumyachk101-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/soumyachk101)&nbsp;
+![Views](https://komarev.com/ghpvc/?username=soumyachk101&style=flat-square&color=38bdf8&label=profile+views)
 
 </div>
 
@@ -29,15 +29,12 @@
 
 <br/>
 
-<!-- ══════════════════════════════ IDENTITY ══════════════════════════════ -->
-
 <table width="100%" border="0">
 <tr>
-<td width="54%" valign="top">
+<td width="55%" valign="top">
 
 ```typescript
-// identity.ts — last updated: 2026
-// ─────────────────────────────────────────
+// identity.ts — 2026
 
 export const engineer = {
   name:     "Soumya Chakraborty",
@@ -45,7 +42,6 @@ export const engineer = {
   base:     "West Bengal, India 🇮🇳",
   status:   "B.Tech CSE · 2nd Year",
 
-  // things i've learned the hard way
   principles: [
     "you can't design what you don't understand",
     "schema mistakes compound — model data first",
@@ -53,7 +49,6 @@ export const engineer = {
     "the best abstraction is the one you don't write",
   ],
 
-  // what keeps me up at night (the good kind)
   obsessions: [
     "distributed systems & eventual consistency",
     "media provenance & trustless verification",
@@ -67,21 +62,20 @@ export const engineer = {
     "real product collaborations",
     "architecture conversations",
   ],
-
 } as const;
 ```
 
 </td>
 <td width="4%"></td>
-<td width="42%" valign="top" align="center">
+<td width="41%" valign="top" align="center">
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="340" alt="coding gif"/>
+<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="330"/>
 
 <br/><br/>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="340" alt="line divider"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="330"/>
 
 </td>
 </tr>
@@ -89,138 +83,118 @@ export const engineer = {
 
 <br/>
 
----
+<br/>
+
+## &nbsp; 🚀 &nbsp; Projects
 
 <br/>
 
-<!-- ══════════════════════════════ WHAT I SHIP ══════════════════════════════ -->
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" alt="fire"/> &nbsp;<b>THINGS I'VE ACTUALLY SHIPPED</b>&nbsp; <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" alt="fire"/>
-
-<sub><code>↳ not demos. not tutorials. real systems with real constraints.</code></sub>
-
-</div>
-
-<br/>
-
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-
+<table width="100%" border="0">
 <tr>
 <td width="49%" valign="top">
 
-### 🔗 Phygital-Trace
-> **Camera → Blockchain media provenance for citizen journalism**
+**🔗 Phygital-Trace**&nbsp;&nbsp;`media · blockchain · provenance`
 
-- `pHash` + `PRNU` fingerprinting at capture
-- Steganographic watermarking baked in
+Camera to blockchain media provenance for citizen journalism. Built to solve fake news at the capture layer, not the distribution layer.
+
+- `pHash` + `PRNU` hardware fingerprinting at capture
+- Steganographic watermarking — invisible, irremovable
 - C2PA-compatible provenance chain
 - Gemini 1.5 Pro forensic manipulation detection
-- On-chain immutable audit trail via Solidity
+- On-chain immutable audit trail via Solidity + IPFS
 
-**Stack:** `FastAPI` · `Next.js` · `Solidity` · `IPFS` · `PostgreSQL` · `Gemini API`
+<sub>`FastAPI` `Next.js` `Solidity` `IPFS` `PostgreSQL` `Gemini API`</sub>
 
 </td>
 <td width="2%"></td>
 <td width="49%" valign="top">
 
-### ⚙️ NexusOps
-> **AIOps/SRE platform — crash-fixing that understands context**
+**⚙️ NexusOps**&nbsp;&nbsp;`aiops · sre · crash resolution`
 
-- **LocalLens** — AI team memory ingesting Telegram / voice / meetings into pgvector KB
-- **SlothOps** — crash detection auto-queries team context → GitHub PR with AI fix + auto-rollback
+AIOps platform that fixes crashes using team context — not just stack traces.
 
-**Stack:** `FastAPI` · `Next.js 14` · `pgvector` · `Celery` · `Redis` · `Claude API`
+- **LocalLens** — AI memory from Telegram, voice, meetings → pgvector KB
+- **SlothOps** — detects crash, queries team context, opens GitHub PR with fix + rollback guard
+
+<sub>`FastAPI` `Next.js 14` `pgvector` `Celery` `Redis` `Claude API`</sub>
 
 </td>
 </tr>
 
-<tr><td colspan="3"><br/></td></tr>
+<tr><td colspan="3" height="20"></td></tr>
 
 <tr>
 <td width="49%" valign="top">
 
-### 🛡️ Neeti AI
-> **Interview integrity at scale**
+**🛡️ Neeti AI**&nbsp;&nbsp;`interview integrity · multi-agent`
 
-- WebRTC proctoring + Monaco editor
-- 5 AI evaluation agents running in parallel
+Five AI agents evaluating candidates in real-time. Not a proctoring tool — an integrity layer.
+
+- WebRTC proctoring + Monaco code editor
+- 5 parallel AI evaluation agents
 - Proprietary Trust Score algorithm
-- Forensic hiring report generation
-- `pyannote` voice identity layer
+- Forensic hiring report per candidate
+- `pyannote` voice identity verification
 
-**Stack:** `Node/Express` · `MongoDB` · `Bull` · `Socket.IO` · `MediaPipe` · `React 19`
+<sub>`Node/Express` `MongoDB` `Bull` `Socket.IO` `MediaPipe` `React 19`</sub>
 
 </td>
 <td width="2%"></td>
 <td width="49%" valign="top">
 
-### 🛠️ FiXr
-> **Terminal-first, multi-agent AI code intelligence CLI**
+**🛠️ FiXr**&nbsp;&nbsp;`cli · multi-agent · code intelligence`
 
-- 4-agent pipeline — Bug Detective → Bug Fixer → Code Quality → Security Auditor
-- OWASP-aligned security scanning with auto-patching (`--fix` flag writes directly to disk)
-- Exponential backoff + rate-limit handling built into the API layer
-- Git pre-commit hook & GitHub Actions ready out of the box
-- Supports 9 languages: TS, JS, Python, Go, Java, C/C++, Rust, Ruby, PHP
+Terminal-first multi-agent code review — finds bugs, patches them, scores quality, audits security in one pass.
 
-**Stack:** `TypeScript` · `Node.js` · `Commander.js` · `Groq` · `Claude API` · `OpenAI-compat`
+- Bug Detective → Bug Fixer → Code Quality → Security Auditor pipeline
+- OWASP Top 10 aligned security scanning with `--fix` auto-patch
+- Exponential backoff + rate-limit handling in the API layer
+- Git pre-commit + GitHub Actions CI integration built in
+- 9 languages: TS, JS, Python, Go, Java, C/C++, Rust, Ruby, PHP
+
+<sub>`TypeScript` `Node.js` `Commander.js` `Groq` `Claude API`</sub>
 
 </td>
 </tr>
-
 </table>
 
 <br/>
 
----
-
 <br/>
-
-<!-- ══════════════════════════════ CURRENTLY BUILDING ══════════════════════════════ -->
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="300" alt="building gif"/>
+<img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="260"/>
 
 <br/>
 
-### 🚧 &nbsp; Currently in the Lab
+## 🔬 &nbsp; Currently in the Lab
 
-</div>
+<br/>
 
-<div align="center">
-
-| What | Why it matters |
-|------|----------------|
-| `Phygital-Trace` — 6-part arch upgrade | pHash + PRNU + steganography + C2PA + Gemini forensics |
-| Running local LLMs | Ollama + Llama 3.2 / Qwen 2.5 Coder on M5 MacBook Air |
-| Claude Code documentation pipelines | PRD → TRD → Backend → DB → AI Instructions as first-class artifacts |
+| | |
+|:---|:---|
+| **Phygital-Trace** 6-part arch upgrade | pHash + PRNU + steganography + C2PA + Gemini forensics |
+| **Local LLMs** on bare metal | Ollama + Llama 3.2 / Qwen 2.5 Coder on M5 MacBook Air |
+| **Claude Code doc pipelines** | PRD → TRD → Backend → DB → AI Instructions as first-class artifacts |
 
 </div>
 
 <br/>
 
----
+<br/>
+
+## 🧰 &nbsp; Stack
 
 <br/>
 
-<!-- ══════════════════════════════ STACK ══════════════════════════════ -->
-
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="50" alt="ts"/> &nbsp;<b>THE STACK</b>&nbsp; <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="50" alt="ts"/>
-
-<sub><code>↳ chosen for reasons, not trends</code></sub>
-
-<br/><br/>
-
-<table border="0" cellspacing="0" cellpadding="0" width="90%">
+<table border="0" width="94%">
 <tr>
 <td align="center" valign="top" width="50%">
 
-**`LANGUAGES`**
+**Languages**
 
 <img src="https://skillicons.dev/icons?i=ts,js,python,c,html,css&theme=dark&perline=6"/>
 
@@ -228,7 +202,7 @@ export const engineer = {
 
 <br/><br/>
 
-**`FRONTEND`**
+**Frontend**
 
 <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,vite,figma&theme=dark&perline=5"/>
 
@@ -238,7 +212,7 @@ export const engineer = {
 <td width="4%"></td>
 <td align="center" valign="top" width="46%">
 
-**`BACKEND & DATA`**
+**Backend & Data**
 
 <img src="https://skillicons.dev/icons?i=nodejs,express,django,fastapi,mongodb,postgres,redis&theme=dark&perline=7"/>
 
@@ -246,7 +220,7 @@ export const engineer = {
 
 <br/><br/>
 
-**`INFRASTRUCTURE`**
+**Infrastructure**
 
 <img src="https://skillicons.dev/icons?i=docker,aws,gcp,github,git,linux&theme=dark&perline=6"/>
 
@@ -260,192 +234,121 @@ export const engineer = {
 
 <br/>
 
----
-
 <br/>
-
-<!-- ══════════════════════════════ PRINCIPLES ══════════════════════════════ -->
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400" alt="thinking gif"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="360"/>
 
 <br/>
 
-### 🧠 &nbsp; How I Think
-<sub><code>↳ opinions formed by shipping, not reading</code></sub>
+## 🧠 &nbsp; How I Think
 
 </div>
 
 <br/>
 
-<table border="0" cellspacing="0" cellpadding="20" width="100%">
+<table border="0" width="100%">
 <tr>
+<td valign="top" width="25%" align="center">
 
-<td align="center" valign="top" width="25%">
+**`01 — Understand`**
 
-**`01 / UNDERSTAND`**
-
-The half-hour you spend  
-mapping domain concepts  
-saves three days of refactors.
-
-*Model the problem.  
-Name things right.  
-Then open the IDE.*
+Map domain concepts before opening the IDE. That half-hour upfront saves three days of refactors.
 
 </td>
+<td valign="top" width="25%" align="center">
 
-<td align="center" valign="top" width="25%">
+**`02 — Architect`**
 
-**`02 / ARCHITECT`**
-
-Schema mistakes compound.  
-Naming mistakes compound.  
-Boundary mistakes compound.
-
-*Good architecture  
-isn't clever —  
-it disappears.*
+Schema, naming, and boundary mistakes compound silently. Good architecture doesn't show off — it disappears.
 
 </td>
+<td valign="top" width="25%" align="center">
 
-<td align="center" valign="top" width="25%">
+**`03 — Ship`**
 
-**`03 / SHIP`**
-
-Prod teaches things  
-no local env can.
-
-*v1 imperfect > v∞  
-still in your head.*
-
-Ship. Log. Measure.  
-Then improve.
+Prod teaches what no local env can. An imperfect v1 beats a perfect version that only lives in your head.
 
 </td>
+<td valign="top" width="25%" align="center">
 
-<td align="center" valign="top" width="25%">
+**`04 — Own It`**
 
-**`04 / OWN IT`**
-
-Frameworks are tools.  
-You are the engineer.
-
-*Read the source.  
-Understand the tradeoffs.  
-Know why, not just how.*
+Frameworks are tools. Read the source. Know why something works, not just that it does.
 
 </td>
-
 </tr>
 </table>
 
 <br/>
 
----
-
 <br/>
 
-<!-- ══════════════════════════════ BATTLEGROUNDS ══════════════════════════════ -->
+## 🏁 &nbsp; Hackathons
 
 <div align="center">
 
-### ⚔️ &nbsp; Battlegrounds
-<sub><code>↳ where pressure became skill</code></sub>
-
-</div>
+<img src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" width="380"/>
 
 <br/>
 
-<div align="center">
-
-| Event | Details |
-|-------|---------|
-| **HackTropica 2K26** | 36hr sprint · Asansol Engineering College · full-stack under the clock |
-| **Code for Change 2.0** | Social impact · IEEE Kolkata + CNCF Durgapur · April 2026 |
+| Event | |
+|:---|:---|
+| **HackTropica 2K26** | 36hr sprint · Asansol Engineering College |
+| **Code for Change 2.0** | Social impact track · IEEE Kolkata + CNCF Durgapur · April 2026 |
 | **TEKATHON 2K26** | Tech innovation track · shipped a product, not a prototype |
 
-<br/>
-
-```
-3 hackathons  ·  100+ hours of constrained building
-lesson learned: the constraint is the feature.
-```
+<sub>3 sprints &nbsp;·&nbsp; 100+ hours of constrained building &nbsp;·&nbsp; the constraint is the feature</sub>
 
 </div>
 
 <br/>
 
----
-
 <br/>
 
-<!-- ══════════════════════════════ STATS ══════════════════════════════ -->
+## 📊 &nbsp; Stats
+
+<br/>
 
 <div align="center">
 
-### 📊 &nbsp; The Numbers
-
-<br/>
-
-<img src="https://streak-stats.demolab.com/?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=7c3aed&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=475569&border_radius=8&timezone=Asia%2FKolkata&v=2" width="92%"/>
+<img src="https://streak-stats.demolab.com/?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=7c3aed&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=475569&border_radius=8&timezone=Asia%2FKolkata" width="92%"/>
 
 <br/><br/>
 
 
 
+<br/><br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="860"/>
 
 </div>
 
 <br/>
 
----
-
 <br/>
-
-<!-- ══════════════════════════════ ACTIVITY ══════════════════════════════ -->
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="900" alt="activity gif"/>
-
-</div>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=9999&color=38BDF8&center=true&vCenter=true&width=700&lines=building+something+hard%3F+let%27s+talk."/>
 
 <br/>
 
----
+<img src="https://user-images.githubusercontent.com/74038190/219923823-bf1ce878-c6b8-4faa-be07-93e6b1006521.gif" width="220"/>
 
 <br/>
 
-<!-- ══════════════════════════════ CONNECT ══════════════════════════════ -->
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=9999&color=F8FAFC&center=true&vCenter=true&width=700&lines=if+you%27re+building+something+hard%2C+let%27s+talk."/>
-
-<br/>
-
-**I'm drawn to problems that are:**
-
-✦ technically hard AND meaningfully useful  
-✦ at the intersection of trust, media, and distributed systems  
-✦ ambitious enough that most people haven't tried yet
-
-<br/>
-
-**Not looking for:**  
-~~"can you build my app for free"~~ &nbsp;·&nbsp; ~~yet another to-do list clone~~ &nbsp;·&nbsp; ~~work that doesn't ship~~
+I work on problems at the intersection of trust, distributed systems, and media —<br/>technically hard and actually worth solving.
 
 <br/><br/>
 
-<a href="https://chksoumya.in"><img src="https://img.shields.io/badge/◈%20Portfolio-chksoumya.in-38bdf8?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117"/></a>
-&nbsp;
-<a href="mailto:soumya.chk101@gmail.com"><img src="https://img.shields.io/badge/◈%20Email%20Me-soumya.chk101-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/></a>
+[![Portfolio](https://img.shields.io/badge/Portfolio-chksoumya.in-38bdf8?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117)](https://chksoumya.in)&nbsp;
+[![Email](https://img.shields.io/badge/Email-soumya.chk101-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:soumya.chk101@gmail.com)
 
 <br/><br/>
 
-<sub><code>📍 West Bengal, India · UTC+5:30 · — built with intention, not decoration —</code></sub>
+<sub>📍 West Bengal, India &nbsp;·&nbsp; UTC+5:30</sub>
 
 <br/>
 
