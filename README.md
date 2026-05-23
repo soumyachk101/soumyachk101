@@ -317,12 +317,7 @@ Frameworks are tools. Read the source. Know why something works, not just that i
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=soumyachk101&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=7c3aed&text_color=94a3b8&border_radius=8" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soumyachk101&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&border_radius=8&langs_count=6" width="38%"/>
 
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=soumyachk101&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=38bdf8&line=7c3aed&point=38bdf8&area=true&area_color=38bdf8" width="94%"/>
 
 <br/><br/>
 
