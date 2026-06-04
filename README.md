@@ -313,11 +313,13 @@ Frameworks are tools. Read the source. Know why something works, not just that i
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=7c3aed&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=475569&border_radius=8&timezone=Asia%2FKolkata" width="92%"/>
+<img src="https://github-readme-stats-alpha.vercel.app/api?username=soumyachk101&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=7c3aed&text_color=94a3b8&count_private=true&include_all_commits=true&border_radius=8&v=4" height="180"/>
+&nbsp;
+<img src="https://github-readme-stats-alpha.vercel.app/api/top-langs?username=soumyachk101&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&langs_count=8&border_radius=8&v=4" height="180"/>
 
 <br/><br/>
 
-
+<img src="https://streak-stats.vercel.app/?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=7c3aed&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=475569&border_radius=8&timezone=Asia%2FKolkata&v=4" width="92%"/>
 
 <br/><br/>
 
