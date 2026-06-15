@@ -1,27 +1,31 @@
 <div align="center">
 
-<img src="header.svg" width="100%" alt="Soumya Chakraborty — Full-Stack Engineer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:1e293b,70:38bdf8,100:7c3aed&height=220&section=header&animation=fadeIn&fontAlignY=38&text=SOUMYA+CHAKRABORTY&fontColor=38bdf8&fontSize=42" width="100%" alt="Soumya Chakraborty"/>
 
-</div>
+<br/>
 
-<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=800&color=38BDF8&center=true&vCenter=true&multiline=false&width=720&height=40&lines=building+Phygital-Trace+%E2%80%94+camera+to+blockchain+media+provenance;full-stack+engineer+%7C+West+Bengal%2C+India+%F0%9F%87%AE%F0%9F%87%B3;B.Tech+CSE+%C2%B7+2nd+Year+%C2%B7+NSHM+Knowledge+Campus%2C+Durgapur;architecture+first.+code+second.+ship+always." alt="typing svg"/>
 
-<a href="https://chksoumya.in">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=2800&pause=800&color=38BDF8&center=true&vCenter=true&multiline=false&width=720&height=40&lines=building+Phygital-Trace+%E2%80%94+camera+to+blockchain+media+provenance;full-stack+engineer+%7C+West+Bengal%2C+India+%F0%9F%87%AE%F0%9F%87%B3;B.Tech+CSE+%C2%B7+2nd+Year+%C2%B7+NSHM+Knowledge+Campus%2C+Durgapur;architecture+first.+code+second.+ship+always."/>
-</a>
+<br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="48" alt="wave"/>
+&nbsp;&nbsp;
+<a href="https://chksoumya.in"><img src="https://img.shields.io/badge/-chksoumya.in-0d1117?style=flat-square&logo=vercel&logoColor=38bdf8" alt="Portfolio"/></a>&nbsp;
+<a href="mailto:soumya.chk101@gmail.com"><img src="https://img.shields.io/badge/-soumya.chk101@gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email"/></a>&nbsp;
+<a href="https://github.com/soumyachk101"><img src="https://img.shields.io/badge/-soumyachk101-0d1117?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>&nbsp;
+<img src="https://komarev.com/ghpvc/?username=soumyachk101&style=flat-square&color=38bdf8&label=profile+views" alt="Views"/>
+&nbsp;&nbsp;
+<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="48" alt="wave"/>
 
 </div>
 
 <br/>
 
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/-chksoumya.in-0d1117?style=flat-square&logo=vercel&logoColor=38bdf8)](https://chksoumya.in)&nbsp;
-[![Email](https://img.shields.io/badge/-soumya.chk101@gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:soumya.chk101@gmail.com)&nbsp;
-[![GitHub](https://img.shields.io/badge/-soumyachk101-0d1117?style=flat-square&logo=github&logoColor=white)](https://github.com/soumyachk101)&nbsp;
-![Views](https://komarev.com/ghpvc/?username=soumyachk101&style=flat-square&color=38bdf8&label=profile+views)
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/⚡_available_for-Open_Source_Collaboration-38bdf8?style=for-the-badge&labelColor=0d1117" alt="availability"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/🔭_focus-Media_Provenance_%2B_AIOps-7c3aed?style=for-the-badge&labelColor=0d1117" alt="focus"/>
+</p>
 
 <br/>
 
@@ -71,11 +75,11 @@ export const engineer = {
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="330"/>
+<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="330" alt="developer"/>
 
 <br/><br/>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="330"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="330" alt="code"/>
 
 </td>
 </tr>
@@ -85,7 +89,93 @@ export const engineer = {
 
 <br/>
 
-## &nbsp; 🚀 &nbsp; Projects
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="220" alt="workflow"/>
+
+## ⚙️ &nbsp; How I Ship — Dev Workflow in Motion
+
+</div>
+
+<br/>
+
+<table width="100%" border="0">
+<tr>
+<td width="24%" align="center" valign="top">
+
+<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="100" alt="01"/>
+
+<br/>
+
+**`01 — Domain Map`**
+
+Read RFCs, model entities, sketch data flow *before* `npm init`.
+
+</td>
+<td width="1%"></td>
+<td width="24%" align="center" valign="top">
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100" alt="02"/>
+
+<br/>
+
+**`02 — Architect`**
+
+Schema → contracts → boundaries. Make the hard decisions early.
+
+</td>
+<td width="1%"></td>
+<td width="24%" align="center" valign="top">
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100" alt="03"/>
+
+<br/>
+
+**`03 — Build`**
+
+Vertical slices, real data, working endpoints before polish.
+
+</td>
+<td width="1%"></td>
+<td width="24%" align="center" valign="top">
+
+<img src="https://user-images.githubusercontent.com/74038190/219923823-bf1ce878-c6b8-4faa-be07-93e6b1006521.gif" width="100" alt="04"/>
+
+<br/>
+
+**`04 — Ship & Iterate`**
+
+Deploy, measure, learn. Real users > imagined edge cases.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<div align="center">
+
+```
+   ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐
+   │  IDEATE  │───▶│  DESIGN  │───▶│  BUILD   │───▶│   TEST   │───▶│   SHIP   │
+   └──────────┘    └──────────┘    └──────────┘    └──────────┘    └──────────┘
+        ▲                                                              │
+        └──────────────── iterate with real feedback ◀─────────────────┘
+```
+
+</div>
+
+<br/>
+
+<br/>
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" width="200" alt="projects"/>
+
+## 🚀 &nbsp; Projects
+
+</div>
 
 <br/>
 
@@ -164,7 +254,56 @@ Terminal-first multi-agent code review — finds bugs, patches them, scores qual
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="260"/>
+### 🔄 &nbsp; Live Project Workflows
+
+</div>
+
+<br/>
+
+<table width="100%" border="0">
+<tr>
+<td width="50%" align="center" valign="top">
+
+**`Phygital-Trace — Capture → Hash → Sign → Chain`**
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%" alt="phygital workflow"/>
+
+```
+📷 capture → 🔐 pHash+PRNU → 🧬 stego-watermark
+                  ↓
+            ⛓️  Solidity anchor
+                  ↓
+            🌐 IPFS pin → audit trail
+```
+
+</td>
+<td width="50%" align="center" valign="top">
+
+**`NexusOps — Crash → Context → PR`**
+
+<img src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" width="100%" alt="nexusops workflow"/>
+
+```
+💥 crash detected
+      ↓
+🧠 LocalLens RAG query
+      ↓
+🤖 Claude generates patch
+      ↓
+🔁 opens PR + rollback guard
+```
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<br/>
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="260" alt="lab"/>
 
 <br/>
 
@@ -177,6 +316,10 @@ Terminal-first multi-agent code review — finds bugs, patches them, scores qual
 | **Phygital-Trace** 6-part arch upgrade | pHash + PRNU + steganography + C2PA + Gemini forensics |
 | **Local LLMs** on bare metal | Ollama + Llama 3.2 / Qwen 2.5 Coder on M5 MacBook Air |
 | **Claude Code doc pipelines** | PRD → TRD → Backend → DB → AI Instructions as first-class artifacts |
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=12&duration=3000&pause=600&color=7C3AED&center=true&vCenter=true&multiline=true&width=600&height=60&lines=experimenting+with+on-device+inference;building+trust+at+the+capture+layer;designing+for+failure+before+success" alt="lab typing"/>
 
 </div>
 
@@ -238,7 +381,36 @@ Terminal-first multi-agent code review — finds bugs, patches them, scores qual
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="360"/>
+## 📊 &nbsp; GitHub Stats
+
+<br/>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&stroke=0d1117&ring=38bdf8&fire=7c3aed&currStreakLabel=38bdf8&sideLabels=38bdf8&currStreakNum=38bdf8&sideNums=38bdf8&dates=94a3b8" width="49%" alt="GitHub Streak Stats"/>
+  <img src="./stats.svg" width="49%" alt="Soumya Chakraborty — GitHub Stats, A++ rank badge"/>
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soumyachk101&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&border_radius=8&langs_count=8" width="40%" alt="Top Languages"/>
+</p>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=soumyachk101&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=38bdf8&line=7c3aed&point=38bdf8&area=true&area_color=38bdf8" width="94%" alt="Activity Graph"/>
+
+<br/>
+
+<sub><sub>✦ Streak counted from daily contribution cadence &nbsp;·&nbsp; Stats card built with a custom SVG (numbers pulled from the GitHub API) &nbsp;·&nbsp; Rank is **A++** by repos shipped, not by an opaque percentile</sub></sub>
+
+<br/><br/>
+
+</div>
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="360" alt="thinking"/>
 
 <br/>
 
@@ -289,7 +461,7 @@ Frameworks are tools. Read the source. Know why something works, not just that i
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" width="380"/>
+<img src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" width="380" alt="hackathons"/>
 
 <br/>
 
@@ -307,23 +479,13 @@ Frameworks are tools. Read the source. Know why something works, not just that i
 
 <br/>
 
-## 📊 &nbsp; Stats
+<div align="center">
+
+### 🛠️ &nbsp; Daily Driver Workflow
 
 <br/>
 
-<div align="center">
-
-<img src="https://github-readme-stats-alpha.vercel.app/api?username=soumyachk101&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=7c3aed&text_color=94a3b8&count_private=true&include_all_commits=true&border_radius=8&v=4" height="180"/>
-&nbsp;
-<img src="https://github-readme-stats-alpha.vercel.app/api/top-langs?username=soumyachk101&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&langs_count=8&border_radius=8&v=4" height="180"/>
-
-<br/><br/>
-
-<img src="https://streak-stats.vercel.app/?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=7c3aed&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=475569&border_radius=8&timezone=Asia%2FKolkata&v=4" width="92%"/>
-
-<br/><br/>
-
-<img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="860"/>
+<img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="92%" alt="daily workflow"/>
 
 </div>
 
@@ -333,11 +495,11 @@ Frameworks are tools. Read the source. Know why something works, not just that i
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=9999&color=38BDF8&center=true&vCenter=true&width=700&lines=building+something+hard%3F+let%27s+talk."/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=9999&color=38BDF8&center=true&vCenter=true&width=700&lines=building+something+hard%3F+let%27s+talk." alt="cta"/>
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/74038190/219923823-bf1ce878-c6b8-4faa-be07-93e6b1006521.gif" width="220"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="220" alt="cta decoration"/>
 
 <br/>
 
@@ -345,8 +507,8 @@ I work on problems at the intersection of trust, distributed systems, and media 
 
 <br/><br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-chksoumya.in-38bdf8?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117)](https://chksoumya.in)&nbsp;
-[![Email](https://img.shields.io/badge/Email-soumya.chk101-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:soumya.chk101@gmail.com)
+<a href="https://chksoumya.in"><img src="https://img.shields.io/badge/Portfolio-chksoumya.in-38bdf8?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117" alt="Portfolio"/></a>&nbsp;
+<a href="mailto:soumya.chk101@gmail.com"><img src="https://img.shields.io/badge/Email-soumya.chk101-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email"/></a>
 
 <br/><br/>
 
@@ -354,6 +516,6 @@ I work on problems at the intersection of trust, distributed systems, and media 
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,50:1e293b,100:0d1117&height=120&section=footer&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:38bdf8,100:0d1117&height=120&section=footer&animation=fadeIn" alt="footer"/>
 
 </div>
