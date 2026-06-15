@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="220" fill="none">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@800;900&amp;family=JetBrains+Mono:wght@500&amp;display=swap');
+    .title {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 900;
+      font-size: 46px;
+      fill: url(#gradient);
+      letter-spacing: 3px;
+    }
+    .subtitle {
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 500;
+      font-size: 13px;
+      fill: #94a3b8;
+      letter-spacing: 4px;
+    }
+    .grid {
+      stroke: #1e293b;
+      stroke-width: 1;
+      stroke-opacity: 0.15;
+    }
+    .accent {
+      stroke: #38bdf8;
+      stroke-width: 1.5;
+    }
+    .glow {
+      filter: url(#glow-filter);
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+    
+    <pattern id="grid-pattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" class="grid" />
+    </pattern>
+
+    <filter id="glow-filter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Grid -->
+  <rect width="100%" height="100%" fill="#0d1117" />
+  <rect width="100%" height="100%" fill="url(#grid-pattern)" />
+
+  <!-- Decorative Corner Accents -->
+  <path d="M 20 50 L 20 20 L 50 20" fill="none" class="accent" stroke-opacity="0.6"/>
+  <path d="M 780 50 L 780 20 L 750 20" fill="none" class="accent" stroke-opacity="0.6"/>
+  <path d="M 20 170 L 20 200 L 50 200" fill="none" class="accent" stroke-opacity="0.6"/>
+  <path d="M 780 170 L 780 200 L 750 200" fill="none" class="accent" stroke-opacity="0.6"/>
+
+  <!-- Subtle glowing dot or abstract accent -->
+  <circle cx="400" cy="110" r="100" fill="#7c3aed" opacity="0.08" filter="url(#glow-filter)"/>
+  <circle cx="320" cy="110" r="80" fill="#38bdf8" opacity="0.08" filter="url(#glow-filter)"/>
+
+  <!-- Content -->
+  <text x="50%" y="105" text-anchor="middle" class="title">SOUMYA CHAKRABORTY</text>
+  <text x="50%" y="145" text-anchor="middle" class="subtitle">FULL-STACK ENGINEER • AIOPS • MEDIA PROVENANCE</text>
+
+  <!-- Decorative HUD lines -->
+  <line x1="150" y1="170" x2="650" y2="170" stroke="url(#gradient)" stroke-width="1.5" stroke-opacity="0.3" />
+  <rect x="390" y="167" width="20" height="6" fill="#38bdf8" opacity="0.8" rx="2" />
+</svg>
