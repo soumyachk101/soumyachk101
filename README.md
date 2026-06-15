@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:1e293b,70:38bdf8,100:7c3aed&height=220&section=header&animation=fadeIn&fontAlignY=38&text=SOUMYA+CHAKRABORTY&fontColor=38bdf8&fontSize=42" width="100%" alt="Soumya Chakraborty"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:1e293b,80:38bdf8,100:7c3aed&height=140&section=header&animation=twinkling" width="100%" alt="header"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2800&pause=800&color=38BDF8&center=true&vCenter=true&multiline=false&width=720&height=40&lines=building+Phygital-Trace+%E2%80%94+camera+to+blockchain+media+provenance;full-stack+engineer+%7C+West+Bengal%2C+India+%F0%9F%87%AE%F0%9F%87%B3;B.Tech+CSE+%C2%B7+2nd+Year+%C2%B7+NSHM+Knowledge+Campus%2C+Durgapur;architecture+first.+code+second.+ship+always." alt="typing svg"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&multiline=false&width=560&height=32&lines=building+Phygital-Trace+%E2%80%94+camera+to+blockchain+media+provenance;full-stack+engineer+%7C+West+Bengal%2C+India;B.Tech+CSE+%C2%B7+2nd+Year+%C2%B7+NSHM;architecture+first.+code+second.+ship+always." alt="typing svg"/>
 
 <br/>
 
@@ -575,6 +575,6 @@ I work on problems at the intersection of trust, distributed systems, and media 
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:38bdf8,100:0d1117&height=120&section=footer&animation=fadeIn" alt="footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,50:7c3aed,100:0d1117&height=100&section=footer&animation=fadeIn" alt="footer"/>
 
 </div>
