@@ -386,23 +386,14 @@ Terminal-first multi-agent code review — finds bugs, patches them, scores qual
 <br/>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&stroke=0d1117&ring=38bdf8&fire=7c3aed&currStreakLabel=38bdf8&sideLabels=38bdf8&currStreakNum=38bdf8&sideNums=38bdf8&dates=94a3b8" width="49%" alt="GitHub Streak Stats"/>
-  <img src="./stats.svg" width="49%" alt="Soumya Chakraborty — GitHub Stats, A++ rank badge"/>
+  <img src="https://github-readme-stats-alpha.vercel.app/api?username=soumyachk101&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=7c3aed&text_color=94a3b8&count_private=true&include_all_commits=true&border_radius=8&v=4" height="180"/>
+  &nbsp;
+  <img src="https://github-readme-stats-alpha.vercel.app/api/top-langs?username=soumyachk101&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&langs_count=8&border_radius=8&v=4" height="180"/>
 </p>
 
-<br/>
+<br/><br/>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soumyachk101&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&border_radius=8&langs_count=8" width="40%" alt="Top Languages"/>
-</p>
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=soumyachk101&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=38bdf8&line=7c3aed&point=38bdf8&area=true&area_color=38bdf8" width="94%" alt="Activity Graph"/>
-
-<br/>
-
-<sub><sub>✦ Streak counted from daily contribution cadence &nbsp;·&nbsp; Stats card built with a custom SVG (numbers pulled from the GitHub API) &nbsp;·&nbsp; Rank is **A++** by repos shipped, not by an opaque percentile</sub></sub>
+<img src="https://streak-stats.vercel.app/?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=7c3aed&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=475569&border_radius=8&timezone=Asia%2FKolkata&v=4" width="92%"/>
 
 <br/><br/>
 
