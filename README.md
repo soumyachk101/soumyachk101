@@ -246,6 +246,74 @@ Terminal-first multi-agent code review — finds bugs, patches them, scores qual
 
 </td>
 </tr>
+
+<tr><td colspan="3" height="20"></td></tr>
+
+<tr>
+<td width="49%" valign="top">
+
+**👁️ Drishti AI**&nbsp;&nbsp;`network security · risk intelligence`
+
+Turns raw network vulnerability data into prioritized, dollar-scored risk intelligence. Maps attack paths, visualizes blast radius, and ships AI remediation.
+
+- Interactive attack graphs showing how attackers pivot
+- Prioritization by financial blast radius, EPSS, CVSS, and zone multipliers
+- Automated remediation (Ansible / bash / Terraform) with rollbacks
+- Executive summaries and kill-chain narratives via Groq
+
+<sub>`React` `Node/Express` `Three.js` `Spline` `Python` `Groq API`</sub>
+
+</td>
+<td width="2%"></td>
+<td width="49%" valign="top">
+
+**🌾 Rusk AI**&nbsp;&nbsp;`multimodal rag · tee · evidence retrieval`
+
+Private, multimodal RAG assistant that attaches cryptographically attestable receipts to generated answers for verifiable execution.
+
+- Evidence-backed retrieval with citations & verifiable sources
+- NearAI/Phala-style Trusted Execution Environment (TEE) attestation
+- Interactive multi-tenant workspace with Supabase auth
+- Production Next.js UI + FastAPI retrieval engine
+
+<sub>`Next.js` `FastAPI` `pgvector` `Supabase` `NearAI/Phala`</sub>
+
+</td>
+</tr>
+
+<tr><td colspan="3" height="20"></td></tr>
+
+<tr>
+<td width="49%" valign="top">
+
+**🎥 Stream.Tv**&nbsp;&nbsp;`video streaming · hls transcoding · monorepo`
+
+High-performance, production-grade video streaming platform. Supports adaptive bitrate streaming, background transcoding, and subscriber alerts.
+
+- FFmpeg/HLS background transcoding pipeline for adaptive bitrates
+- Progressive media uploads with real-time progress bars
+- Subscriber email notification alerts on new releases
+- Structured Next.js & Express monorepo with Prisma ORM
+
+<sub>`Next.js` `Express` `PostgreSQL` `Prisma` `FFmpeg/HLS` `Redis`</sub>
+
+</td>
+<td width="2%"></td>
+<td width="49%" valign="top">
+
+**🛣️ RoadSense AI**&nbsp;&nbsp;`iot · mobile mapping · sensor fusion`
+
+Crowdsourced road intelligence platform turning any smartphone into a passive accelerometer-based road-quality sensor detecting potholes in real time.
+
+- High-frequency 100Hz mobile sensor data capture via Kotlin
+- Noise-filtering and sensor signal processing algorithms
+- FastAPI machine learning classification: Pothole vs. Speed breaker
+- Real-time global road-quality mapping with interactive coordinates
+
+<sub>`Kotlin` `Node/Express` `FastAPI` `Prisma` `PostgreSQL` `React`</sub>
+
+</td>
+</tr>
 </table>
 
 <br/>
