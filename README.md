@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:1e293b,80:38bdf8,100:7c3aed&height=140&section=header&animation=twinkling" width="100%" alt="header"/>
+<img src="header.svg" width="100%" alt="Soumya Chakraborty — Full-Stack Engineer"/>
 
 <br/>
 
