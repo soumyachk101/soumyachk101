@@ -55,6 +55,7 @@ export const engineer = {
     "Phygital-Trace — camera-to-blockchain media provenance 🔗",
     "NexusOps    — AIOps crash resolution platform ⚙️",
     "Neeti AI     — multi-agent interview integrity layer 🛡️",
+    "TGStore      — Telegram-CDN personal cloud storage 📦",
   ],
 
   openTo: [
@@ -153,15 +154,17 @@ Camera-to-blockchain media provenance for citizen journalism. Fights fake news a
 <td width="2%"></td>
 <td width="49%" valign="top">
 
-**⚙️ NexusOps**&nbsp;&nbsp;`aiops · sre · crash resolution`
+**⚙️ NexusOps 2.0**&nbsp;&nbsp;`aiops · incident-response · rag`
 
-AIOps platform that fixes crashes using team context — not just stack traces.
+AI incident response platform — ingests Sentry/Slack/Telegram errors, recalls similar past incidents via vector memory, and opens a GitHub draft PR with the fix.
 
-- **LocalLens** — AI memory from Telegram, voice, meetings → pgvector KB
-- **SlothOps** — detects crash, queries team context, opens GitHub PR with fix + rollback guard
-- Node.js + LangChain.js + Claude Sonnet + BullMQ
+- pgvector memory engine — cosine similarity + decay/re-ranking
+- AutoFix pipeline: Groq Llama 3.3 70B, Ollama self-hosted fallback
+- PII/secret sanitizer, dangerous-pattern blocking, confidence scoring
+- Revert engine — auto-rollback on error-rate spikes (Vercel/Railway)
 
-<sub>`Node.js` `Next.js 14` `LangChain.js` `pgvector` `BullMQ` `Redis` `Claude API`</sub>
+<sub>`Node.js` `Express` `Prisma` `PostgreSQL+pgvector` `BullMQ` `Redis` `LangChain.js`</sub>
+<br/><sub>🌐 [nexusopsnode.vercel.app](https://nexusopsnode.vercel.app)</sub>
 
 </td>
 </tr>
@@ -196,6 +199,25 @@ Crowdsourced road intelligence — turns any smartphone into a passive pothole d
 - Based on original RoadSurP research paper
 
 <sub>`Kotlin` `Node/Express` `FastAPI` `Prisma` `PostgreSQL` `React`</sub>
+
+</td>
+</tr>
+
+<tr><td colspan="3" height="20"></td></tr>
+
+<tr>
+<td colspan="3" valign="top">
+
+**📦 TGStore**&nbsp;&nbsp;`self-hosted · storage · telegram-cdn`
+
+Turns a private Telegram channel into a free, unlimited personal cloud — no S3 bills, no vendor lock-in.
+
+- Bot token never touches the browser — regenerated server-side and proxied through `/stream`
+- Drag-and-drop upload, full-text trigram search, 3-level folders, soft-delete & recovery
+- Storage stats by MIME type · 6 async integration tests, Telegram mocked in CI
+
+<sub>`Next.js 14` `FastAPI` `PostgreSQL` `NextAuth v5` `Telegram Bot API`</sub>
+<br/><sub>🌐 [tg-store-rho.vercel.app](https://tg-store-rho.vercel.app)</sub>
 
 </td>
 </tr>
