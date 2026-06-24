@@ -1,31 +1,27 @@
 <div align="center">
 
-<img src="header.svg" width="100%" alt="Soumya Chakraborty — Full-Stack Engineer"/>
-
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&multiline=false&width=560&height=32&lines=building+Phygital-Trace+%E2%80%94+camera+to+blockchain+media+provenance;full-stack+engineer+%7C+West+Bengal%2C+India;B.Tech+CSE+%C2%B7+2nd+Year+%C2%B7+NSHM;architecture+first.+code+second.+ship+always." alt="typing svg"/>
+# Soumya Chakraborty
+
+<sub>Full-Stack Engineer &nbsp;·&nbsp; Builder &nbsp;·&nbsp; West Bengal, India</sub>
 
 <br/>
-
-<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="48" alt="wave"/>
-&nbsp;&nbsp;
-<a href="https://chksoumya.in"><img src="https://img.shields.io/badge/-chksoumya.in-0d1117?style=flat-square&logo=vercel&logoColor=38bdf8" alt="Portfolio"/></a>&nbsp;
-<a href="mailto:soumya.chk101@gmail.com"><img src="https://img.shields.io/badge/-soumya.chk101@gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email"/></a>&nbsp;
-<a href="https://github.com/soumyachk101"><img src="https://img.shields.io/badge/-soumyachk101-0d1117?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>&nbsp;
-<img src="https://komarev.com/ghpvc/?username=soumyachk101&style=flat-square&color=38bdf8&label=profile+views" alt="Views"/>
-&nbsp;&nbsp;
-<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="48" alt="wave"/>
 
 </div>
 
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=2800&pause=800&color=38BDF8&center=true&vCenter=true&multiline=false&width=620&height=34&lines=building+DocShift+%E2%80%94+privacy-first+browser+PDF+toolkit+%F0%9F%93%84;building+ShipOrDie+%E2%80%94+multi-agent+idea+platform+%F0%9F%9A%80;camera-to-blockchain+media+provenance+%F0%9F%94%97;architecture+first.+code+second.+ship+always." alt="typing"/>
+
 <br/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/⚡_available_for-Open_Source_Collaboration-38bdf8?style=for-the-badge&labelColor=0d1117" alt="availability"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/🔭_focus-Media_Provenance_%2B_AIOps-7c3aed?style=for-the-badge&labelColor=0d1117" alt="focus"/>
-</p>
+<a href="https://soumya.pro"><img src="https://img.shields.io/badge/-soumya.pro-0d1117?style=flat-square&logo=vercel&logoColor=38bdf8"/></a>&nbsp;
+<a href="mailto:soumya.chk101@gmail.com"><img src="https://img.shields.io/badge/-soumya.chk101@gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335"/></a>&nbsp;
+<a href="https://github.com/soumyachk101"><img src="https://img.shields.io/badge/-soumyachk101-0d1117?style=flat-square&logo=github&logoColor=white"/></a>&nbsp;
+<img src="https://komarev.com/ghpvc/?username=soumyachk101&style=flat-square&color=38bdf8&label=profile+views"/>
+
+</div>
 
 <br/>
 
@@ -35,7 +31,7 @@
 
 <table width="100%" border="0">
 <tr>
-<td width="55%" valign="top">
+<td width="56%" valign="top">
 
 ```typescript
 // identity.ts — 2026
@@ -44,7 +40,7 @@ export const engineer = {
   name:     "Soumya Chakraborty",
   role:     "Full-Stack Engineer",
   base:     "West Bengal, India 🇮🇳",
-  status:   "B.Tech CSE · 2nd Year",
+  status:   "B.Tech CSE · 3rd Year",
 
   principles: [
     "you can't design what you don't understand",
@@ -53,17 +49,17 @@ export const engineer = {
     "the best abstraction is the one you don't write",
   ],
 
-  obsessions: [
-    "distributed systems & eventual consistency",
-    "media provenance & trustless verification",
-    "AI-native developer tooling",
-    "making complex systems feel simple",
+  majorProjects: [
+    "DocShift     — privacy-first browser PDF toolkit 📄",
+    "ShipOrDie    — multi-agent micro-saas idea platform 🚀",
+    "Phygital-Trace — camera-to-blockchain media provenance 🔗",
+    "NexusOps    — AIOps crash resolution platform ⚙️",
+    "Neeti AI     — multi-agent interview integrity layer 🛡️",
   ],
 
-  currentlyBuilding: "Phygital-Trace 🔗",
   openTo: [
-    "meaningful open-source work",
-    "real product collaborations",
+    "meaningful open-source collaboration",
+    "real product builds",
     "architecture conversations",
   ],
 } as const;
@@ -71,15 +67,17 @@ export const engineer = {
 
 </td>
 <td width="4%"></td>
-<td width="41%" valign="top" align="center">
+<td width="40%" valign="top" align="center">
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="330" alt="developer"/>
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="300" alt="developer gif"/>
 
 <br/><br/>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="330" alt="code"/>
+<img src="https://img.shields.io/badge/⚡_open_to-Open_Source_Collab-38bdf8?style=for-the-badge&labelColor=0d1117"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/🔭_focus-SaaS_%2B_AI_Tooling-7c3aed?style=for-the-badge&labelColor=0d1117"/>
 
 </td>
 </tr>
@@ -87,91 +85,11 @@ export const engineer = {
 
 <br/>
 
-<br/>
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="220" alt="workflow"/>
-
-## ⚙️ &nbsp; How I Ship — Dev Workflow in Motion
-
-</div>
-
-<br/>
-
-<table width="100%" border="0">
-<tr>
-<td width="24%" align="center" valign="top">
-
-<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="100" alt="01"/>
-
-<br/>
-
-**`01 — Domain Map`**
-
-Read RFCs, model entities, sketch data flow *before* `npm init`.
-
-</td>
-<td width="1%"></td>
-<td width="24%" align="center" valign="top">
-
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100" alt="02"/>
-
-<br/>
-
-**`02 — Architect`**
-
-Schema → contracts → boundaries. Make the hard decisions early.
-
-</td>
-<td width="1%"></td>
-<td width="24%" align="center" valign="top">
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100" alt="03"/>
-
-<br/>
-
-**`03 — Build`**
-
-Vertical slices, real data, working endpoints before polish.
-
-</td>
-<td width="1%"></td>
-<td width="24%" align="center" valign="top">
-
-<img src="https://user-images.githubusercontent.com/74038190/219923823-bf1ce878-c6b8-4faa-be07-93e6b1006521.gif" width="100" alt="04"/>
-
-<br/>
-
-**`04 — Ship & Iterate`**
-
-Deploy, measure, learn. Real users > imagined edge cases.
-
-</td>
-</tr>
-</table>
+---
 
 <br/>
 
 <div align="center">
-
-```
-   ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐
-   │  IDEATE  │───▶│  DESIGN  │───▶│  BUILD   │───▶│   TEST   │───▶│   SHIP   │
-   └──────────┘    └──────────┘    └──────────┘    └──────────┘    └──────────┘
-        ▲                                                              │
-        └──────────────── iterate with real feedback ◀─────────────────┘
-```
-
-</div>
-
-<br/>
-
-<br/>
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" width="200" alt="projects"/>
 
 ## 🚀 &nbsp; Projects
 
@@ -183,9 +101,45 @@ Deploy, measure, learn. Real users > imagined edge cases.
 <tr>
 <td width="49%" valign="top">
 
+**📄 DocShift**&nbsp;&nbsp;`saas · pdf · privacy-first`
+
+30+ free browser-based PDF tools — zero uploads, zero servers, zero data leaving your machine.
+
+- Runs entirely in-browser via WebAssembly
+- Merge, split, compress, convert, watermark and more
+- Privacy-first: files never leave the client
+- SEO-optimized with Google Search Console integration
+
+<sub>`React` `Vite` `TypeScript` `pdf-lib` `WebAssembly`</sub>
+<br/><sub>🌐 [docshift.tech](https://docshift.tech)</sub>
+
+</td>
+<td width="2%"></td>
+<td width="49%" valign="top">
+
+**🚀 ShipOrDie**&nbsp;&nbsp;`micro-saas · multi-agent · ai`
+
+Multi-agent idea generation platform for founders and indie hackers. Validates, scores, and builds on your ideas — with an AI Resume Builder baked in.
+
+- LangGraph multi-agent idea validation pipeline
+- Resume Builder with ATS optimization
+- Next.js 14 + FastAPI + ChromaDB + PostgreSQL
+- Razorpay-integrated subscription billing
+
+<sub>`Next.js 14` `FastAPI` `LangGraph` `ChromaDB` `Redis` `Razorpay`</sub>
+<br/><sub>🌐 [shipordie.ai](https://shipordie.ai)</sub>
+
+</td>
+</tr>
+
+<tr><td colspan="3" height="20"></td></tr>
+
+<tr>
+<td width="49%" valign="top">
+
 **🔗 Phygital-Trace**&nbsp;&nbsp;`media · blockchain · provenance`
 
-Camera to blockchain media provenance for citizen journalism. Built to solve fake news at the capture layer, not the distribution layer.
+Camera-to-blockchain media provenance for citizen journalism. Fights fake news at the capture layer, not the distribution layer.
 
 - `pHash` + `PRNU` hardware fingerprinting at capture
 - Steganographic watermarking — invisible, irremovable
@@ -205,8 +159,9 @@ AIOps platform that fixes crashes using team context — not just stack traces.
 
 - **LocalLens** — AI memory from Telegram, voice, meetings → pgvector KB
 - **SlothOps** — detects crash, queries team context, opens GitHub PR with fix + rollback guard
+- Node.js + LangChain.js + Claude Sonnet + BullMQ
 
-<sub>`FastAPI` `Next.js 14` `pgvector` `Celery` `Redis` `Claude API`</sub>
+<sub>`Node.js` `Next.js 14` `LangChain.js` `pgvector` `BullMQ` `Redis` `Claude API`</sub>
 
 </td>
 </tr>
@@ -223,7 +178,6 @@ Five AI agents evaluating candidates in real-time. Not a proctoring tool — an 
 - WebRTC proctoring + Monaco code editor
 - 5 parallel AI evaluation agents
 - Proprietary Trust Score algorithm
-- Forensic hiring report per candidate
 - `pyannote` voice identity verification
 
 <sub>`Node/Express` `MongoDB` `Bull` `Socket.IO` `MediaPipe` `React 19`</sub>
@@ -232,83 +186,14 @@ Five AI agents evaluating candidates in real-time. Not a proctoring tool — an 
 <td width="2%"></td>
 <td width="49%" valign="top">
 
-**🛠️ FiXr**&nbsp;&nbsp;`cli · multi-agent · code intelligence`
+**🛣️ RoadSense AI**&nbsp;&nbsp;`iot · mobile · sensor fusion`
 
-Terminal-first multi-agent code review — finds bugs, patches them, scores quality, audits security in one pass.
+Crowdsourced road intelligence — turns any smartphone into a passive pothole detector.
 
-- Bug Detective → Bug Fixer → Code Quality → Security Auditor pipeline
-- OWASP Top 10 aligned security scanning with `--fix` auto-patch
-- Exponential backoff + rate-limit handling in the API layer
-- Git pre-commit + GitHub Actions CI integration built in
-- 9 languages: TS, JS, Python, Go, Java, C/C++, Rust, Ruby, PHP
-
-<sub>`TypeScript` `Node.js` `Commander.js` `Groq` `Claude API`</sub>
-
-</td>
-</tr>
-
-<tr><td colspan="3" height="20"></td></tr>
-
-<tr>
-<td width="49%" valign="top">
-
-**👁️ Drishti AI**&nbsp;&nbsp;`network security · risk intelligence`
-
-Turns raw network vulnerability data into prioritized, dollar-scored risk intelligence. Maps attack paths, visualizes blast radius, and ships AI remediation.
-
-- Interactive attack graphs showing how attackers pivot
-- Prioritization by financial blast radius, EPSS, CVSS, and zone multipliers
-- Automated remediation (Ansible / bash / Terraform) with rollbacks
-- Executive summaries and kill-chain narratives via Groq
-
-<sub>`React` `Node/Express` `Three.js` `Spline` `Python` `Groq API`</sub>
-
-</td>
-<td width="2%"></td>
-<td width="49%" valign="top">
-
-**🌾 Rusk AI**&nbsp;&nbsp;`multimodal rag · tee · evidence retrieval`
-
-Private, multimodal RAG assistant that attaches cryptographically attestable receipts to generated answers for verifiable execution.
-
-- Evidence-backed retrieval with citations & verifiable sources
-- NearAI/Phala-style Trusted Execution Environment (TEE) attestation
-- Interactive multi-tenant workspace with Supabase auth
-- Production Next.js UI + FastAPI retrieval engine
-
-<sub>`Next.js` `FastAPI` `pgvector` `Supabase` `NearAI/Phala`</sub>
-
-</td>
-</tr>
-
-<tr><td colspan="3" height="20"></td></tr>
-
-<tr>
-<td width="49%" valign="top">
-
-**🎥 Stream.Tv**&nbsp;&nbsp;`video streaming · hls transcoding · monorepo`
-
-High-performance, production-grade video streaming platform. Supports adaptive bitrate streaming, background transcoding, and subscriber alerts.
-
-- FFmpeg/HLS background transcoding pipeline for adaptive bitrates
-- Progressive media uploads with real-time progress bars
-- Subscriber email notification alerts on new releases
-- Structured Next.js & Express monorepo with Prisma ORM
-
-<sub>`Next.js` `Express` `PostgreSQL` `Prisma` `FFmpeg/HLS` `Redis`</sub>
-
-</td>
-<td width="2%"></td>
-<td width="49%" valign="top">
-
-**🛣️ RoadSense AI**&nbsp;&nbsp;`iot · mobile mapping · sensor fusion`
-
-Crowdsourced road intelligence platform turning any smartphone into a passive accelerometer-based road-quality sensor detecting potholes in real time.
-
-- High-frequency 100Hz mobile sensor data capture via Kotlin
-- Noise-filtering and sensor signal processing algorithms
-- FastAPI machine learning classification: Pothole vs. Speed breaker
-- Real-time global road-quality mapping with interactive coordinates
+- High-frequency 100Hz mobile sensor capture via Kotlin
+- FastAPI ML classification: Pothole vs. Speed breaker
+- Real-time global road-quality mapping with coordinates
+- Based on original RoadSurP research paper
 
 <sub>`Kotlin` `Node/Express` `FastAPI` `Prisma` `PostgreSQL` `React`</sub>
 
@@ -318,80 +203,7 @@ Crowdsourced road intelligence platform turning any smartphone into a passive ac
 
 <br/>
 
-<br/>
-
-<div align="center">
-
-### 🔄 &nbsp; Live Project Workflows
-
-</div>
-
-<br/>
-
-<table width="100%" border="0">
-<tr>
-<td width="50%" align="center" valign="top">
-
-**`Phygital-Trace — Capture → Hash → Sign → Chain`**
-
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%" alt="phygital workflow"/>
-
-```
-📷 capture → 🔐 pHash+PRNU → 🧬 stego-watermark
-                  ↓
-            ⛓️  Solidity anchor
-                  ↓
-            🌐 IPFS pin → audit trail
-```
-
-</td>
-<td width="50%" align="center" valign="top">
-
-**`NexusOps — Crash → Context → PR`**
-
-<img src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" width="100%" alt="nexusops workflow"/>
-
-```
-💥 crash detected
-      ↓
-🧠 LocalLens RAG query
-      ↓
-🤖 Claude generates patch
-      ↓
-🔁 opens PR + rollback guard
-```
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<br/>
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="260" alt="lab"/>
-
-<br/>
-
-## 🔬 &nbsp; Currently in the Lab
-
-<br/>
-
-| | |
-|:---|:---|
-| **Phygital-Trace** 6-part arch upgrade | pHash + PRNU + steganography + C2PA + Gemini forensics |
-| **Local LLMs** on bare metal | Ollama + Llama 3.2 / Qwen 2.5 Coder on M5 MacBook Air |
-| **Claude Code doc pipelines** | PRD → TRD → Backend → DB → AI Instructions as first-class artifacts |
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=12&duration=3000&pause=600&color=7C3AED&center=true&vCenter=true&multiline=true&width=600&height=60&lines=experimenting+with+on-device+inference;building+trust+at+the+capture+layer;designing+for+failure+before+success" alt="lab typing"/>
-
-</div>
-
-<br/>
+---
 
 <br/>
 
@@ -401,7 +213,7 @@ Crowdsourced road intelligence platform turning any smartphone into a passive ac
 
 <div align="center">
 
-<table border="0" width="94%">
+<table border="0" width="96%">
 <tr>
 <td align="center" valign="top" width="50%">
 
@@ -409,6 +221,7 @@ Crowdsourced road intelligence platform turning any smartphone into a passive ac
 
 <img src="https://skillicons.dev/icons?i=ts,js,python,c,html,css&theme=dark&perline=6"/>
 
+<br/>
 <sub>TypeScript first. Python when it makes sense. C when the machine matters.</sub>
 
 <br/><br/>
@@ -417,6 +230,7 @@ Crowdsourced road intelligence platform turning any smartphone into a passive ac
 
 <img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,vite,figma&theme=dark&perline=5"/>
 
+<br/>
 <sub>Next.js 14 App Router is home base. Tailwind for velocity, Figma to think first.</sub>
 
 </td>
@@ -425,17 +239,19 @@ Crowdsourced road intelligence platform turning any smartphone into a passive ac
 
 **Backend & Data**
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,django,fastapi,mongodb,postgres,redis&theme=dark&perline=7"/>
+<img src="https://skillicons.dev/icons?i=nodejs,fastapi,express,mongodb,postgres,redis&theme=dark&perline=6"/>
 
+<br/>
 <sub>FastAPI + PostgreSQL for serious work. Redis when latency counts.</sub>
 
 <br/><br/>
 
-**Infrastructure**
+**Infrastructure & AI**
 
-<img src="https://skillicons.dev/icons?i=docker,aws,gcp,github,git,linux&theme=dark&perline=6"/>
+<img src="https://skillicons.dev/icons?i=docker,aws,gcp,git,linux,github&theme=dark&perline=6"/>
 
-<sub>Docker always. Railway for fast deploys. Don't fear the terminal.</sub>
+<br/>
+<sub>Docker always. Railway for fast deploys. LangChain / LangGraph for agent pipelines.</sub>
 
 </td>
 </tr>
@@ -445,6 +261,8 @@ Crowdsourced road intelligence platform turning any smartphone into a passive ac
 
 <br/>
 
+---
+
 <br/>
 
 <div align="center">
@@ -453,31 +271,56 @@ Crowdsourced road intelligence platform turning any smartphone into a passive ac
 
 <br/>
 
-<p align="center">
-  <img src="https://github-readme-stats-alpha.vercel.app/api?username=soumyachk101&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=7c3aed&text_color=94a3b8&count_private=true&include_all_commits=true&border_radius=8&v=4" height="180"/>
-  &nbsp;
-  <img src="https://github-readme-stats-alpha.vercel.app/api/top-langs?username=soumyachk101&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&langs_count=8&border_radius=8&v=4" height="180"/>
-</p>
+<img src="https://github-readme-stats-alpha.vercel.app/api?username=soumyachk101&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=7c3aed&text_color=94a3b8&count_private=true&include_all_commits=true&border_radius=8&v=5" height="175"/>
+&nbsp;
+<img src="https://github-readme-stats-alpha.vercel.app/api/top-langs?username=soumyachk101&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8&langs_count=8&border_radius=8&v=5" height="175"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.vercel.app/?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=7c3aed&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=475569&border_radius=8&timezone=Asia%2FKolkata&v=4" width="92%"/>
-
-<br/><br/>
+<img src="https://streak-stats.vercel.app/?user=soumyachk101&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=7c3aed&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=475569&border_radius=8&timezone=Asia%2FKolkata&v=5" width="88%"/>
 
 </div>
+
+<br/>
+
+---
+
+<br/>
+
+## 🏁 &nbsp; Hackathons
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="360" alt="thinking"/>
+<br/>
+
+| Event | Track | Venue |
+|:---|:---|:---|
+| **Tradition Hacks 2026** | Miro Meetups Kolkata | Kolkata, 2026 |
+| **TEKATHON 2K26** | Tech innovation | shipped a product, not a prototype |
+| **Code for Change 2.0** | Social impact | IEEE Kolkata + CNCF Durgapur · April 2026 |
+| **HackTropica 2K26** | Open track | 36hr sprint · Asansol Engineering College |
 
 <br/>
 
-## 🧠 &nbsp; How I Think
+<sub>4 sprints &nbsp;·&nbsp; 150+ hours of constrained building &nbsp;·&nbsp; the constraint is the feature</sub>
 
 </div>
 
 <br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="260" alt="thinking"/>
+
+## 🧠 &nbsp; How I Think
+
+<br/>
+
+</div>
 
 <table border="0" width="100%">
 <tr>
@@ -506,7 +349,7 @@ Prod teaches what no local env can. An imperfect v1 beats a perfect version that
 
 **`04 — Own It`**
 
-Frameworks are tools. Read the source. Know why something works, not just that it does.
+Frameworks are tools. Read the source. Know *why* something works, not just that it does.
 
 </td>
 </tr>
@@ -514,67 +357,38 @@ Frameworks are tools. Read the source. Know why something works, not just that i
 
 <br/>
 
-<br/>
-
-## 🏁 &nbsp; Hackathons
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212750672-2f3f2b50-c84f-4ed8-a60a-849ae69ff9df.gif" width="380" alt="hackathons"/>
-
-<br/>
-
-| Event | |
-|:---|:---|
-| **HackTropica 2K26** | 36hr sprint · Asansol Engineering College |
-| **Code for Change 2.0** | Social impact track · IEEE Kolkata + CNCF Durgapur · April 2026 |
-| **TEKATHON 2K26** | Tech innovation track · shipped a product, not a prototype |
-
-<sub>3 sprints &nbsp;·&nbsp; 100+ hours of constrained building &nbsp;·&nbsp; the constraint is the feature</sub>
-
-</div>
-
-<br/>
+---
 
 <br/>
 
 <div align="center">
 
-### 🛠️ &nbsp; Daily Driver Workflow
+---
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="92%" alt="daily workflow"/>
-
-</div>
-
-<br/>
-
-<br/>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=9999&color=38BDF8&center=true&vCenter=true&width=700&lines=building+something+hard%3F+let%27s+talk." alt="cta"/>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="220" alt="cta decoration"/>
-
-<br/>
-
-I work on problems at the intersection of trust, distributed systems, and media —<br/>technically hard and actually worth solving.
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="400" alt="connect gif"/>
 
 <br/><br/>
 
-<a href="https://chksoumya.in"><img src="https://img.shields.io/badge/Portfolio-chksoumya.in-38bdf8?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117" alt="Portfolio"/></a>&nbsp;
-<a href="mailto:soumya.chk101@gmail.com"><img src="https://img.shields.io/badge/Email-soumya.chk101-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email"/></a>
-
-<br/><br/>
-
-<sub>📍 West Bengal, India &nbsp;·&nbsp; UTC+5:30</sub>
+### `// let's build something that matters`
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,50:7c3aed,100:0d1117&height=100&section=footer&animation=fadeIn" alt="footer"/>
+<p>Problems worth solving — trust, distributed systems, AI tooling.<br/>If that sounds like your work too, reach out.</p>
+
+<br/>
+
+<a href="https://soumya.pro"><img src="https://img.shields.io/badge/Portfolio-soumya.pro-38bdf8?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117"/></a>&nbsp;&nbsp;
+<a href="mailto:soumya.chk101@gmail.com"><img src="https://img.shields.io/badge/Email-soumya.chk101-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/></a>&nbsp;&nbsp;
+<a href="https://github.com/soumyachk101"><img src="https://img.shields.io/badge/GitHub-soumyachk101-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/></a>
+
+<br/><br/>
+
+<sub>📍 West Bengal, India &nbsp;·&nbsp; UTC+5:30 &nbsp;·&nbsp; B.Tech CSE · 3rd Year</sub>
+
+<br/>
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,40:7c3aed,80:1e1b4b,100:0d1117&height=120&section=footer" width="100%"/>
