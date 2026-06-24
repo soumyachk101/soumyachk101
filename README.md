@@ -217,7 +217,7 @@ Turns a private Telegram channel into a free, unlimited personal cloud — no S3
 - Storage stats by MIME type · 6 async integration tests, Telegram mocked in CI
 
 <sub>`Next.js 14` `FastAPI` `PostgreSQL` `NextAuth v5` `Telegram Bot API`</sub>
-<br/><sub>🌐 [tg-store-rho.vercel.app](https://tg-store-rho.vercel.app)</sub>
+<br/><sub>🌐 [tg-store-rho.vercel.app](https://tgstorev1.vercel.app)</sub>
 
 </td>
 </tr>
