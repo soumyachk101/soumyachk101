@@ -1,12 +1,12 @@
 <!-- ─────────────────────────────────────────────────────────────
      soumyachk101 · profile README
      theme: github-dark terminal · accent #7ee787 (contribution green)
-     local assets: header.svg · divider.svg (repo root)
+     local assets: terminal-header.svg · divider.svg (repo root)
 ────────────────────────────────────────────────────────────── -->
 
 <div align="center">
 
-<img src="header.svg" width="100%" alt="soumya chakraborty — full-stack engineer · builder"/>
+<img src="terminal-header.svg" width="100%" alt="Soumya Chakraborty — full-stack engineer · builder"/>
 
 <br/><br/>
 
