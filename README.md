@@ -1,13 +1,12 @@
 <!-- ─────────────────────────────────────────────────────────────
      soumyachk101 · profile README
      theme: github-dark terminal · accent #7ee787 (contribution green)
+     local assets: header.svg · divider.svg (repo root)
 ────────────────────────────────────────────────────────────── -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0d1117,50:161b22,100:0d1117&text=soumya%20chakraborty&fontColor=e6edf3&fontSize=44&fontAlignY=35&desc=full-stack%20engineer%20%C2%B7%20builder%20%C2%B7%20west%20bengal%2C%20india&descSize=15&descAlignY=55&animation=fadeIn" alt="header"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=2800&pause=1600&color=7EE787&center=true&vCenter=true&multiline=false&width=640&height=30&lines=building+DocShift+%E2%80%94+privacy-first+browser+PDF+toolkit;building+ShipOrDie+%E2%80%94+multi-agent+idea+platform;camera-to-blockchain+media+provenance;architecture+first.+code+second.+ship+always." alt="typing"/>
+<img src="header.svg" width="100%" alt="soumya chakraborty — full-stack engineer · builder"/>
 
 <br/><br/>
 
@@ -16,9 +15,11 @@
 <a href="https://github.com/soumyachk101"><img src="https://img.shields.io/badge/-soumyachk101-0d1117?style=flat-square&logo=github&logoColor=c9d1d9" alt="github"/></a>&nbsp;
 <img src="https://komarev.com/ghpvc/?username=soumyachk101&style=flat-square&color=7ee787&label=views" alt="views"/>
 
-</div>
+<br/><br/>
 
-<br/>
+<img src="divider.svg" width="100%" alt=""/>
+
+</div>
 
 ## <samp>$ whoami</samp>
 
@@ -54,17 +55,25 @@ I map the domain before opening the IDE, model the data before writing the API, 
 <td width="4%"></td>
 <td width="36%" valign="middle" align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" width="230" alt="dev gif"/>
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300" alt="workspace gif"/>
+
+<br/><br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="34" alt="chai"/>
 
 <br/>
 
-<sub><samp>// always moving forward</samp></sub>
+<sub><samp>// fueled by chai · always moving forward</samp></sub>
 
 </td>
 </tr>
 </table>
 
-## <samp>$ ls ~/projects</samp>
+<div align="center">
+<img src="divider.svg" width="100%" alt=""/>
+</div>
+
+## <samp>$ ls ~/projects</samp>&ensp;<img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="26" alt="bullseye"/>
 
 <table width="100%" border="0">
 <tr>
@@ -182,6 +191,10 @@ Turns a private Telegram channel into a free, unlimited personal cloud. No S3 bi
 </tr>
 </table>
 
+<div align="center">
+<img src="divider.svg" width="100%" alt=""/>
+</div>
+
 ## <samp>$ cat stack.json</samp>
 
 <table border="0" width="100%">
@@ -224,6 +237,10 @@ Turns a private Telegram channel into a free, unlimited personal cloud. No S3 bi
 </tr>
 </table>
 
+<div align="center">
+<img src="divider.svg" width="100%" alt=""/>
+</div>
+
 ## <samp>$ git log --stat</samp>
 
 <div align="center">
@@ -240,22 +257,23 @@ Turns a private Telegram channel into a free, unlimited personal cloud. No S3 bi
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=soumyachk101&bg_color=0d1117&color=8b949e&line=7ee787&point=c9d1d9&area=true&area_color=7ee787&hide_border=true&radius=6&custom_title=contribution%20activity" width="92%" alt="activity graph"/>
 
-<br/><br/>
-
-
-
 </div>
 
 <!-- ─────────────────────────────────────────────────────────────
-optional upgrade: animated contribution snake
-1) add the Platane/snk GitHub Action to this repo (soumyachk101/soumyachk101)
-2) then uncomment:
+contribution snake — workflow file is at .github/workflows/snake.yml
+after the action runs once (Actions tab → "generate contribution snake"
+→ Run workflow), uncomment this block:
+
 <div align="center">
 <img src="https://raw.githubusercontent.com/soumyachk101/soumyachk101/output/github-contribution-grid-snake-dark.svg" alt="snake"/>
 </div>
 ────────────────────────────────────────────────────────────── -->
 
-## <samp>$ cat hackathons.md</samp>
+<div align="center">
+<img src="divider.svg" width="100%" alt=""/>
+</div>
+
+## <samp>$ cat hackathons.md</samp>&ensp;<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="26" alt="fire"/>
 
 <div align="center">
 
@@ -268,6 +286,10 @@ optional upgrade: animated contribution snake
 
 <sub><samp>4 sprints · 150+ hours of constrained building · the constraint is the feature</samp></sub>
 
+</div>
+
+<div align="center">
+<img src="divider.svg" width="100%" alt=""/>
 </div>
 
 ## <samp>$ cat philosophy.md</samp>
@@ -329,9 +351,25 @@ Frameworks are tools. Know why something works, not just that it does.
 </tr>
 </table>
 
+## <samp>$ fortune</samp>
+
+<div align="center">
+
+<img src="https://readme-jokes.vercel.app/api?hideBorder&bgColor=%230d1117&qColor=%237ee787&aColor=%23c9d1d9&textColor=%238b949e&codeColor=%237ee787" alt="random dev joke"/>
+
+<br/>
+
+<sub><samp>// a fresh dev joke on every visit</samp></sub>
+
+</div>
+
 <br/>
 
 <div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212749695-a6817c5a-a794-462b-afca-1b5ce7dd5e63.gif" width="280" alt="let's do it"/>
+
+<br/><br/>
 
 <samp>// let's build something that matters</samp>
 
@@ -345,6 +383,12 @@ Frameworks are tools. Know why something works, not just that it does.
 
 <sub><samp>west bengal, india · UTC+5:30 · b.tech cse · 3rd year</samp></sub>
 
-</div>
+<br/><br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:0d1117,100:161b22&section=footer" alt="footer"/>
+<img src="divider.svg" width="100%" alt=""/>
+
+<br/><br/>
+
+<sub><samp>soumya@github:~$ exit</samp></sub>
+
+</div>
