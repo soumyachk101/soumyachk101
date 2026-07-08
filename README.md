@@ -31,14 +31,15 @@
 
 <br/><br/>
 
-I map the domain before opening the IDE, model the data before writing the API, and ship the imperfect v1 before it gets precious. Six products in flight, four hackathons deep.
+I map the domain before opening the IDE, model the data before writing the API, and ship the imperfect v1 before it gets precious. Seven products in flight, four hackathons deep.
 
 > <samp>the best abstraction is the one you don't write.</samp>
 
 <samp>NOW</samp>
 
 - 🟢 **DocShift** — 30+ in-browser PDF tools, zero uploads
-- 🟢 **ShipOrDie** — multi-agent idea validation for founders
+- 🟢 **TGStore** — turns a Telegram channel into unlimited free cloud storage
+- 🟢 **FiXr** — multi-agent CLI that catches bugs before you commit
 - 🟡 **Phygital-Trace** — camera-to-blockchain media provenance
 
 <sub><samp>…full grid below ↓</samp></sub>
@@ -92,6 +93,46 @@ I map the domain before opening the IDE, model the data before writing the API, 
 `React` `Vite` `TypeScript` `pdf-lib` `Wasm`
 
 <a href="https://docshift.tech"><img src="https://img.shields.io/badge/-docshift.tech_%E2%86%97-161b22?style=flat-square&logo=googlechrome&logoColor=7ee787" alt="visit docshift"/></a>
+
+</td>
+<td width="2%"></td>
+<td width="49%" valign="top">
+
+<samp>self-hosted · storage · telegram-cdn</samp>
+
+### TGStore&ensp;<img src="https://img.shields.io/badge/-live-238636?style=flat-square" alt="live"/>
+
+Turns a private Telegram channel into a free, unlimited personal cloud. No S3 bills, no vendor lock-in.
+
+- → bot token never touches the browser — server-side proxied
+- → drag-and-drop, full-text search, 3-level folders, soft-delete
+- → 6 async integration tests, Telegram mocked in CI
+
+`Next.js 14` `FastAPI` `PostgreSQL` `NextAuth v5` `Telegram Bot API`
+
+<a href="https://tgstorev1.vercel.app"><img src="https://img.shields.io/badge/-tgstorev1.vercel.app_%E2%86%97-161b22?style=flat-square&logo=googlechrome&logoColor=7ee787" alt="visit tgstore"/></a>
+
+</td>
+</tr>
+
+<tr><td colspan="3" height="14"></td></tr>
+
+<tr>
+<td width="49%" valign="top">
+
+<samp>dev-tools · multi-agent · cli</samp>
+
+### FiXr&ensp;<img src="https://img.shields.io/badge/-live-238636?style=flat-square" alt="live"/>
+
+A multi-agent CLI that reviews your code before you commit it — bugs, fixes, quality and security in one pass.
+
+- → 4-agent pipeline: bug detective, auto-fixer, quality reviewer, security auditor
+- → git hook + GitHub Actions integration, rate-limited by design
+- → project config resolved via cosmiconfig, zero setup to try
+
+`TypeScript` `Node.js` `CLI`
+
+<a href="https://github.com/soumyachk101/FiXr"><img src="https://img.shields.io/badge/-github.com/FiXr_%E2%86%97-161b22?style=flat-square&logo=github&logoColor=7ee787" alt="visit fixr"/></a>
 
 </td>
 <td width="2%"></td>
@@ -155,7 +196,7 @@ AI incident response — ingests Sentry/Slack errors, recalls past incidents, op
 <tr><td colspan="3" height="14"></td></tr>
 
 <tr>
-<td width="49%" valign="top">
+<td colspan="3" valign="top">
 
 <samp>interview-integrity · multi-agent</samp>
 
@@ -168,24 +209,6 @@ Five AI agents evaluating candidates in real-time. Not a proctoring tool — an 
 - → pyannote voice identity verification
 
 `Node/Express` `MongoDB` `Bull` `Socket.IO` `MediaPipe` `React 19`
-
-</td>
-<td width="2%"></td>
-<td width="49%" valign="top">
-
-<samp>self-hosted · storage · telegram-cdn</samp>
-
-### TGStore&ensp;<img src="https://img.shields.io/badge/-live-238636?style=flat-square" alt="live"/>
-
-Turns a private Telegram channel into a free, unlimited personal cloud. No S3 bills, no vendor lock-in.
-
-- → bot token never touches the browser — server-side proxied
-- → drag-and-drop, full-text search, 3-level folders, soft-delete
-- → 6 async integration tests, Telegram mocked in CI
-
-`Next.js 14` `FastAPI` `PostgreSQL` `NextAuth v5` `Telegram Bot API`
-
-<a href="https://tgstorev1.vercel.app"><img src="https://img.shields.io/badge/-tgstorev1.vercel.app_%E2%86%97-161b22?style=flat-square&logo=googlechrome&logoColor=7ee787" alt="visit tgstore"/></a>
 
 </td>
 </tr>
