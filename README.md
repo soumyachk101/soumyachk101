@@ -31,7 +31,7 @@
 
 <br/><br/>
 
-I map the domain before opening the IDE, model the data before writing the API, and ship the imperfect v1 before it gets precious. Seven products in flight, four hackathons deep.
+I map the domain before opening the IDE, model the data before writing the API, and ship the imperfect v1 before it gets precious. Eight products in flight, five hackathons deep.
 
 > <samp>the best abstraction is the one you don't write.</samp>
 
@@ -196,7 +196,7 @@ AI incident response — ingests Sentry/Slack errors, recalls past incidents, op
 <tr><td colspan="3" height="14"></td></tr>
 
 <tr>
-<td colspan="3" valign="top">
+<td width="49%" valign="top">
 
 <samp>interview-integrity · multi-agent</samp>
 
@@ -209,6 +209,24 @@ Five AI agents evaluating candidates in real-time. Not a proctoring tool — an 
 - → pyannote voice identity verification
 
 `Node/Express` `MongoDB` `Bull` `Socket.IO` `MediaPipe` `React 19`
+
+</td>
+<td width="2%"></td>
+<td width="49%" valign="top">
+
+<samp>cybersecurity · attack-graphs · hackathon</samp>
+
+### DRISHTI&ensp;<img src="https://img.shields.io/badge/-hackathon_build-8957e5?style=flat-square" alt="hackathon build"/>
+
+AI-powered network security platform that tells blue teams what to fix first. Built in 30 hours at Citadel Hackathon 1.0.
+
+- → maps your network as a live terrain graph of real attack paths
+- → ranks vulnerable nodes by actual dollar impact, not just CVSS
+- → suggests fixes and recalculates risk after every patch
+
+<!-- apna tech stack yahan daalo — format: `Next.js` `FastAPI` `Neo4j` -->
+
+<a href="https://lnkd.in/dY9UuKN8"><img src="https://img.shields.io/badge/-youtube_demo_%E2%86%97-161b22?style=flat-square&logo=youtube&logoColor=7ee787" alt="watch demo"/></a>
 
 </td>
 </tr>
@@ -306,8 +324,9 @@ after the action runs once (Actions tab → "generate contribution snake"
 | **TEKATHON 2K26** | tech innovation · shipped a product, not a prototype | 2026 |
 | **Code for Change 2.0** | social impact · IEEE Kolkata × CNCF Durgapur | Apr 2026 |
 | **HackTropica 2K26** | open track · 36hr sprint · Asansol | 2026 |
+| **Citadel Hackathon 1.0** | cybersecurity · built DRISHTI — attack-path mapping with real dollar impact · 30hr sprint | Jul 2026 |
 
-<sub><samp>4 sprints · 150+ hours of constrained building · the constraint is the feature</samp></sub>
+<sub><samp>5 sprints · 180+ hours of constrained building · the constraint is the feature</samp></sub>
 
 </div>
 
