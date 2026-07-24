@@ -73,7 +73,7 @@
 
   <!-- output line -->
   <text x="88" y="266" font-size="15" textLength="646" opacity="0">
-    <tspan fill="#484f58">→ </tspan><tspan fill="#c9d1d9">6 products in flight · architecture first. code second. </tspan><tspan fill="#7ee787" font-weight="700">ship always.</tspan>
+    <tspan fill="#484f58">→ </tspan><tspan fill="#c9d1d9">9 products in flight · architecture first. code second. </tspan><tspan fill="#7ee787" font-weight="700">ship always.</tspan>
     <animate attributeName="opacity" to="1" dur="0.45s" begin="4s" fill="freeze"/>
   </text>
 
