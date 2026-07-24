@@ -31,7 +31,7 @@
 
 <br/><br/>
 
-I map the domain before opening the IDE, model the data before writing the API, and ship the imperfect v1 before it gets precious. Eight products in flight, five hackathons deep.
+I map the domain before opening the IDE, model the data before writing the API, and ship the imperfect v1 before it gets precious. Nine products in flight, five hackathons deep.
 
 > <samp>the best abstraction is the one you don't write.</samp>
 
@@ -227,6 +227,28 @@ AI-powered network security platform that tells blue teams what to fix first. Bu
 <!-- apna tech stack yahan daalo — format: `Next.js` `FastAPI` `Neo4j` -->
 
 <a href="https://lnkd.in/dY9UuKN8"><img src="https://img.shields.io/badge/-youtube_demo_%E2%86%97-161b22?style=flat-square&logo=youtube&logoColor=7ee787" alt="watch demo"/></a>
+
+</td>
+</tr>
+
+<tr><td colspan="3" height="14"></td></tr>
+
+<tr>
+<td colspan="3" valign="top">
+
+<samp>ai-orchestration · dev-tools · claude-code</samp>
+
+### Thekedar&ensp;<img src="https://img.shields.io/badge/-live-238636?style=flat-square" alt="live"/>
+
+A workflow-discipline layer for AI coding agents — plans tasks, assigns the right specialist agent, gates every write behind independent review, and keeps a written log of every change.
+
+- → 15 agents, 5 hooks, 4 skills — scope-guard blocks out-of-scope file writes before they land
+- → secret-guard blocks hardcoded secrets (AWS, JWT, GitHub, Stripe...) at write-time, not after
+- → session-brief auto-resumes full project state in a fresh session; munshi logs every edit
+
+`Claude Code` `Bash` `Git`
+
+<a href="https://github.com/soumyachk101/Thekedar"><img src="https://img.shields.io/badge/-github.com/Thekedar_%E2%86%97-161b22?style=flat-square&logo=github&logoColor=7ee787" alt="visit thekedar"/></a>
 
 </td>
 </tr>
