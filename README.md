@@ -37,6 +37,7 @@ I map the domain before opening the IDE, model the data before writing the API, 
 
 <samp>NOW</samp>
 
+- 🟢 **SwarmAI** — local-first AI-native desktop IDE for parallel multi-agent coding
 - 🟢 **DocShift** — 30+ in-browser PDF tools, zero uploads
 - 🟢 **TGStore** — turns a Telegram channel into unlimited free cloud storage
 - 🟢 **FiXr** — multi-agent CLI that catches bugs before you commit
@@ -80,6 +81,24 @@ I map the domain before opening the IDE, model the data before writing the API, 
 <tr>
 <td width="49%" valign="top">
 
+<samp>desktop · multi-agent · local-first</samp>
+
+### SwarmAI&ensp;<img src="https://img.shields.io/badge/-live-238636?style=flat-square" alt="live"/>
+
+Local-first, AI-native desktop IDE enabling parallel multi-agent coding with shared project memory.
+
+- → **Pheromone:** hybrid SQLite FTS5 BM25 + dense character n-gram RRF memory engine
+- → **SwarmMind:** parallel task dispatch across Git worktrees with dynamic file locks
+- → **Tauri v2 + Rust:** native PTY multi-terminal, offline Whisper STT & 10+ CLI adapters
+
+`Tauri v2` `Rust` `React` `TypeScript` `SQLite` `Turborepo`
+
+<a href="https://github.com/soumyachk101/SwarmAI"><img src="https://img.shields.io/badge/-github.com/SwarmAI_%E2%86%97-161b22?style=flat-square&logo=github&logoColor=7ee787" alt="visit swarmai"/></a>
+
+</td>
+<td width="2%"></td>
+<td width="49%" valign="top">
+
 <samp>saas · pdf · privacy-first</samp>
 
 ### DocShift&ensp;<img src="https://img.shields.io/badge/-live-238636?style=flat-square" alt="live"/>
@@ -95,7 +114,11 @@ I map the domain before opening the IDE, model the data before writing the API, 
 <a href="https://docshift.tech"><img src="https://img.shields.io/badge/-docshift.tech_%E2%86%97-161b22?style=flat-square&logo=googlechrome&logoColor=7ee787" alt="visit docshift"/></a>
 
 </td>
-<td width="2%"></td>
+</tr>
+
+<tr><td colspan="3" height="14"></td></tr>
+
+<tr>
 <td width="49%" valign="top">
 
 <samp>self-hosted · storage · telegram-cdn</samp>
@@ -113,11 +136,7 @@ Turns a private Telegram channel into a free, unlimited personal cloud. No S3 bi
 <a href="https://tgstorev1.vercel.app"><img src="https://img.shields.io/badge/-tgstorev1.vercel.app_%E2%86%97-161b22?style=flat-square&logo=googlechrome&logoColor=7ee787" alt="visit tgstore"/></a>
 
 </td>
-</tr>
-
-<tr><td colspan="3" height="14"></td></tr>
-
-<tr>
+<td width="2%"></td>
 <td width="49%" valign="top">
 
 <samp>dev-tools · multi-agent · cli</samp>
@@ -135,7 +154,11 @@ A multi-agent CLI that reviews your code before you commit it — bugs, fixes, q
 <a href="https://github.com/soumyachk101/FiXr"><img src="https://img.shields.io/badge/-github.com/FiXr_%E2%86%97-161b22?style=flat-square&logo=github&logoColor=7ee787" alt="visit fixr"/></a>
 
 </td>
-<td width="2%"></td>
+</tr>
+
+<tr><td colspan="3" height="14"></td></tr>
+
+<tr>
 <td width="49%" valign="top">
 
 <samp>micro-saas · multi-agent · ai</samp>
@@ -153,11 +176,7 @@ Multi-agent idea generation for founders and indie hackers. Validates, scores, b
 <a href="https://shipordie.ai"><img src="https://img.shields.io/badge/-shipordie.ai_%E2%86%97-161b22?style=flat-square&logo=googlechrome&logoColor=7ee787" alt="visit shipordie"/></a>
 
 </td>
-</tr>
-
-<tr><td colspan="3" height="14"></td></tr>
-
-<tr>
+<td width="2%"></td>
 <td width="49%" valign="top">
 
 <samp>media · blockchain · provenance</samp>
@@ -173,7 +192,11 @@ Camera-to-blockchain media provenance for citizen journalism. Fights fake news a
 `FastAPI` `Next.js` `Solidity` `IPFS` `PostgreSQL` `Gemini API`
 
 </td>
-<td width="2%"></td>
+</tr>
+
+<tr><td colspan="3" height="14"></td></tr>
+
+<tr>
 <td width="49%" valign="top">
 
 <samp>aiops · incident-response · rag</samp>
@@ -191,11 +214,7 @@ AI incident response — ingests Sentry/Slack errors, recalls past incidents, op
 <a href="https://nexusopsnode.vercel.app"><img src="https://img.shields.io/badge/-nexusopsnode.vercel.app_%E2%86%97-161b22?style=flat-square&logo=googlechrome&logoColor=7ee787" alt="visit nexusops"/></a>
 
 </td>
-</tr>
-
-<tr><td colspan="3" height="14"></td></tr>
-
-<tr>
+<td width="2%"></td>
 <td width="49%" valign="top">
 
 <samp>interview-integrity · multi-agent</samp>
@@ -211,7 +230,11 @@ Five AI agents evaluating candidates in real-time. Not a proctoring tool — an 
 `Node/Express` `MongoDB` `Bull` `Socket.IO` `MediaPipe` `React 19`
 
 </td>
-<td width="2%"></td>
+</tr>
+
+<tr><td colspan="3" height="14"></td></tr>
+
+<tr>
 <td width="49%" valign="top">
 
 <samp>cybersecurity · attack-graphs · hackathon</samp>
@@ -229,12 +252,8 @@ AI-powered network security platform that tells blue teams what to fix first. Bu
 <a href="https://lnkd.in/dY9UuKN8"><img src="https://img.shields.io/badge/-youtube_demo_%E2%86%97-161b22?style=flat-square&logo=youtube&logoColor=7ee787" alt="watch demo"/></a>
 
 </td>
-</tr>
-
-<tr><td colspan="3" height="14"></td></tr>
-
-<tr>
-<td colspan="3" valign="top">
+<td width="2%"></td>
+<td width="49%" valign="top">
 
 <samp>ai-orchestration · dev-tools · claude-code</samp>
 
@@ -266,9 +285,9 @@ A workflow-discipline layer for AI coding agents — plans tasks, assigns the ri
 
 **languages**
 
-<img src="https://skillicons.dev/icons?i=ts,js,python,c,html,css&theme=dark&perline=6" alt="languages"/>
+<img src="https://skillicons.dev/icons?i=ts,js,python,rust,c,html,css&theme=dark&perline=7" alt="languages"/>
 
-<sub>TypeScript first. Python when it makes sense. C when the machine matters.</sub>
+<sub>TypeScript first. Rust & Python when it makes sense. C when the machine matters.</sub>
 
 <br/><br/>
 
