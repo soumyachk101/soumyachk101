@@ -1,4 +1,4 @@
-<svg viewBox="0 0 1000 322" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+<svg viewBox="0 0 1000 446" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
   <title>Soumya Chakraborty — full-stack engineer · builder</title>
 
   <defs>
@@ -7,6 +7,29 @@
       <stop offset="0.5" stop-color="#7ee787" stop-opacity="0.6"/>
       <stop offset="1" stop-color="#7ee787" stop-opacity="0"/>
     </linearGradient>
+
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#b8f5c4"/>
+    </linearGradient>
+
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7ee787" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#7ee787" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#7ee787" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="termClip">
+      <rect x="60" y="28" width="880" height="390" rx="14"/>
+    </clipPath>
 
     <clipPath id="type1">
       <rect x="88" y="88" width="0" height="24">
@@ -19,13 +42,26 @@
         <animate attributeName="width" from="0" to="316" dur="0.9s" begin="2.9s" fill="freeze"/>
       </rect>
     </clipPath>
+
+    <clipPath id="type3">
+      <rect x="88" y="292" width="0" height="24">
+        <animate attributeName="width" from="0" to="344" dur="1s" begin="4.5s" fill="freeze"/>
+      </rect>
+    </clipPath>
   </defs>
 
   <!-- window shadow -->
-  <rect x="64" y="34" width="880" height="266" rx="14" fill="#010409" opacity="0.75"/>
+  <rect x="64" y="34" width="880" height="390" rx="14" fill="#010409" opacity="0.75"/>
 
   <!-- terminal window -->
-  <rect x="60" y="28" width="880" height="266" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect x="60" y="28" width="880" height="390" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- scanline sweep -->
+  <g clip-path="url(#termClip)">
+    <rect x="60" y="-120" width="880" height="120" fill="url(#scanGrad)">
+      <animate attributeName="y" from="-120" to="418" dur="3.6s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
   <!-- title bar -->
   <path d="M60 64 v-22 a14 14 0 0 1 14 -14 h852 a14 14 0 0 1 14 14 v22 z" fill="#161b22"/>
@@ -48,13 +84,13 @@
   </g>
 
   <!-- name -->
-  <text x="88" y="150" font-size="30" font-weight="700" letter-spacing="1" fill="#e6edf3" textLength="340" opacity="0">
+  <text x="88" y="150" font-size="30" font-weight="700" letter-spacing="1" fill="url(#nameFill)" textLength="340" opacity="0">
     Soumya Chakraborty
     <animate attributeName="opacity" to="1" dur="0.45s" begin="1.5s" fill="freeze"/>
   </text>
 
   <!-- green underline accent -->
-  <rect x="88" y="162" width="0" height="3" rx="1.5" fill="#7ee787">
+  <rect x="88" y="162" width="0" height="3" rx="1.5" fill="#7ee787" filter="url(#glow)">
     <animate attributeName="width" from="0" to="340" dur="0.5s" begin="1.9s" fill="freeze"/>
   </rect>
 
@@ -77,8 +113,45 @@
     <animate attributeName="opacity" to="1" dur="0.45s" begin="4s" fill="freeze"/>
   </text>
 
+  <!-- $ ./healthcheck.sh (typed) -->
+  <g clip-path="url(#type3)">
+    <text x="88" y="308" font-size="16" textLength="328">
+      <tspan fill="#7ee787">soumya@github:~$</tspan><tspan fill="#c9d1d9"> ./healthcheck.sh</tspan>
+    </text>
+  </g>
+
+  <!-- checklist output -->
+  <text x="88" y="336" font-size="14.5" font-weight="700" fill="#7ee787" filter="url(#glow)" opacity="0">✓
+    <animate attributeName="opacity" to="1" dur="0.35s" begin="5.7s" fill="freeze"/>
+  </text>
+  <text x="106" y="336" font-size="14.5" opacity="0">
+    <tspan fill="#c9d1d9">agentic pipelines</tspan><tspan fill="#30363d"> ··············</tspan><tspan fill="#7ee787"> online</tspan>
+    <animate attributeName="opacity" to="1" dur="0.35s" begin="5.7s" fill="freeze"/>
+  </text>
+
+  <text x="88" y="362" font-size="14.5" font-weight="700" fill="#7ee787" filter="url(#glow)" opacity="0">✓
+    <animate attributeName="opacity" to="1" dur="0.35s" begin="6s" fill="freeze"/>
+  </text>
+  <text x="106" y="362" font-size="14.5" opacity="0">
+    <tspan fill="#c9d1d9">mcp servers</tspan><tspan fill="#30363d"> ·······················</tspan><tspan fill="#7ee787"> synced</tspan>
+    <animate attributeName="opacity" to="1" dur="0.35s" begin="6s" fill="freeze"/>
+  </text>
+
+  <text x="88" y="388" font-size="14.5" font-weight="700" fill="#7ee787" filter="url(#glow)" opacity="0">✓
+    <animate attributeName="opacity" to="1" dur="0.35s" begin="6.3s" fill="freeze"/>
+  </text>
+  <text x="106" y="388" font-size="14.5" opacity="0">
+    <tspan fill="#c9d1d9">deploys</tspan><tspan fill="#30363d"> ···························</tspan><tspan fill="#7ee787"> green</tspan>
+    <animate attributeName="opacity" to="1" dur="0.35s" begin="6.3s" fill="freeze"/>
+  </text>
+
   <!-- blinking cursor -->
-  <rect x="743" y="253" width="9" height="16" fill="#7ee787" opacity="0">
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.15s" begin="4.2s" repeatCount="indefinite"/>
+  <rect x="458" y="375" width="9" height="16" fill="#7ee787" filter="url(#glow)" opacity="0">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.15s" begin="6.8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- pulsing card glow -->
+  <rect x="60" y="28" width="880" height="390" rx="14" fill="none" stroke="#7ee787" stroke-width="1.5" filter="url(#glow)" opacity="0.1">
+    <animate attributeName="opacity" values="0.1;0.35;0.1" dur="3.4s" begin="0s" repeatCount="indefinite"/>
   </rect>
 </svg>
