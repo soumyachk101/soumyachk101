@@ -365,7 +365,8 @@ after the action runs once (Actions tab → "generate contribution snake"
 | **TEKATHON 2K26** | tech innovation · shipped a product, not a prototype | 2026 |
 | **Code for Change 2.0** | social impact · IEEE Kolkata × CNCF Durgapur | Apr 2026 |
 | **HackTropica 2K26** | open track · 36hr sprint · Asansol | 2026 |
-| **Citadel Hackathon 1.0** | cybersecurity · built DRISHTI — attack-path mapping with real dollar impact · 30hr sprint | Jul 2026 |
+| **Citadel Hackathon 1.0** | open track · 30hr sprint · IEM Kolkata | Jul 2026 |
+| **Innofusion 3.0** | cybersecurity · built DRISHTI — attack-path mapping with real dollar impact · 30hr sprint | Aug 2026 |
 
 <sub><samp>5 sprints · 180+ hours of constrained building · the constraint is the feature</samp></sub>
 
