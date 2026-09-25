@@ -367,7 +367,7 @@ after the action runs once (Actions tab → "generate contribution snake"
 | **HackTropica 2K26** | open track · 36hr sprint · Asansol | 2026 |
 | **Citadel Hackathon 1.0** | open track · 30hr sprint · IEM Kolkata | Jul 2026 |
 | **Innofusion 3.0** | cybersecurity · built DRISHTI — attack-path mapping with real dollar impact · 30hr sprint | Aug 2026 |
-| **FusionX** | Built a corporate credit allocation protocol on Algorand where allowances are claimed via x402 payments and unclaimed credits earn yield in an on-chain vault. 36hr sprint . IEM Kolkata | | Sept 2026 |
+| **FusionX** | Built a corporate credit allocation protocol on Algorand where allowances are claimed via x402 payments and unclaimed credits earn yield in an on-chain vault. 36hr sprint . IEM Kolkata |  Sept 2026 |
 
 <sub><samp>6 sprints · 220+ hours of constrained building · the constraint is the feature</samp></sub>
 
