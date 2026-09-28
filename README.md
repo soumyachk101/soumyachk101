@@ -337,7 +337,7 @@ A workflow-discipline layer for AI coding agents — plans tasks, assigns the ri
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=soumyachk101&bg_color=0d1117&color=8b949e&line=7ee787&point=c9d1d9&area=true&area_color=7ee787&hide_border=true&radius=6&custom_title=contribution%20activity" width="92%" alt="activity graph"/>
+
 
 </div>
 
