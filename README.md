@@ -1,335 +1,54 @@
-<!-- ─────────────────────────────────────────────────────────────
-     soumyachk101 · profile README
-     theme: github-dark terminal · accent #7ee787 (contribution green)
-     local assets: terminal-header.svg · divider.svg (repo root)
-────────────────────────────────────────────────────────────── -->
-
 <div align="center">
 
-<img src="terminal-header.svg" width="100%" alt="Soumya Chakraborty — full-stack engineer · builder"/>
-
-<br/><br/>
-
-<a href="https://soumya.pro"><img src="https://img.shields.io/badge/-soumya.pro-0d1117?style=flat-square&logo=vercel&logoColor=7ee787" alt="portfolio"/></a>&nbsp;
-<a href="mailto:soumya.chk101@gmail.com"><img src="https://img.shields.io/badge/-soumya.chk101@gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=8b949e" alt="email"/></a>&nbsp;
-<a href="https://github.com/soumyachk101"><img src="https://img.shields.io/badge/-soumyachk101-0d1117?style=flat-square&logo=github&logoColor=c9d1d9" alt="github"/></a>&nbsp;
-<img src="https://komarev.com/ghpvc/?username=soumyachk101&style=flat-square&color=7ee787&label=views" alt="views"/>
-
-<br/><br/>
-
-<img src="divider.svg" width="100%" alt=""/>
-
-</div>
-
-## <samp>$ whoami</samp>
-
-<table border="0" width="100%">
-<tr>
-<td width="60%" valign="top">
-
-<samp>B.Tech CSE · 3rd year · systems thinker · serial shipper</samp>
-
-<br/><br/>
-
-I map the domain before opening the IDE, model the data before writing the API, and ship the imperfect v1 before it gets precious. Nine products in flight, five hackathons deep.
-
-> <samp>the best abstraction is the one you don't write.</samp>
-
-<samp>NOW</samp>
-
-- 🟢 **SwarmAI** — local-first AI-native desktop IDE for parallel multi-agent coding
-- 🟢 **DocShift** — 30+ in-browser PDF tools, zero uploads
-- 🟢 **TGStore** — turns a Telegram channel into unlimited free cloud storage
-- 🟢 **FiXr** — multi-agent CLI that catches bugs before you commit
-- 🟡 **Phygital-Trace** — camera-to-blockchain media provenance
-
-<sub><samp>…full grid below ↓</samp></sub>
-
-<br/><br/>
-
-<samp>OPEN TO</samp>
-
-- meaningful open-source collaboration
-- real product builds
-- architecture conversations
-
-</td>
-<td width="4%"></td>
-<td width="36%" valign="middle" align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300" alt="workspace gif"/>
-
-<br/><br/>
-
-<img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="34" alt="chai"/>
+<img src="terminal-header.svg" width="100%" alt="Soumya Chakraborty, full-stack engineer and builder"/>
 
 <br/>
 
-<sub><samp>// fueled by chai · always moving forward</samp></sub>
+<a href="https://soumya.pro"><img src="https://img.shields.io/badge/-soumya.pro-0d1117?style=flat-square&logo=vercel&logoColor=7ee787" alt="portfolio"/></a>&nbsp;
+<a href="mailto:soumya.chk101@gmail.com"><img src="https://img.shields.io/badge/-soumya.chk101@gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=8b949e" alt="email"/></a>&nbsp;
+<a href="https://github.com/soumyachk101"><img src="https://img.shields.io/badge/-soumyachk101-0d1117?style=flat-square&logo=github&logoColor=c9d1d9" alt="github"/></a>
 
-</td>
-</tr>
-</table>
-
-<div align="center">
-<img src="divider.svg" width="100%" alt=""/>
 </div>
 
-## <samp>$ ls ~/projects</samp>&ensp;<img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="26" alt="bullseye"/>
+<br/>
 
-<table width="100%" border="0">
-<tr>
-<td width="49%" valign="top">
+B.Tech CSE, 3rd year. I map the domain before opening the IDE, model the data before writing the API, and ship the imperfect v1 before it gets precious.
 
-<samp>desktop · multi-agent · local-first</samp>
+Mostly building tools for AI coding agents, plus security and multi-agent systems. Open to open-source collaboration, real product builds and architecture conversations.
 
-### SwarmAI&ensp;<img src="https://img.shields.io/badge/-live-238636?style=flat-square" alt="live"/>
+## Projects
 
-Local-first, AI-native desktop IDE enabling parallel multi-agent coding with shared project memory.
+| Project | What it does | Stack |
+|:--|:--|:--|
+| [**SwarmAI**](https://github.com/soumyachk101/SwarmAI) | Local-first desktop IDE for running coding agents in parallel with shared project memory. Tasks dispatch across Git worktrees with dynamic file locks. Pheromone, the memory layer, combines BM25 and dense n-gram retrieval. | Tauri v2, Rust, React, TypeScript, SQLite |
+| [**Orbit**](https://github.com/soumyachk101/Orbit-Code)<br/><sub>[site](https://orbitcodev1.vercel.app)</sub> | Drives your coding agents (Claude Code, Codex, Cursor, Devin, Grok, Hermes, Pi, Antigravity) from a small engine on each device. Local-only by default, no account needed. Optional sync lets you follow an agent from another machine or keep it running on a VPS. | Rust |
+| [**Ensembyte**](https://github.com/soumyachk101/Ensembyte)<br/><sub>[site](https://ensembyte.vercel.app)</sub> | Open-source multi-agent coding client with two native apps. macOS runs Hydra, a lead agent that delegates to up to 8 parallel heads in isolated worktrees. Windows and Linux run on GPUI with optional CRDT sync. Local-first, zero telemetry, a diff for every turn. | Swift 6, SwiftUI, Rust, GPUI, Loro |
 
-- → **Pheromone:** hybrid SQLite FTS5 BM25 + dense character n-gram RRF memory engine
-- → **SwarmMind:** parallel task dispatch across Git worktrees with dynamic file locks
-- → **Tauri v2 + Rust:** native PTY multi-terminal, offline Whisper STT & 10+ CLI adapters
+## Stack
 
-`Tauri v2` `Rust` `React` `TypeScript` `SQLite` `Turborepo`
+<img src="https://skillicons.dev/icons?i=ts,python,rust,swift,nextjs,react,tailwind,fastapi,nodejs,postgres,mongodb,redis,docker,aws,git,linux&theme=dark&perline=16" alt="stack"/>
 
-<a href="https://github.com/soumyachk101/SwarmAI"><img src="https://img.shields.io/badge/-github.com/SwarmAI_%E2%86%97-161b22?style=flat-square&logo=github&logoColor=7ee787" alt="visit swarmai"/></a>
+## Hackathons
 
-</td>
-<td width="2%"></td>
-<td width="49%" valign="top">
+Seven in 2026. Joint winner at FusioniX'26, Algorand x402 track.
 
-<samp>saas · pdf · privacy-first</samp>
+| When | Event | Build |
+|:--|:--|:--|
+| Sep 2026 | **FusioniX'26**<br/><sub>IEM Kolkata · 36hr</sub> | **Credow.** Corporate credit allocation on Algorand. Allowances are claimed through x402 payments, and unclaimed credits earn yield in an on-chain vault. **Joint winner, x402 track.** |
+| Aug 2026 | **Innofusion 3.0**<br/><sub>Cybersecurity · 30hr</sub> | **DRISHTI.** Maps a network as a graph of real attack paths and ranks vulnerable nodes by dollar impact instead of CVSS alone. [Demo](https://lnkd.in/dY9UuKN8) |
+| Jul 2026 | **Citadel Hackathon 1.0**<br/><sub>IEM Kolkata · 30hr</sub> | Open track. |
+| Apr 2026 | **Code for Change 2.0**<br/><sub>IEEE Kolkata × CNCF Durgapur</sub> | Social impact track. |
+| 2026 | **HackTropica 2K26**<br/><sub>Asansol · 36hr</sub> | Open track. |
+| 2026 | **TEKATHON 2K26** | Tech innovation track. |
+| 2026 | **Tradition Hacks 2026**<br/><sub>Miro Meetups Kolkata</sub> | |
 
-### DocShift&ensp;<img src="https://img.shields.io/badge/-live-238636?style=flat-square" alt="live"/>
-
-30+ browser-based PDF tools. Zero uploads, zero servers, zero data leaving your machine.
-
-- → runs entirely in-browser via WebAssembly
-- → merge, split, compress, convert, watermark & more
-- → privacy-first: files never leave the client
-
-`React` `Vite` `TypeScript` `pdf-lib` `Wasm`
-
-<a href="https://docshift.tech"><img src="https://img.shields.io/badge/-docshift.tech_%E2%86%97-161b22?style=flat-square&logo=googlechrome&logoColor=7ee787" alt="visit docshift"/></a>
-
-</td>
-</tr>
-
-<tr><td colspan="3" height="14"></td></tr>
-
-<tr>
-<td width="49%" valign="top">
-
-<samp>self-hosted · storage · telegram-cdn</samp>
-
-### TGStore&ensp;<img src="https://img.shields.io/badge/-live-238636?style=flat-square" alt="live"/>
-
-Turns a private Telegram channel into a free, unlimited personal cloud. No S3 bills, no vendor lock-in.
-
-- → bot token never touches the browser — server-side proxied
-- → drag-and-drop, full-text search, 3-level folders, soft-delete
-- → 6 async integration tests, Telegram mocked in CI
-
-`Next.js 14` `FastAPI` `PostgreSQL` `NextAuth v5` `Telegram Bot API`
-
-<a href="https://tgstorev1.vercel.app"><img src="https://img.shields.io/badge/-tgstorev1.vercel.app_%E2%86%97-161b22?style=flat-square&logo=googlechrome&logoColor=7ee787" alt="visit tgstore"/></a>
-
-</td>
-<td width="2%"></td>
-<td width="49%" valign="top">
-
-<samp>dev-tools · multi-agent · cli</samp>
-
-### FiXr&ensp;<img src="https://img.shields.io/badge/-live-238636?style=flat-square" alt="live"/>
-
-A multi-agent CLI that reviews your code before you commit it — bugs, fixes, quality and security in one pass.
-
-- → 4-agent pipeline: bug detective, auto-fixer, quality reviewer, security auditor
-- → git hook + GitHub Actions integration, rate-limited by design
-- → project config resolved via cosmiconfig, zero setup to try
-
-`TypeScript` `Node.js` `CLI`
-
-<a href="https://github.com/soumyachk101/FiXr"><img src="https://img.shields.io/badge/-github.com/FiXr_%E2%86%97-161b22?style=flat-square&logo=github&logoColor=7ee787" alt="visit fixr"/></a>
-
-</td>
-</tr>
-
-<tr><td colspan="3" height="14"></td></tr>
-
-<tr>
-<td width="49%" valign="top">
-
-<samp>micro-saas · multi-agent · ai</samp>
-
-### ShipOrDie&ensp;<img src="https://img.shields.io/badge/-live-238636?style=flat-square" alt="live"/>
-
-Multi-agent idea generation for founders and indie hackers. Validates, scores, builds on your ideas.
-
-- → LangGraph multi-agent idea validation pipeline
-- → Resume Builder with ATS optimization
-- → Razorpay-integrated subscription billing
-
-`Next.js 14` `FastAPI` `LangGraph` `ChromaDB` `Redis` `Razorpay`
-
-<a href="https://shipordie.ai"><img src="https://img.shields.io/badge/-shipordie.ai_%E2%86%97-161b22?style=flat-square&logo=googlechrome&logoColor=7ee787" alt="visit shipordie"/></a>
-
-</td>
-<td width="2%"></td>
-<td width="49%" valign="top">
-
-<samp>media · blockchain · provenance</samp>
-
-### Phygital-Trace&ensp;<img src="https://img.shields.io/badge/-building-d29922?style=flat-square" alt="building"/>
-
-Camera-to-blockchain media provenance for citizen journalism. Fights fake news at the capture layer.
-
-- → pHash + PRNU hardware fingerprinting at capture
-- → steganographic watermarking — invisible, irremovable
-- → Gemini 1.5 Pro forensic manipulation detection
-
-`FastAPI` `Next.js` `Solidity` `IPFS` `PostgreSQL` `Gemini API`
-
-</td>
-</tr>
-
-<tr><td colspan="3" height="14"></td></tr>
-
-<tr>
-<td width="49%" valign="top">
-
-<samp>aiops · incident-response · rag</samp>
-
-### NexusOps 2.0&ensp;<img src="https://img.shields.io/badge/-live-238636?style=flat-square" alt="live"/>
-
-AI incident response — ingests Sentry/Slack errors, recalls past incidents, opens a GitHub draft PR with the fix.
-
-- → pgvector memory — cosine similarity + decay re-ranking
-- → AutoFix: Groq Llama 3.3 70B + Ollama fallback
-- → auto-rollback on error-rate spikes
-
-`Node.js` `Express` `Prisma` `pgvector` `BullMQ` `Redis` `LangChain.js`
-
-<a href="https://nexusopsnode.vercel.app"><img src="https://img.shields.io/badge/-nexusopsnode.vercel.app_%E2%86%97-161b22?style=flat-square&logo=googlechrome&logoColor=7ee787" alt="visit nexusops"/></a>
-
-</td>
-<td width="2%"></td>
-<td width="49%" valign="top">
-
-<samp>interview-integrity · multi-agent</samp>
-
-### Neeti AI&ensp;<img src="https://img.shields.io/badge/-building-d29922?style=flat-square" alt="building"/>
-
-Five AI agents evaluating candidates in real-time. Not a proctoring tool — an integrity layer.
-
-- → WebRTC proctoring + Monaco code editor
-- → proprietary Trust Score algorithm
-- → pyannote voice identity verification
-
-`Node/Express` `MongoDB` `Bull` `Socket.IO` `MediaPipe` `React 19`
-
-</td>
-</tr>
-
-<tr><td colspan="3" height="14"></td></tr>
-
-<tr>
-<td width="49%" valign="top">
-
-<samp>cybersecurity · attack-graphs · hackathon</samp>
-
-### DRISHTI&ensp;<img src="https://img.shields.io/badge/-hackathon_build-8957e5?style=flat-square" alt="hackathon build"/>
-
-AI-powered network security platform that tells blue teams what to fix first. Built in 30 hours at Citadel Hackathon 1.0.
-
-- → maps your network as a live terrain graph of real attack paths
-- → ranks vulnerable nodes by actual dollar impact, not just CVSS
-- → suggests fixes and recalculates risk after every patch
-
-<!-- apna tech stack yahan daalo — format: `Next.js` `FastAPI` `Neo4j` -->
-
-<a href="https://lnkd.in/dY9UuKN8"><img src="https://img.shields.io/badge/-youtube_demo_%E2%86%97-161b22?style=flat-square&logo=youtube&logoColor=7ee787" alt="watch demo"/></a>
-
-</td>
-<td width="2%"></td>
-<td width="49%" valign="top">
-
-<samp>ai-orchestration · dev-tools · claude-code</samp>
-
-### Thekedar&ensp;<img src="https://img.shields.io/badge/-live-238636?style=flat-square" alt="live"/>
-
-A workflow-discipline layer for AI coding agents — plans tasks, assigns the right specialist agent, gates every write behind independent review, and keeps a written log of every change.
-
-- → 15 agents, 5 hooks, 4 skills — scope-guard blocks out-of-scope file writes before they land
-- → secret-guard blocks hardcoded secrets (AWS, JWT, GitHub, Stripe...) at write-time, not after
-- → session-brief auto-resumes full project state in a fresh session; munshi logs every edit
-
-`Claude Code` `Bash` `Git`
-
-<a href="https://github.com/soumyachk101/Thekedar"><img src="https://img.shields.io/badge/-github.com/Thekedar_%E2%86%97-161b22?style=flat-square&logo=github&logoColor=7ee787" alt="visit thekedar"/></a>
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-<img src="divider.svg" width="100%" alt=""/>
-</div>
-
-## <samp>$ cat stack.json</samp>
-
-<table border="0" width="100%">
-<tr>
-<td align="center" valign="top" width="50%">
-
-**languages**
-
-<img src="https://skillicons.dev/icons?i=ts,js,python,rust,c,html,css&theme=dark&perline=7" alt="languages"/>
-
-<sub>TypeScript first. Rust & Python when it makes sense. C when the machine matters.</sub>
-
-<br/><br/>
-
-**frontend**
-
-<img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,vite,figma&theme=dark&perline=5" alt="frontend"/>
-
-<sub>Next.js 14 App Router is home base. Tailwind for velocity, Figma to think first.</sub>
-
-</td>
-<td width="4%"></td>
-<td align="center" valign="top" width="46%">
-
-**backend & data**
-
-<img src="https://skillicons.dev/icons?i=nodejs,fastapi,express,mongodb,postgres,redis&theme=dark&perline=6" alt="backend"/>
-
-<sub>FastAPI + PostgreSQL for serious work. Redis when latency counts.</sub>
-
-<br/><br/>
-
-**infra & ai**
-
-<img src="https://skillicons.dev/icons?i=docker,aws,gcp,git,linux,github&theme=dark&perline=6" alt="infra"/>
-
-<sub>Docker always. Railway for fast deploys. LangChain / LangGraph for agent pipelines.</sub>
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-<img src="divider.svg" width="100%" alt=""/>
-</div>
-
-## <samp>$ git log --stat</samp>
+## GitHub
 
 <div align="center">
 
-<img src="https://github-readme-stats-alpha.vercel.app/api?username=soumyachk101&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9d1d9&icon_color=7ee787&text_color=8b949e&count_private=true&include_all_commits=true&border_radius=6&v=6" height="165" alt="stats"/>
+<img src="https://github-readme-stats-alpha.vercel.app/api?username=soumyachk101&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9d1d9&icon_color=7ee787&text_color=8b949e&count_private=true&include_all_commits=true&border_radius=6&v=6" height="150" alt="stats"/>
 &nbsp;
-<img src="https://github-readme-stats-alpha.vercel.app/api/top-langs?username=soumyachk101&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&langs_count=8&border_radius=6&v=6" height="165" alt="top languages"/>
+<img src="https://github-readme-stats-alpha.vercel.app/api/top-langs?username=soumyachk101&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e&langs_count=8&border_radius=6&v=6" height="150" alt="top languages"/>
 
 <br/><br/>
 
@@ -337,143 +56,6 @@ A workflow-discipline layer for AI coding agents — plans tasks, assigns the ri
 
 <br/><br/>
 
-
-
-</div>
-
-<!-- ─────────────────────────────────────────────────────────────
-contribution snake — workflow file is at .github/workflows/snake.yml
-after the action runs once (Actions tab → "generate contribution snake"
-→ Run workflow), uncomment this block:
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/soumyachk101/soumyachk101/output/github-contribution-grid-snake-dark.svg" alt="snake"/>
-</div>
-────────────────────────────────────────────────────────────── -->
-
-<div align="center">
-<img src="divider.svg" width="100%" alt=""/>
-</div>
-
-## <samp>$ cat hackathons.md</samp>&ensp;<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="26" alt="fire"/>
-
-<div align="center">
-
-| event | track | when |
-|:---|:---|:---|
-| **Tradition Hacks 2026** | Miro Meetups Kolkata | 2026 |
-| **TEKATHON 2K26** | tech innovation · shipped a product, not a prototype | 2026 |
-| **Code for Change 2.0** | social impact · IEEE Kolkata × CNCF Durgapur | Apr 2026 |
-| **HackTropica 2K26** | open track · 36hr sprint · Asansol | 2026 |
-| **Citadel Hackathon 1.0** | open track · 30hr sprint · IEM Kolkata | Jul 2026 |
-| **Innofusion 3.0** | cybersecurity · built DRISHTI — attack-path mapping with real dollar impact · 30hr sprint | Aug 2026 |
-| **FusionX** | Built a corporate credit allocation protocol on Algorand where allowances are claimed via x402 payments and unclaimed credits earn yield in an on-chain vault. 36hr sprint . IEM Kolkata |  Sept 2026 |
-
-<sub><samp>6 sprints · 220+ hours of constrained building · the constraint is the feature</samp></sub>
-
-</div>
-
-<div align="center">
-<img src="divider.svg" width="100%" alt=""/>
-</div>
-
-## <samp>$ cat philosophy.md</samp>
-
-<table border="0" width="100%">
-<tr>
-<td valign="top" width="25%" align="center">
-
-<kbd>&nbsp;01&nbsp;</kbd>
-
-**understand**
-
-<sub><samp>domain first</samp></sub>
-
-<br/><br/>
-
-Map concepts before opening the IDE. That half-hour upfront saves three days of refactors.
-
-</td>
-<td valign="top" width="25%" align="center">
-
-<kbd>&nbsp;02&nbsp;</kbd>
-
-**architect**
-
-<sub><samp>schema is destiny</samp></sub>
-
-<br/><br/>
-
-Boundary mistakes compound silently. Good architecture doesn't show off — it disappears.
-
-</td>
-<td valign="top" width="25%" align="center">
-
-<kbd>&nbsp;03&nbsp;</kbd>
-
-**ship**
-
-<sub><samp>prod teaches</samp></sub>
-
-<br/><br/>
-
-An imperfect v1 beats a perfect version that only lives in your head.
-
-</td>
-<td valign="top" width="25%" align="center">
-
-<kbd>&nbsp;04&nbsp;</kbd>
-
-**own it**
-
-<sub><samp>read the source</samp></sub>
-
-<br/><br/>
-
-Frameworks are tools. Know why something works, not just that it does.
-
-</td>
-</tr>
-</table>
-
-## <samp>$ fortune</samp>
-
-<div align="center">
-
-<img src="https://readme-jokes.vercel.app/api?hideBorder&bgColor=%230d1117&qColor=%237ee787&aColor=%23c9d1d9&textColor=%238b949e&codeColor=%237ee787" alt="random dev joke"/>
-
-<br/>
-
-<sub><samp>// a fresh dev joke on every visit</samp></sub>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212749695-a6817c5a-a794-462b-afca-1b5ce7dd5e63.gif" width="280" alt="let's do it"/>
-
-<br/><br/>
-
-<samp>// let's build something that matters</samp>
-
-<br/><br/>
-
-<a href="https://soumya.pro"><img src="https://img.shields.io/badge/-soumya.pro-0d1117?style=flat-square&logo=vercel&logoColor=7ee787" alt="portfolio"/></a>&nbsp;
-<a href="mailto:soumya.chk101@gmail.com"><img src="https://img.shields.io/badge/-email-0d1117?style=flat-square&logo=gmail&logoColor=8b949e" alt="email"/></a>&nbsp;
-<a href="https://github.com/soumyachk101"><img src="https://img.shields.io/badge/-github-0d1117?style=flat-square&logo=github&logoColor=c9d1d9" alt="github"/></a>
-
-<br/><br/>
-
-<sub><samp>west bengal, india · UTC+5:30 · b.tech cse · 3rd year</samp></sub>
-
-<br/><br/>
-
-<img src="divider.svg" width="100%" alt=""/>
-
-<br/><br/>
-
-<sub><samp>soumya@github:~$ exit</samp></sub>
+<sub>West Bengal, India · UTC+5:30</sub>
 
 </div>
