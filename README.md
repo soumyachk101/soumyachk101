@@ -90,10 +90,4 @@
 
 <br><br>
 
-<h3><code>soumyachk101@github:~$ python3 snake.py</code></h3>
-
-<img src="./dist/github-snake.svg" width="860" alt="Snake eating my GitHub contribution graph" />
-
-<br><br>
-
 </div>
