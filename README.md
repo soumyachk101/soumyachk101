@@ -14,17 +14,13 @@
 
 <br>
 
-<h3><code>soumyachk101@github:~$ ls ~/hackathons</code></h3>
+<h3><code>soumyachk101@github:~$ cat hackathons.txt</code></h3>
 
-<a href="https://github.com/soumyachk101/Credow"><img src="./badges/fusionix.svg" alt="FusioniX'26 Joint Winner" /></a>&nbsp;<a href="https://credow.vercel.app/"><img src="./badges/credow.svg" alt="Credow corporate credit allocation on Algorand x402" /></a>
-
-<br>
-
-<a href="https://github.com/soumyachk101/DrishtiNet"><img src="./badges/innofusion.svg" alt="Innofusion 3.0" /></a>&nbsp;<a href="https://lnkd.in/dY9UuKN8"><img src="./badges/drishti.svg" alt="DRISHTI demo: graph attack paths by dollar risk" /></a>
+<img src="./hackathons-card.svg" width="860" alt="Hackathons: FusioniX'26 Joint Winner, Innofusion 3.0 DRISHTI, ISRO BAH'26, 7x shipped in 2026" />
 
 <br>
 
-<a href="./ISRO_Hackathon_Certificate.png"><img src="./badges/isro-cert.svg" alt="ISRO Bharatiya Antariksh Hackathon 2026 Certificate" /></a>
+<a href="https://credow.vercel.app/"><img src="./badges/credow.svg" alt="Credow Algorand x402 App" /></a>&nbsp;<a href="https://lnkd.in/dY9UuKN8"><img src="./badges/drishti.svg" alt="DRISHTI Demo Video" /></a>&nbsp;<a href="./ISRO_Hackathon_Certificate.png"><img src="./badges/isro-cert.svg" alt="ISRO Bharatiya Antariksh Hackathon Certificate" /></a>&nbsp;<a href="https://github.com/soumyachk101/Credow"><img src="./badges/fusionix.svg" alt="FusioniX Winner Repo" /></a>
 
 <br><br>
 
