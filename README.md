@@ -68,6 +68,8 @@
 
 <a href="https://leetcode.com/u/soumya-chk101/"><img src="./leetcode-card.svg" width="860" alt="LeetCode stats: 297 solved, 67 Hard, 142 Medium, 152-day max streak, 100 Days Badge" /></a>
 
+<a href="https://leetcode.com/u/soumya-chk101/"><img src="./leetcode-badges.svg" width="860" alt="LeetCode badges: 100 Days, 50 Days, and monthly challenge badges" /></a>
+
 <a href="https://leetcode.com/u/soumya-chk101/"><img src="./leetcode-streak.svg" width="860" alt="LeetCode streaks: 174 active days, 152-day max streak, 297 problems solved" /></a>
 
 <br><br>
