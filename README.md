@@ -8,7 +8,7 @@
 
 <br>
 
-<sub><code><a href="#whoami">[&nbsp;whoami&nbsp;]</a>&nbsp;· <a href="#projects">[&nbsp;projects&nbsp;]</a>&nbsp;· <a href="#hackathons">[&nbsp;hackathons&nbsp;]</a>&nbsp;· <a href="#leetcode">[&nbsp;leetcode&nbsp;]</a>&nbsp;· <a href="#contributions">[&nbsp;contributions&nbsp;]</a>&nbsp;· <a href="#highlights">[&nbsp;highlights&nbsp;]</a>&nbsp;· <a href="#languages">[&nbsp;languages&nbsp;]</a>&nbsp;· <a href="#contact">[&nbsp;contact&nbsp;]</a></code></sub>
+<code><a href="#whoami">[&nbsp;whoami&nbsp;]</a> &nbsp;·&nbsp; <a href="#projects">[&nbsp;projects&nbsp;]</a> &nbsp;·&nbsp; <a href="#hackathons">[&nbsp;hackathons&nbsp;]</a> &nbsp;·&nbsp; <a href="#leetcode">[&nbsp;leetcode&nbsp;]</a> &nbsp;·&nbsp; <a href="#contributions">[&nbsp;contributions&nbsp;]</a> &nbsp;·&nbsp; <a href="#highlights">[&nbsp;highlights&nbsp;]</a> &nbsp;·&nbsp; <a href="#languages">[&nbsp;languages&nbsp;]</a> &nbsp;·&nbsp; <a href="#contact">[&nbsp;contact&nbsp;]</a></code>
 
 <br><br>
 
