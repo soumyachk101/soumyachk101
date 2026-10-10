@@ -30,6 +30,7 @@ BADGES = [
     ("credow", "credow · algorand x402"),
     ("innofusion", "innofusion 3.0"),
     ("drishti", "drishti demo"),
+    ("isro-cert", "isro · antariksh hackathon '26 cert"),
     ("swarmai", "swarmai repo"),
     ("orbit", "orbit repo"),
     ("ensembyte", "ensembyte repo"),

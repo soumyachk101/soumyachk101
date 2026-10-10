@@ -22,6 +22,10 @@
 
 <a href="https://github.com/soumyachk101/DrishtiNet"><img src="./badges/innofusion.svg" alt="Innofusion 3.0" /></a>&nbsp;<a href="https://lnkd.in/dY9UuKN8"><img src="./badges/drishti.svg" alt="DRISHTI demo: graph attack paths by dollar risk" /></a>
 
+<br>
+
+<a href="./ISRO_Hackathon_Certificate.png"><img src="./badges/isro-cert.svg" alt="ISRO Bharatiya Antariksh Hackathon 2026 Certificate" /></a>
+
 <br><br>
 
 <h3><code>soumyachk101@github:~$ ls ~/projects</code></h3>
