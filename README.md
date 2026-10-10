@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="./name-header.svg" width="860" alt="Terminal line typing: hi, I'm soumya chakraborty" />
+<img src="./name-header.svg" width="860" alt="Terminal line typing: hi, I'm Soumya Chakraborty" />
 
 <br>
 
@@ -104,7 +104,7 @@
 
 <br><br>
 
-<sub>[session closed · Kolkata, India · UTC+5:30 · open for systems & devtools collaboration]</sub>
+<img src="./footer-card.svg" width="860" alt="Terminal footer: session closed · Kolkata, India · UTC+5:30 · open for systems & devtools collaboration" />
 
 <br><br>
 

@@ -26,7 +26,7 @@ H = 84
 
 PROMPT = "❯ "                     # green chevron
 PLAIN = "hi, i'm "                # typed in ink
-NAME = "soumya chakraborty"       # typed in glowing green
+NAME = "Soumya Chakraborty"       # typed in glowing green
 TYPE_SPEED = 0.075                # seconds per keystroke
 BEGIN = 0.4
 
