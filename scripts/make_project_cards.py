@@ -22,11 +22,11 @@ STYLE = (
 
 REPOS = [
     (
-        "card-swarmai.svg",
-        "soumyachk101/SwarmAI",
-        "Local-first desktop IDE for running coding agents in parallel with shared project memory. Tasks dispatch across Git worktrees with dynamic file locks. Pheromone memory layer combines BM25 and dense retrieval.",
-        ("Rust", "#dea584"),
-        ["Tauri v2", "React", "SQLite"],
+        "card-ensembyte.svg",
+        "soumyachk101/Ensembyte",
+        "Open-source multi-agent coding client. macOS runs Hydra delegating to up to 8 parallel heads in isolated worktrees; Windows and Linux run on GPUI with CRDT sync.",
+        ("Swift", "#f05138"),
+        ["Swift 6", "GPUI", "Loro CRDT"],
     ),
     (
         "card-orbit.svg",
@@ -34,13 +34,6 @@ REPOS = [
         "Drives your coding agents (Claude, Cursor, Codex, Devin, Grok, Hermes) from a lightweight engine on each device. Local-only by default with optional VPS & device sync.",
         ("Rust", "#dea584"),
         ["Agent Engine", "Local-First", "Zero Telemetry"],
-    ),
-    (
-        "card-ensembyte.svg",
-        "soumyachk101/Ensembyte",
-        "Open-source multi-agent coding client. macOS runs Hydra delegating to up to 8 parallel heads in isolated worktrees; Windows and Linux run on GPUI with CRDT sync.",
-        ("Swift", "#f05138"),
-        ["Swift 6", "GPUI", "Loro CRDT"],
     ),
     (
         "card-credow.svg",
@@ -55,6 +48,13 @@ REPOS = [
         "Maps a network as a graph of real attack paths and ranks vulnerable nodes by financial impact instead of CVSS alone. Graph-based risk prioritization engine.",
         ("Python", "#3572a5"),
         ["Cybersecurity", "Graph Analysis", "Innofusion 3.0"],
+    ),
+    (
+        "card-swarmai.svg",
+        "soumyachk101/SwarmAI",
+        "Local-first desktop IDE for running coding agents in parallel with shared project memory. Tasks dispatch across Git worktrees with dynamic file locks. Pheromone memory layer combines BM25 and dense retrieval.",
+        ("Rust", "#dea584"),
+        ["Tauri v2", "React", "SQLite"],
     ),
 ]
 

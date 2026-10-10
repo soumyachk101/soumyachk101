@@ -42,7 +42,7 @@ LINES = [
     ("Winner", "FusioniX'26 Joint Winner · Algorand x402 track"),
     ("Hackathons", "7 shipped in 2026 (FusioniX, Innofusion, etc.)"),
     (None, None),
-    ("Systems", "SwarmAI (parallel agents) · Orbit · Ensembyte"),
+    ("Systems", "Ensembyte · Orbit · SwarmAI (parallel agents)"),
     ("Languages", "Rust · TypeScript · Swift · Python · Go · C++"),
     ("Stack", "Tauri v2 · React · Next.js · FastAPI · GPUI · SQLite"),
     (None, None),
