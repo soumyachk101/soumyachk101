@@ -96,14 +96,10 @@ def repo_card(name, repo, desc, lang, meta) -> None:
     y += 8
     p.append(f'<circle cx="{pad + 6}" cy="{y - 4}" r="6" fill="{lang[1]}"/>')
     p.append(f'<text x="{pad + 18}" y="{y}" font-family="{SANS}" font-size="13" fill="{DIM}">{lang[0]}</text>')
-    mx = pad + 18 + len(lang[0]) * 7.6 + 20
-    # Star icon & star count
-    p.append(f'<path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="{DIM}" transform="translate({mx:.0f},{y - 12}) scale(0.95)"/>')
-    p.append(f'<text x="{mx + 18:.0f}" y="{y}" font-family="{SANS}" font-size="13" fill="{DIM}">0</text>')
-    mx += 44
+    mx = pad + 18 + len(lang[0]) * 7.6 + 24
     for m in meta:
         p.append(f'<text x="{mx:.0f}" y="{y}" font-family="{SANS}" font-size="13" fill="{DIM}">{escape(m)}</text>')
-        mx += len(m) * 7.4 + 20
+        mx += len(m) * 7.4 + 24
     p.append("</g></svg>")
     os.makedirs("assets", exist_ok=True)
     with open(f"assets/{name}", "w", encoding="utf-8") as f:

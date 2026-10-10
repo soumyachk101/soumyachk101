@@ -22,10 +22,8 @@ jobs:
       - run: python scripts/fetch_leetcode.py && python scripts/render_leetcode_svg.py
         continue-on-error: true
       - run: python scripts/render_streak_cards.py
-      - run: python scripts/make_agent_monitor.py
-      - run: python scripts/make_project_cards.py
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh profile art [skip ci]"
           commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
-          file_pattern: "data/contributions.json contrib-heatmap.svg data/leetcode.json leetcode-card.svg leetcode-streak.svg agent-monitor.svg assets/"
+          file_pattern: "data/contributions.json contrib-heatmap.svg data/leetcode.json leetcode-card.svg leetcode-streak.svg"
