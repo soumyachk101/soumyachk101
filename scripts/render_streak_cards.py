@@ -107,6 +107,17 @@ def card(out: str, left: tuple, center: tuple, right: tuple,
 def main() -> None:
     static = os.environ.get("STATIC") == "1"
 
+    if os.path.exists("data/contributions.json"):
+        with open("data/contributions.json", encoding="utf-8") as f:
+            gh = json.load(f)
+        card(
+            "streak-card.svg",
+            (f"{gh['total']:,}", "total contributions", "last 12 months"),
+            (str(gh["current_streak"]), "day current streak", "daily active shipping"),
+            (str(gh["longest_streak"]), "day longest streak", f"best day {gh['best_day']['count']} commits"),
+            static,
+        )
+
     with open("data/leetcode.json", encoding="utf-8") as f:
         lc = json.load(f)
 

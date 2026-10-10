@@ -23,7 +23,6 @@ H = 38
 BADGES = [
     ("portfolio", "soumya.pro"),
     ("email", "email"),
-    ("github", "github"),
     ("x", "x / @soumyachk1"),
     ("leetcode", "leetcode"),
     ("fusionix", "fusionix '26 (winner)"),

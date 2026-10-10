@@ -27,4 +27,4 @@ jobs:
         with:
           commit_message: "chore: refresh profile art [skip ci]"
           commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
-          file_pattern: "data/contributions.json contrib-heatmap.svg data/leetcode.json leetcode-card.svg leetcode-badges.svg leetcode-streak.svg hackathons-card.svg"
+          file_pattern: "data/contributions.json contrib-heatmap.svg streak-card.svg data/leetcode.json leetcode-card.svg leetcode-badges.svg leetcode-streak.svg hackathons-card.svg"

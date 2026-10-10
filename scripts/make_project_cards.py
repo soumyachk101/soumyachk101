@@ -24,9 +24,9 @@ REPOS = [
     (
         "card-ensembyte.svg",
         "soumyachk101/Ensembyte",
-        "Open-source multi-agent coding client. macOS runs Hydra delegating to up to 8 parallel heads in isolated worktrees; Windows and Linux run on GPUI with CRDT sync.",
+        "Open-source multi-agent coding client. macOS runs Hydra delegating to up to ∞ parallel heads in isolated worktrees; Windows and Linux run on GPUI with CRDT sync.",
         ("Swift", "#f05138"),
-        ["Swift 6", "GPUI", "Loro CRDT"],
+        ["Swift ∞ Hydra", "GPUI", "Loro CRDT"],
     ),
     (
         "card-orbit.svg",

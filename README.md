@@ -68,7 +68,9 @@
 
 <h3><code>soumyachk101@github:~$ cat contributions.txt</code></h3>
 
-<img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution heatmap: 7,967 contributions in the last year with 192 day current streak" />
+<a href="https://github.com/soumyachk101"><img src="./streak-card.svg" width="860" alt="GitHub streak stats: 7,967 contributions, 192-day streak" /></a>
+
+<a href="https://github.com/soumyachk101"><img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution heatmap: 7,967 contributions in the last year with 192 day current streak" /></a>
 
 <br><br>
 
