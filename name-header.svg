@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="84" viewBox="0 0 860 84">
+<defs>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="type"><rect x="242.2" y="0" width="0" height="84"><animate attributeName="width" calcMode="discrete" values="0.0;15.7;31.3;47.0;62.6;78.3;93.9;109.6;125.2;140.9;156.5;172.2;187.8;203.5;219.1;234.8;250.4;266.1;281.7;297.4;313.0;328.7;344.3;360.0;375.6;391.3;407.0" begin="0.4s" dur="1.95s" fill="freeze"/></rect></clipPath>
+</defs>
+<rect width="100%" height="100%" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<g font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace" font-size="26.0" font-weight="bold">
+<text x="210.9" y="50.8" fill="#3fb950">❯ </text>
+<g clip-path="url(#type)"><text x="242.2" y="50.8" textLength="407.0" lengthAdjust="spacing"><tspan fill="#c9d1d9">hi, i&#x27;m </tspan><tspan fill="#3fb950" filter="url(#glow)">soumya chakraborty</tspan></text></g>
+</g>
+<rect x="245.2" y="29.5" width="15.7" height="26.0" fill="#3fb950"><animate attributeName="x" calcMode="discrete" values="245.2;260.8;276.5;292.1;307.8;323.4;339.1;354.7;370.4;386.0;401.7;417.3;433.0;448.7;464.3;480.0;495.6;511.3;526.9;542.6;558.2;573.9;589.5;605.2;620.8;636.5;652.1" begin="0.4s" dur="1.95s" fill="freeze"/><animate attributeName="opacity" values="1;0;1;0;1;0;1" begin="2.35s" dur="2.1s" fill="freeze"/></rect>
+</svg>

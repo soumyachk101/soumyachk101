@@ -1,0 +1,61 @@
+{
+ "username": "soumya-chk101",
+ "ranking": 523188,
+ "solved": {
+  "All": 297,
+  "Easy": 88,
+  "Medium": 142,
+  "Hard": 67
+ },
+ "totals": {
+  "All": 4073,
+  "Easy": 969,
+  "Medium": 2124,
+  "Hard": 980
+ },
+ "contest": {
+  "rating": 0,
+  "top_percent": null,
+  "attended": 0,
+  "badge": ""
+ },
+ "badges": [
+  {
+   "name": "Annual Badge",
+   "displayName": "100 Days Badge 2026",
+   "icon": "https://assets.leetcode.com/static_assets/others/100_1080_1080.png",
+   "creationDate": "2026-07-29"
+  },
+  {
+   "name": "Annual Badge",
+   "displayName": "50 Days Badge 2026",
+   "icon": "https://assets.leetcode.com/static_assets/others/50_1080_1080.png",
+   "creationDate": "2026-06-08"
+  },
+  {
+   "name": "Daily Coding Challenge",
+   "displayName": "Sep LeetCoding Challenge",
+   "icon": "/static/images/badges/dcc-2026-9.png",
+   "creationDate": "2026-09-30"
+  },
+  {
+   "name": "Daily Coding Challenge",
+   "displayName": "Aug LeetCoding Challenge",
+   "icon": "/static/images/badges/dcc-2026-8.png",
+   "creationDate": "2026-08-31"
+  },
+  {
+   "name": "Daily Coding Challenge",
+   "displayName": "Jul LeetCoding Challenge",
+   "icon": "/static/images/badges/dcc-2026-7.png",
+   "creationDate": "2026-07-31"
+  }
+ ],
+ "calendar": {
+  "max_streak": 152,
+  "active_days": 174,
+  "active_years": [
+   2026
+  ]
+ }
+}
