@@ -15,10 +15,7 @@ BORDER = "#30363d"
 DIM = "#8b949e"
 SANS = "-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif"
 
-STYLE = (
-    "<style>.a{animation:a .7s ease-out both}"
-    "@keyframes a{from{opacity:0}to{opacity:1}}</style>"
-)
+STYLE = ""
 
 REPOS = [
     (
@@ -88,15 +85,11 @@ def repo_card(name, repo, desc, lang, meta) -> None:
     w, pad = 640, 24
     lines = textwrap.wrap(desc, int((w - 2 * pad) / (14 * 0.55)))
     h = pad + 26 + len(lines) * 22 + 16 + 22 + pad - 6
-    card_path = (
-        f"M 0.5,8.5 A 8,8 0 0,1 8.5,0.5 L {w - 8.5},0.5 A 8,8 0 0,1 {w - 0.5},8.5 "
-        f"L {w - 0.5},{h - 0.5} L 0.5,{h - 0.5} Z"
-    )
     p = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">',
         STYLE,
-        f'<path d="{card_path}" fill="{BG}" stroke="{BORDER}"/>',
-        '<g class="a" style="animation-delay:0.10s">',
+        f'<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="8" fill="{BG}" stroke="{BORDER}"/>',
+        '<g>',
         f'<path d="{REPO_ICON}" fill="{DIM}" transform="translate({pad},{pad + 3}) scale(1.1)"/>',
         f'<text x="{pad + 26}" y="{pad + 16}" font-family="{SANS}" font-size="17" '
         f'font-weight="600" fill="#58a6ff">{escape(repo)}</text>',
@@ -124,18 +117,17 @@ def repo_card(name, repo, desc, lang, meta) -> None:
 
 def dock_buttons() -> None:
     os.makedirs("assets", exist_ok=True)
-    w, h = 320, 38
-    left_path = f"M 0.5,0.5 L {w - 0.5},0.5 L {w - 0.5},{h - 0.5} L 8.5,{h - 0.5} A 8,8 0 0,1 0.5,{h - 8.5} Z"
-    right_path = f"M 0.5,0.5 L {w - 0.5},0.5 L {w - 0.5},{h - 8.5} A 8,8 0 0,1 {w - 8.5},{h - 0.5} L 0.5,{h - 0.5} Z"
+    w, h = 150, 34
 
     # 1. dock-btn-live.svg (Left)
     live_svg = (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
-        f'<path d="{left_path}" fill="#161b22" stroke="{BORDER}"/>\n'
-        f'<g transform="translate(104, 11)">\n'
-        f'  <path d="{EXTERNAL_LINK_ICON}" fill="#58a6ff"/>\n'
-        f'  <text x="24" y="12" font-family="{SANS}" font-size="13" font-weight="600" fill="#58a6ff">Live demo ↗</text>\n'
-        f'</g>\n</svg>'
+        f'  <rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="6" fill="#161b22" stroke="{BORDER}"/>\n'
+        f'  <g transform="translate(0, 9)">\n'
+        f'    <path d="{EXTERNAL_LINK_ICON}" fill="#58a6ff" transform="translate(25, 0)"/>\n'
+        f'    <text x="47" y="12" font-family="{SANS}" font-size="12.5" font-weight="600" fill="#58a6ff">Live demo ↗</text>\n'
+        f'  </g>\n'
+        f'</svg>'
     )
     with open("assets/dock-btn-live.svg", "w", encoding="utf-8") as f:
         f.write(live_svg)
@@ -144,11 +136,12 @@ def dock_buttons() -> None:
     # 2. dock-btn-arch.svg (Left)
     arch_svg = (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
-        f'<path d="{left_path}" fill="#161b22" stroke="{BORDER}"/>\n'
-        f'<g transform="translate(94, 11)">\n'
-        f'  <path d="{LAYERS_ICON}" fill="none" stroke="#58a6ff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>\n'
-        f'  <text x="24" y="12" font-family="{SANS}" font-size="13" font-weight="600" fill="#58a6ff">Architecture ↗</text>\n'
-        f'</g>\n</svg>'
+        f'  <rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="6" fill="#161b22" stroke="{BORDER}"/>\n'
+        f'  <g transform="translate(0, 9)">\n'
+        f'    <path d="{LAYERS_ICON}" fill="none" stroke="#58a6ff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" transform="translate(15, 0)"/>\n'
+        f'    <text x="38" y="12" font-family="{SANS}" font-size="12.5" font-weight="600" fill="#58a6ff">Architecture ↗</text>\n'
+        f'  </g>\n'
+        f'</svg>'
     )
     with open("assets/dock-btn-arch.svg", "w", encoding="utf-8") as f:
         f.write(arch_svg)
@@ -157,11 +150,12 @@ def dock_buttons() -> None:
     # 3. dock-btn-repo.svg (Right)
     repo_svg = (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
-        f'<path d="{right_path}" fill="#161b22" stroke="{BORDER}"/>\n'
-        f'<g transform="translate(105, 11)">\n'
-        f'  <path d="{OCTOCAT_ICON}" fill="#c9d1d9"/>\n'
-        f'  <text x="24" y="12" font-family="{SANS}" font-size="13" font-weight="600" fill="#c9d1d9">GitHub repo</text>\n'
-        f'</g>\n</svg>'
+        f'  <rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="6" fill="#161b22" stroke="{BORDER}"/>\n'
+        f'  <g transform="translate(0, 9)">\n'
+        f'    <path d="{OCTOCAT_ICON}" fill="#c9d1d9" transform="translate(24, 0)"/>\n'
+        f'    <text x="47" y="12" font-family="{SANS}" font-size="12.5" font-weight="600" fill="#c9d1d9">GitHub repo</text>\n'
+        f'  </g>\n'
+        f'</svg>'
     )
     with open("assets/dock-btn-repo.svg", "w", encoding="utf-8") as f:
         f.write(repo_svg)
