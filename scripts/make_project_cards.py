@@ -1,9 +1,9 @@
-"""Generate pinned-repository style project cards and their link buttons.
+"""Generate pinned-repository style project cards with seamlessly docked action bars.
 
 Cards replicate the look of GitHub's pinned repos, in the shared terminal dark palette.
-Rerun when a project's description or tech changes:
-
-    python scripts/make_project_cards.py
+Each card has an integrated bottom action shelf divided into:
+- Left: Live demo / Architecture
+- Right: GitHub repo
 """
 
 import os
@@ -65,23 +65,37 @@ REPO_ICON = (
     "l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"
 )
 
-PILLS = [
-    ("live", "Live demo ↗"),
-    ("site", "Live site ↗"),
-    ("github", "GitHub repo"),
-    ("demo", "Watch demo ↗"),
-    ("arch", "Architecture ↗"),
-]
+OCTOCAT_ICON = (
+    "M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 "
+    "1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-"
+    ".68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 "
+    "3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 "
+    "1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"
+)
+
+EXTERNAL_LINK_ICON = (
+    "M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a1.25 1.25 0 0 0-1.25 1.25v7.5c0 .69.56 1.25 1.25 1.25h7.5c.69 0 1.25-.56 1.25-1.25"
+    "v-3.5a.75.75 0 0 1 1.5 0v3.5A2.75 2.75 0 0 1 11.25 15h-7.5A2.75 2.75 0 0 1 1 12.25v-7.5A2.75 2.75 0 0 1 3.75 2Zm7.5 1.5"
+    "H8.75a.75.75 0 0 1 0-1.5h4.5c.414 0 .75.336.75.75v4.5a.75.75 0 0 1-1.5 0V4.56L7.53 9.53a.75.75 0 0 1-1.06-1.06l4.97-4.97h-.19Z"
+)
+
+LAYERS_ICON = (
+    "M1.5 4.5 8 1l6.5 3.5L8 8 1.5 4.5Zm0 4.25L8 12.25l6.5-3.5m-13 4.25L8 16.5l6.5-3.5"
+)
 
 
 def repo_card(name, repo, desc, lang, meta) -> None:
     w, pad = 640, 24
     lines = textwrap.wrap(desc, int((w - 2 * pad) / (14 * 0.55)))
     h = pad + 26 + len(lines) * 22 + 16 + 22 + pad - 6
+    card_path = (
+        f"M 0.5,8.5 A 8,8 0 0,1 8.5,0.5 L {w - 8.5},0.5 A 8,8 0 0,1 {w - 0.5},8.5 "
+        f"L {w - 0.5},{h - 0.5} L 0.5,{h - 0.5} Z"
+    )
     p = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">',
         STYLE,
-        f'<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="8" fill="{BG}" stroke="{BORDER}"/>',
+        f'<path d="{card_path}" fill="{BG}" stroke="{BORDER}"/>',
         '<g class="a" style="animation-delay:0.10s">',
         f'<path d="{REPO_ICON}" fill="{DIM}" transform="translate({pad},{pad + 3}) scale(1.1)"/>',
         f'<text x="{pad + 26}" y="{pad + 16}" font-family="{SANS}" font-size="17" '
@@ -108,23 +122,53 @@ def repo_card(name, repo, desc, lang, meta) -> None:
     print(f"wrote assets/{name}")
 
 
-def pills() -> None:
-    os.makedirs("badges", exist_ok=True)
-    h = 34
-    for name, label in PILLS:
-        w = round(len(label) * 7.7 + 34)
-        svg = (
-            f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">'
-            f'<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="6" fill="#21262d" stroke="#363b42"/>'
-            f'<text x="{w / 2}" y="{h / 2 + 5}" font-family="{SANS}" font-size="14" font-weight="500" '
-            f'fill="#e6edf3" text-anchor="middle">{escape(label)}</text></svg>'
-        )
-        with open(f"badges/{name}.svg", "w", encoding="utf-8") as f:
-            f.write(svg)
-        print(f"wrote badges/{name}.svg")
+def dock_buttons() -> None:
+    os.makedirs("assets", exist_ok=True)
+    w, h = 320, 38
+    left_path = f"M 0.5,0.5 L {w - 0.5},0.5 L {w - 0.5},{h - 0.5} L 8.5,{h - 0.5} A 8,8 0 0,1 0.5,{h - 8.5} Z"
+    right_path = f"M 0.5,0.5 L {w - 0.5},0.5 L {w - 0.5},{h - 8.5} A 8,8 0 0,1 {w - 8.5},{h - 0.5} L 0.5,{h - 0.5} Z"
+
+    # 1. dock-btn-live.svg (Left)
+    live_svg = (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
+        f'<path d="{left_path}" fill="#161b22" stroke="{BORDER}"/>\n'
+        f'<g transform="translate(104, 11)">\n'
+        f'  <path d="{EXTERNAL_LINK_ICON}" fill="#58a6ff"/>\n'
+        f'  <text x="24" y="12" font-family="{SANS}" font-size="13" font-weight="600" fill="#58a6ff">Live demo ↗</text>\n'
+        f'</g>\n</svg>'
+    )
+    with open("assets/dock-btn-live.svg", "w", encoding="utf-8") as f:
+        f.write(live_svg)
+    print("wrote assets/dock-btn-live.svg")
+
+    # 2. dock-btn-arch.svg (Left)
+    arch_svg = (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
+        f'<path d="{left_path}" fill="#161b22" stroke="{BORDER}"/>\n'
+        f'<g transform="translate(94, 11)">\n'
+        f'  <path d="{LAYERS_ICON}" fill="none" stroke="#58a6ff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>\n'
+        f'  <text x="24" y="12" font-family="{SANS}" font-size="13" font-weight="600" fill="#58a6ff">Architecture ↗</text>\n'
+        f'</g>\n</svg>'
+    )
+    with open("assets/dock-btn-arch.svg", "w", encoding="utf-8") as f:
+        f.write(arch_svg)
+    print("wrote assets/dock-btn-arch.svg")
+
+    # 3. dock-btn-repo.svg (Right)
+    repo_svg = (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
+        f'<path d="{right_path}" fill="#161b22" stroke="{BORDER}"/>\n'
+        f'<g transform="translate(105, 11)">\n'
+        f'  <path d="{OCTOCAT_ICON}" fill="#c9d1d9"/>\n'
+        f'  <text x="24" y="12" font-family="{SANS}" font-size="13" font-weight="600" fill="#c9d1d9">GitHub repo</text>\n'
+        f'</g>\n</svg>'
+    )
+    with open("assets/dock-btn-repo.svg", "w", encoding="utf-8") as f:
+        f.write(repo_svg)
+    print("wrote assets/dock-btn-repo.svg")
 
 
 if __name__ == "__main__":
     for r in REPOS:
         repo_card(*r)
-    pills()
+    dock_buttons()

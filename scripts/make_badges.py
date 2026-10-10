@@ -21,7 +21,7 @@ H = 38
 
 # (filename, label)
 BADGES = [
-    ("portfolio", "soumya.pro"),
+    ("portfolio", "portfolio"),
     ("email", "email"),
     ("x", "x / @soumyachk1"),
     ("leetcode", "leetcode"),
