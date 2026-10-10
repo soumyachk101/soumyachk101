@@ -12,16 +12,6 @@
 
 <img src="./info-card.svg" width="560" alt="Terminal info card: Soumya Chakraborty, B.Tech CSE, systems and AI tooling engineer" />
 
-<br>
-
-<h3><code>soumyachk101@github:~$ cat hackathons.txt</code></h3>
-
-<img src="./hackathons-card.svg" width="860" alt="Hackathons: FusioniX'26 Joint Winner, Innofusion 3.0 DRISHTI, ISRO BAH'26, 7x shipped in 2026" />
-
-<br>
-
-<a href="https://credow.vercel.app/"><img src="./badges/credow.svg" alt="Credow Algorand x402 App" /></a>&nbsp;<a href="https://lnkd.in/dY9UuKN8"><img src="./badges/drishti.svg" alt="DRISHTI Demo Video" /></a>&nbsp;<a href="./ISRO_Hackathon_Certificate.png"><img src="./badges/isro-cert.svg" alt="ISRO Bharatiya Antariksh Hackathon Certificate" /></a>&nbsp;<a href="https://github.com/soumyachk101/Credow"><img src="./badges/fusionix.svg" alt="FusioniX Winner Repo" /></a>
-
 <br><br>
 
 <h3><code>soumyachk101@github:~$ ls ~/projects</code></h3>
@@ -46,7 +36,7 @@
 
 <a href="https://github.com/soumyachk101/DrishtiNet"><img src="./assets/card-drishtinet.svg" width="640" alt="soumyachk101/DrishtiNet: Network attack path graph risk prioritization engine. Python, Innofusion 3.0." /></a>
 
-<a href="https://lnkd.in/dY9UuKN8"><img src="./badges/demo.svg" alt="DRISHTI demo video" /></a>&nbsp;<a href="https://github.com/soumyachk101/DrishtiNet"><img src="./badges/github.svg" alt="DrishtiNet GitHub repo" /></a>
+<a href="https://dhristi-demo.vercel.app"><img src="./badges/live.svg" alt="DrishtiNet live demo" /></a>&nbsp;<a href="https://github.com/soumyachk101/DrishtiNet"><img src="./badges/github.svg" alt="DrishtiNet GitHub repo" /></a>
 
 <br>
 
@@ -56,7 +46,13 @@
 
 <br><br>
 
-<a href="https://soumya.pro"><img src="./badges/portfolio.svg" alt="Full portfolio with case studies" /></a>
+<h3><code>soumyachk101@github:~$ cat hackathons.txt</code></h3>
+
+<img src="./hackathons-card.svg" width="860" alt="Hackathons: FusioniX'26 Joint Winner, Innofusion 3.0 DRISHTI, ISRO BAH'26, 7x shipped in 2026" />
+
+<br>
+
+<a href="https://credow.vercel.app/"><img src="./badges/credow.svg" alt="Credow Algorand x402 App" /></a>&nbsp;<a href="https://dhristi-demo.vercel.app"><img src="./badges/drishti.svg" alt="DRISHTI Demo" /></a>&nbsp;<a href="./ISRO_Hackathon_Certificate.png"><img src="./badges/isro-cert.svg" alt="ISRO Bharatiya Antariksh Hackathon Certificate" /></a>&nbsp;<a href="https://github.com/soumyachk101/Credow"><img src="./badges/fusionix.svg" alt="FusioniX Winner Repo" /></a>
 
 <br><br>
 
@@ -70,21 +66,25 @@
 
 <br><br>
 
-<h3><code>soumyachk101@github:~$ cat highlights.txt</code></h3>
-
-<img src="./highlights-card.svg" width="860" alt="Highlights: FusioniX'26 Joint Winner, SwarmAI, Orbit, Ensembyte, Innofusion 3.0 DRISHTI" />
-
-<br><br>
-
 <h3><code>soumyachk101@github:~$ cat contributions.txt</code></h3>
 
 <img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution heatmap: 7,967 contributions in the last year with 192 day current streak" />
 
 <br><br>
 
+<h3><code>soumyachk101@github:~$ cat highlights.txt</code></h3>
+
+<img src="./highlights-card.svg" width="860" alt="Highlights: Ensembyte, Orbit, SwarmAI, Credow, 7.9k commits, LeetCode top tier" />
+
+<br><br>
+
 <h3><code>soumyachk101@github:~$ cat contact.txt</code></h3>
 
 <a href="https://soumya.pro"><img src="./badges/portfolio.svg" alt="Portfolio" /></a>&nbsp;<a href="https://x.com/soumyachk1"><img src="./badges/x.svg" alt="X / Twitter profile" /></a>&nbsp;<a href="https://leetcode.com/u/soumya-chk101/"><img src="./badges/leetcode.svg" alt="LeetCode profile" /></a>&nbsp;<a href="mailto:soumya.chk101@gmail.com"><img src="./badges/email.svg" alt="Email Soumya" /></a>
+
+<br><br>
+
+<sub>[session closed · Kolkata, India · UTC+5:30 · open for systems & devtools collaboration]</sub>
 
 <br><br>
 

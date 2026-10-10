@@ -30,12 +30,12 @@ W = 860
 TITLE = "soumyachk101@github: ~/highlights.txt"
 
 LINES = [
-    "FusioniX'26 Joint Winner: Credow corporate credit allocation on Algorand x402",
-    "SwarmAI: local-first IDE running parallel coding agents across Git worktrees",
-    "Orbit: lightweight device engine orchestrating Claude, Cursor & Codex locally",
-    "Ensembyte: open-source multi-agent client with Swift 6 Hydra & GPUI CRDT sync",
-    "Innofusion 3.0: built DRISHTI, graphing network attack paths by dollar risk",
-    "7 hackathons shipped across systems, AI tooling & security in 2026",
+    "Ensembyte: multi-agent client with Swift ∞ Hydra & GPUI CRDT engine",
+    "Orbit: lightweight device engine driving Claude Code, Cursor & Codex",
+    "SwarmAI: hybrid BM25 + dense n-gram memory for parallel worktrees",
+    "Credow: on-chain corporate credit allocation on Algorand with x402 vault",
+    "Shipped 7,900+ GitHub contributions with 192-day active daily streak",
+    "LeetCode top tier: 297 solved with 67 Hard problems & 152-day max streak",
 ]
 
 
