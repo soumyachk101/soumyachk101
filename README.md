@@ -12,6 +12,12 @@
 
 <img src="./info-card.svg" width="560" alt="Terminal info card: Soumya Chakraborty, B.Tech CSE, systems and AI tooling engineer" />
 
+<br><br>
+
+<h3><code>soumyachk101@github:~$ htop --filter=agents</code></h3>
+
+<img src="./agent-monitor.svg" width="860" alt="htop process monitor: parallel coding agents, memory engine and system tasks" />
+
 <br>
 
 <h3><code>soumyachk101@github:~$ ls ~/hackathons</code></h3>
