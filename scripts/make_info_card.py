@@ -24,7 +24,7 @@ FONT = "ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospac
 FS = 13.0
 LH = 22.0
 CW = FS * 0.602
-PAD_X = 22.0
+PAD_X = 46.0
 BAR_H = 30.0
 STAGGER = 0.16
 FADE = 0.45
@@ -40,16 +40,16 @@ LINES = [
     (None, None),
     ("Focus", "AI coding agent runtimes & multi-agent systems"),
     ("Winner", "FusioniX'26 Joint Winner · Algorand x402 track"),
-    ("Hackathons", "7 shipped in 2026 (FusioniX, Innofusion, etc.)"),
+    ("Hackathons", "10+ shipped in 2026 (FusioniX, Innofusion, etc.)"),
     (None, None),
     ("Systems", "Ensembyte · Orbit · SwarmAI (parallel agents)"),
     ("Languages", "Rust · TypeScript · Swift · Python · Go · C++"),
     ("Stack", "Tauri v2 · React · Next.js · FastAPI · GPUI · SQLite"),
     (None, None),
-    ("Web", "soumya.pro · x.com/soumyachk1"),
+    ("Web", "soumya.pro · x.com/soumyachk1 · leetcode.com/u/soumya-chk101"),
 ]
 
-KEY_COL = max(len(k) for k, _ in LINES if k) + 2  # chars, incl. separator
+KEY_COL = 14
 
 
 def main() -> None:
@@ -59,7 +59,7 @@ def main() -> None:
     longest = max(
         [len(TITLE)] + [KEY_COL + len(v) for k, v in LINES if k]
     )
-    width = round(longest * CW + 2 * PAD_X)
+    width = 640
     height = round(BAR_H + 14 + body_rows * LH + 10)
 
     def anim(i: int) -> str:

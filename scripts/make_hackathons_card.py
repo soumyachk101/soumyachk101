@@ -34,7 +34,7 @@ ENTRIES = [
     ("WINNER", GOLD, "FusioniX'26 · Joint Winner", "Credow: corporate credit on Algorand with x402 vault"),
     ("SECURITY", ACCENT, "Innofusion 3.0 · Cybersecurity", "DRISHTI: graphs network attack paths by dollar impact"),
     ("ISRO BAH", CYAN, "Bharatiya Antariksh '26 (ISRO)", "National space tech hackathon idea submission & cert"),
-    ("TRACK", INK, "7 Shipped Hackathons in 2026", "FusioniX, Innofusion, Citadel, Code for Change, HackTropica"),
+    ("TRACK", INK, "10+ Shipped Hackathons in 2026", "FusioniX, Innofusion, Citadel, HackTropica, etc."),
 ]
 
 
