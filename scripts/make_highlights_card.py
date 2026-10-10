@@ -34,7 +34,7 @@ LINES = [
     "Orbit: lightweight device engine driving Claude Code, Cursor & Codex",
     "SwarmAI: hybrid BM25 + dense n-gram memory for parallel worktrees",
     "Credow: on-chain corporate credit allocation on Algorand with x402 vault",
-    "Shipped 7,900+ GitHub contributions with 192-day active daily streak",
+    "Shipped 7,960+ GitHub contributions with 192-day continuous streak",
     "LeetCode top tier: 297 solved with 67 Hard problems & 152-day max streak",
 ]
 

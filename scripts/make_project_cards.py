@@ -70,6 +70,7 @@ PILLS = [
     ("site", "Live site ↗"),
     ("github", "GitHub repo"),
     ("demo", "Watch demo ↗"),
+    ("arch", "Architecture ↗"),
 ]
 
 

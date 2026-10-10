@@ -6,17 +6,23 @@
 
 <img src="./name-header.svg" width="860" alt="Terminal line typing: hi, I'm soumya chakraborty" />
 
+<br>
+
+<sub><code><a href="#whoami">[&nbsp;whoami&nbsp;]</a>&nbsp;· <a href="#projects">[&nbsp;projects&nbsp;]</a>&nbsp;· <a href="#hackathons">[&nbsp;hackathons&nbsp;]</a>&nbsp;· <a href="#leetcode">[&nbsp;leetcode&nbsp;]</a>&nbsp;· <a href="#contributions">[&nbsp;contributions&nbsp;]</a>&nbsp;· <a href="#highlights">[&nbsp;highlights&nbsp;]</a>&nbsp;· <a href="#languages">[&nbsp;languages&nbsp;]</a>&nbsp;· <a href="#contact">[&nbsp;contact&nbsp;]</a></code></sub>
+
 <br><br>
 
+<a id="whoami"></a>
 <h3><code>soumyachk101@github:~$ whoami</code></h3>
 
 <img src="./info-card.svg" width="560" alt="Terminal info card: Soumya Chakraborty, B.Tech CSE, systems and AI tooling engineer" />
 
 <br><br>
 
+<a id="projects"></a>
 <h3><code>soumyachk101@github:~$ ls ~/projects</code></h3>
 
-<a href="https://github.com/soumyachk101/Ensembyte"><img src="./assets/card-ensembyte.svg" width="640" alt="soumyachk101/Ensembyte: Multi-agent coding client with Swift 6 Hydra & GPUI CRDT engine." /></a>
+<a href="https://github.com/soumyachk101/Ensembyte"><img src="./assets/card-ensembyte.svg" width="640" alt="soumyachk101/Ensembyte: Multi-agent coding client with Swift ∞ Hydra & GPUI CRDT engine." /></a>
 
 <a href="https://ensembyte.vercel.app"><img src="./badges/live.svg" alt="Ensembyte live demo" /></a>&nbsp;<a href="https://github.com/soumyachk101/Ensembyte"><img src="./badges/github.svg" alt="Ensembyte GitHub repo" /></a>
 
@@ -42,10 +48,11 @@
 
 <a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/card-swarmai.svg" width="640" alt="soumyachk101/SwarmAI: Local-first desktop IDE for running coding agents in parallel with shared project memory. Rust, Tauri v2, React, SQLite." /></a>
 
-<a href="https://github.com/soumyachk101/SwarmAI"><img src="./badges/github.svg" alt="SwarmAI GitHub repo" /></a>
+<a href="https://github.com/soumyachk101/SwarmAI"><img src="./badges/arch.svg" alt="SwarmAI Architecture specs" /></a>&nbsp;<a href="https://github.com/soumyachk101/SwarmAI"><img src="./badges/github.svg" alt="SwarmAI GitHub repo" /></a>
 
 <br><br>
 
+<a id="hackathons"></a>
 <h3><code>soumyachk101@github:~$ cat hackathons.txt</code></h3>
 
 <img src="./hackathons-card.svg" width="860" alt="Hackathons: FusioniX'26 Joint Winner, Innofusion 3.0 DRISHTI, ISRO BAH'26, 7x shipped in 2026" />
@@ -56,6 +63,7 @@
 
 <br><br>
 
+<a id="leetcode"></a>
 <h3><code>soumyachk101@github:~$ ./leetcode-stats.sh</code></h3>
 
 <a href="https://leetcode.com/u/soumya-chk101/"><img src="./leetcode-card.svg" width="860" alt="LeetCode stats: 297 solved, 67 Hard, 142 Medium, 152-day max streak, 100 Days Badge" /></a>
@@ -66,6 +74,7 @@
 
 <br><br>
 
+<a id="contributions"></a>
 <h3><code>soumyachk101@github:~$ cat contributions.txt</code></h3>
 
 <a href="https://github.com/soumyachk101"><img src="./streak-card.svg" width="860" alt="GitHub streak stats: 7,967 contributions, 192-day streak" /></a>
@@ -74,12 +83,21 @@
 
 <br><br>
 
+<a id="highlights"></a>
 <h3><code>soumyachk101@github:~$ cat highlights.txt</code></h3>
 
 <img src="./highlights-card.svg" width="860" alt="Highlights: Ensembyte, Orbit, SwarmAI, Credow, 7.9k commits, LeetCode top tier" />
 
 <br><br>
 
+<a id="languages"></a>
+<h3><code>soumyachk101@github:~$ cat languages.txt</code></h3>
+
+<img src="./languages-card.svg" width="860" alt="Core languages & systems focus: Rust, TypeScript, Swift, Python, Go / C++" />
+
+<br><br>
+
+<a id="contact"></a>
 <h3><code>soumyachk101@github:~$ cat contact.txt</code></h3>
 
 <a href="https://soumya.pro"><img src="./badges/portfolio.svg" alt="Portfolio" /></a>&nbsp;<a href="https://x.com/soumyachk1"><img src="./badges/x.svg" alt="X / Twitter profile" /></a>&nbsp;<a href="https://leetcode.com/u/soumya-chk101/"><img src="./badges/leetcode.svg" alt="LeetCode profile" /></a>&nbsp;<a href="mailto:soumya.chk101@gmail.com"><img src="./badges/email.svg" alt="Email Soumya" /></a>
