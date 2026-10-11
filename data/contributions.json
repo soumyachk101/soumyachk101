@@ -1,50 +1,15 @@
 {
  "username": "soumyachk101",
- "fetched": "2026-10-10",
- "total": 7967,
+ "fetched": "2026-10-11",
+ "total": 7970,
  "best_day": {
   "date": "2026-09-01",
   "level": 4,
   "count": 262
  },
- "longest_streak": 192,
- "current_streak": 192,
+ "longest_streak": 193,
+ "current_streak": 193,
  "days": [
-  {
-   "date": "2025-10-05",
-   "level": 1,
-   "count": 4
-  },
-  {
-   "date": "2025-10-06",
-   "level": 1,
-   "count": 8
-  },
-  {
-   "date": "2025-10-07",
-   "level": 1,
-   "count": 10
-  },
-  {
-   "date": "2025-10-08",
-   "level": 1,
-   "count": 9
-  },
-  {
-   "date": "2025-10-09",
-   "level": 1,
-   "count": 1
-  },
-  {
-   "date": "2025-10-10",
-   "level": 1,
-   "count": 2
-  },
-  {
-   "date": "2025-10-11",
-   "level": 1,
-   "count": 4
-  },
   {
    "date": "2025-10-12",
    "level": 1,
@@ -978,7 +943,7 @@
   {
    "date": "2026-04-16",
    "level": 1,
-   "count": 23
+   "count": 21
   },
   {
    "date": "2026-04-17",
@@ -1862,8 +1827,13 @@
   },
   {
    "date": "2026-10-10",
+   "level": 2,
+   "count": 45
+  },
+  {
+   "date": "2026-10-11",
    "level": 1,
-   "count": 3
+   "count": 1
   }
  ]
 }
