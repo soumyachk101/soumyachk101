@@ -50,10 +50,28 @@ def main() -> None:
     static = os.environ.get("STATIC") == "1"
 
     rows = len(LANGS)
-    height = round(BAR_H + 20 + rows * LH + 26 + 18)
+    height = round(BAR_H + 20 + rows * LH + 26 + 34)
 
     p = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}">',
+        "<defs>",
+        '  <linearGradient id="langSpectrum" x1="0%" y1="0%" x2="100%" y2="0%">',
+        '    <stop offset="0%" stop-color="#161b22"/>',
+        '    <stop offset="15%" stop-color="#dea584"/>',
+        '    <stop offset="35%" stop-color="#3178c6"/>',
+        '    <stop offset="55%" stop-color="#f05138"/>',
+        '    <stop offset="75%" stop-color="#3572A5"/>',
+        '    <stop offset="90%" stop-color="#00ADD8"/>',
+        '    <stop offset="100%" stop-color="#39d353"/>',
+        '  </linearGradient>',
+        '  <linearGradient id="langBeam" x1="0%" y1="0%" x2="100%" y2="0%">',
+        '    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>',
+        '    <stop offset="50%" stop-color="#ffffff" stop-opacity="0.8"/>',
+        '    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>',
+        '    <animate attributeName="x1" from="-40%" to="100%" dur="2.4s" repeatCount="indefinite"/>',
+        '    <animate attributeName="x2" from="0%" to="140%" dur="2.4s" repeatCount="indefinite"/>',
+        '  </linearGradient>',
+        "</defs>",
         f'<rect width="100%" height="100%" rx="8" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>',
         f'<path d="M1 9 a8 8 0 0 1 8-8 h{W - 18} a8 8 0 0 1 8 8 v{BAR_H - 9:.1f} h-{W - 2} z" fill="{BAR}"/>',
         f'<line x1="1" y1="{BAR_H}" x2="{W - 1}" y2="{BAR_H}" stroke="{BORDER}" stroke-width="1"/>',
@@ -109,6 +127,31 @@ def main() -> None:
         f'production systems across macOS, Linux &amp; bare-metal devices · zero framework bloat'
         f'</text>'
     )
+    if anim_sum:
+        p.append(anim_sum)
+    p.append("</g>")
+
+    # Bottom language spectrum bar + language-color cycling orb
+    bar_x = 24
+    bar_w = W - bar_x * 2  # 812px
+    bar_y = y + 22
+    bar_h = 8
+    orb_cy = bar_y + bar_h / 2
+
+    lang_orb_anim = "" if static else (
+        f'<circle cy="{orb_cy:.1f}" r="3.5" fill="#dea584">'
+        f'<animate attributeName="cx" values="{bar_x + 6};{bar_x + bar_w - 6};{bar_x + 6}" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"/>'
+        f'<animate attributeName="fill" values="#dea584;#3178c6;#f05138;#3572A5;#00ADD8;#39d353;#dea584" dur="4s" repeatCount="indefinite"/>'
+        f'<animate attributeName="r" values="3;4.2;3" dur="1.2s" repeatCount="indefinite"/>'
+        f'</circle>'
+    )
+    lang_beam_layer = f'<rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="4" fill="url(#langBeam)"/>' if not static else ""
+
+    p.append(f'<g opacity="{op_sum}">')
+    p.append(f'<rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>')
+    p.append(f'<rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="4" fill="url(#langSpectrum)" opacity="0.9"/>')
+    p.append(lang_beam_layer)
+    p.append(lang_orb_anim)
     if anim_sum:
         p.append(anim_sum)
     p.append("</g>")

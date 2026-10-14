@@ -1,4 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="236" viewBox="0 0 860 236">
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="252" viewBox="0 0 860 252">
+<defs>
+  <linearGradient id="langSpectrum" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#161b22"/>
+    <stop offset="15%" stop-color="#dea584"/>
+    <stop offset="35%" stop-color="#3178c6"/>
+    <stop offset="55%" stop-color="#f05138"/>
+    <stop offset="75%" stop-color="#3572A5"/>
+    <stop offset="90%" stop-color="#00ADD8"/>
+    <stop offset="100%" stop-color="#39d353"/>
+  </linearGradient>
+  <linearGradient id="langBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#ffffff" stop-opacity="0.8"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    <animate attributeName="x1" from="-40%" to="100%" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="x2" from="0%" to="140%" dur="2.4s" repeatCount="indefinite"/>
+  </linearGradient>
+</defs>
 <rect width="100%" height="100%" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
 <path d="M1 9 a8 8 0 0 1 8-8 h842 a8 8 0 0 1 8 8 v23.0 h-858 z" fill="#161b22"/>
 <line x1="1" y1="32.0" x2="859" y2="32.0" stroke="#30363d" stroke-width="1"/>
@@ -34,6 +52,13 @@
 </g>
 <g opacity="0">
 <text x="24" y="208.0" fill="#8b949e" font-size="11.5"><tspan fill="#3fb950">➜</tspan>  production systems across macOS, Linux &amp; bare-metal devices · zero framework bloat</text>
+<animate attributeName="opacity" from="0" to="1" begin="1.10s" dur="0.45s" fill="freeze"/>
+</g>
+<g opacity="0">
+<rect x="24" y="222.0" width="812" height="8" rx="4" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>
+<rect x="24" y="222.0" width="812" height="8" rx="4" fill="url(#langSpectrum)" opacity="0.9"/>
+<rect x="24" y="222.0" width="812" height="8" rx="4" fill="url(#langBeam)"/>
+<circle cy="226.0" r="3.5" fill="#dea584"><animate attributeName="cx" values="30;830;30" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"/><animate attributeName="fill" values="#dea584;#3178c6;#f05138;#3572A5;#00ADD8;#39d353;#dea584" dur="4s" repeatCount="indefinite"/><animate attributeName="r" values="3;4.2;3" dur="1.2s" repeatCount="indefinite"/></circle>
 <animate attributeName="opacity" from="0" to="1" begin="1.10s" dur="0.45s" fill="freeze"/>
 </g>
 </g></svg>
