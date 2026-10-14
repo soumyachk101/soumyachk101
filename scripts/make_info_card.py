@@ -92,6 +92,23 @@ def main() -> None:
         '    <stop offset="0%" stop-color="#161b22"/>',
         '    <stop offset="100%" stop-color="#0d1117"/>',
         "  </linearGradient>",
+        '  <linearGradient id="spectrumBar" x1="0%" y1="0%" x2="100%" y2="0%">',
+        '    <stop offset="0%" stop-color="#161b22"/>',
+        '    <stop offset="10%" stop-color="#0e4429"/>',
+        '    <stop offset="25%" stop-color="#238636"/>',
+        '    <stop offset="40%" stop-color="#39d353"/>',
+        '    <stop offset="55%" stop-color="#56d4dd"/>',
+        '    <stop offset="70%" stop-color="#58a6ff"/>',
+        '    <stop offset="85%" stop-color="#bc8cff"/>',
+        '    <stop offset="100%" stop-color="#f0f6fc"/>',
+        '  </linearGradient>',
+        '  <linearGradient id="cuteBeam" x1="0%" y1="0%" x2="100%" y2="0%">',
+        '    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>',
+        '    <stop offset="50%" stop-color="#ffffff" stop-opacity="0.8"/>',
+        '    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>',
+        '    <animate attributeName="x1" from="-40%" to="100%" dur="2.4s" repeatCount="indefinite"/>',
+        '    <animate attributeName="x2" from="0%" to="140%" dur="2.4s" repeatCount="indefinite"/>',
+        '  </linearGradient>',
         "</defs>",
         f'<rect width="100%" height="100%" rx="8" fill="{BG}" '
         f'stroke="{BORDER}" stroke-width="1"/>',
@@ -179,31 +196,28 @@ def main() -> None:
         y += LH
         step += 1
 
-    # Bottom Terminal Color Swatches (left & right columns)
-    swatch_y = height - 24
-    colors = [
-        "#161b22",
-        "#0e4429",
-        "#006d32",
-        "#26a641",
-        "#39d353",
-        "#58a6ff",
-        "#bc8cff",
-        "#c9d1d9",
-    ]
-    swatches_left = [(col, 36 + i * 40) for i, col in enumerate(colors)]
-    swatches_right = [(col, 445 + i * 40) for i, col in enumerate(colors)]
+    # Bottom single unified continuous spectrum bar (puro 1 ta unbroken line across full width)
+    bar_x = 36
+    bar_w = W - bar_x * 2  # 788px (spans from x=36 to x=824)
+    bar_y = height - 23
+    bar_h = 10
     
-    left_tags = "".join(
-        f'<rect x="{x}" y="{swatch_y}" width="32" height="12" rx="3" fill="{col}"/>'
-        for col, x in swatches_left
+    orb_anim = "" if static else (
+        f'<circle cy="{bar_y + bar_h / 2:.1f}" r="4" fill="#39d353">'
+        f'<animate attributeName="cx" values="{bar_x + 8};{bar_x + bar_w - 8};{bar_x + 8}" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"/>'
+        f'<animate attributeName="fill" values="#39d353;#56d4dd;#58a6ff;#bc8cff;#39d353" dur="4s" repeatCount="indefinite"/>'
+        f'<animate attributeName="r" values="3.5;5;3.5" dur="1.2s" repeatCount="indefinite"/>'
+        f'</circle>'
     )
-    right_tags = "".join(
-        f'<rect x="{x}" y="{swatch_y}" width="32" height="12" rx="3" fill="{col}"/>'
-        for col, x in swatches_right
-    )
+    beam_layer = f'<rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="5" fill="url(#cuteBeam)"/>' if not static else ""
+
     parts.append(
-        f'<g opacity="{op}">{left_tags}{right_tags}{anim(step)}</g>'
+        f'<g opacity="{op}">'
+        f'<rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8"/>'
+        f'<rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="5" fill="url(#spectrumBar)" opacity="0.9"/>'
+        f'{beam_layer}'
+        f'{orb_anim}'
+        f'{anim(step)}</g>'
     )
 
     parts.append("</g></svg>")
