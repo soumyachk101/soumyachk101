@@ -85,7 +85,7 @@ LAYERS_ICON = (
 
 
 def repo_card(name, repo, desc, lang, meta) -> None:
-    w, pad = 640, 24
+    w, pad = 860, 26
     lines = textwrap.wrap(desc, int((w - 2 * pad) / (14 * 0.55)))
     h = pad + 26 + len(lines) * 22 + 16 + 22 + pad - 6
     card_path = (
@@ -124,7 +124,7 @@ def repo_card(name, repo, desc, lang, meta) -> None:
 
 def dock_buttons() -> None:
     os.makedirs("assets", exist_ok=True)
-    w, h = 320, 38
+    w, h = 430, 38
     left_path = f"M 0.5,0.5 L {w - 0.5},0.5 L {w - 0.5},{h - 0.5} L 8.5,{h - 0.5} A 8,8 0 0,1 0.5,{h - 8.5} Z"
     right_path = f"M 0.5,0.5 L {w - 0.5},0.5 L {w - 0.5},{h - 8.5} A 8,8 0 0,1 {w - 8.5},{h - 0.5} L 0.5,{h - 0.5} Z"
 
@@ -132,7 +132,7 @@ def dock_buttons() -> None:
     live_svg = (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
         f'<path d="{left_path}" fill="#161b22" stroke="{BORDER}"/>\n'
-        f'<g transform="translate(104, 11)">\n'
+        f'<g transform="translate(155, 11)">\n'
         f'  <path d="{EXTERNAL_LINK_ICON}" fill="#58a6ff"/>\n'
         f'  <text x="24" y="12" font-family="{SANS}" font-size="13" font-weight="600" fill="#58a6ff">Live demo ↗</text>\n'
         f'</g>\n</svg>'
@@ -145,7 +145,7 @@ def dock_buttons() -> None:
     arch_svg = (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
         f'<path d="{left_path}" fill="#161b22" stroke="{BORDER}"/>\n'
-        f'<g transform="translate(94, 11)">\n'
+        f'<g transform="translate(145, 11)">\n'
         f'  <path d="{LAYERS_ICON}" fill="none" stroke="#58a6ff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>\n'
         f'  <text x="24" y="12" font-family="{SANS}" font-size="13" font-weight="600" fill="#58a6ff">Architecture ↗</text>\n'
         f'</g>\n</svg>'
@@ -158,7 +158,7 @@ def dock_buttons() -> None:
     repo_svg = (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
         f'<path d="{right_path}" fill="#161b22" stroke="{BORDER}"/>\n'
-        f'<g transform="translate(105, 11)">\n'
+        f'<g transform="translate(155, 11)">\n'
         f'  <path d="{OCTOCAT_ICON}" fill="#c9d1d9"/>\n'
         f'  <text x="24" y="12" font-family="{SANS}" font-size="13" font-weight="600" fill="#c9d1d9">GitHub repo</text>\n'
         f'</g>\n</svg>'

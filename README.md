@@ -15,31 +15,35 @@
 <a id="whoami"></a>
 <h3><code>soumyachk101@github:~$ whoami</code></h3>
 
-<img src="./info-card.svg" width="640" alt="Terminal info card: Soumya Chakraborty, B.Tech CSE, systems and AI tooling engineer" />
+<img src="https://soumya-leetcode.vercel.app/info-card.svg" width="860" alt="Terminal info card: Soumya Chakraborty, B.Tech CSE, systems and AI tooling engineer" />
 
+<br><br>
+<img src="./divider.svg" width="860" alt="divider" />
 <br><br>
 
 <a id="projects"></a>
 <h3><code>soumyachk101@github:~$ ls ~/projects</code></h3>
 
-<a href="https://github.com/soumyachk101/Ensembyte"><img src="./assets/card-ensembyte.svg" width="640" alt="soumyachk101/Ensembyte: Multi-agent coding client with Swift ∞ Hydra & GPUI CRDT engine." /></a><br><a href="https://ensembyte.vercel.app"><img src="./assets/dock-btn-live.svg" width="320" alt="Ensembyte live demo" /></a><a href="https://github.com/soumyachk101/Ensembyte"><img src="./assets/dock-btn-repo.svg" width="320" alt="Ensembyte GitHub repo" /></a>
+<a href="https://github.com/soumyachk101/Ensembyte"><img src="./assets/card-ensembyte.svg" width="860" alt="soumyachk101/Ensembyte: Multi-agent coding client with Swift ∞ Hydra & GPUI CRDT engine." /></a><br><a href="https://ensembyte.vercel.app"><img src="./assets/dock-btn-live.svg" width="430" alt="Ensembyte live demo" /></a><a href="https://github.com/soumyachk101/Ensembyte"><img src="./assets/dock-btn-repo.svg" width="430" alt="Ensembyte GitHub repo" /></a>
 
-<br>
+<br><br>
 
-<a href="https://github.com/soumyachk101/Orbit-Code"><img src="./assets/card-orbit.svg" width="640" alt="soumyachk101/Orbit-Code: Drives coding agents from a lightweight engine on each device. Rust, Local-First." /></a><br><a href="https://orbitcodev1.vercel.app"><img src="./assets/dock-btn-live.svg" width="320" alt="Orbit live demo" /></a><a href="https://github.com/soumyachk101/Orbit-Code"><img src="./assets/dock-btn-repo.svg" width="320" alt="Orbit GitHub repo" /></a>
+<a href="https://github.com/soumyachk101/Orbit-Code"><img src="./assets/card-orbit.svg" width="860" alt="soumyachk101/Orbit-Code: Drives coding agents from a lightweight engine on each device. Rust, Local-First." /></a><br><a href="https://orbitcodev1.vercel.app"><img src="./assets/dock-btn-live.svg" width="430" alt="Orbit live demo" /></a><a href="https://github.com/soumyachk101/Orbit-Code"><img src="./assets/dock-btn-repo.svg" width="430" alt="Orbit GitHub repo" /></a>
 
-<br>
+<br><br>
 
-<a href="https://github.com/soumyachk101/Credow"><img src="./assets/card-credow.svg" width="640" alt="soumyachk101/Credow: Corporate credit allocation on Algorand. TypeScript, x402 Protocol, FusioniX'26 winner." /></a><br><a href="https://credow.vercel.app/"><img src="./assets/dock-btn-live.svg" width="320" alt="Credow live demo" /></a><a href="https://github.com/soumyachk101/Credow"><img src="./assets/dock-btn-repo.svg" width="320" alt="Credow GitHub repo" /></a>
+<a href="https://github.com/soumyachk101/Credow"><img src="./assets/card-credow.svg" width="860" alt="soumyachk101/Credow: Corporate credit allocation on Algorand. TypeScript, x402 Protocol, FusioniX'26 winner." /></a><br><a href="https://credow.vercel.app/"><img src="./assets/dock-btn-live.svg" width="430" alt="Credow live demo" /></a><a href="https://github.com/soumyachk101/Credow"><img src="./assets/dock-btn-repo.svg" width="430" alt="Credow GitHub repo" /></a>
 
-<br>
+<br><br>
 
-<a href="https://github.com/soumyachk101/DrishtiNet"><img src="./assets/card-drishtinet.svg" width="640" alt="soumyachk101/DrishtiNet: Network attack path graph risk prioritization engine. Python, Innofusion 3.0." /></a><br><a href="https://dhristi-demo.vercel.app"><img src="./assets/dock-btn-live.svg" width="320" alt="DrishtiNet live demo" /></a><a href="https://github.com/soumyachk101/DrishtiNet"><img src="./assets/dock-btn-repo.svg" width="320" alt="DrishtiNet GitHub repo" /></a>
+<a href="https://github.com/soumyachk101/DrishtiNet"><img src="./assets/card-drishtinet.svg" width="860" alt="soumyachk101/DrishtiNet: Network attack path graph risk prioritization engine. Python, Innofusion 3.0." /></a><br><a href="https://dhristi-demo.vercel.app"><img src="./assets/dock-btn-live.svg" width="430" alt="DrishtiNet live demo" /></a><a href="https://github.com/soumyachk101/DrishtiNet"><img src="./assets/dock-btn-repo.svg" width="430" alt="DrishtiNet GitHub repo" /></a>
 
-<br>
+<br><br>
 
-<a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/card-swarmai.svg" width="640" alt="soumyachk101/SwarmAI: Local-first desktop IDE for running coding agents in parallel with shared project memory. Rust, Tauri v2, React, SQLite." /></a><br><a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/dock-btn-arch.svg" width="320" alt="SwarmAI Architecture specs" /></a><a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/dock-btn-repo.svg" width="320" alt="SwarmAI GitHub repo" /></a>
+<a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/card-swarmai.svg" width="860" alt="soumyachk101/SwarmAI: Local-first desktop IDE for running coding agents in parallel with shared project memory. Rust, Tauri v2, React, SQLite." /></a><br><a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/dock-btn-arch.svg" width="430" alt="SwarmAI Architecture specs" /></a><a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/dock-btn-repo.svg" width="430" alt="SwarmAI GitHub repo" /></a>
 
+<br><br>
+<img src="./divider.svg" width="860" alt="divider" />
 <br><br>
 
 <a id="hackathons"></a>
@@ -52,16 +56,24 @@
 <a href="https://credow.vercel.app/"><img src="./badges/credow.svg" alt="Credow Algorand x402 App" /></a>&nbsp;<a href="https://dhristi-demo.vercel.app"><img src="./badges/drishti.svg" alt="DRISHTI Demo" /></a>&nbsp;<a href="./ISRO_Hackathon_Certificate.png"><img src="./badges/isro-cert.svg" alt="ISRO Bharatiya Antariksh Hackathon Certificate" /></a>&nbsp;<a href="https://github.com/soumyachk101/Credow"><img src="./badges/fusionix.svg" alt="FusioniX Winner Repo" /></a>
 
 <br><br>
+<img src="./divider.svg" width="860" alt="divider" />
+<br><br>
 
 <a id="leetcode"></a>
 <h3><code>soumyachk101@github:~$ ./leetcode-stats.sh</code></h3>
 
 <a href="https://leetcode.com/u/soumya-chk101/"><img src="https://soumya-leetcode.vercel.app/card.svg" width="860" alt="LeetCode stats: 298 solved, 67 Hard, 142 Medium, 152-day max streak, 100 Days Badge" /></a>
 
+<br><br>
+
 <a href="https://leetcode.com/u/soumya-chk101/"><img src="https://soumya-leetcode.vercel.app/badges.svg" width="860" alt="LeetCode badges: 100 Days, 50 Days, and monthly challenge badges" /></a>
+
+<br><br>
 
 <a href="https://leetcode.com/u/soumya-chk101/"><img src="https://soumya-leetcode.vercel.app/streak.svg" width="860" alt="LeetCode streaks: 174 active days, 152-day max streak, 298 problems solved" /></a>
 
+<br><br>
+<img src="./divider.svg" width="860" alt="divider" />
 <br><br>
 
 <a id="contributions"></a>
@@ -69,8 +81,12 @@
 
 <a href="https://github.com/soumyachk101"><img src="https://soumya-leetcode.vercel.app/github-streak.svg" width="860" alt="GitHub streak stats: real-time dynamic" /></a>
 
+<br><br>
+
 <a href="https://github.com/soumyachk101"><img src="https://soumya-leetcode.vercel.app/github-heatmap.svg" width="860" alt="GitHub contribution heatmap: real-time dynamic" /></a>
 
+<br><br>
+<img src="./divider.svg" width="860" alt="divider" />
 <br><br>
 
 <a id="highlights"></a>
@@ -79,6 +95,8 @@
 <img src="https://soumya-leetcode.vercel.app/highlights.svg" width="860" alt="Highlights: Ensembyte, Orbit, SwarmAI, Credow, GitHub contributions, LeetCode top tier" />
 
 <br><br>
+<img src="./divider.svg" width="860" alt="divider" />
+<br><br>
 
 <a id="languages"></a>
 <h3><code>soumyachk101@github:~$ cat languages.txt</code></h3>
@@ -86,12 +104,16 @@
 <img src="./languages-card.svg" width="860" alt="Core languages & systems focus: Rust, TypeScript, Swift, Python, Go / C++" />
 
 <br><br>
+<img src="./divider.svg" width="860" alt="divider" />
+<br><br>
 
 <a id="contact"></a>
 <h3><code>soumyachk101@github:~$ cat contact.txt</code></h3>
 
 <a href="https://soumya.pro"><img src="./badges/portfolio.svg" alt="Portfolio" /></a>&nbsp;<a href="https://x.com/soumyachk1"><img src="./badges/x.svg" alt="X / Twitter profile" /></a>&nbsp;<a href="https://leetcode.com/u/soumya-chk101/"><img src="./badges/leetcode.svg" alt="LeetCode profile" /></a>&nbsp;<a href="mailto:soumya.chk101@gmail.com"><img src="./badges/email.svg" alt="Email Soumya" /></a>
 
+<br><br>
+<img src="./divider.svg" width="860" alt="divider" />
 <br><br>
 
 <img src="./footer-card.svg" width="860" alt="Terminal footer: session closed · Kolkata, India · UTC+5:30 · open for systems & devtools collaboration" />
