@@ -24,23 +24,23 @@
 <a id="projects"></a>
 <h3><code>soumyachk101@github:~$ ls ~/projects</code></h3>
 
-<a href="https://github.com/soumyachk101/Ensembyte"><img src="./assets/card-ensembyte.svg" width="860" alt="soumyachk101/Ensembyte: Multi-agent coding client with Swift ∞ Hydra & GPUI CRDT engine." /></a><br><a href="https://ensembyte.vercel.app"><img src="./assets/dock-btn-live.svg" width="430" alt="Ensembyte live demo" /></a><a href="https://github.com/soumyachk101/Ensembyte"><img src="./assets/dock-btn-repo.svg" width="430" alt="Ensembyte GitHub repo" /></a>
+<a href="https://github.com/soumyachk101/Ensembyte"><img src="./assets/card-ensembyte.svg" width="860" alt="soumyachk101/Ensembyte: Multi-agent coding client with Swift ∞ Hydra & GPUI CRDT engine." /></a><br><a href="https://ensembyte.vercel.app"><img src="./assets/dock-btn-live.svg" width="49.5%" alt="Ensembyte live demo" /></a><a href="https://github.com/soumyachk101/Ensembyte"><img src="./assets/dock-btn-repo.svg" width="49.5%" alt="Ensembyte GitHub repo" /></a>
 
 <br><br>
 
-<a href="https://github.com/soumyachk101/Orbit-Code"><img src="./assets/card-orbit.svg" width="860" alt="soumyachk101/Orbit-Code: Drives coding agents from a lightweight engine on each device. Rust, Local-First." /></a><br><a href="https://orbitcodev1.vercel.app"><img src="./assets/dock-btn-live.svg" width="430" alt="Orbit live demo" /></a><a href="https://github.com/soumyachk101/Orbit-Code"><img src="./assets/dock-btn-repo.svg" width="430" alt="Orbit GitHub repo" /></a>
+<a href="https://github.com/soumyachk101/Orbit-Code"><img src="./assets/card-orbit.svg" width="860" alt="soumyachk101/Orbit-Code: Drives coding agents from a lightweight engine on each device. Rust, Local-First." /></a><br><a href="https://orbitcodev1.vercel.app"><img src="./assets/dock-btn-live.svg" width="49.5%" alt="Orbit live demo" /></a><a href="https://github.com/soumyachk101/Orbit-Code"><img src="./assets/dock-btn-repo.svg" width="49.5%" alt="Orbit GitHub repo" /></a>
 
 <br><br>
 
-<a href="https://github.com/soumyachk101/Credow"><img src="./assets/card-credow.svg" width="860" alt="soumyachk101/Credow: Corporate credit allocation on Algorand. TypeScript, x402 Protocol, FusioniX'26 winner." /></a><br><a href="https://credow.vercel.app/"><img src="./assets/dock-btn-live.svg" width="430" alt="Credow live demo" /></a><a href="https://github.com/soumyachk101/Credow"><img src="./assets/dock-btn-repo.svg" width="430" alt="Credow GitHub repo" /></a>
+<a href="https://github.com/soumyachk101/Credow"><img src="./assets/card-credow.svg" width="860" alt="soumyachk101/Credow: Corporate credit allocation on Algorand. TypeScript, x402 Protocol, FusioniX'26 winner." /></a><br><a href="https://credow.vercel.app/"><img src="./assets/dock-btn-live.svg" width="49.5%" alt="Credow live demo" /></a><a href="https://github.com/soumyachk101/Credow"><img src="./assets/dock-btn-repo.svg" width="49.5%" alt="Credow GitHub repo" /></a>
 
 <br><br>
 
-<a href="https://github.com/soumyachk101/DrishtiNet"><img src="./assets/card-drishtinet.svg" width="860" alt="soumyachk101/DrishtiNet: Network attack path graph risk prioritization engine. Python, Innofusion 3.0." /></a><br><a href="https://dhristi-demo.vercel.app"><img src="./assets/dock-btn-live.svg" width="430" alt="DrishtiNet live demo" /></a><a href="https://github.com/soumyachk101/DrishtiNet"><img src="./assets/dock-btn-repo.svg" width="430" alt="DrishtiNet GitHub repo" /></a>
+<a href="https://github.com/soumyachk101/DrishtiNet"><img src="./assets/card-drishtinet.svg" width="860" alt="soumyachk101/DrishtiNet: Network attack path graph risk prioritization engine. Python, Innofusion 3.0." /></a><br><a href="https://dhristi-demo.vercel.app"><img src="./assets/dock-btn-live.svg" width="49.5%" alt="DrishtiNet live demo" /></a><a href="https://github.com/soumyachk101/DrishtiNet"><img src="./assets/dock-btn-repo.svg" width="49.5%" alt="DrishtiNet GitHub repo" /></a>
 
 <br><br>
 
-<a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/card-swarmai.svg" width="860" alt="soumyachk101/SwarmAI: Local-first desktop IDE for running coding agents in parallel with shared project memory. Rust, Tauri v2, React, SQLite." /></a><br><a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/dock-btn-arch.svg" width="430" alt="SwarmAI Architecture specs" /></a><a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/dock-btn-repo.svg" width="430" alt="SwarmAI GitHub repo" /></a>
+<a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/card-swarmai.svg" width="860" alt="soumyachk101/SwarmAI: Local-first desktop IDE for running coding agents in parallel with shared project memory. Rust, Tauri v2, React, SQLite." /></a><br><a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/dock-btn-arch.svg" width="49.5%" alt="SwarmAI Architecture specs" /></a><a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/dock-btn-repo.svg" width="49.5%" alt="SwarmAI GitHub repo" /></a>
 
 <br><br>
 <img src="./divider.svg" width="860" alt="divider" />
