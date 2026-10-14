@@ -30,7 +30,8 @@ def main() -> None:
     orb_cy = bar_y + bar_h / 2
 
     parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" text-rendering="geometricPrecision" shape-rendering="geometricPrecision">',
+        "<style>text{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:geometricPrecision;}</style>",
         "<defs>",
         '  <linearGradient id="footerSpectrum" x1="0%" y1="0%" x2="100%" y2="0%">',
         '    <stop offset="0%" stop-color="#161b22"/>',
@@ -50,7 +51,7 @@ def main() -> None:
         '    <animate attributeName="x2" from="0%" to="140%" dur="2.4s" repeatCount="indefinite"/>',
         '  </linearGradient>',
         "</defs>",
-        f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="8" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>',
+        f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="8" fill="{BG}" stroke="{BORDER}" stroke-width="1.2"/>',
     ]
 
     # Status pulse dot on left

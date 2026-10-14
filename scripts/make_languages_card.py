@@ -53,7 +53,8 @@ def main() -> None:
     height = round(BAR_H + 20 + rows * LH + 26 + 34)
 
     p = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}" text-rendering="geometricPrecision" shape-rendering="geometricPrecision">',
+        "<style>text{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:geometricPrecision;}</style>",
         "<defs>",
         '  <linearGradient id="langSpectrum" x1="0%" y1="0%" x2="100%" y2="0%">',
         '    <stop offset="0%" stop-color="#161b22"/>',
@@ -72,7 +73,7 @@ def main() -> None:
         '    <animate attributeName="x2" from="0%" to="140%" dur="2.4s" repeatCount="indefinite"/>',
         '  </linearGradient>',
         "</defs>",
-        f'<rect width="100%" height="100%" rx="8" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>',
+        f'<rect width="100%" height="100%" rx="8" fill="{BG}" stroke="{BORDER}" stroke-width="1.2"/>',
         f'<path d="M1 9 a8 8 0 0 1 8-8 h{W - 18} a8 8 0 0 1 8 8 v{BAR_H - 9:.1f} h-{W - 2} z" fill="{BAR}"/>',
         f'<line x1="1" y1="{BAR_H}" x2="{W - 1}" y2="{BAR_H}" stroke="{BORDER}" stroke-width="1"/>',
         f'<circle cx="20" cy="{BAR_H / 2}" r="5" fill="#f85149"/>',

@@ -86,7 +86,8 @@ def main() -> None:
     op = "1" if static else "0"
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" '
-        f'height="{height}" viewBox="0 0 {W} {height}">',
+        f'height="{height}" viewBox="0 0 {W} {height}" text-rendering="geometricPrecision" shape-rendering="geometricPrecision">',
+        "<style>text{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:geometricPrecision;}</style>",
         "<defs>",
         '  <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">',
         '    <stop offset="0%" stop-color="#161b22"/>',
@@ -111,7 +112,7 @@ def main() -> None:
         '  </linearGradient>',
         "</defs>",
         f'<rect width="100%" height="100%" rx="8" fill="{BG}" '
-        f'stroke="{BORDER}" stroke-width="1"/>',
+        f'stroke="{BORDER}" stroke-width="1.2"/>',
         f'<path d="M1 9 a8 8 0 0 1 8-8 h{W - 18} a8 8 0 0 1 8 8 '
         f'v{BAR_H - 9} h-{W - 2} z" fill="url(#barGrad)"/>',
         f'<line x1="1" y1="{BAR_H}" x2="{W - 1}" y2="{BAR_H}" '
