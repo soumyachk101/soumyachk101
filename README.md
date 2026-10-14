@@ -76,7 +76,7 @@
 <a id="highlights"></a>
 <h3><code>soumyachk101@github:~$ cat highlights.txt</code></h3>
 
-<img src="./highlights-card.svg" width="860" alt="Highlights: Ensembyte, Orbit, SwarmAI, Credow, 7.9k commits, LeetCode top tier" />
+<img src="https://soumya-leetcode.vercel.app/highlights.svg" width="860" alt="Highlights: Ensembyte, Orbit, SwarmAI, Credow, GitHub contributions, LeetCode top tier" />
 
 <br><br>
 

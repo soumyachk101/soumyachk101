@@ -8,6 +8,7 @@ whenever the highlights change:
     STATIC=1 python scripts/make_highlights_card.py   # frozen frame
 """
 
+import json
 import os
 from html import escape
 
@@ -29,20 +30,47 @@ FADE = 0.5
 W = 860
 TITLE = "soumyachk101@github: ~/highlights.txt"
 
-LINES = [
-    "Ensembyte: multi-agent client with Swift ∞ Hydra & GPUI CRDT engine",
-    "Orbit: lightweight device engine driving Claude Code, Cursor & Codex",
-    "SwarmAI: hybrid BM25 + dense n-gram memory for parallel worktrees",
-    "Credow: on-chain corporate credit allocation on Algorand with x402 vault",
-    "Shipped 7,960+ GitHub contributions with 192-day continuous streak",
-    "LeetCode top tier: 297 solved with 67 Hard problems & 152-day max streak",
-]
+
+def get_highlights_lines() -> list[str]:
+    lines = [
+        "Ensembyte: multi-agent client with Swift ∞ Hydra & GPUI CRDT engine",
+        "Orbit: lightweight device engine driving Claude Code, Cursor & Codex",
+        "SwarmAI: hybrid BM25 + dense n-gram memory for parallel worktrees",
+        "Credow: on-chain corporate credit allocation on Algorand with x402 vault",
+    ]
+
+    # GitHub contributions & streak
+    gh_total, gh_streak = 8000, 195
+    if os.path.exists("data/contributions.json"):
+        try:
+            with open("data/contributions.json", encoding="utf-8") as f:
+                gh = json.load(f)
+            gh_total = gh.get("total", gh_total)
+            gh_streak = gh.get("current_streak", gh.get("longest_streak", gh_streak))
+        except Exception:
+            pass
+    lines.append(f"Shipped {gh_total:,}+ GitHub contributions with {gh_streak}-day continuous streak")
+
+    # LeetCode stats
+    lc_all, lc_hard, lc_streak = 302, 68, 155
+    if os.path.exists("data/leetcode.json"):
+        try:
+            with open("data/leetcode.json", encoding="utf-8") as f:
+                lc = json.load(f)
+            lc_all = lc.get("solved", {}).get("All", lc_all)
+            lc_hard = lc.get("solved", {}).get("Hard", lc_hard)
+            lc_streak = lc.get("calendar", {}).get("max_streak", lc_streak)
+        except Exception:
+            pass
+    lines.append(f"LeetCode top tier: {lc_all} solved with {lc_hard} Hard problems & {lc_streak}-day max streak")
+
+    return lines
 
 
 def main() -> None:
     static = os.environ.get("STATIC") == "1"
-
-    height = round(BAR_H + 18 + len(LINES) * LH + 12)
+    lines = get_highlights_lines()
+    height = round(BAR_H + 18 + len(lines) * LH + 12)
 
     def anim(i: int) -> str:
         if static:
@@ -73,7 +101,7 @@ def main() -> None:
     ]
 
     y = BAR_H + 18 + LH * 0.6
-    for i, line in enumerate(LINES):
+    for i, line in enumerate(lines):
         parts.append(
             f'<g opacity="{op}">'
             f'<text x="{PAD_X}" y="{y:.1f}" fill="{ACCENT}" '
