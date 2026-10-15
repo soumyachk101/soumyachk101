@@ -5,8 +5,9 @@ Two-column balanced layout matching the 860px grid:
 - Right: OS, languages, runtimes, storage, workflow, telemetry
 """
 
-import os
+from datetime import datetime, timezone, timedelta
 from html import escape
+import os
 
 BG = "#0d1117"
 BAR = "#161b22"
@@ -35,6 +36,11 @@ LEFT_COL = [
     ("Web", "soumya.pro · x.com/soumyachk1"),
 ]
 
+def get_kolkata_time() -> str:
+    ist = timezone(timedelta(hours=5, minutes=30))
+    now = datetime.now(ist)
+    return now.strftime("%I:%M %p IST").lstrip("0")
+
 def get_live_activity() -> str:
     try:
         import urllib.request, re
@@ -51,21 +57,22 @@ def get_live_activity() -> str:
                 return f"{total} commits · {streak}d streak"
     except Exception:
         pass
-    return "8,017 commits · 197d streak"
+    return "8,026 commits · 197d streak"
 
 
 def main() -> None:
     static = os.environ.get("STATIC") == "1"
     activity = get_live_activity()
+    kolkata_time = get_kolkata_time()
 
     right_col = [
-        ("OS", "macOS · Linux · Windows"),
+        ("OS", "MacOS · Linux · Windows"),
         ("Languages", "Rust · TypeScript · Swift · Python"),
         ("Engines", "Hydra · GPUI · Tauri v2 · CRDT"),
         ("Storage", "SQLite · Local-First"),
         ("Workflow", "Parallel Git Worktrees"),
         ("Activity", activity),
-        ("Telemetry", "Kolkata, IN · UTC+5:30"),
+        ("Telemetry", f"Kolkata, IN · {kolkata_time}"),
     ]
 
     rows = max(len(LEFT_COL), len(right_col)) + 2  # header + underline + items
@@ -123,6 +130,8 @@ def main() -> None:
         f'<text x="{W / 2}" y="{BAR_H / 2 + 4.5}" fill="{DIM}" '
         f'font-family="{FONT}" font-size="12" '
         f'text-anchor="middle">{escape(TITLE)}</text>',
+        f'<circle cx="{W - 165}" cy="{BAR_H / 2}" r="3.5" fill="{ACCENT}"/>',
+        f'<text x="{W - 155}" y="{BAR_H / 2 + 4.2}" fill="{DIM}" font-family="{FONT}" font-size="11">Kolkata: <tspan fill="{INK}">{kolkata_time}</tspan></text>',
         f'<g font-family="{FONT}" font-size="{FS}" xml:space="preserve">',
     ]
 

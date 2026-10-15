@@ -48,10 +48,16 @@ def main() -> None:
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
         f'viewBox="0 0 {W} {H}">',
         "<defs>",
-        '<filter id="glow" x="-30%" y="-30%" width="160%" height="160%">'
-        '<feGaussianBlur stdDeviation="2.6" result="b"/>'
-        '<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/>'
-        "</feMerge></filter>",
+        '  <linearGradient id="nameSpectrum" x1="0%" y1="0%" x2="100%" y2="0%">',
+        '    <stop offset="0%" stop-color="#39d353"/>',
+        '    <stop offset="35%" stop-color="#56d4dd"/>',
+        '    <stop offset="70%" stop-color="#58a6ff"/>',
+        '    <stop offset="100%" stop-color="#bc8cff"/>',
+        '  </linearGradient>',
+        '  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">',
+        '    <feGaussianBlur stdDeviation="2.0" result="b"/>',
+        '    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>',
+        "  </filter>",
     ]
 
     if not static:
@@ -80,24 +86,25 @@ def main() -> None:
         f'<g{clip}><text x="{tx:.1f}" y="{y:.1f}" '
         f'textLength="{text_w:.1f}" lengthAdjust="spacing">'
         f'<tspan fill="{INK}">{escape(PLAIN)}</tspan>'
-        f'<tspan fill="{ACCENT}" filter="url(#glow)">{escape(NAME)}</tspan>'
+        f'<tspan fill="url(#nameSpectrum)" filter="url(#glow)">{escape(NAME)}</tspan>'
         f"</text></g>"
     )
     parts.append("</g>")
 
     # Block cursor rides the keystrokes, blinks, then stays lit.
     cy = H / 2 - FS * 0.48
+    cursor_color = "#bc8cff"
     if static:
         parts.append(
             f'<rect x="{tx + text_w + 3:.1f}" y="{cy:.1f}" width="{CW:.1f}" '
-            f'height="{FS:.1f}" fill="{ACCENT}"/>'
+            f'height="{FS:.1f}" fill="{cursor_color}"/>'
         )
     else:
         xs = ";".join(f"{tx + i * CW + 3:.1f}" for i in range(n + 1))
         done = BEGIN + dur
         parts.append(
             f'<rect x="{tx + 3:.1f}" y="{cy:.1f}" width="{CW:.1f}" '
-            f'height="{FS:.1f}" fill="{ACCENT}">'
+            f'height="{FS:.1f}" fill="{cursor_color}">'
             f'<animate attributeName="x" calcMode="discrete" values="{xs}" '
             f'begin="{BEGIN}s" dur="{dur:.2f}s" fill="freeze"/>'
             f'<animate attributeName="opacity" values="1;0;1;0;1;0;1" '

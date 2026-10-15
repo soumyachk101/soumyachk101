@@ -1,9 +1,11 @@
 """Generate pinned-repository style project cards with seamlessly docked action bars.
 
-Cards replicate the look of GitHub's pinned repos, in the shared terminal dark palette.
-Each card has an integrated bottom action shelf divided into:
-- Left: Live demo / Architecture
-- Right: GitHub repo
+Clean, Human-Engineered Aesthetics:
+- Standard GitHub dark-mode palette (#0d1117, #161b22, #30363d, #58a6ff, #8b949e)
+- Zero AI-slop: No loud neon borders, no fake glow, no radioactive green badges
+- Subtle, understated award tag for Credow (FusioniX'26 Winner in muted bronze/gold)
+- Refined tags in low-contrast slate pills (#161b22 with #21262d border)
+- Integrated bottom action shelf (Live demo / Architecture / GitHub repo)
 """
 
 import os
@@ -12,12 +14,16 @@ from html import escape
 
 BG = "#0d1117"
 BORDER = "#30363d"
+INK = "#c9d1d9"
 DIM = "#8b949e"
-SANS = "-apple-system, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif"
+MUTED_BORDER = "#21262d"
+SANS = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif"
+MONO = "ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace"
 
 STYLE = (
-    "<style>.a{animation:a .7s ease-out both}"
-    "@keyframes a{from{opacity:0}to{opacity:1}}</style>"
+    "<style>"
+    "text{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}"
+    "</style>"
 )
 
 REPOS = [
@@ -27,6 +33,7 @@ REPOS = [
         "Open-source multi-agent coding client. macOS runs Hydra delegating to up to ∞ parallel heads in isolated worktrees; Windows and Linux run on GPUI with CRDT sync.",
         ("Swift", "#f05138"),
         ["Swift ∞ Hydra", "GPUI", "Loro CRDT"],
+        None,
     ),
     (
         "card-orbit.svg",
@@ -34,6 +41,7 @@ REPOS = [
         "Drives your coding agents (Claude, Cursor, Codex, Devin, Grok, Hermes) from a lightweight engine on each device. Local-only by default with optional VPS & device sync.",
         ("Rust", "#dea584"),
         ["Agent Engine", "Local-First", "Zero Telemetry"],
+        None,
     ),
     (
         "card-credow.svg",
@@ -41,6 +49,7 @@ REPOS = [
         "Corporate credit allocation on Algorand. Allowances are claimed through x402 payments, and unclaimed credits earn yield in an on-chain vault. FusioniX'26 winner.",
         ("TypeScript", "#3178c6"),
         ["Algorand", "x402 Protocol", "FusioniX'26"],
+        ("FusioniX'26 Winner", "#d29922", "#161b22", "#3d2f16"),
     ),
     (
         "card-drishtinet.svg",
@@ -48,6 +57,7 @@ REPOS = [
         "Maps a network as a graph of real attack paths and ranks vulnerable nodes by financial impact instead of CVSS alone. Graph-based risk prioritization engine.",
         ("Python", "#3572a5"),
         ["Cybersecurity", "Graph Analysis", "Innofusion 3.0"],
+        None,
     ),
     (
         "card-swarmai.svg",
@@ -55,6 +65,7 @@ REPOS = [
         "Local-first desktop IDE for running coding agents in parallel with shared project memory. Tasks dispatch across Git worktrees with dynamic file locks. Pheromone memory layer combines BM25 and dense retrieval.",
         ("Rust", "#dea584"),
         ["Tauri v2", "React", "SQLite"],
+        None,
     ),
 ]
 
@@ -84,38 +95,69 @@ LAYERS_ICON = (
 )
 
 
-def repo_card(name, repo, desc, lang, meta) -> None:
-    w, pad = 860, 26
+def repo_card(name, repo, desc, lang, meta, award_badge=None) -> None:
+    w, pad = 860, 24
     lines = textwrap.wrap(desc, int((w - 2 * pad) / (14 * 0.55)))
     h = pad + 26 + len(lines) * 22 + 16 + 22 + pad - 6
     card_path = (
         f"M 0.5,8.5 A 8,8 0 0,1 8.5,0.5 L {w - 8.5},0.5 A 8,8 0 0,1 {w - 0.5},8.5 "
         f"L {w - 0.5},{h - 0.5} L 0.5,{h - 0.5} Z"
     )
+
     p = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">',
         STYLE,
-        f'<path d="{card_path}" fill="{BG}" stroke="{BORDER}"/>',
-        '<g class="a" style="animation-delay:0.10s">',
+        f'<path d="{card_path}" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>',
         f'<path d="{REPO_ICON}" fill="{DIM}" transform="translate({pad},{pad + 3}) scale(1.1)"/>',
-        f'<text x="{pad + 26}" y="{pad + 16}" font-family="{SANS}" font-size="17" '
+        f'<text x="{pad + 26}" y="{pad + 16}" font-family="{SANS}" font-size="16" '
         f'font-weight="600" fill="#58a6ff">{escape(repo)}</text>',
-        f'<rect x="{w - pad - 52}" y="{pad + 1}" width="52" height="22" rx="11" fill="none" stroke="{BORDER}"/>',
-        f'<text x="{w - pad - 26}" y="{pad + 16}" font-family="{SANS}" font-size="12" '
-        f'font-weight="500" fill="{DIM}" text-anchor="middle">Public</text>',
     ]
-    y = pad + 26 + 22
+
+    # Award badge if present (e.g. FusioniX winner)
+    if award_badge:
+        aw_text, aw_fg, aw_bg, aw_bdr = award_badge
+        aw_w = round(len(aw_text) * 6.5 + 18)
+        p.append(
+            f'<rect x="{w - pad - 48 - aw_w - 8}" y="{pad + 1}" width="{aw_w}" height="20" rx="4" '
+            f'fill="{aw_bg}" stroke="{aw_bdr}" stroke-width="0.8"/>'
+        )
+        p.append(
+            f'<text x="{w - pad - 48 - aw_w - 8 + aw_w / 2}" y="{pad + 14.5}" font-family="{MONO}" '
+            f'font-size="10.5" font-weight="600" fill="{aw_fg}" text-anchor="middle">{escape(aw_text)}</text>'
+        )
+
+    # Clean Public Pill
+    p.append(
+        f'<rect x="{w - pad - 48}" y="{pad + 1}" width="48" height="20" rx="4" fill="#161b22" stroke="{BORDER}" stroke-width="0.8"/>'
+    )
+    p.append(
+        f'<text x="{w - pad - 24}" y="{pad + 14.5}" font-family="{MONO}" font-size="11" '
+        f'fill="{DIM}" text-anchor="middle">Public</text>'
+    )
+
+    y = pad + 26 + 21
     for line in lines:
-        p.append(f'<text x="{pad}" y="{y}" font-family="{SANS}" font-size="14" fill="{DIM}">{escape(line)}</text>')
-        y += 22
+        p.append(f'<text x="{pad}" y="{y}" font-family="{SANS}" font-size="13.5" fill="{DIM}">{escape(line)}</text>')
+        y += 21
     y += 8
-    p.append(f'<circle cx="{pad + 6}" cy="{y - 4}" r="6" fill="{lang[1]}"/>')
-    p.append(f'<text x="{pad + 18}" y="{y}" font-family="{SANS}" font-size="13" fill="{DIM}">{lang[0]}</text>')
-    mx = pad + 18 + len(lang[0]) * 7.6 + 24
+
+    # Language dot + name
+    p.append(f'<circle cx="{pad + 6}" cy="{y - 4}" r="5.5" fill="{lang[1]}"/>')
+    p.append(f'<text x="{pad + 18}" y="{y}" font-family="{SANS}" font-size="13" font-weight="500" fill="{INK}">{lang[0]}</text>')
+
+    # Meta Tags rendered as clean, low-contrast slate pills (NOT neon)
+    mx = pad + 18 + len(lang[0]) * 7.6 + 20
     for m in meta:
-        p.append(f'<text x="{mx:.0f}" y="{y}" font-family="{SANS}" font-size="13" fill="{DIM}">{escape(m)}</text>')
-        mx += len(m) * 7.4 + 24
-    p.append("</g></svg>")
+        mw = round(len(m) * 6.6 + 14)
+        p.append(
+            f'<rect x="{mx:.0f}" y="{y - 13}" width="{mw}" height="18" rx="3.5" fill="#161b22" stroke="{MUTED_BORDER}" stroke-width="0.8"/>'
+        )
+        p.append(
+            f'<text x="{mx + mw / 2:.0f}" y="{y}" font-family="{MONO}" font-size="10.5" fill="{DIM}" text-anchor="middle">{escape(m)}</text>'
+        )
+        mx += mw + 8
+
+    p.append("</svg>")
     os.makedirs("assets", exist_ok=True)
     with open(f"assets/{name}", "w", encoding="utf-8") as f:
         f.write("\n".join(p))
@@ -131,7 +173,7 @@ def dock_buttons() -> None:
     # 1. dock-btn-live.svg (Left)
     live_svg = (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
-        f'<path d="{left_path}" fill="#161b22" stroke="{BORDER}"/>\n'
+        f'<path d="{left_path}" fill="#161b22" stroke="{BORDER}" stroke-width="1"/>\n'
         f'<g transform="translate(155, 11)">\n'
         f'  <path d="{EXTERNAL_LINK_ICON}" fill="#58a6ff"/>\n'
         f'  <text x="24" y="12" font-family="{SANS}" font-size="13" font-weight="600" fill="#58a6ff">Live demo ↗</text>\n'
@@ -144,7 +186,7 @@ def dock_buttons() -> None:
     # 2. dock-btn-arch.svg (Left)
     arch_svg = (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
-        f'<path d="{left_path}" fill="#161b22" stroke="{BORDER}"/>\n'
+        f'<path d="{left_path}" fill="#161b22" stroke="{BORDER}" stroke-width="1"/>\n'
         f'<g transform="translate(145, 11)">\n'
         f'  <path d="{LAYERS_ICON}" fill="none" stroke="#58a6ff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>\n'
         f'  <text x="24" y="12" font-family="{SANS}" font-size="13" font-weight="600" fill="#58a6ff">Architecture ↗</text>\n'
@@ -157,10 +199,10 @@ def dock_buttons() -> None:
     # 3. dock-btn-repo.svg (Right)
     repo_svg = (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
-        f'<path d="{right_path}" fill="#161b22" stroke="{BORDER}"/>\n'
+        f'<path d="{right_path}" fill="#161b22" stroke="{BORDER}" stroke-width="1"/>\n'
         f'<g transform="translate(155, 11)">\n'
-        f'  <path d="{OCTOCAT_ICON}" fill="#c9d1d9"/>\n'
-        f'  <text x="24" y="12" font-family="{SANS}" font-size="13" font-weight="600" fill="#c9d1d9">GitHub repo</text>\n'
+        f'  <path d="{OCTOCAT_ICON}" fill="{INK}"/>\n'
+        f'  <text x="24" y="12" font-family="{SANS}" font-size="13" font-weight="600" fill="{INK}">GitHub repo ↗</text>\n'
         f'</g>\n</svg>'
     )
     with open("assets/dock-btn-repo.svg", "w", encoding="utf-8") as f:
