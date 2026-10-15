@@ -1,11 +1,9 @@
-"""Generate pinned-repository style project cards with seamlessly docked action bars.
-
-Clean, Human-Engineered Aesthetics:
+"""Generate pinned-repository style project cards with Option 2:
+- Self-contained cards with rounded corners (rx=8) on all 4 corners
+- Full card links to GitHub repository
+- Eliminated redundant GitHub repo button
+- Sleek, compact Live demo / Architecture pill buttons (width ~130px, height ~30px)
 - Standard GitHub dark-mode palette (#0d1117, #161b22, #30363d, #58a6ff, #8b949e)
-- Zero AI-slop: No loud neon borders, no fake glow, no radioactive green badges
-- Subtle, understated award tag for Credow (FusioniX'26 Winner in muted bronze/gold)
-- Refined tags in low-contrast slate pills (#161b22 with #21262d border)
-- Integrated bottom action shelf (Live demo / Architecture / GitHub repo)
 """
 
 import os
@@ -76,14 +74,6 @@ REPO_ICON = (
     "l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"
 )
 
-OCTOCAT_ICON = (
-    "M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 "
-    "1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-"
-    ".68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 "
-    "3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 "
-    "1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"
-)
-
 EXTERNAL_LINK_ICON = (
     "M3.75 2h3.5a.75.75 0 0 1 0 1.5h-3.5a1.25 1.25 0 0 0-1.25 1.25v7.5c0 .69.56 1.25 1.25 1.25h7.5c.69 0 1.25-.56 1.25-1.25"
     "v-3.5a.75.75 0 0 1 1.5 0v3.5A2.75 2.75 0 0 1 11.25 15h-7.5A2.75 2.75 0 0 1 1 12.25v-7.5A2.75 2.75 0 0 1 3.75 2Zm7.5 1.5"
@@ -99,15 +89,12 @@ def repo_card(name, repo, desc, lang, meta, award_badge=None) -> None:
     w, pad = 860, 24
     lines = textwrap.wrap(desc, int((w - 2 * pad) / (14 * 0.55)))
     h = pad + 26 + len(lines) * 22 + 16 + 22 + pad - 6
-    card_path = (
-        f"M 0.5,8.5 A 8,8 0 0,1 8.5,0.5 L {w - 8.5},0.5 A 8,8 0 0,1 {w - 0.5},8.5 "
-        f"L {w - 0.5},{h - 0.5} L 0.5,{h - 0.5} Z"
-    )
 
     p = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">',
         STYLE,
-        f'<path d="{card_path}" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>',
+        # Full card has clean rx=8 on all 4 corners
+        f'<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="8" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>',
         f'<path d="{REPO_ICON}" fill="{DIM}" transform="translate({pad},{pad + 3}) scale(1.1)"/>',
         f'<text x="{pad + 26}" y="{pad + 16}" font-family="{SANS}" font-size="16" '
         f'font-weight="600" fill="#58a6ff">{escape(repo)}</text>',
@@ -145,7 +132,7 @@ def repo_card(name, repo, desc, lang, meta, award_badge=None) -> None:
     p.append(f'<circle cx="{pad + 6}" cy="{y - 4}" r="5.5" fill="{lang[1]}"/>')
     p.append(f'<text x="{pad + 18}" y="{y}" font-family="{SANS}" font-size="13" font-weight="500" fill="{INK}">{lang[0]}</text>')
 
-    # Meta Tags rendered as clean, low-contrast slate pills (NOT neon)
+    # Meta Tags rendered as clean, low-contrast slate pills
     mx = pad + 18 + len(lang[0]) * 7.6 + 20
     for m in meta:
         mw = round(len(m) * 6.6 + 14)
@@ -166,48 +153,34 @@ def repo_card(name, repo, desc, lang, meta, award_badge=None) -> None:
 
 def dock_buttons() -> None:
     os.makedirs("assets", exist_ok=True)
-    w, h = 430, 38
-    left_path = f"M 0.5,0.5 L {w - 0.5},0.5 L {w - 0.5},{h - 0.5} L 8.5,{h - 0.5} A 8,8 0 0,1 0.5,{h - 8.5} Z"
-    right_path = f"M 0.5,0.5 L {w - 0.5},0.5 L {w - 0.5},{h - 8.5} A 8,8 0 0,1 {w - 8.5},{h - 0.5} L 0.5,{h - 0.5} Z"
-
-    # 1. dock-btn-live.svg (Left)
+    
+    # 1. Compact dock-btn-live.svg (Option 2: sleek compact pill button)
+    w_live, h = 132, 28
     live_svg = (
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
-        f'<path d="{left_path}" fill="#161b22" stroke="{BORDER}" stroke-width="1"/>\n'
-        f'<g transform="translate(155, 11)">\n'
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w_live}" height="{h}" viewBox="0 0 {w_live} {h}">\n'
+        f'<rect x="0.5" y="0.5" width="{w_live - 1}" height="{h - 1}" rx="6" fill="#161b22" stroke="{BORDER}" stroke-width="0.8"/>\n'
+        f'<g transform="translate(14, 6)">\n'
         f'  <path d="{EXTERNAL_LINK_ICON}" fill="#58a6ff"/>\n'
-        f'  <text x="24" y="12" font-family="{SANS}" font-size="13" font-weight="600" fill="#58a6ff">Live demo ↗</text>\n'
+        f'  <text x="22" y="11.5" font-family="{SANS}" font-size="12" font-weight="600" fill="#58a6ff">Live demo ↗</text>\n'
         f'</g>\n</svg>'
     )
     with open("assets/dock-btn-live.svg", "w", encoding="utf-8") as f:
         f.write(live_svg)
-    print("wrote assets/dock-btn-live.svg")
+    print("wrote assets/dock-btn-live.svg (compact pill)")
 
-    # 2. dock-btn-arch.svg (Left)
+    # 2. Compact dock-btn-arch.svg
+    w_arch = 142
     arch_svg = (
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
-        f'<path d="{left_path}" fill="#161b22" stroke="{BORDER}" stroke-width="1"/>\n'
-        f'<g transform="translate(145, 11)">\n'
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w_arch}" height="{h}" viewBox="0 0 {w_arch} {h}">\n'
+        f'<rect x="0.5" y="0.5" width="{w_arch - 1}" height="{h - 1}" rx="6" fill="#161b22" stroke="{BORDER}" stroke-width="0.8"/>\n'
+        f'<g transform="translate(14, 6)">\n'
         f'  <path d="{LAYERS_ICON}" fill="none" stroke="#58a6ff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>\n'
-        f'  <text x="24" y="12" font-family="{SANS}" font-size="13" font-weight="600" fill="#58a6ff">Architecture ↗</text>\n'
+        f'  <text x="22" y="11.5" font-family="{SANS}" font-size="12" font-weight="600" fill="#58a6ff">Architecture ↗</text>\n'
         f'</g>\n</svg>'
     )
     with open("assets/dock-btn-arch.svg", "w", encoding="utf-8") as f:
         f.write(arch_svg)
-    print("wrote assets/dock-btn-arch.svg")
-
-    # 3. dock-btn-repo.svg (Right)
-    repo_svg = (
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">\n'
-        f'<path d="{right_path}" fill="#161b22" stroke="{BORDER}" stroke-width="1"/>\n'
-        f'<g transform="translate(155, 11)">\n'
-        f'  <path d="{OCTOCAT_ICON}" fill="{INK}"/>\n'
-        f'  <text x="24" y="12" font-family="{SANS}" font-size="13" font-weight="600" fill="{INK}">GitHub repo ↗</text>\n'
-        f'</g>\n</svg>'
-    )
-    with open("assets/dock-btn-repo.svg", "w", encoding="utf-8") as f:
-        f.write(repo_svg)
-    print("wrote assets/dock-btn-repo.svg")
+    print("wrote assets/dock-btn-arch.svg (compact pill)")
 
 
 if __name__ == "__main__":

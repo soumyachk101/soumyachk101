@@ -1,9 +1,11 @@
 """Hand-author the typed-name header SVG for Soumya Chakraborty.
 
-One terminal line that types itself out character by character (discrete
-SMIL steps, like a real keystroke buffer), with a green glow on the name
-and a block cursor that blinks three times and then stays lit. Plays
-once, then freezes. Rerun only if the text changes:
+Clean, high-contrast, modern terminal aesthetic:
+- Prompt: ❯ in green (#3fb950)
+- "hi, i'm " in muted gray (#8b949e)
+- "Soumya Chakraborty" in Crisp Titanium White (#f0f6fc)
+- Terminal block cursor in green (#3fb950)
+- Razor sharp typography with zero fuzzy blur
 
     python scripts/make_header_svg.py            # writes name-header.svg
     STATIC=1 python scripts/make_header_svg.py   # frozen frame
@@ -14,8 +16,8 @@ from html import escape
 
 BG = "#0d1117"
 BORDER = "#30363d"
-INK = "#c9d1d9"
-DIM = "#8b949e"
+INK = "#8b949e"
+WHITE = "#f0f6fc"
 ACCENT = "#3fb950"
 
 FONT = "ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace"
@@ -26,7 +28,7 @@ H = 84
 
 PROMPT = "❯ "                     # green chevron
 PLAIN = "hi, i'm "                # typed in ink
-NAME = "Soumya Chakraborty"       # typed in glowing green
+NAME = "Soumya Chakraborty"       # typed in crisp titanium white
 TYPE_SPEED = 0.075                # seconds per keystroke
 BEGIN = 0.4
 
@@ -46,18 +48,9 @@ def main() -> None:
 
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
-        f'viewBox="0 0 {W} {H}">',
+        f'viewBox="0 0 {W} {H}" text-rendering="geometricPrecision" shape-rendering="geometricPrecision">',
+        "<style>text{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}</style>",
         "<defs>",
-        '  <linearGradient id="nameSpectrum" x1="0%" y1="0%" x2="100%" y2="0%">',
-        '    <stop offset="0%" stop-color="#39d353"/>',
-        '    <stop offset="35%" stop-color="#56d4dd"/>',
-        '    <stop offset="70%" stop-color="#58a6ff"/>',
-        '    <stop offset="100%" stop-color="#bc8cff"/>',
-        '  </linearGradient>',
-        '  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">',
-        '    <feGaussianBlur stdDeviation="2.0" result="b"/>',
-        '    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>',
-        "  </filter>",
     ]
 
     if not static:
@@ -86,14 +79,14 @@ def main() -> None:
         f'<g{clip}><text x="{tx:.1f}" y="{y:.1f}" '
         f'textLength="{text_w:.1f}" lengthAdjust="spacing">'
         f'<tspan fill="{INK}">{escape(PLAIN)}</tspan>'
-        f'<tspan fill="url(#nameSpectrum)" filter="url(#glow)">{escape(NAME)}</tspan>'
+        f'<tspan fill="{WHITE}">{escape(NAME)}</tspan>'
         f"</text></g>"
     )
     parts.append("</g>")
 
     # Block cursor rides the keystrokes, blinks, then stays lit.
     cy = H / 2 - FS * 0.48
-    cursor_color = "#bc8cff"
+    cursor_color = ACCENT
     if static:
         parts.append(
             f'<rect x="{tx + text_w + 3:.1f}" y="{cy:.1f}" width="{CW:.1f}" '
@@ -113,10 +106,10 @@ def main() -> None:
         )
 
     parts.append("</svg>")
+
     with open("name-header.svg", "w", encoding="utf-8") as f:
         f.write("\n".join(parts))
-    print(f"wrote name-header.svg ({W}x{H}, "
-          f"{'static' if static else 'animated'})")
+    print(f"wrote name-header.svg ({W}x{H}, crisp white name)")
 
 
 if __name__ == "__main__":
