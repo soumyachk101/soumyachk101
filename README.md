@@ -13,7 +13,7 @@
 <a id="whoami"></a>
 <h3><code>soumyachk101@github:~$ whoami</code></h3>
 
-<img src="./info-card.svg" width="860" alt="Terminal info card: Soumya Chakraborty, B.Tech CSE, systems and AI tooling engineer" />
+<img src="https://soumya-leetcode.vercel.app/info-card.svg" width="860" alt="Terminal info card: Soumya Chakraborty, B.Tech CSE, systems and AI tooling engineer" />
 <br><br>
 <img src="./divider.svg" width="860" alt="cyber laser divider" />
 <br><br>
