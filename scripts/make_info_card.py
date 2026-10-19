@@ -37,6 +37,23 @@ LEFT_COL = [
 ]
 
 def get_live_activity() -> str:
+    # 1. Try reading from freshly fetched local data/contributions.json
+    try:
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        root_dir = os.path.dirname(script_dir)
+        contrib_path = os.path.join(root_dir, "data", "contributions.json")
+        if os.path.exists(contrib_path):
+            import json
+            with open(contrib_path, "r", encoding="utf-8") as f:
+                cdata = json.load(f)
+            total = cdata.get("total")
+            streak = cdata.get("current_streak", cdata.get("longest_streak"))
+            if total and streak:
+                return f"{total:,} commits · {streak}d streak"
+    except Exception:
+        pass
+
+    # 2. Try fetching from live Vercel endpoint
     try:
         import urllib.request, re
         req = urllib.request.Request(
@@ -52,7 +69,8 @@ def get_live_activity() -> str:
                 return f"{total} commits · {streak}d streak"
     except Exception:
         pass
-    return "8,026 commits · 197d streak"
+
+    return "8,287 commits · 201d streak"
 
 
 def main() -> None:
