@@ -1,10 +1,10 @@
 {
  "username": "soumya-chk101",
- "ranking": 478593,
+ "ranking": 472098,
  "solved": {
-  "All": 316,
-  "Easy": 97,
-  "Medium": 148,
+  "All": 319,
+  "Easy": 98,
+  "Medium": 150,
   "Hard": 71
  },
  "totals": {
@@ -52,8 +52,8 @@
   }
  ],
  "calendar": {
-  "max_streak": 164,
-  "active_days": 186,
+  "max_streak": 165,
+  "active_days": 187,
   "active_years": [
    2026
   ]
