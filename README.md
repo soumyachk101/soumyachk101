@@ -30,6 +30,8 @@
 <a href="https://github.com/soumyachk101/DrishtiNet"><img src="./assets/card-drishtinet.svg" width="860" alt="soumyachk101/DrishtiNet: Network attack path graph risk prioritization engine. Python, Innofusion 3.0." /></a><br><a href="https://dhristi-demo.vercel.app"><img src="./assets/dock-btn-live.svg" alt="DrishtiNet live demo" /></a>
 <br><br>
 <a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/card-swarmai.svg" width="860" alt="soumyachk101/SwarmAI: Local-first desktop IDE for running coding agents in parallel with shared project memory. Rust, Tauri v2, React, SQLite." /></a><br><a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/dock-btn-arch.svg" alt="SwarmAI Architecture specs" /></a>
+<br><br>
+<a href="https://github.com/soumyachk101/VERCODE"><img src="./assets/card-vercode.svg" width="860" alt="soumyachk101/VERCODE: AI-powered code review for GitHub PRs. Deterministic static analysis, evidence-backed findings, and team dashboard." /></a><br><a href="https://github.com/soumyachk101/VERCODE"><img src="./assets/dock-btn-arch.svg" alt="VERCODE Architecture specs" /></a>
 
 <br><br>
 
@@ -61,7 +63,7 @@
 <br><br>
 
 <a id="highlights"></a>
-<img src="./highlights-card.svg" width="860" alt="Highlights: Ensembyte, Orbit, SwarmAI, Credow, GitHub contributions, LeetCode top tier" />
+<img src="./highlights-card.svg" width="860" alt="Highlights: Ensembyte, Orbit, SwarmAI, VERCODE, Credow, GitHub contributions, LeetCode top tier" />
 
 <br><br>
 <img src="./divider.svg" width="860" alt="cyber laser divider" />

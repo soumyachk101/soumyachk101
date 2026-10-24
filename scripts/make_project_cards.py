@@ -65,6 +65,14 @@ REPOS = [
         ["Tauri v2", "React", "SQLite"],
         None,
     ),
+    (
+        "card-vercode.svg",
+        "soumyachk101/VERCODE",
+        "AI-powered code review SaaS for GitHub PRs. Deterministic static analysis (ESLint, Semgrep, secrets) runs first, followed by task-routed LLM reasoning with inline findings and team dashboard.",
+        ("TypeScript", "#3178c6"),
+        ["AI Code Review", "Static Analysis", "Monorepo"],
+        None,
+    ),
 ]
 
 REPO_ICON = (

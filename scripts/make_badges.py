@@ -33,6 +33,7 @@ BADGES = [
     ("swarmai", "swarmai repo"),
     ("orbit", "orbit repo"),
     ("ensembyte", "ensembyte repo"),
+    ("vercode", "vercode repo"),
 ]
 
 

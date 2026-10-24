@@ -92,6 +92,16 @@ def get_items() -> list[tuple[str, str, str]]:
         ),
         (
             "❯",
+            "#58a6ff",
+            '<tspan fill="#58a6ff" font-weight="bold">VERCODE</tspan>'
+            '<tspan fill="#8b949e">: </tspan>'
+            '<tspan fill="#c9d1d9">deterministic AI PR review · </tspan>'
+            '<tspan fill="#79c0ff" font-weight="600">Semgrep &amp; ESLint</tspan>'
+            '<tspan fill="#8b949e"> + </tspan>'
+            '<tspan fill="#bc8cff" font-weight="600">task-routed LLMs</tspan>',
+        ),
+        (
+            "❯",
             "#d29922",
             '<tspan fill="#d29922" font-weight="bold">Credow</tspan>'
             '<tspan fill="#8b949e">: </tspan>'
