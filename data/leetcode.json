@@ -1,17 +1,17 @@
 {
  "username": "soumya-chk101",
- "ranking": 472098,
+ "ranking": 470105,
  "solved": {
-  "All": 319,
-  "Easy": 98,
-  "Medium": 150,
-  "Hard": 71
+  "All": 324,
+  "Easy": 100,
+  "Medium": 152,
+  "Hard": 72
  },
  "totals": {
-  "All": 4087,
-  "Easy": 972,
-  "Medium": 2131,
-  "Hard": 984
+  "All": 4091,
+  "Easy": 973,
+  "Medium": 2133,
+  "Hard": 985
  },
  "contest": {
   "rating": 0,
@@ -52,8 +52,8 @@
   }
  ],
  "calendar": {
-  "max_streak": 165,
-  "active_days": 187,
+  "max_streak": 166,
+  "active_days": 188,
   "active_years": [
    2026
   ]
