@@ -23,15 +23,13 @@
 
 <a href="https://github.com/soumyachk101/Ensembyte"><img src="./assets/card-ensembyte.svg" width="860" alt="soumyachk101/Ensembyte: Multi-agent coding client with Swift ∞ Hydra & GPUI CRDT engine." /></a><br><a href="https://ensembyte.vercel.app"><img src="./assets/dock-btn-live.svg" alt="Ensembyte live demo" /></a>
 <br><br>
-<a href="https://github.com/soumyachk101/Orbit-Code"><img src="./assets/card-orbit.svg" width="860" alt="soumyachk101/Orbit-Code: Drives coding agents from a lightweight engine on each device. Rust, Local-First." /></a><br><a href="https://orbitcodev1.vercel.app"><img src="./assets/dock-btn-live.svg" alt="Orbit live demo" /></a>
+<a href="https://github.com/soumyachk101/Veylqorix"><img src="./assets/card-veylqorix.svg" width="860" alt="soumyachk101/Veylqorix: Code-security and quality gate platform. Real scanner orchestration, deterministic gate decisions, and standalone Rust security engine." /></a><br><a href="https://veylqorix.vercel.app"><img src="./assets/dock-btn-live.svg" alt="Veylqorix live demo" /></a>
+<br><br>
+<a href="https://github.com/soumyachk101/VERCODE"><img src="./assets/card-vercode.svg" width="860" alt="soumyachk101/VERCODE: AI-powered code review for GitHub PRs. Deterministic static analysis, evidence-backed findings, and team dashboard." /></a><br><a href="https://github.com/soumyachk101/VERCODE"><img src="./assets/dock-btn-arch.svg" alt="VERCODE Architecture specs" /></a>
 <br><br>
 <a href="https://github.com/soumyachk101/Credow"><img src="./assets/card-credow.svg" width="860" alt="soumyachk101/Credow: Corporate credit allocation on Algorand. TypeScript, x402 Protocol, FusioniX'26 winner." /></a><br><a href="https://credow.vercel.app/"><img src="./assets/dock-btn-live.svg" alt="Credow live demo" /></a>
 <br><br>
 <a href="https://github.com/soumyachk101/DrishtiNet"><img src="./assets/card-drishtinet.svg" width="860" alt="soumyachk101/DrishtiNet: Network attack path graph risk prioritization engine. Python, Innofusion 3.0." /></a><br><a href="https://dhristi-demo.vercel.app"><img src="./assets/dock-btn-live.svg" alt="DrishtiNet live demo" /></a>
-<br><br>
-<a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/card-swarmai.svg" width="860" alt="soumyachk101/SwarmAI: Local-first desktop IDE for running coding agents in parallel with shared project memory. Rust, Tauri v2, React, SQLite." /></a><br><a href="https://github.com/soumyachk101/SwarmAI"><img src="./assets/dock-btn-arch.svg" alt="SwarmAI Architecture specs" /></a>
-<br><br>
-<a href="https://github.com/soumyachk101/VERCODE"><img src="./assets/card-vercode.svg" width="860" alt="soumyachk101/VERCODE: AI-powered code review for GitHub PRs. Deterministic static analysis, evidence-backed findings, and team dashboard." /></a><br><a href="https://github.com/soumyachk101/VERCODE"><img src="./assets/dock-btn-arch.svg" alt="VERCODE Architecture specs" /></a>
 
 <br><br>
 
