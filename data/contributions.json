@@ -1,14 +1,14 @@
 {
  "username": "soumyachk101",
- "fetched": "2026-10-29",
- "total": 10007,
+ "fetched": "2026-10-30",
+ "total": 10108,
  "best_day": {
   "date": "2026-10-22",
   "level": 4,
   "count": 686
  },
- "longest_streak": 210,
- "current_streak": 210,
+ "longest_streak": 212,
+ "current_streak": 212,
  "days": [
   {
    "date": "2025-10-26",
@@ -1067,7 +1067,7 @@
   },
   {
    "date": "2026-05-25",
-   "level": 2,
+   "level": 1,
    "count": 99
   },
   {
@@ -1077,7 +1077,7 @@
   },
   {
    "date": "2026-05-27",
-   "level": 2,
+   "level": 1,
    "count": 91
   },
   {
@@ -1132,7 +1132,7 @@
   },
   {
    "date": "2026-06-07",
-   "level": 3,
+   "level": 2,
    "count": 189
   },
   {
@@ -1517,7 +1517,7 @@
   },
   {
    "date": "2026-08-23",
-   "level": 2,
+   "level": 1,
    "count": 90
   },
   {
@@ -1632,7 +1632,7 @@
   },
   {
    "date": "2026-09-15",
-   "level": 2,
+   "level": 1,
    "count": 95
   },
   {
@@ -1802,7 +1802,7 @@
   },
   {
    "date": "2026-10-19",
-   "level": 4,
+   "level": 3,
    "count": 278
   },
   {
@@ -1822,7 +1822,7 @@
   },
   {
    "date": "2026-10-23",
-   "level": 4,
+   "level": 3,
    "count": 292
   },
   {
@@ -1838,22 +1838,27 @@
   {
    "date": "2026-10-26",
    "level": 4,
-   "count": 354
+   "count": 399
   },
   {
    "date": "2026-10-27",
    "level": 1,
-   "count": 50
+   "count": 57
   },
   {
    "date": "2026-10-28",
    "level": 1,
-   "count": 33
+   "count": 45
   },
   {
    "date": "2026-10-29",
-   "level": 0,
-   "count": 0
+   "level": 1,
+   "count": 33
+  },
+  {
+   "date": "2026-10-30",
+   "level": 1,
+   "count": 4
   }
  ]
 }
