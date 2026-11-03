@@ -1,17 +1,17 @@
 {
  "username": "soumya-chk101",
- "ranking": 459495,
+ "ranking": 444538,
  "solved": {
-  "All": 325,
-  "Easy": 100,
-  "Medium": 153,
-  "Hard": 72
+  "All": 333,
+  "Easy": 101,
+  "Medium": 159,
+  "Hard": 73
  },
  "totals": {
-  "All": 4095,
-  "Easy": 974,
-  "Medium": 2135,
-  "Hard": 986
+  "All": 4100,
+  "Easy": 975,
+  "Medium": 2138,
+  "Hard": 987
  },
  "contest": {
   "rating": 0,
@@ -34,6 +34,12 @@
   },
   {
    "name": "Daily Coding Challenge",
+   "displayName": "Oct LeetCoding Challenge",
+   "icon": "/static/images/badges/dcc-2026-10.png",
+   "creationDate": "2026-10-31"
+  },
+  {
+   "name": "Daily Coding Challenge",
    "displayName": "Sep LeetCoding Challenge",
    "icon": "/static/images/badges/dcc-2026-9.png",
    "creationDate": "2026-09-30"
@@ -52,8 +58,8 @@
   }
  ],
  "calendar": {
-  "max_streak": 167,
-  "active_days": 189,
+  "max_streak": 175,
+  "active_days": 197,
   "active_years": [
    2026
   ]
