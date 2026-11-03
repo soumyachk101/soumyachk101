@@ -8,12 +8,7 @@
 <img src="./hero-sc.svg" width="860" alt="Soumya Chakraborty — cinematic S C monogram, 2026 director's cut" />
 <br>
 <code>
-<a href="#whoami">[&nbsp;whoami&nbsp;]</a> &middot;
-<a href="#projects">[&nbsp;projects&nbsp;]</a> &middot;
-<a href="#hackathons">[&nbsp;hackathons&nbsp;]</a> &middot;
-<a href="#metrics">[&nbsp;metrics&nbsp;]</a> &middot;
-<a href="#languages">[&nbsp;languages&nbsp;]</a> &middot;
-<a href="#contact">[&nbsp;contact&nbsp;]</a>
+<a href="#whoami">[&nbsp;whoami&nbsp;]</a> &middot; <a href="#projects">[&nbsp;projects&nbsp;]</a> &middot; <a href="#hackathons">[&nbsp;hackathons&nbsp;]</a> &middot; <a href="#metrics">[&nbsp;metrics&nbsp;]</a> &middot; <a href="#languages">[&nbsp;languages&nbsp;]</a> &middot; <a href="#contact">[&nbsp;contact&nbsp;]</a>
 </code>
 <br><br>
 
