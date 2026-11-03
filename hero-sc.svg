@@ -24,10 +24,6 @@
       <stop offset="0" stop-color="#b03a45" stop-opacity="0"/>
       <stop offset="0.5" stop-color="#d4606c"/><stop offset="1" stop-color="#b03a45" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="gSheen" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#f2d489" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#f2d489" stop-opacity="0.5"/><stop offset="1" stop-color="#f2d489" stop-opacity="0"/>
-    </linearGradient>
     <radialGradient id="gPool" cx="0.5" cy="0.42" r="0.6">
       <stop offset="0" stop-color="#d8a63f" stop-opacity="0.09"/><stop offset="1" stop-color="#d8a63f" stop-opacity="0"/>
     </radialGradient>
@@ -63,10 +59,6 @@
     <!-- the star: ASCII S C monogram -->
     <g font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace"
        font-size="18" font-weight="800" fill="url(#gGold)" filter="url(#fMono)">
-      <g opacity="0.28">
-        <animate attributeName="opacity" values="0.28;0.6;0.28" keyTimes="0;0.5;1" dur="4.5s"
-                 repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
-      </g>
       <text x="430" y="72"  text-anchor="middle">██████      █████</text>
       <text x="430" y="90"  text-anchor="middle">█            █    </text>
       <text x="430" y="108" text-anchor="middle">█            █    </text>
@@ -90,19 +82,13 @@
           font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace"
           font-size="11.5" letter-spacing="0.5" fill="#9a9488"><tspan fill="#f2d489">systems</tspan><tspan fill="#3a3a46"> · </tspan><tspan fill="#ece4d4">ai runtimes</tspan><tspan fill="#3a3a46"> · </tspan><tspan fill="#ece4d4">devtools</tspan></text>
 
-    <!-- bottom status + sheen -->
+    <!-- bottom status -->
     <line x1="40" y1="299" x2="820" y2="299" stroke="#2a2a34" stroke-width="1"/>
-    <circle cx="34" cy="299" r="3" fill="#b03a45">
-      <animate attributeName="opacity" values="0.55;1;0.55" keyTimes="0;0.5;1" dur="2.6s" repeatCount="indefinite"
-               calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
-    </circle>
+    <circle cx="34" cy="299" r="3" fill="#b03a45"/>
     <text x="46" y="303" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace"
           font-size="10" letter-spacing="0.4"><tspan fill="#6a6a75">now: </tspan><tspan fill="#d4606c">open to internships &amp; collaboration</tspan></text>
     <text x="820" y="303" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace"
           font-size="10" letter-spacing="0.4" fill="#6a6a75">Kolkata · UTC+5:30</text>
-    <g><rect x="-200" y="298.5" width="200" height="1" fill="url(#gSheen)">
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="900 0"
-        dur="5.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1"/></rect></g>
   </g>
 
   <!-- sharp outer frame -->
