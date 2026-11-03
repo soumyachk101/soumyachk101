@@ -1,7 +1,7 @@
 """Render data/leetcode.json as an animated stats card SVG for soumya-chk101.
 
 Layout mirrors leetcode.com's own progress widget: a segmented donut
-(teal Easy, yellow Medium, red Hard arcs, proportional to solved counts)
+(steel-teal Easy, gold Medium, crimson Hard arcs, proportional to solved counts)
 around the total, difficulty bars in the middle, and streak / ranking stats on the
 right. Arcs draw themselves once (SMIL stroke-dashoffset), then freeze.
 
@@ -13,15 +13,15 @@ import json
 import math
 import os
 
-BG = "#0d1117"
-TRACK = "#161b22"
-BORDER = "#30363d"
-INK = "#c9d1d9"
-DIM = "#8b949e"
-ACCENT = "#3fb950"
+BG = "#0a0a0f"
+TRACK = "#191921"
+BORDER = "#2a2a34"
+INK = "#ece4d4"
+DIM = "#9a9488"
+ACCENT = "#d8a63f"
 
 # LeetCode difficulty colors
-LC = {"Easy": "#00b8a3", "Medium": "#ffc01e", "Hard": "#ef4743"}
+LC = {"Easy": "#5e7d8a", "Medium": "#d8a63f", "Hard": "#b03a45"}
 
 FONT = "ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace"
 

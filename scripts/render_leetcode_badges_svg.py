@@ -16,10 +16,10 @@ import os
 import requests
 from PIL import Image
 
-BG = "#0d1117"
-BORDER = "#30363d"
-INK = "#c9d1d9"
-DIM = "#8b949e"
+BG = "#0a0a0f"
+BORDER = "#2a2a34"
+INK = "#ece4d4"
+DIM = "#9a9488"
 
 FONT = "ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace"
 W = 860

@@ -3,7 +3,7 @@
 Reads data/leetcode.json and writes:
   leetcode-streak.svg - active days, max streak (ring), problems solved
 
-The center stat sits in a green ring that draws itself once (SMIL stroke-dashoffset).
+The center stat sits in a gold ring that draws itself once (SMIL stroke-dashoffset).
 
     python scripts/render_streak_cards.py
     STATIC=1 python scripts/render_streak_cards.py   # frozen frame
@@ -13,11 +13,11 @@ import json
 import math
 import os
 
-BG = "#0d1117"
-BORDER = "#30363d"
-INK = "#c9d1d9"
-DIM = "#8b949e"
-ACCENT = "#3fb950"
+BG = "#0a0a0f"
+BORDER = "#2a2a34"
+INK = "#ece4d4"
+DIM = "#9a9488"
+ACCENT = "#d8a63f"
 
 FONT = "ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace"
 W = 860

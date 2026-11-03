@@ -9,15 +9,17 @@ wraps each in an <a>, so nothing depends on shields.io or any external badge ser
 import os
 from html import escape
 
-BG = "#0d1117"
-BORDER = "#30363d"
-INK = "#c9d1d9"
-ACCENT = "#3fb950"
+from theme import P, MONO
 
-FONT = "ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace"
+FONT = MONO
 FS = 15.0
 CW = FS * 0.602
 H = 38
+
+ACCENT = P("gold")
+INK = P("text")
+BG = P("base")
+BORDER = P("border")
 
 # (filename, label)
 BADGES = [

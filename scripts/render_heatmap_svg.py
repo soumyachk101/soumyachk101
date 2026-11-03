@@ -1,8 +1,8 @@
 """Render data/contributions.json as an animated heatmap SVG for soumyachk101.
 
 The classic 53-week x 7-day calendar of rounded boxes, drawn in a
-GitHub-green ramp on the terminal-dark panel. Cells reveal once
-with a diagonal stagger.
+warm noir (brown -> champagne gold) ramp on the noir-dark panel. Cells
+reveal once with a diagonal stagger.
 
     python scripts/render_heatmap_svg.py           # writes contrib-heatmap.svg
     STATIC=1 python scripts/render_heatmap_svg.py  # frozen frame
@@ -12,12 +12,12 @@ import json
 import os
 from datetime import date
 
-# Palette: none -> brightest; last entry is neon green for best day
-PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#69f0a0"]
+# Palette: none -> brightest; last entry is champagne gold for best day
+PALETTE = ["#14141b", "#3a2f1a", "#5c4620", "#8a6a2e", "#d8a63f", "#f2d489"]
 
-BG = "#0d1117"
-BORDER = "#30363d"
-DIM = "#8b949e"
+BG = "#0a0a0f"
+BORDER = "#2a2a34"
+DIM = "#9a9488"
 FONT = "ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace"
 
 CELL = 13.0
