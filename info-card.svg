@@ -1,56 +1,59 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="287" viewBox="0 0 860 287" text-rendering="geometricPrecision" shape-rendering="geometricPrecision">
-<style>text{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:geometricPrecision;}</style>
+<style>text{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}</style>
 <defs>
-  <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#161b22"/>
-    <stop offset="100%" stop-color="#0d1117"/>
+  <linearGradient id="barGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#14141b"/>
+    <stop offset="1" stop-color="#0a0a0f"/>
   </linearGradient>
-  <linearGradient id="spectrumBar" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#161b22"/>
-    <stop offset="10%" stop-color="#0e4429"/>
-    <stop offset="25%" stop-color="#238636"/>
-    <stop offset="40%" stop-color="#39d353"/>
-    <stop offset="55%" stop-color="#56d4dd"/>
-    <stop offset="70%" stop-color="#58a6ff"/>
-    <stop offset="85%" stop-color="#bc8cff"/>
-    <stop offset="100%" stop-color="#f0f6fc"/>
+  <linearGradient id="spectrumBar" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#0a0a0f"/>
+    <stop offset="12%" stop-color="#b03a45"/>
+    <stop offset="38%" stop-color="#d8a63f"/>
+    <stop offset="62%" stop-color="#f2d489"/>
+    <stop offset="85%" stop-color="#6b7f9c"/>
+    <stop offset="100%" stop-color="#93a7c4"/>
   </linearGradient>
-  <linearGradient id="cuteBeam" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-    <stop offset="50%" stop-color="#ffffff" stop-opacity="0.8"/>
-    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-    <animate attributeName="x1" from="-40%" to="100%" dur="2.4s" repeatCount="indefinite"/>
-    <animate attributeName="x2" from="0%" to="140%" dur="2.4s" repeatCount="indefinite"/>
+  <linearGradient id="cuteBeam" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#f2d489" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#f2d489" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#f2d489" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="gKeyline" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#b03a45"/>
+    <stop offset="0.55" stop-color="#d8a63f"/>
+    <stop offset="1" stop-color="#7c5f24"/>
   </linearGradient>
 </defs>
-<rect width="100%" height="100%" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/>
-<path d="M1 9 a8 8 0 0 1 8-8 h842 a8 8 0 0 1 8 8 v23.0 h-858 z" fill="url(#barGrad)"/>
-<line x1="1" y1="32.0" x2="859" y2="32.0" stroke="#30363d" stroke-width="1"/>
-<circle cx="20" cy="16.0" r="5" fill="#f85149"/>
-<circle cx="38" cy="16.0" r="5" fill="#d29922"/>
-<circle cx="56" cy="16.0" r="5" fill="#3fb950"/>
-<text x="430.0" y="20.5" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace" font-size="12" text-anchor="middle">soumyachk101@github: ~/whoami</text>
-<circle cx="735" cy="16.0" r="3.5" fill="#3fb950"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/></circle>
-<text x="746" y="20.2" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace" font-size="11">status: <tspan fill="#c9d1d9">active</tspan></text>
+<rect width="100%" height="100%" rx="10" fill="#0a0a0f" stroke="#2a2a34" stroke-width="1"/>
+<rect x="0.5" y="8.5" width="3.5" height="270" fill="url(#gKeyline)"/>
+<path d="M1 11 a10 10 0 0 1 10-10 h838 a10 10 0 0 1 10 10 v21.0 h-858 z" fill="url(#barGrad)"/>
+<line x1="1" y1="32.0" x2="859" y2="32.0" stroke="#3a3a46" stroke-width="1"/>
+<circle cx="20" cy="16.0" r="4" fill="#d8a63f"/>
+<circle cx="36" cy="16.0" r="4" fill="#b03a45"/>
+<circle cx="52" cy="16.0" r="4" fill="#6b7f9c"/>
+<text x="70" y="19.5" fill="#6a6a75" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace" font-size="10.5">~/whoami</text>
+<text x="430.0" y="20.5" fill="#9a9488" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace" font-size="12" text-anchor="middle">soumyachk101@github:~/whoami</text>
+<circle cx="735" cy="16.0" r="3.5" fill="#d8a63f"><animate attributeName="opacity" values="1;0.4;1" dur="2.6s" repeatCount="indefinite"/></circle>
+<text x="746" y="20.2" fill="#9a9488" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace" font-size="11">status: <tspan fill="#ece4d4">active</tspan></text>
 <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace" font-size="12.5" xml:space="preserve">
-<line x1="425" y1="48.0" x2="425" y2="251" stroke="#21262d" stroke-dasharray="3 3"/>
-<g opacity="0"><text x="36.0" y="65.2" fill="#3fb950" font-weight="bold">soumyachk101@github</text><animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="0.15s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="36.0" y="88.2" fill="#8b949e">-------------------</text><animate attributeName="opacity" from="0" to="1" begin="0.27s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="0.27s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="36.0" y="111.2"><tspan fill="#3fb950" font-weight="bold">Name</tspan><tspan fill="#8b949e">:</tspan>        <tspan fill="#c9d1d9">Soumya Chakraborty</tspan></text><animate attributeName="opacity" from="0" to="1" begin="0.39s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="0.39s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="36.0" y="134.2"><tspan fill="#3fb950" font-weight="bold">Education</tspan><tspan fill="#8b949e">:</tspan>   <tspan fill="#c9d1d9">B.Tech CSE · 3rd Year</tspan></text><animate attributeName="opacity" from="0" to="1" begin="0.51s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="0.51s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="36.0" y="157.2"><tspan fill="#3fb950" font-weight="bold">Seeking</tspan><tspan fill="#8b949e">:</tspan>     <tspan fill="#c9d1d9">Systems &amp; DevTools roles</tspan></text><animate attributeName="opacity" from="0" to="1" begin="0.63s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="0.63s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="36.0" y="180.2"><tspan fill="#3fb950" font-weight="bold">Focus</tspan><tspan fill="#8b949e">:</tspan>       <tspan fill="#c9d1d9">AI agent runtimes &amp; engines</tspan></text><animate attributeName="opacity" from="0" to="1" begin="0.75s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="0.75s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="36.0" y="203.2"><tspan fill="#3fb950" font-weight="bold">Winner</tspan><tspan fill="#8b949e">:</tspan>      <tspan fill="#c9d1d9">FusioniX&#x27;26 Joint Winner</tspan></text><animate attributeName="opacity" from="0" to="1" begin="0.87s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="0.87s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="36.0" y="226.2"><tspan fill="#3fb950" font-weight="bold">Hackathons</tspan><tspan fill="#8b949e">:</tspan>  <tspan fill="#c9d1d9">10+ shipped in 2026</tspan></text><animate attributeName="opacity" from="0" to="1" begin="0.99s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="0.99s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="36.0" y="249.2"><tspan fill="#3fb950" font-weight="bold">Web</tspan><tspan fill="#8b949e">:</tspan>         <tspan fill="#c9d1d9">soumya.pro · x.com/soumyachk1</tspan></text><animate attributeName="opacity" from="0" to="1" begin="1.11s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="1.11s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="445.0" y="65.2" fill="#3fb950" font-weight="bold">runtime &amp; sys specs</text><animate attributeName="opacity" from="0" to="1" begin="1.23s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="1.23s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="445.0" y="88.2" fill="#8b949e">---------------------</text><animate attributeName="opacity" from="0" to="1" begin="1.35s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="1.35s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="445.0" y="111.2"><tspan fill="#3fb950" font-weight="bold">OS</tspan><tspan fill="#8b949e">:</tspan>          <tspan fill="#c9d1d9">MacOS · Linux · Windows</tspan></text><animate attributeName="opacity" from="0" to="1" begin="1.47s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="1.47s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="445.0" y="134.2"><tspan fill="#3fb950" font-weight="bold">Languages</tspan><tspan fill="#8b949e">:</tspan>   <tspan fill="#c9d1d9">Rust · TypeScript · Swift · Python</tspan></text><animate attributeName="opacity" from="0" to="1" begin="1.59s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="1.59s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="445.0" y="157.2"><tspan fill="#3fb950" font-weight="bold">Engines</tspan><tspan fill="#8b949e">:</tspan>     <tspan fill="#c9d1d9">Hydra · GPUI · Tauri v2 · CRDT</tspan></text><animate attributeName="opacity" from="0" to="1" begin="1.71s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="1.71s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="445.0" y="180.2"><tspan fill="#3fb950" font-weight="bold">Storage</tspan><tspan fill="#8b949e">:</tspan>     <tspan fill="#c9d1d9">SQLite · Local-First</tspan></text><animate attributeName="opacity" from="0" to="1" begin="1.83s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="1.83s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="445.0" y="203.2"><tspan fill="#3fb950" font-weight="bold">Workflow</tspan><tspan fill="#8b949e">:</tspan>    <tspan fill="#c9d1d9">Parallel Git Worktrees</tspan></text><animate attributeName="opacity" from="0" to="1" begin="1.95s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="1.95s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="445.0" y="226.2"><tspan fill="#3fb950" font-weight="bold">Activity</tspan><tspan fill="#8b949e">:</tspan>    <tspan fill="#c9d1d9">9,626 commits · 208d streak</tspan></text><animate attributeName="opacity" from="0" to="1" begin="2.07s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="2.07s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><text x="445.0" y="249.2"><tspan fill="#3fb950" font-weight="bold">Telemetry</tspan><tspan fill="#8b949e">:</tspan>   <tspan fill="#c9d1d9">Kolkata, IN · UTC+5:30</tspan></text><animate attributeName="opacity" from="0" to="1" begin="2.19s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="2.19s" dur="0.4s" fill="freeze"/></g>
-<g opacity="0"><rect x="36" y="264" width="788" height="10" rx="5" fill="#161b22" stroke="#30363d" stroke-width="0.8"/><rect x="36" y="264" width="788" height="10" rx="5" fill="url(#spectrumBar)" opacity="0.9"/><rect x="36" y="264" width="788" height="10" rx="5" fill="url(#cuteBeam)"/><circle cy="269.0" r="4" fill="#39d353"><animate attributeName="cx" values="44;816;44" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"/><animate attributeName="fill" values="#39d353;#56d4dd;#58a6ff;#bc8cff;#39d353" dur="4s" repeatCount="indefinite"/><animate attributeName="r" values="3.5;5;3.5" dur="1.2s" repeatCount="indefinite"/></circle><animate attributeName="opacity" from="0" to="1" begin="2.31s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="2.31s" dur="0.4s" fill="freeze"/></g>
+<line x1="425" y1="48.0" x2="425" y2="251" stroke="#2a2a34" stroke-dasharray="3 3"/>
+<g opacity="0"><text x="36.0" y="65.2" fill="#d8a63f" font-weight="bold">soumyachk101@github</text><animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="0.15s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="36.0" y="88.2" fill="#6a6a75">-------------------</text><animate attributeName="opacity" from="0" to="1" begin="0.27s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="0.27s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="36.0" y="111.2"><tspan fill="#d8a63f" font-weight="bold">Name</tspan><tspan fill="#9a9488">:</tspan>        <tspan fill="#ece4d4">Soumya Chakraborty</tspan></text><animate attributeName="opacity" from="0" to="1" begin="0.39s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="0.39s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="36.0" y="134.2"><tspan fill="#d8a63f" font-weight="bold">Education</tspan><tspan fill="#9a9488">:</tspan>   <tspan fill="#ece4d4">B.Tech CSE · 3rd Year</tspan></text><animate attributeName="opacity" from="0" to="1" begin="0.51s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="0.51s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="36.0" y="157.2"><tspan fill="#d8a63f" font-weight="bold">Seeking</tspan><tspan fill="#9a9488">:</tspan>     <tspan fill="#ece4d4">Systems &amp; DevTools roles</tspan></text><animate attributeName="opacity" from="0" to="1" begin="0.63s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="0.63s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="36.0" y="180.2"><tspan fill="#d8a63f" font-weight="bold">Focus</tspan><tspan fill="#9a9488">:</tspan>       <tspan fill="#ece4d4">AI agent runtimes &amp; engines</tspan></text><animate attributeName="opacity" from="0" to="1" begin="0.75s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="0.75s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="36.0" y="203.2"><tspan fill="#d8a63f" font-weight="bold">Winner</tspan><tspan fill="#9a9488">:</tspan>      <tspan fill="#ece4d4">FusioniX&#x27;26 Joint Winner</tspan></text><animate attributeName="opacity" from="0" to="1" begin="0.87s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="0.87s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="36.0" y="226.2"><tspan fill="#d8a63f" font-weight="bold">Hackathons</tspan><tspan fill="#9a9488">:</tspan>  <tspan fill="#ece4d4">10+ shipped in 2026</tspan></text><animate attributeName="opacity" from="0" to="1" begin="0.99s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="0.99s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="36.0" y="249.2"><tspan fill="#d8a63f" font-weight="bold">Web</tspan><tspan fill="#9a9488">:</tspan>         <tspan fill="#ece4d4">soumya.pro · x.com/soumyachk1</tspan></text><animate attributeName="opacity" from="0" to="1" begin="1.11s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="1.11s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="445.0" y="65.2" fill="#d8a63f" font-weight="bold">runtime &amp; sys specs</text><animate attributeName="opacity" from="0" to="1" begin="1.23s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="1.23s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="445.0" y="88.2" fill="#6a6a75">---------------------</text><animate attributeName="opacity" from="0" to="1" begin="1.35s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="1.35s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="445.0" y="111.2"><tspan fill="#d8a63f" font-weight="bold">OS</tspan><tspan fill="#9a9488">:</tspan>          <tspan fill="#ece4d4">MacOS · Linux · Windows</tspan></text><animate attributeName="opacity" from="0" to="1" begin="1.47s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="1.47s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="445.0" y="134.2"><tspan fill="#d8a63f" font-weight="bold">Languages</tspan><tspan fill="#9a9488">:</tspan>   <tspan fill="#ece4d4">Rust · TypeScript · Swift · Python</tspan></text><animate attributeName="opacity" from="0" to="1" begin="1.59s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="1.59s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="445.0" y="157.2"><tspan fill="#d8a63f" font-weight="bold">Engines</tspan><tspan fill="#9a9488">:</tspan>     <tspan fill="#ece4d4">Hydra · GPUI · Tauri v2 · CRDT</tspan></text><animate attributeName="opacity" from="0" to="1" begin="1.71s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="1.71s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="445.0" y="180.2"><tspan fill="#d8a63f" font-weight="bold">Storage</tspan><tspan fill="#9a9488">:</tspan>     <tspan fill="#ece4d4">SQLite · Local-First</tspan></text><animate attributeName="opacity" from="0" to="1" begin="1.83s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="1.83s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="445.0" y="203.2"><tspan fill="#d8a63f" font-weight="bold">Workflow</tspan><tspan fill="#9a9488">:</tspan>    <tspan fill="#ece4d4">Parallel Git Worktrees</tspan></text><animate attributeName="opacity" from="0" to="1" begin="1.95s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="1.95s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="445.0" y="226.2"><tspan fill="#d8a63f" font-weight="bold">Activity</tspan><tspan fill="#9a9488">:</tspan>    <tspan fill="#ece4d4">9,626 commits · 208d streak</tspan></text><animate attributeName="opacity" from="0" to="1" begin="2.07s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="2.07s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><text x="445.0" y="249.2"><tspan fill="#d8a63f" font-weight="bold">Telemetry</tspan><tspan fill="#9a9488">:</tspan>   <tspan fill="#ece4d4">Kolkata, IN · UTC+5:30</tspan></text><animate attributeName="opacity" from="0" to="1" begin="2.19s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="2.19s" dur="0.4s" fill="freeze"/></g>
+<g opacity="0"><rect x="36" y="264" width="788" height="10" rx="5" fill="#191921" stroke="#2a2a34" stroke-width="0.8"/><rect x="36" y="264" width="788" height="10" rx="5" fill="url(#spectrumBar)" opacity="0.9"/><rect x="36" y="264" width="788" height="10" rx="5" fill="url(#cuteBeam)"/><circle cy="269.0" r="4" fill="#d8a63f"><animate attributeName="cx" values="44;816;44" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/><animate attributeName="fill" values="#d4606c;#f2d489;#93a7c4;#d4606c" dur="4s" repeatCount="indefinite"/><animate attributeName="r" values="3.5;5;3.5" dur="1.2s" repeatCount="indefinite"/></circle><animate attributeName="opacity" from="0" to="1" begin="2.31s" dur="0.4s" fill="freeze"/><animateTransform attributeName="transform" type="translate" from="-8 0" to="0 0" begin="2.31s" dur="0.4s" fill="freeze"/></g>
 </g></svg>
