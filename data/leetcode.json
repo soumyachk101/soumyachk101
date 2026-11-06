@@ -1,9 +1,9 @@
 {
  "username": "soumya-chk101",
- "ranking": 440918,
+ "ranking": 441120,
  "solved": {
-  "All": 335,
-  "Easy": 102,
+  "All": 336,
+  "Easy": 103,
   "Medium": 159,
   "Hard": 74
  },
@@ -20,6 +20,12 @@
   "badge": ""
  },
  "badges": [
+  {
+   "name": "Annual Badge",
+   "displayName": "200 Days Badge 2026",
+   "icon": "https://assets.leetcode.com/static_assets/others/200_1080_1080.png",
+   "creationDate": "2026-11-05"
+  },
   {
    "name": "Annual Badge",
    "displayName": "100 Days Badge 2026",
@@ -58,8 +64,8 @@
   }
  ],
  "calendar": {
-  "max_streak": 177,
-  "active_days": 199,
+  "max_streak": 178,
+  "active_days": 200,
   "active_years": [
    2026
   ]
