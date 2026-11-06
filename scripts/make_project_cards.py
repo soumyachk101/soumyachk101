@@ -130,14 +130,14 @@ def repo_card(name, repo, desc, lang, meta, award=None) -> None:
         f'<text x="{w - pad - 33}" y="{ry}" font-family="{MONO}" font-size="10.5" fill="{P("dim")}" text-anchor="middle">Public</text>'
     )
 
-    # award (crimson pill, upper-right under Public)
+    # award (crimson outline pill, on the same row — left of the Public pill)
     if award:
         aw_w = round(len(award) * 6.2 + 22)
-        ax = w - pad - aw_w
+        ax = w - pad - 66 - 10 - aw_w  # 10px gap, then the Public pill
         p.append(
-            f'<g><rect x="{ax}" y="{ry - 24}" width="{aw_w}" height="19" rx="5" fill="none" stroke="{P("crim")}" stroke-width="1"/>'
-            f'<circle cx="{ax + 11}" cy="{ry - 14.5}" r="2.5" fill="{P("gold")}"/>'
-            f'<text x="{ax + 20}" y="{ry - 10.5}" font-family="{MONO}" font-size="10" font-weight="600" '
+            f'<g><rect x="{ax}" y="{ry - 13}" width="{aw_w}" height="20" rx="5" fill="none" stroke="{P("crim")}" stroke-width="1"/>'
+            f'<circle cx="{ax + 11}" cy="{ry - 3}" r="2.5" fill="{P("gold")}"/>'
+            f'<text x="{ax + 20}" y="{ry}" font-family="{MONO}" font-size="10" font-weight="600" '
             f'letter-spacing="0.6" fill="{P("crim_hi")}">{escape(award)}</text></g>'
         )
 
