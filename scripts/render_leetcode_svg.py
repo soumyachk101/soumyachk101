@@ -12,6 +12,7 @@ right. Arcs draw themselves once (SMIL stroke-dashoffset), then freeze.
 import json
 import math
 import os
+import re
 
 BG = "#0a0a0f"
 TRACK = "#191921"
@@ -30,6 +31,23 @@ H = 200
 CX, CY, R = 128.0, 100.0, 62.0   # donut center and radius
 STROKE = 11.0
 GAP_DEG = 8.0                     # gap between arc segments
+
+
+def pick_badge_label(d: dict) -> str:
+    best_days = 0
+    for b in d.get("badges", []):
+        m = re.search(r"(\d+)\s+Days\s+Badge", b.get("displayName", ""))
+        if m:
+            best_days = max(best_days, int(m.group(1)))
+    if best_days:
+        return f"{best_days} Days Badge"
+    contest_badge = (d.get("contest") or {}).get("badge") or ""
+    if contest_badge:
+        return contest_badge
+    badges = d.get("badges") or []
+    if badges:
+        return badges[0].get("displayName", "LeetCode")[:18]
+    return "Active Coder"
 
 
 def main() -> None:
@@ -110,9 +128,9 @@ def main() -> None:
     )
 
     # --- Middle: difficulty rows with colored bars. ---
-    bx = 268.0
-    bar_w = 200.0
-    count_x = bx + 60 + bar_w + 92
+    bx = 236.0
+    bar_w = 186.0
+    count_x = bx + 60 + bar_w + 102
     y = 62.0
     for i, name in enumerate(order):
         frac = solved[name] / max(totals[name], 1)
@@ -135,7 +153,7 @@ def main() -> None:
         y += 42
 
     # --- Divider + right block: streak / rating stats. ---
-    rx = count_x + 34
+    rx = count_x + 36
     parts.append(
         f'<line x1="{rx - 18}" y1="34" x2="{rx - 18}" y2="{H - 34}" '
         f'stroke="{BORDER}" stroke-width="1"/>'
@@ -148,7 +166,7 @@ def main() -> None:
         f'<text x="{rx}" y="94" font-size="12" fill="{DIM}">day max streak</text>'
     )
     
-    badge_label = "100 Days Badge"
+    badge_label = pick_badge_label(d)
     bw = 9 * len(badge_label) + 24
     parts.append(
         f'<rect x="{rx}" y="112" width="{bw}" height="26" rx="13" '

@@ -2,14 +2,21 @@ name: Update profile art
 
 on:
   workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "scripts/**"
+      - ".github/workflows/update-profile-art.yml"
   schedule:
-    - cron: "0 0 * * *"   # run once daily
+    - cron: "17 * * * *"   # refresh hourly at off-peak minute
 
 permissions:
   contents: write
 
 jobs:
   heatmap:
+    if: github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip ci]')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,9 +25,12 @@ jobs:
           python-version: "3.11"
       - run: pip install -r scripts/requirements.txt
       - run: python scripts/fetch_contributions.py
-      - run: python scripts/render_heatmap_svg.py
-      - run: python scripts/fetch_leetcode.py && python scripts/render_leetcode_svg.py && python scripts/render_leetcode_badges_svg.py
         continue-on-error: true
+      - run: python scripts/render_heatmap_svg.py
+      - run: python scripts/fetch_leetcode.py
+        continue-on-error: true
+      - run: python scripts/render_leetcode_svg.py
+      - run: python scripts/render_leetcode_badges_svg.py
       - run: python scripts/render_streak_cards.py
       - run: python scripts/make_hackathons_card.py
       - run: python scripts/make_highlights_card.py

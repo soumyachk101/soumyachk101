@@ -1,17 +1,17 @@
 {
  "username": "soumya-chk101",
- "ranking": 435422,
+ "ranking": 397627,
  "solved": {
-  "All": 338,
-  "Easy": 103,
-  "Medium": 161,
-  "Hard": 74
+  "All": 358,
+  "Easy": 110,
+  "Medium": 171,
+  "Hard": 77
  },
  "totals": {
-  "All": 4105,
+  "All": 4109,
   "Easy": 975,
-  "Medium": 2142,
-  "Hard": 988
+  "Medium": 2145,
+  "Hard": 989
  },
  "contest": {
   "rating": 0,
@@ -61,6 +61,12 @@
    "displayName": "Jul LeetCoding Challenge",
    "icon": "/static/images/badges/dcc-2026-7.png",
    "creationDate": "2026-07-31"
+  },
+  {
+   "name": "Quest",
+   "displayName": "Data Navigator Badge",
+   "icon": "https://assets.leetcode.com/static_assets/others/Quest_Data_Large.png",
+   "creationDate": "2026-11-09"
   }
  ],
  "calendar": {

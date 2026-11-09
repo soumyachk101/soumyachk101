@@ -34,7 +34,8 @@ BADGES = [
     ("isro-cert", "isro cert ↗"),
     ("swarmai", "swarmai repo"),
     ("orbit", "orbit repo"),
-    ("ensembyte", "ensembyte repo"),
+    ("ensembyte", "ensembyte app ↗"),
+    ("veylqorix", "veylqorix app ↗"),
     ("vercode", "vercode repo"),
 ]
 
