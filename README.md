@@ -43,9 +43,9 @@
 <a id="hackathons"></a>
 <h3><code>soumyachk101@github:~$ cat hackathons.txt</code></h3>
 
-<img src="./hackathons-card.svg" width="860" alt="Hackathons: FusioniX'26 Joint Winner, Innofusion 3.0 DRISHTI, ISRO BAH'26, 10+ shipped in 2026" />
+<img src="./hackathons-card.svg" width="860" alt="Hackathons: FusioniX'26 Joint Winner, Innofusion 3.0 DRISHTI, ISRO BAH'26, AKI HACKS × Hacktoberfest '26, 10+ shipped in 2026" />
 <br><br>
-<a href="https://ensembyte.vercel.app"><img src="./badges/ensembyte.svg" alt="Ensembyte live app" /></a>&nbsp;<a href="https://veylqorix.vercel.app"><img src="./badges/veylqorix.svg" alt="Veylqorix live app" /></a>&nbsp;<a href="./ISRO_Hackathon_Certificate.png"><img src="./badges/isro-cert.svg" alt="ISRO Bharatiya Antariksh Hackathon certificate" /></a>&nbsp;<a href="https://github.com/soumyachk101/Credow"><img src="./badges/fusionix.svg" alt="FusioniX winner repo" /></a>
+<a href="https://ensembyte.vercel.app"><img src="./badges/ensembyte.svg" alt="Ensembyte live app" /></a>&nbsp;<a href="https://veylqorix.vercel.app"><img src="./badges/veylqorix.svg" alt="Veylqorix live app" /></a><br><a href="./ISRO_Hackathon_Certificate.png"><img src="./badges/isro-cert.svg" alt="ISRO Bharatiya Antariksh Hackathon certificate" /></a>&nbsp;<a href="./Hacktoberfest_Certificate.png"><img src="./badges/hacktoberfest-cert.svg" alt="AKI HACKS × Hacktoberfest '26 participation certificate" /></a>&nbsp;<a href="https://github.com/soumyachk101/Credow"><img src="./badges/fusionix.svg" alt="FusioniX winner repo" /></a>
 
 <br><br>
 <img src="./divider.svg" width="860" alt="cinematic section divider" />

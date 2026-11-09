@@ -32,6 +32,7 @@ BADGES = [
     ("innofusion", "innofusion 3.0"),
     ("drishti", "drishti demo ↗"),
     ("isro-cert", "isro cert ↗"),
+    ("hacktoberfest-cert", "hacktoberfest '26 ↗"),
     ("swarmai", "swarmai repo"),
     ("orbit", "orbit repo"),
     ("ensembyte", "ensembyte app ↗"),

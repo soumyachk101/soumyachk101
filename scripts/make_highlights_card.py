@@ -101,6 +101,13 @@ def get_items():
          f'<tspan fill="{N_CRIMHI}" font-weight="600">x402 vault</tspan>'
          f'<tspan fill="{N_DIM}"> · </tspan>'
          f'<tspan fill="{N_GOLDHI}" font-weight="bold">FusioniX&#x27;26 Joint Winner</tspan>'),
+        ("★", N_STEELHI,
+         f'<tspan fill="{N_STEELHI}" font-weight="bold">Events</tspan>'
+         f'<tspan fill="{N_DIM}">: </tspan>'
+         f'<tspan fill="{N_TEXT}">ISRO BAH &#x27;26 </tspan>'
+         f'<tspan fill="{N_DIM}">· </tspan>'
+         f'<tspan fill="{N_CRIMHI}" font-weight="600">AKI HACKS × Hacktoberfest &#x27;26</tspan>'
+         f'<tspan fill="{N_DIM}"> (MLH · DEV · Kolkata)</tspan>'),
         ("◈", N_GOLD,
          f'<tspan fill="{N_DIM}">Shipped </tspan>'
          f'<tspan fill="{N_GOLDHI}" font-weight="bold">{gh_total:,}+</tspan>'
