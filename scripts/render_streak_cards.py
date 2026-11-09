@@ -125,12 +125,13 @@ def main() -> None:
     max_streak = lc["calendar"]["max_streak"]
     solved_all = lc["solved"]["All"]
     hard_solved = lc["solved"]["Hard"]
+    med_solved = lc["solved"]["Medium"]
 
     card(
         "leetcode-streak.svg",
         (str(active_days), "total active days", "on leetcode"),
         (str(max_streak), "day max streak", "consistent problem solving"),
-        (f"{solved_all}", "problems solved", f"{hard_solved} hard &#183; 142 med"),
+        (f"{solved_all}", "problems solved", f"{hard_solved} hard &#183; {med_solved} med"),
         static,
     )
 

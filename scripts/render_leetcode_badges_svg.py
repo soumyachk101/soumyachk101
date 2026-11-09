@@ -11,7 +11,9 @@ no external requests.
 import base64
 import io
 import json
+import math
 import os
+from html import escape
 
 import requests
 from PIL import Image
@@ -23,8 +25,6 @@ DIM = "#9a9488"
 
 FONT = "ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace"
 W = 860
-H = 168
-ICON = 64          # displayed icon size
 ICON_PX = 128      # embedded bitmap resolution (2x for retina)
 
 
@@ -38,16 +38,22 @@ def sort_key(b: dict) -> tuple:
 
 
 def fetch_icon(url: str) -> str:
+    if not url:
+        return ""
     if url.startswith("/"):
         url = "https://leetcode.com" + url
-    resp = requests.get(url, timeout=30,
-                        headers={"User-Agent": "profile-art-refresh/1.0"})
-    resp.raise_for_status()
-    img = Image.open(io.BytesIO(resp.content)).convert("RGBA")
-    img.thumbnail((ICON_PX, ICON_PX), Image.LANCZOS)
-    buf = io.BytesIO()
-    img.save(buf, "PNG", optimize=True)
-    return base64.b64encode(buf.getvalue()).decode()
+    try:
+        resp = requests.get(url, timeout=30,
+                            headers={"User-Agent": "profile-art-refresh/1.0"})
+        resp.raise_for_status()
+        img = Image.open(io.BytesIO(resp.content)).convert("RGBA")
+        img.thumbnail((ICON_PX, ICON_PX), Image.LANCZOS)
+        buf = io.BytesIO()
+        img.save(buf, "PNG", optimize=True)
+        return base64.b64encode(buf.getvalue()).decode()
+    except Exception as exc:
+        print(f"warning: failed to fetch icon {url}: {exc}")
+        return ""
 
 
 def main() -> None:
@@ -55,18 +61,35 @@ def main() -> None:
 
     with open("data/leetcode.json", encoding="utf-8") as f:
         d = json.load(f)
-    badges = sorted(d.get("badges", []), key=sort_key)
-    badges = [b for i, b in enumerate(badges)
-              if i == 0 or b["displayName"] != badges[i - 1]["displayName"]]
+    seen = set()
+    badges = []
+    for b in sorted(d.get("badges", []), key=sort_key):
+        disp = b.get("displayName", "")
+        if disp not in seen:
+            seen.add(disp)
+            badges.append(b)
     if not badges:
         print("no badges; skipping")
         return
 
-    slot = (W - 40) / len(badges)
+    n = len(badges)
+    if n <= 8:
+        rows = [badges]
+        icon = 58 if n >= 8 else 64
+        name_fs = 10.5 if n >= 8 else 11.0
+        date_fs = 9.0 if n >= 8 else 9.5
+        h = 168
+    else:
+        per_row = math.ceil(n / 2)
+        rows = [badges[:per_row], badges[per_row:]]
+        icon = 58
+        name_fs = 11.0
+        date_fs = 9.5
+        h = 290
 
     parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
-        f'viewBox="0 0 {W} {H}">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" '
+        f'viewBox="0 0 {W} {h}">',
         f'<rect width="100%" height="100%" rx="8" fill="{BG}" '
         f'stroke="{BORDER}" stroke-width="1"/>',
     ]
@@ -77,32 +100,43 @@ def main() -> None:
         )
 
     parts.append(f'<g font-family="{FONT}" text-anchor="middle">')
-    for i, b in enumerate(badges):
-        cx = 20 + slot * i + slot / 2
-        print(f"embedding {b['displayName']}...")
-        b64 = fetch_icon(b["icon"])
-        anim = ("" if static else
-                f' class="f" style="animation-delay:{0.15 + i * 0.12:.2f}s"')
-        parts.append(
-            f"<g{anim}>"
-            f'<image x="{cx - ICON / 2:.0f}" y="24" width="{ICON}" '
-            f'height="{ICON}" href="data:image/png;base64,{b64}"/>'
-            f'<text x="{cx:.0f}" y="116" font-size="11" fill="{INK}">'
-            f"{short_name(b['displayName'])}</text>"
-            f'<text x="{cx:.0f}" y="134" font-size="9.5" fill="{DIM}">'
-            f"{b.get('creationDate', '')}</text>"
-            f"</g>"
-        )
+    idx = 0
+    for r_i, row in enumerate(rows):
+        y_top = 24 + r_i * 124
+        slot = (W - 40) / len(row)
+        for c_i, b in enumerate(row):
+            cx = 20 + slot * c_i + slot / 2
+            print(f"embedding {b['displayName']}...")
+            b64 = fetch_icon(b.get("icon", ""))
+            anim = ("" if static else
+                    f' class="f" style="animation-delay:{0.15 + idx * 0.12:.2f}s"')
+            img_el = (
+                f'<image x="{cx - icon / 2:.0f}" y="{y_top}" width="{icon}" '
+                f'height="{icon}" href="data:image/png;base64,{b64}"/>'
+                if b64 else ""
+            )
+            label_y = y_top + icon + 28
+            date_y = label_y + 18
+            parts.append(
+                f"<g{anim}>"
+                f"{img_el}"
+                f'<text x="{cx:.0f}" y="{label_y}" font-size="{name_fs}" fill="{INK}">'
+                f"{escape(short_name(b['displayName']))}</text>"
+                f'<text x="{cx:.0f}" y="{date_y}" font-size="{date_fs}" fill="{DIM}">'
+                f"{escape(b.get('creationDate', ''))}</text>"
+                f"</g>"
+            )
+            idx += 1
     parts.append(
-        f'<text x="{W - 20}" y="{H - 14}" font-size="10" fill="{DIM}" '
-        f'text-anchor="end">leetcode.com/u/{d["username"]}</text>'
+        f'<text x="{W - 20}" y="{h - 14}" font-size="10" fill="{DIM}" '
+        f'text-anchor="end">leetcode.com/u/{escape(d["username"])}</text>'
     )
     parts.append("</g></svg>")
 
     with open("leetcode-badges.svg", "w", encoding="utf-8") as f:
         f.write("\n".join(parts))
     size = os.path.getsize("leetcode-badges.svg") // 1024
-    print(f"wrote leetcode-badges.svg ({W}x{H}, {len(badges)} badges, "
+    print(f"wrote leetcode-badges.svg ({W}x{h}, {len(badges)} badges, "
           f"{size} KB, {'static' if static else 'animated'})")
 
 

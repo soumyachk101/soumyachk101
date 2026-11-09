@@ -45,7 +45,7 @@
 
 <img src="./hackathons-card.svg" width="860" alt="Hackathons: FusioniX'26 Joint Winner, Innofusion 3.0 DRISHTI, ISRO BAH'26, 10+ shipped in 2026" />
 <br><br>
-<a href="https://credow.vercel.app/"><img src="./badges/credow.svg" alt="Credow app" /></a>&nbsp;<a href="https://dhristi-demo.vercel.app"><img src="./badges/drishti.svg" alt="DRISHTI demo" /></a>&nbsp;<a href="./ISRO_Hackathon_Certificate.png"><img src="./badges/isro-cert.svg" alt="ISRO Bharatiya Antariksh Hackathon certificate" /></a>&nbsp;<a href="https://github.com/soumyachk101/Credow"><img src="./badges/fusionix.svg" alt="FusioniX winner repo" /></a>
+<a href="https://ensembyte.vercel.app"><img src="./badges/ensembyte.svg" alt="Ensembyte live app" /></a>&nbsp;<a href="https://veylqorix.vercel.app"><img src="./badges/veylqorix.svg" alt="Veylqorix live app" /></a>&nbsp;<a href="./ISRO_Hackathon_Certificate.png"><img src="./badges/isro-cert.svg" alt="ISRO Bharatiya Antariksh Hackathon certificate" /></a>&nbsp;<a href="https://github.com/soumyachk101/Credow"><img src="./badges/fusionix.svg" alt="FusioniX winner repo" /></a>
 
 <br><br>
 <img src="./divider.svg" width="860" alt="cinematic section divider" />
@@ -54,9 +54,9 @@
 <a id="metrics"></a><a id="leetcode"></a>
 <h3><code>soumyachk101@github:~$ ./telemetry --leetcode --contributions</code></h3>
 
-<a href="https://leetcode.com/u/soumya-chk101/"><img src="./leetcode-card.svg" width="860" alt="LeetCode: 325 solved, 72 Hard, 153 Medium, 100 Easy" /></a>
+<a href="https://leetcode.com/u/soumya-chk101/"><img src="./leetcode-card.svg" width="860" alt="LeetCode: 358 solved, 77 Hard, 171 Medium, 110 Easy" /></a>
 <br><br>
-<a href="https://leetcode.com/u/soumya-chk101/"><img src="./leetcode-badges.svg" width="860" alt="LeetCode badges: 100 Days, 50 Days, and monthly challenges" /></a>
+<a href="https://leetcode.com/u/soumya-chk101/"><img src="./leetcode-badges.svg" width="860" alt="LeetCode badges: 200 Days, 100 Days, 50 Days, monthly challenges & Quest" /></a>
 <br><br>
 <a href="https://leetcode.com/u/soumya-chk101/"><img src="./leetcode-streak.svg" width="860" alt="LeetCode: active days, max streak, problems solved" /></a>
 <br><br>

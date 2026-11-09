@@ -7,20 +7,21 @@ calendar streak, and badges, and writes data/leetcode.json:
 """
 
 import json
+import os
+import re
 import sys
 import requests
 
 USERNAME = "soumya-chk101"
 OUT = "data/leetcode.json"
 
-QUERY = """
+CORE_QUERY = """
 query ($user: String!) {
   allQuestionsCount { difficulty count }
   matchedUser(username: $user) {
     username
     profile { ranking }
     submitStatsGlobal { acSubmissionNum { difficulty count } }
-    userCalendar { streak totalActiveDays activeYears }
     badges { name displayName icon creationDate }
   }
   userContestRanking(username: $user) {
@@ -32,16 +33,68 @@ query ($user: String!) {
 }
 """
 
+CALENDAR_QUERY = """
+query ($user: String!) {
+  matchedUser(username: $user) {
+    userCalendar { streak totalActiveDays activeYears }
+  }
+}
+"""
+
+HEADERS = {
+    "Content-Type": "application/json",
+    "Referer": "https://leetcode.com",
+    "User-Agent": "profile-art-refresh/1.0",
+}
+
+
+def load_previous_calendar() -> dict:
+    if os.path.exists(OUT):
+        try:
+            with open(OUT, encoding="utf-8") as f:
+                prev = json.load(f)
+            cal = prev.get("calendar") or {}
+            if cal:
+                return {
+                    "max_streak": cal.get("max_streak", 0),
+                    "active_days": cal.get("active_days", 0),
+                    "active_years": cal.get("active_years", []),
+                }
+        except Exception:
+            pass
+    return {"max_streak": 0, "active_days": 0, "active_years": []}
+
+
+def fetch_calendar() -> dict | None:
+    try:
+        resp = requests.post(
+            "https://leetcode.com/graphql",
+            json={"query": CALENDAR_QUERY, "variables": {"user": USERNAME}},
+            headers=HEADERS,
+            timeout=20,
+        )
+        resp.raise_for_status()
+        payload = resp.json()
+        matched = (payload.get("data") or {}).get("matchedUser")
+        if matched and matched.get("userCalendar"):
+            cal = matched["userCalendar"]
+            return {
+                "max_streak": cal.get("streak", 0),
+                "active_days": cal.get("totalActiveDays", 0),
+                "active_years": cal.get("activeYears", []),
+            }
+        errs = [e.get("message", "") for e in payload.get("errors", [])]
+        print(f"warning: userCalendar unavailable ({'; '.join(errs) or 'null'}); preserving previous calendar stats")
+    except Exception as exc:
+        print(f"warning: userCalendar fetch failed ({exc}); preserving previous calendar stats")
+    return None
+
 
 def main() -> None:
     resp = requests.post(
         "https://leetcode.com/graphql",
-        json={"query": QUERY, "variables": {"user": USERNAME}},
-        headers={
-            "Content-Type": "application/json",
-            "Referer": "https://leetcode.com",
-            "User-Agent": "profile-art-refresh/1.0",
-        },
+        json={"query": CORE_QUERY, "variables": {"user": USERNAME}},
+        headers=HEADERS,
         timeout=30,
     )
     resp.raise_for_status()
@@ -55,6 +108,13 @@ def main() -> None:
         for s in data["matchedUser"]["submitStatsGlobal"]["acSubmissionNum"]
     }
     contest = data.get("userContestRanking") or {}
+    badges = data["matchedUser"].get("badges") or []
+
+    calendar = fetch_calendar() or load_previous_calendar()
+    for b in badges:
+        m = re.search(r"(\d+)\s+Days\s+Badge", b.get("displayName", ""))
+        if m and calendar.get("active_days", 0) < int(m.group(1)):
+            calendar["active_days"] = int(m.group(1))
 
     out = {
         "username": USERNAME,
@@ -77,12 +137,8 @@ def main() -> None:
             "attended": contest.get("attendedContestsCount") or 0,
             "badge": (contest.get("badge") or {}).get("name") or "",
         },
-        "badges": data["matchedUser"].get("badges") or [],
-        "calendar": {
-            "max_streak": (data["matchedUser"].get("userCalendar") or {}).get("streak", 0),
-            "active_days": (data["matchedUser"].get("userCalendar") or {}).get("totalActiveDays", 0),
-            "active_years": (data["matchedUser"].get("userCalendar") or {}).get("activeYears", []),
-        },
+        "badges": badges,
+        "calendar": calendar,
     }
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(out, f, indent=1)
