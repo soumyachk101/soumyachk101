@@ -26,7 +26,7 @@ ENTRIES = [
     ("SECURITY", P("crim_hi"), "Innofusion 3.0 · Cybersecurity", "DRISHTI: graphs network attack paths by dollar impact"),
     ("ISRO BAH", P("steel_hi"), "Bharatiya Antariksh '26 (ISRO)", "National space tech hackathon idea submission & cert"),
     ("HACKFEST", P("gold"), "AKI HACKS × Hacktoberfest '26", "MLH · DEV · Diversion 2K27 — Kolkata (Oct 31, 2026)"),
-    ("TRACK", P("ember"), "10+ Shipped Hackathons in 2026", "FusioniX, Innofusion, Citadel, HackTropica, etc."),
+    ("TRACK", P("ember"), "15+ Shipped Hackathons in 2026", "FusioniX, Innofusion, Citadel, HackTropica, etc."),
 ]
 
 
