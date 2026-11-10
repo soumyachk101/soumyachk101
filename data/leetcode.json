@@ -1,16 +1,16 @@
 {
  "username": "soumya-chk101",
- "ranking": 397627,
+ "ranking": 378941,
  "solved": {
-  "All": 358,
-  "Easy": 110,
-  "Medium": 171,
-  "Hard": 77
+  "All": 369,
+  "Easy": 111,
+  "Medium": 176,
+  "Hard": 82
  },
  "totals": {
-  "All": 4109,
+  "All": 4110,
   "Easy": 975,
-  "Medium": 2145,
+  "Medium": 2146,
   "Hard": 989
  },
  "contest": {
@@ -61,6 +61,12 @@
    "displayName": "Jul LeetCoding Challenge",
    "icon": "/static/images/badges/dcc-2026-7.png",
    "creationDate": "2026-07-31"
+  },
+  {
+   "name": "Quest",
+   "displayName": "Architecture Builder Badge",
+   "icon": "https://assets.leetcode.com/static_assets/others/Quest_Architecture_Large.png",
+   "creationDate": "2026-11-10"
   },
   {
    "name": "Quest",
