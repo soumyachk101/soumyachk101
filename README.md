@@ -89,7 +89,7 @@
 <a id="contact"></a>
 <h3><code>soumyachk101@github:~$ cat contact.txt</code></h3>
 
-<a href="https://soumya.pro"><img src="./badges/portfolio.svg" alt="Portfolio" /></a>&nbsp;<a href="https://x.com/soumyachk1"><img src="./badges/x.svg" alt="X / Twitter" /></a>&nbsp;<a href="https://leetcode.com/u/soumya-chk101/"><img src="./badges/leetcode.svg" alt="LeetCode profile" /></a>&nbsp;<a href="mailto:soumya.chk101@gmail.com"><img src="./badges/email.svg" alt="Email Soumya" /></a>
+<a href="https://soumya.pro"><img src="./badges/portfolio.svg" alt="Portfolio" /></a>&nbsp;<a href="https://x.com/techie_newws"><img src="./badges/x.svg" alt="X / Twitter" /></a>&nbsp;<a href="https://leetcode.com/u/soumya-chk101/"><img src="./badges/leetcode.svg" alt="LeetCode profile" /></a>&nbsp;<a href="mailto:soumya.chk101@gmail.com"><img src="./badges/email.svg" alt="Email Soumya" /></a>
 
 <br><br>
 <img src="./footer-card.svg" width="860" alt="session closed · Kolkata, India · UTC+5:30 · open for systems & devtools collaboration" /><br>
