@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="96" viewBox="0 0 860 96"
+     role="img" aria-label="Box office: 9,626+ GitHub commits, 208-day streak, 325 LeetCode solved, 10+ hackathons shipped in 2026"
+     text-rendering="geometricPrecision" shape-rendering="geometricPrecision">
+  <title>Box office — the 2026 run</title>
+  <style>text{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}</style>
+
+  <defs>
+    <linearGradient id="gBase" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e0e14"/><stop offset="1" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="gKeyline" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b03a45"/>
+      <stop offset="0.55" stop-color="#d8a63f"/>
+      <stop offset="1" stop-color="#7c5f24"/>
+    </linearGradient>
+    <linearGradient id="gNum" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2d489"/><stop offset="1" stop-color="#d8a63f"/>
+    </linearGradient>
+    <linearGradient id="gGoldline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d8a63f" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#f2d489"/>
+      <stop offset="1" stop-color="#d8a63f" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="fNum" x="-30%" y="-60%" width="160%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#d8a63f" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <!-- canvas + keyline -->
+  <rect x="0.5" y="0.5" width="859" height="95" rx="10" fill="url(#gBase)" stroke="#2a2a34" stroke-width="1"/>
+  <rect x="0.5" y="8.5" width="3.5" height="79" fill="url(#gKeyline)"/>
+
+  <!-- top title strip -->
+  <text x="430" y="17" text-anchor="middle"
+        font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace"
+        font-size="9" letter-spacing="2.2" fill="#6a6a75">THE 2026 RUN &#183; BOX OFFICE</text>
+  <rect x="240" y="21" width="380" height="1" fill="url(#gGoldline)"/>
+
+  <!-- four stat cells -->
+  <g text-anchor="middle">
+    <!-- cell 1 -->
+    <text x="107" y="58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif"
+          font-size="27" font-weight="700" letter-spacing="0.3" fill="url(#gNum)" filter="url(#fNum)">9,626+</text>
+    <text x="107" y="76" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace"
+          font-size="9.5" letter-spacing="1.1" fill="#9a9488">GITHUB COMMITS &#183; 12 MO</text>
+    <!-- cell 2 -->
+    <text x="322" y="58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif"
+          font-size="27" font-weight="700" letter-spacing="0.3" fill="url(#gNum)" filter="url(#fNum)">208</text>
+    <text x="322" y="76" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace"
+          font-size="9.5" letter-spacing="1.1" fill="#9a9488"><tspan fill="#d4606c">DAYS</tspan> CURRENT STREAK</text>
+    <!-- cell 3 -->
+    <text x="537" y="58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif"
+          font-size="27" font-weight="700" letter-spacing="0.3" fill="url(#gNum)" filter="url(#fNum)">325</text>
+    <text x="537" y="76" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace"
+          font-size="9.5" letter-spacing="1.1" fill="#9a9488">LEETCODE SOLVED &#183; <tspan fill="#d4606c">72 HARD</tspan></text>
+    <!-- cell 4 -->
+    <text x="752" y="58" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Arial,sans-serif"
+          font-size="27" font-weight="700" letter-spacing="0.3" fill="url(#gNum)" filter="url(#fNum)">10+</text>
+    <text x="752" y="76" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace"
+          font-size="9.5" letter-spacing="1.1" fill="#9a9488">HACKATHONS SHIPPED &#183; '26</text>
+  </g>
+
+  <!-- thin dividers between cells -->
+  <line x1="215" y1="34" x2="215" y2="82" stroke="#2a2a34" stroke-width="1"/>
+  <line x1="430" y1="34" x2="430" y2="82" stroke="#2a2a34" stroke-width="1"/>
+  <line x1="645" y1="34" x2="645" y2="82" stroke="#2a2a34" stroke-width="1"/>
+
+  <!-- tiny crimson ticks on each divider -->
+  <rect x="214.5" y="38" width="1" height="6" fill="#b03a45"/>
+  <rect x="429.5" y="38" width="1" height="6" fill="#b03a45"/>
+  <rect x="644.5" y="38" width="1" height="6" fill="#b03a45"/>
+</svg>
