@@ -27,6 +27,13 @@
     <radialGradient id="gPool" cx="0.5" cy="0.42" r="0.6">
       <stop offset="0" stop-color="#d8a63f" stop-opacity="0.09"/><stop offset="1" stop-color="#d8a63f" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="gHalo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d8a63f" stop-opacity="0.10"/><stop offset="1" stop-color="#d8a63f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gVig" cx="0.5" cy="0.44" r="0.85">
+      <stop offset="0.55" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.32"/>
+    </radialGradient>
+    <rect id="sprocket" width="7" height="11" rx="2.2" fill="#101018" stroke="#2e2e3a" stroke-width="0.75"/>
     <filter id="fMono" x="-30%" y="-30%" width="160%" height="160%">
       <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#d8a63f" flood-opacity="0.28"/>
     </filter>
@@ -56,6 +63,15 @@
     <text x="828" y="21" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace"
           font-size="10" letter-spacing="0.4" fill="#6a6a75">KOLKATA · IN</text>
 
+    <!-- soft halo seating the monogram -->
+    <ellipse cx="430" cy="144" rx="240" ry="130" fill="url(#gHalo)"/>
+
+    <!-- 35mm sprocket strips (left + right) -->
+    <g opacity="0.55">
+      <use href="#sprocket" x="15" y="52"/><use href="#sprocket" x="15" y="76"/><use href="#sprocket" x="15" y="100"/><use href="#sprocket" x="15" y="124"/><use href="#sprocket" x="15" y="148"/><use href="#sprocket" x="15" y="172"/><use href="#sprocket" x="15" y="196"/><use href="#sprocket" x="15" y="220"/><use href="#sprocket" x="15" y="244"/><use href="#sprocket" x="15" y="268"/>
+      <use href="#sprocket" x="838" y="52"/><use href="#sprocket" x="838" y="76"/><use href="#sprocket" x="838" y="100"/><use href="#sprocket" x="838" y="124"/><use href="#sprocket" x="838" y="148"/><use href="#sprocket" x="838" y="172"/><use href="#sprocket" x="838" y="196"/><use href="#sprocket" x="838" y="220"/><use href="#sprocket" x="838" y="244"/><use href="#sprocket" x="838" y="268"/>
+    </g>
+
     <!-- the star: ASCII S C monogram -->
     <g font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace"
        font-size="18" font-weight="800" fill="url(#gGold)" filter="url(#fMono)">
@@ -81,6 +97,11 @@
     <text x="430" y="282" text-anchor="middle"
           font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace"
           font-size="11.5" letter-spacing="0.5" fill="#9a9488"><tspan fill="#f2d489">systems</tspan><tspan fill="#3a3a46"> · </tspan><tspan fill="#ece4d4">ai runtimes</tspan><tspan fill="#3a3a46"> · </tspan><tspan fill="#ece4d4">devtools</tspan></text>
+
+    <!-- cinematic vignette (very subtle, edges only) -->
+    <rect x="0.5" y="0.5" width="859" height="319" fill="url(#gVig)"/>
+    <text x="836" y="290" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'Cascadia Mono',Menlo,Consolas,monospace"
+          font-size="9" letter-spacing="1" fill="#6a6a75">R. 1</text>
 
     <!-- bottom status -->
     <circle cx="34" cy="299" r="3" fill="#b03a45"/>

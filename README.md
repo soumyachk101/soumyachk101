@@ -8,6 +8,8 @@
 
 <img src="./hero-sc.svg" width="860" alt="Soumya Chakraborty — cinematic S C monogram, 2026 director's cut" />
 <br>
+<img src="./box-office.svg" width="860" alt="The 2026 run — 9,626+ GitHub commits, 208-day current streak, 325 LeetCode solved (72 Hard), 10+ hackathons shipped" />
+<br>
 <code>
 <a href="#whoami">[&nbsp;whoami&nbsp;]</a> &middot; <a href="#projects">[&nbsp;projects&nbsp;]</a> &middot; <a href="#hackathons">[&nbsp;hackathons&nbsp;]</a> &middot; <a href="#metrics">[&nbsp;metrics&nbsp;]</a> &middot; <a href="#languages">[&nbsp;languages&nbsp;]</a> &middot; <a href="#contact">[&nbsp;contact&nbsp;]</a>
 </code>
