@@ -24,7 +24,7 @@ LEFT_COL = [
     ("Focus", "AI agent runtimes & engines"),
     ("Winner", "FusioniX'26 Joint Winner"),
     ("Hackathons", "15+ shipped · Hacktoberfest '26"),
-    ("Web", "soumya.pro · x.com/soumyachk1"),
+    ("Web", "soumya.pro · x.com/techie_newws"),
 ]
 
 
