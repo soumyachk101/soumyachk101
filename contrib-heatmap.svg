@@ -203,7 +203,7 @@
 <rect x="432" y="52" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.405s"><title>4 on 2026-05-18</title></rect>
 <rect x="432" y="68" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.420s"><title>20 on 2026-05-19</title></rect>
 <rect x="432" y="84" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.435s"><title>4 on 2026-05-20</title></rect>
-<rect x="432" y="100" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.450s"><title>10 on 2026-05-21</title></rect>
+<rect x="432" y="100" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.450s"><title>9 on 2026-05-21</title></rect>
 <rect x="432" y="116" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.465s"><title>28 on 2026-05-22</title></rect>
 <rect x="432" y="132" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.480s"><title>11 on 2026-05-23</title></rect>
 <rect x="448" y="36" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.405s"><title>40 on 2026-05-24</title></rect>
@@ -383,9 +383,9 @@
 <rect x="832" y="132" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.855s"><title>51 on 2026-11-14</title></rect>
 <rect x="848" y="36" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.780s"><title>52 on 2026-11-15</title></rect>
 <rect x="848" y="52" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.795s"><title>13 on 2026-11-16</title></rect>
-<rect x="848" y="68" width="13" height="13" rx="3" fill="#14141b" class="c" style="animation-delay:0.810s"><title>0 on 2026-11-17</title></rect>
+<rect x="848" y="68" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.810s"><title>32 on 2026-11-17</title></rect>
 </g>
-<text x="16" y="166" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace" font-size="11" fill="#9a9488">11,755 contributions in the last year &#183; 229 day current streak</text>
+<text x="16" y="166" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace" font-size="11" fill="#9a9488">11,786 contributions in the last year &#183; 230 day current streak</text>
 <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace" font-size="11" fill="#9a9488">
 <text x="715" y="166">less</text>
 <rect x="745" y="156" width="13" height="13" rx="3" fill="#14141b"/>

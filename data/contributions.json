@@ -1,14 +1,14 @@
 {
  "username": "soumyachk101",
  "fetched": "2026-11-17",
- "total": 11755,
+ "total": 11786,
  "best_day": {
   "date": "2026-11-02",
   "level": 4,
   "count": 769
  },
- "longest_streak": 229,
- "current_streak": 229,
+ "longest_streak": 230,
+ "current_streak": 230,
  "days": [
   {
    "date": "2025-11-16",
@@ -943,7 +943,7 @@
   {
    "date": "2026-05-21",
    "level": 1,
-   "count": 10
+   "count": 9
   },
   {
    "date": "2026-05-22",
@@ -1842,8 +1842,8 @@
   },
   {
    "date": "2026-11-17",
-   "level": 0,
-   "count": 0
+   "level": 1,
+   "count": 32
   }
  ]
 }
