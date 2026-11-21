@@ -48,7 +48,7 @@
 <br><br>
 <a href="https://ensembyte.vercel.app"><img src="./badges/ensembyte.svg" alt="Ensembyte live app" /></a>&nbsp;<a href="https://veylqorix.vercel.app"><img src="./badges/veylqorix.svg" alt="Veylqorix live app" /></a><br><a href="./ISRO_Hackathon_Certificate.png"><img src="./badges/isro-cert.svg" alt="ISRO Bharatiya Antariksh Hackathon certificate" /></a>&nbsp;<a href="./Hacktoberfest_Certificate.png"><img src="./badges/hacktoberfest-cert.svg" alt="AKI HACKS × Hacktoberfest '26 participation certificate" /></a>&nbsp;<a href="./SWOC_Season_7_Badge.png"><img src="./badges/swoc-cert.svg" alt="Social Winter of Code Season 7 Contributor badge" /></a>&nbsp;<a href="https://github.com/soumyachk101/Credow"><img src="./badges/fusionix.svg" alt="FusioniX winner repo" /></a>
 <br><br>
-<a href="./SWOC_Season_7_Badge.png"><img src="./SWOC_Season_7_Badge.png" width="380" alt="Social Winter of Code Season 7 Contributor Badge — Soumya Chakraborty (@soumyachk101)" /></a>
+<a href="./SWOC_Season_7_Badge_Card.png"><img src="./SWOC_Season_7_Badge_Card.png" width="860" alt="Social Winter of Code Season 7 Contributor Badge Pass — Soumya Chakraborty (@soumyachk101)" /></a>
 
 <br><br>
 <img src="./divider.svg" width="860" alt="cinematic section divider" />
