@@ -33,6 +33,7 @@ BADGES = [
     ("drishti", "drishti demo ↗"),
     ("isro-cert", "isro cert ↗"),
     ("hacktoberfest-cert", "hacktoberfest '26 ↗"),
+    ("swoc-cert", "swoc season 7 ↗"),
     ("swarmai", "swarmai repo"),
     ("orbit", "orbit repo"),
     ("ensembyte", "ensembyte app ↗"),
