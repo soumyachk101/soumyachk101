@@ -1,7 +1,7 @@
 {
  "username": "soumyachk101",
  "fetched": "2026-11-22",
- "total": 11963,
+ "total": 11968,
  "best_day": {
   "date": "2026-11-02",
   "level": 4,
@@ -1833,7 +1833,7 @@
   {
    "date": "2026-11-22",
    "level": 1,
-   "count": 20
+   "count": 25
   }
  ]
 }
