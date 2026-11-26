@@ -25,7 +25,7 @@ BORDER = P("border")
 BADGES = [
     ("portfolio", "portfolio"),
     ("email", "email"),
-    ("x", "x / @soumyachk1"),
+    ("x", "x / @soumya_chk"),
     ("leetcode", "leetcode"),
     ("fusionix", "fusionix '26 (winner)"),
     ("credow", "credow app ↗"),
