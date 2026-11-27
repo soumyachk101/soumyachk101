@@ -198,8 +198,8 @@
 <rect x="416" y="100" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.435s"><title>9 on 2026-05-21</title></rect>
 <rect x="416" y="116" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.450s"><title>28 on 2026-05-22</title></rect>
 <rect x="416" y="132" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.465s"><title>11 on 2026-05-23</title></rect>
-<rect x="432" y="36" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.390s"><title>39 on 2026-05-24</title></rect>
-<rect x="432" y="52" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.405s"><title>99 on 2026-05-25</title></rect>
+<rect x="432" y="36" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.390s"><title>38 on 2026-05-24</title></rect>
+<rect x="432" y="52" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.405s"><title>98 on 2026-05-25</title></rect>
 <rect x="432" y="68" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.420s"><title>56 on 2026-05-26</title></rect>
 <rect x="432" y="84" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.435s"><title>91 on 2026-05-27</title></rect>
 <rect x="432" y="100" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.450s"><title>85 on 2026-05-28</title></rect>
@@ -385,9 +385,9 @@
 <rect x="848" y="68" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.810s"><title>13 on 2026-11-24</title></rect>
 <rect x="848" y="84" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.825s"><title>21 on 2026-11-25</title></rect>
 <rect x="848" y="100" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.840s"><title>30 on 2026-11-26</title></rect>
-<rect x="848" y="116" width="13" height="13" rx="3" fill="#14141b" class="c" style="animation-delay:0.855s"><title>0 on 2026-11-27</title></rect>
+<rect x="848" y="116" width="13" height="13" rx="3" fill="#3a2f1a" class="c" style="animation-delay:0.855s"><title>44 on 2026-11-27</title></rect>
 </g>
-<text x="16" y="166" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace" font-size="11" fill="#9a9488">12,041 contributions in the last year &#183; 239 day current streak</text>
+<text x="16" y="166" font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace" font-size="11" fill="#9a9488">12,083 contributions in the last year &#183; 240 day current streak</text>
 <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace" font-size="11" fill="#9a9488">
 <text x="715" y="166">less</text>
 <rect x="745" y="156" width="13" height="13" rx="3" fill="#14141b"/>
